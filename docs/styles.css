@@ -314,8 +314,7 @@ a:hover { text-decoration: underline; }
 }
 
 .data-table thead {
-  position: sticky;
-  top: 56px;
+  position: relative;
   z-index: 10;
 }
 
