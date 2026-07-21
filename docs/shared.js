@@ -1,32 +1,7 @@
 // Shared utilities for the egg-market-state-of-art documentation site
-// Called by: index.html, citas.html, documentos.html, estado-del-arte.html
+// Supports responsive mobile navigation with hamburger menu
 
 window.SHARED = (function() {
-
-  // --- Data loading ---
-  function loadData(key, callback) {
-    if (window[key] && window[key].length > 0) {
-      callback(window[key]);
-      return;
-    }
-    const varLower = key.toLowerCase().replace('_data', '');
-    fetch(`data/${varLower}.json`)
-      .then(r => r.json())
-      .then(d => { window[key] = d; callback(d); })
-      .catch(() => console.warn(`Could not load ${key} from JSON, trying JS`));
-  }
-
-  // --- Navigation ---
-  function highlightNav() {
-    const path = window.location.pathname;
-    const page = path.split('/').pop() || 'index.html';
-    document.querySelectorAll('.navbar-links a').forEach(a => {
-      const href = a.getAttribute('href');
-      if (href === page || (page === '' && href === 'index.html')) {
-        a.classList.add('active');
-      }
-    });
-  }
 
   // --- Escape HTML ---
   function esc(str) {
@@ -42,25 +17,25 @@ window.SHARED = (function() {
     return str.substring(0, max) + '...';
   }
 
-  // --- Quality badge HTML ---
+  // --- Quality badge ---
   function qualityBadge(level) {
-    const cls = level === 'alta' ? 'badge-green' : level === 'media' ? 'badge-yellow' : 'badge-orange';
-    return `<span class="badge ${cls}">${level.toUpperCase()}</span>`;
+    var cls = level === 'alta' ? 'badge-green' : level === 'media' ? 'badge-yellow' : 'badge-orange';
+    return '<span class="badge ' + cls + '">' + level.toUpperCase() + '</span>';
   }
 
-  // --- Quality bar HTML ---
+  // --- Quality bar ---
   function qualityBar(dist, total) {
     if (!total || total === 0) return '';
-    const colors = { alta: '#22c55e', media: '#eab308', baja: '#f97316' };
-    let html = '';
-    ['alta', 'media', 'baja'].forEach(q => {
-      const count = dist[q] || 0;
-      const pct = Math.round((count / total) * 100);
-      html += `<div class="quality-bar">
-        <span class="bar-label" style="color:${colors[q]}">${q.toUpperCase()}</span>
-        <div class="bar-track"><div class="bar-fill" style="width:${pct}%;background:${colors[q]}"></div></div>
-        <span class="bar-count">${count}</span>
-      </div>`;
+    var colors = { alta: '#22c55e', media: '#eab308', baja: '#f97316' };
+    var html = '';
+    ['alta', 'media', 'baja'].forEach(function(q) {
+      var count = dist[q] || 0;
+      var pct = Math.round((count / total) * 100);
+      html += '<div class="quality-bar">' +
+        '<span class="bar-label" style="color:' + colors[q] + '">' + q.toUpperCase() + '</span>' +
+        '<div class="bar-track"><div class="bar-fill" style="width:' + pct + '%;background:' + colors[q] + '"></div></div>' +
+        '<span class="bar-count">' + count + '</span>' +
+      '</div>';
     });
     return html;
   }
@@ -68,53 +43,121 @@ window.SHARED = (function() {
   // --- Topic tags ---
   function topicTags(topics) {
     if (!topics || !topics.length) return '';
-    return topics.map(t => `<span class="badge badge-gray">${esc(t)}</span>`).join(' ');
+    return topics.map(function(t) { return '<span class="badge badge-gray">' + esc(t) + '</span>'; }).join(' ');
   }
 
-  // --- Render navigation bar ---
-  function renderNav() {
-    const nav = document.getElementById('navbar');
-    if (!nav) return;
-    nav.innerHTML = `
-      <a href="index.html" class="navbar-brand">
-        <span>&#9670;</span> Estado del Arte: Mercado del Huevo
-      </a>
-      <ul class="navbar-links">
-        <li><a href="index.html">Inicio</a></li>
-        <li><a href="citas.html">Citas</a></li>
-        <li><a href="documentos.html">Documentos</a></li>
-        <li><a href="estado-del-arte.html">Estado del Arte</a></li>
-      </ul>`;
-    highlightNav();
+  // --- Get current page ---
+  function currentPage() {
+    var path = window.location.pathname;
+    var page = path.split('/').pop() || 'index.html';
+    if (page === '' || page === '/') page = 'index.html';
+    return page;
   }
+
+  // --- Nav links config ---
+  var navLinks = [
+    { href: 'index.html', label: 'Inicio' },
+    { href: 'citas.html', label: 'Citas' },
+    { href: 'documentos.html', label: 'Documentos' },
+    { href: 'estado-del-arte.html', label: 'Estado del Arte' },
+  ];
+
+  // --- Render navbar (desktop) ---
+  function renderNav() {
+    var nav = document.getElementById('navbar');
+    if (!nav) return;
+    var page = currentPage();
+
+    var html = '<a href="index.html" class="navbar-brand"><span>&#9670;</span> Estado del Arte: Mercado del Huevo</a>';
+
+    // Desktop links
+    html += '<ul class="navbar-links">';
+    navLinks.forEach(function(link) {
+      var active = (page === link.href) ? ' class="active"' : '';
+      html += '<li><a href="' + link.href + '"' + active + '>' + link.label + '</a></li>';
+    });
+    html += '</ul>';
+
+    // Hamburger button (mobile)
+    html += '<button class="hamburger" onclick="SHARED.toggleMobileMenu()" aria-label="Menu">&#9776;</button>';
+
+    nav.innerHTML = html;
+  }
+
+  // --- Mobile menu overlay + panel ---
+  function renderMobileMenu() {
+    var body = document.body;
+
+    // Overlay
+    var overlay = document.createElement('div');
+    overlay.className = 'mobile-nav-overlay';
+    overlay.id = 'mobile-overlay';
+    overlay.onclick = function() { toggleMobileMenu(); };
+    body.appendChild(overlay);
+
+    // Menu panel
+    var menu = document.createElement('div');
+    menu.className = 'mobile-nav-menu';
+    menu.id = 'mobile-menu';
+    var page = currentPage();
+
+    var html = '<button class="close-btn" onclick="SHARED.toggleMobileMenu()" aria-label="Cerrar">&times;</button>';
+    navLinks.forEach(function(link) {
+      var active = (page === link.href) ? ' class="active"' : '';
+      html += '<a href="' + link.href + '"' + active + '>' + link.label + '</a>';
+    });
+    menu.innerHTML = html;
+    body.appendChild(menu);
+  }
+
+  // --- Toggle mobile menu ---
+  window.toggleMobileMenu = function() {
+    var overlay = document.getElementById('mobile-overlay');
+    var menu = document.getElementById('mobile-menu');
+    if (!overlay || !menu) return;
+
+    var isOpen = menu.classList.contains('open');
+    if (isOpen) {
+      overlay.classList.remove('open');
+      menu.classList.remove('open');
+    } else {
+      overlay.classList.add('open');
+      menu.classList.add('open');
+    }
+  };
+
+  window.SHARED.toggleMobileMenu = window.toggleMobileMenu;
 
   // --- Render footer ---
   function renderFooter() {
-    const footer = document.getElementById('footer');
+    var footer = document.getElementById('footer');
     if (!footer) return;
-    footer.innerHTML = `
-      <p>Proyecto de investigacion en microeconomia aplicada — Mercado del Huevo en Colombia</p>
-      <p class="mt-2">Basado en 27 documentos academicos procesados con extraccion automatica de citas y filtrado semantico.</p>`;
+    footer.innerHTML =
+      '<p>Proyecto de investigacion en microeconomia aplicada &mdash; Mercado del Huevo en Colombia</p>' +
+      '<p class="mt-2">Basado en 27 documentos academicos procesados con extraccion automatica de citas y filtrado semantico. ' +
+      '<a href="https://github.com/Ecoudea2025/egg-market-state-of-art" target="_blank">Ver en GitHub</a></p>';
   }
 
-  // --- Initialize page ---
+  // --- Initialize ---
   function init() {
-    document.addEventListener('DOMContentLoaded', () => {
+    document.addEventListener('DOMContentLoaded', function() {
       renderNav();
+      renderMobileMenu();
       renderFooter();
     });
   }
 
   return {
-    loadData,
-    esc,
-    truncate,
-    qualityBadge,
-    qualityBar,
-    topicTags,
-    renderNav,
-    renderFooter,
-    init,
+    esc: esc,
+    truncate: truncate,
+    qualityBadge: qualityBadge,
+    qualityBar: qualityBar,
+    topicTags: topicTags,
+    renderNav: renderNav,
+    renderFooter: renderFooter,
+    init: init,
+    currentPage: currentPage,
+    toggleMobileMenu: window.toggleMobileMenu,
   };
 })();
 

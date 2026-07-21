@@ -1,0 +1,23 @@
+indicador,nombre,categoria,2015,2016,2017,2018,2019,2020,2021,2022,2023,2024,2025
+ingresos_actividades_ordinarias,Ingresos Operacionales,Ingresos,296782774.0,410733310.0,404536141.0,439613296.0,467967383.0,460892390.0,565525858.0,749793211.0,973612498.0,873433437.0,883891201.0
+costo_ventas,Costo de Ventas,Costos y Gastos,233352337.0,308297436.0,329770452.0,347834952.0,345839833.0,386612066.0,490798088.0,581227748.0,719920799.0,694652469.0,718567742.0
+ganancia_bruta,Ganancia Bruta,Ganancias,63430437.0,102435874.0,74765689.0,91778344.0,122127550.0,74280324.0,74727770.0,168565463.0,253691699.0,178780968.0,165323459.0
+otros_ingresos,Otros Ingresos,Ingresos,3224419.0,5045697.0,0.0,0.0,6074396.0,10379274.0,0.0,0.0,0.0,21055013.0,37701019.0
+gastos_ventas,Gastos de Ventas,Costos y Gastos,33262829.0,42439888.0,46982596.0,49713510.0,63783665.0,,,,,,
+gastos_administracion,Gastos de Administracion,Costos y Gastos,15453188.0,17902679.0,19390553.0,18082123.0,24105618.0,22167552.0,21554428.0,24982439.0,32744483.0,36749136.0,42580929.0
+otros_gastos,Otros Gastos,Costos y Gastos,1651312.0,2267030.0,27718549.0,27560464.0,30773546.0,32503705.0,32656911.0,43818487.0,51063152.0,45871433.0,58225359.0
+otras_ganancias_perdidas,Otras Ganancias/Perdidas,Otros,,,0.0,0.0,,,,,,,
+ganancia_operacion,Ganancia Operacional (EBITDA proxy),Ganancias,16287527.0,44871974.0,16026319.0,901774.0,9539117.0,36011419.0,40646975.0,44667690.0,82755395.0,5503687.0,22735100.0
+ingresos_financieros,Ingresos Financieros,Ingresos,209000.0,532084.0,0.0,0.0,,,0.0,0.0,0.0,,
+costos_financieros,Costos Financieros,Costos y Gastos,7285155.0,13246256.0,0.0,0.0,,,0.0,0.0,0.0,,
+ganancia_antes_impuestos,Ganancia antes de Impuestos,Ganancias,,,,,,,,,,,
+impuestos,Impuestos,Impuestos,,,,,,,,,,,
+ganancia_operaciones_continuadas,Ganancia Op. Continuadas,Ganancias,,,,,,,,,,,
+ganancia_operaciones_discontinuadas,Ganancia Op. Discontinuadas,Ganancias,,,,,,,,,,,
+ganancia_neta,Ganancia Neta,Ganancias,,,0.0,0.0,,,0.0,0.0,0.0,,
+margen_bruto,Margen Bruto (%),Ratios,0.2137,0.2494,0.1848,0.2088,0.261,0.1612,0.1321,0.2248,0.2606,0.2047,0.187
+margen_operacional,Margen Operacional (%),Ratios,0.0549,0.1092,0.0396,0.0021,0.0204,0.0781,0.0719,0.0596,0.085,0.0063,0.0257
+margen_neto,Margen Neto (%),Ratios,,,,,,,,,,,
+intensidad_gasto_comercial,Intensidad Gasto Comercial (%),Ratios,0.1121,0.1033,0.1161,0.1131,0.1363,,,,,,
+intensidad_gasto_admin,Intensidad Gasto Administrativo (%),Ratios,0.0521,0.0436,0.0479,0.0411,0.0515,0.0481,0.0381,0.0333,0.0336,0.0421,0.0482
+carga_fiscal_efectiva,Carga Fiscal Efectiva (%),Ratios,,,,,,,,,,,

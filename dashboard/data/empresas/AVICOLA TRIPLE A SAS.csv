@@ -1,0 +1,23 @@
+indicador,nombre,categoria,2015,2016,2017,2018,2019,2020,2021,2022,2023,2024,2025
+ingresos_actividades_ordinarias,Ingresos Operacionales,Ingresos,132199721.0,154070082.0,147954399.0,154581115.0,169758524.0,155895895.0,195615651.0,264272323.0,285450409.0,229480601.0,237189696.0
+costo_ventas,Costo de Ventas,Costos y Gastos,114431637.0,117433792.0,109223766.0,120647940.0,134528644.0,140725881.0,170381461.0,215490243.0,227284631.0,194624136.0,206595636.0
+ganancia_bruta,Ganancia Bruta,Ganancias,17768084.0,36636290.0,38730633.0,33933175.0,35229880.0,15170014.0,25234190.0,48782080.0,58165778.0,34856465.0,30594060.0
+otros_ingresos,Otros Ingresos,Ingresos,2249482.0,232253.0,197523.0,1815665.0,3672045.0,2439414.0,5818634.0,2953696.0,18035781.0,44896331.0,4293848.0
+gastos_ventas,Gastos de Ventas,Costos y Gastos,13652722.0,15443848.0,17187030.0,18792160.0,12264365.0,11613385.0,19233512.0,16429036.0,18683041.0,15650588.0,15658985.0
+gastos_administracion,Gastos de Administracion,Costos y Gastos,4970337.0,6461517.0,5445060.0,3189189.0,4971212.0,5041705.0,4886688.0,5496699.0,6874319.0,5988564.0,5495679.0
+otros_gastos,Otros Gastos,Costos y Gastos,3822209.0,,329006.0,735448.0,2940843.0,1659216.0,8044084.0,2761662.0,17711921.0,38097122.0,2162970.0
+otras_ganancias_perdidas,Otras Ganancias/Perdidas,Otros,,,0.0,0.0,,,,,,,
+ganancia_operacion,Ganancia Operacional (EBITDA proxy),Ganancias,2427702.0,14963178.0,15967060.0,13032043.0,18725505.0,704878.0,1111460.0,27048379.0,32932278.0,20016522.0,11570274.0
+ingresos_financieros,Ingresos Financieros,Ingresos,323771.0,503039.0,40419.0,132232.0,115869.0,75453.0,71888.0,189317.0,543317.0,110402.0,661325.0
+costos_financieros,Costos Financieros,Costos y Gastos,8174409.0,10828211.0,9437763.0,6560189.0,5461894.0,4415286.0,2926229.0,5312988.0,6910837.0,9929519.0,11561746.0
+ganancia_antes_impuestos,Ganancia antes de Impuestos,Ganancias,,,,,,,,,,,
+impuestos,Impuestos,Impuestos,,,,,,,,,,,
+ganancia_operaciones_continuadas,Ganancia Op. Continuadas,Ganancias,,,,,,,,,,,
+ganancia_operaciones_discontinuadas,Ganancia Op. Discontinuadas,Ganancias,,,,,,,,,,,
+ganancia_neta,Ganancia Neta,Ganancias,614354.0,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,
+margen_bruto,Margen Bruto (%),Ratios,0.1344,0.2378,0.2618,0.2195,0.2075,0.0973,0.129,0.1846,0.2038,0.1519,0.129
+margen_operacional,Margen Operacional (%),Ratios,0.0184,0.0971,0.1079,0.0843,0.1103,0.0045,0.0057,0.1024,0.1154,0.0872,0.0488
+margen_neto,Margen Neto (%),Ratios,0.0046,,,,,,,,,,
+intensidad_gasto_comercial,Intensidad Gasto Comercial (%),Ratios,0.1033,0.1002,0.1162,0.1216,0.0722,0.0745,0.0983,0.0622,0.0655,0.0682,0.066
+intensidad_gasto_admin,Intensidad Gasto Administrativo (%),Ratios,0.0376,0.0419,0.0368,0.0206,0.0293,0.0323,0.025,0.0208,0.0241,0.0261,0.0232
+carga_fiscal_efectiva,Carga Fiscal Efectiva (%),Ratios,,,,,,,,,,,

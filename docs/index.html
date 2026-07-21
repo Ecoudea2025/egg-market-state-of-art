@@ -24,7 +24,7 @@
   <div class="metrics-grid" id="metrics-grid"></div>
 
   <!-- Mind Map + Charts -->
-  <div style="display:grid;grid-template-columns:1fr 380px;gap:16px;margin-bottom:24px;">
+  <div id="mindmap-section-grid" style="display:grid;grid-template-columns:1fr 380px;gap:16px;margin-bottom:24px;">
     <div class="chart-container" style="position:relative;min-height:600px;">
       <div class="section-title">
         <span>&#128279;</span> Mapa Mental de Conexiones
@@ -33,7 +33,7 @@
         Arrastra los nodos para explorar. Click en un documento para ver mas info. Scroll para zoom.
       </p>
       <div id="mindmap" style="width:100%;height:560px;"></div>
-      <div class="legend" style="position:absolute;bottom:8px;left:12px;display:flex;gap:12px;font-size:0.7rem;color:var(--text-muted);">
+      <div class="legend">
         <span><span style="color:#3b82f6">&#9679;</span> Central</span>
         <span><span style="color:#64748b">&#9679;</span> Tema</span>
         <span><span style="color:#22c55e">&#9679;</span> Alta</span>
