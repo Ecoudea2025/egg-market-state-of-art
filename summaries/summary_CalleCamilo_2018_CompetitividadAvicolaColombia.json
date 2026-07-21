@@ -1,0 +1,705 @@
+{
+  "metadata": {
+    "filename": "CalleCamilo_2018_CompetitividadAvicolaColombia.pdf",
+    "authors": "Porter",
+    "year": 1979,
+    "title": "FECHA EXTRACCIÓN: 2026-07-19T01:14:06.769180",
+    "processing_date": "2026-07-19T01:17:48.220707"
+  },
+  "content": {
+    "abstract": "..................................................................................................................... 11\nIntroducción ................................................................................................................ 13\nObjetivo ....................................................................................................................... 14\nMarco Teórico ............................................................................................................. 15\nEnfoques de competitividad ..................................................................................... 17\nMetodología ................................................................................................................ 22\nResultados y Discusión ............................................................................................... 24\nConclusiones .................................................................................................................. 36\nReferencias bibliográficas .............................................................................................. 37\nCapítulo II: Evolución de la relación entre el consumo de huevo de gallina (gallus gallus\ndomesticus) y los principales alimentos entre 1961 y 2009, en el mundo ...................... 41\nResumen ..................................................................................................................... 43\nIntroducción ................................................................................................................ 45\nObjetivo ....................................................................................................................... 47\nMetodología ................................................................................................................ 48\nResultados .................................................................................................................. 51\nDiscusión .................................................................................................................... 61\nConclusiones .............................................................................................................. 65\nReferencias bibliográficas ........................................................................................... 67\nCAPÍTULO III: Construcción de un índice de competitividad para el subsector avícola\ncolombiano ..................................................................................................................... 71",
+    "methodology": "................................................................................................................ 22",
+    "results": "y Discusión ............................................................................................... 24",
+    "conclusion": "es .................................................................................................................. 36"
+  },
+  "key_data": {
+    "hhi_values": [],
+    "cr_values": [],
+    "lerner_values": [],
+    "elasticity_values": [],
+    "market_shares": [],
+    "concentration_measures": [],
+    "countries": [
+      "colombia",
+      "estados unidos",
+      "united states",
+      "usa",
+      "us",
+      "brasil",
+      "méxico",
+      "argentina",
+      "chile",
+      "españa",
+      "unión europea",
+      "china",
+      "japón"
+    ],
+    "sectors": [
+      "huevo",
+      "egg",
+      "huevos",
+      "avicultura",
+      "poultry",
+      "pollo",
+      "carne",
+      "agroalimentario",
+      "agrícola"
+    ]
+  },
+  "classification": {
+    "categories": [
+      "Mercado huevos internacional",
+      "Medición poder mercado",
+      "Barreras entrada",
+      "Estructura mercado agroalimentario"
+    ],
+    "primary_category": "Mercado huevos internacional"
+  },
+  "key_quotes": [
+    "índice de Herfindahl e Hirschman de los departamentos de Colombia",
+    "Ranking de concentración del mercado de los principales departamentos\navícolas de Colombia",
+    "Profundiza en las medidas\nde concentración del mercado como magnitud de competitividad y su relación con el\ncrecimiento de las empresas y las regiones en donde están ubicadas",
+    "--- PÁGINA 11 ---\nResumen\nLa competitividad vista como el grado de concentración del mercado es una magnitud\nque explica la estructura de estos y sirve para reconocer la presencia o no, de barreras\nde entrada en ellos",
+    "Por tanto, la relación de la competitividad con variables como\ncrecimiento empresarial, la región y el grado de concentración del mercado, representa\nel grado de asociación que tendría la competitividad de éste, con la competitividad de las\nregiones y la de las empresas"
+  ],
+  "tables": [
+    {
+      "table_number": 2,
+      "data": [
+        [
+          "Departamento",
+          "Año"
+        ],
+        [
+          "2.014",
+          "2.015",
+          "2.016"
+        ],
+        [
+          "Santander",
+          "3.023",
+          "3.174",
+          "3.114"
+        ],
+        [
+          "Valle del cauca",
+          "2.808",
+          "3.012",
+          "2.909"
+        ],
+        [
+          "Antioquia",
+          "1.663",
+          "2.447",
+          "2.527"
+        ],
+        [
+          "Atlántico",
+          "5.411",
+          "5.354",
+          "5.455"
+        ],
+        [
+          "Cundinamarca",
+          "590",
+          "596",
+          "623"
+        ],
+        [
+          "Quindío",
+          "5.439",
+          "5.634",
+          "6.086"
+        ],
+        [
+          "Tolima",
+          "6.415",
+          "5.350",
+          "5.339"
+        ],
+        [
+          "Caldas",
+          "5.036",
+          "5.119",
+          "5.106"
+        ],
+        [
+          "Huila",
+          "6.009",
+          "6.131",
+          "6.508"
+        ]
+      ]
+    },
+    {
+      "table_number": 3,
+      "data": [
+        [
+          "RANKING",
+          "2014",
+          "2015",
+          "2016"
+        ],
+        [
+          "1",
+          "Cundinamarca",
+          "Cundinamarca",
+          "Cundinamarca"
+        ],
+        [
+          "2",
+          "Antioquia",
+          "Antioquia",
+          "Antioquia"
+        ],
+        [
+          "3",
+          "Valle del Cauca",
+          "Valle del Cauca",
+          "Valle del Cauca"
+        ],
+        [
+          "4",
+          "Santander",
+          "Santander",
+          "Santander"
+        ],
+        [
+          "5",
+          "Caldas",
+          "Caldas",
+          "Caldas"
+        ],
+        [
+          "6",
+          "Atlántico",
+          "Tolima",
+          "Tolima"
+        ],
+        [
+          "7",
+          "Quindío",
+          "Atlántico",
+          "Atlántico"
+        ],
+        [
+          "8",
+          "Huila",
+          "Quindío",
+          "Quindío"
+        ],
+        [
+          "9",
+          "Tolima",
+          "Huila",
+          "Huila"
+        ]
+      ]
+    },
+    {
+      "table_number": 4,
+      "data": [
+        [
+          "Departamento",
+          "Correlación"
+        ],
+        [
+          "Nariño",
+          "0,92"
+        ],
+        [
+          "Caldas",
+          "0,92"
+        ],
+        [
+          "Santander",
+          "0,75"
+        ],
+        [
+          "Norte de Santander",
+          "0,55"
+        ],
+        [
+          "Atlántico",
+          "0,51"
+        ],
+        [
+          "Antioquia",
+          "0,49"
+        ],
+        [
+          "Huila",
+          "0,22"
+        ],
+        [
+          "Boyacá",
+          "0,2"
+        ],
+        [
+          "Tolima",
+          "-0,01"
+        ],
+        [
+          "Valle del cauca",
+          "-0,29"
+        ],
+        [
+          "Cundinamarca",
+          "-0,34"
+        ],
+        [
+          "Quindío",
+          "-0,61"
+        ],
+        [
+          "Córdoba",
+          "-0,96"
+        ]
+      ]
+    },
+    {
+      "table_number": 5,
+      "data": [
+        [
+          "Modelo",
+          "Valor de p",
+          "Intercepto",
+          "Departamento",
+          "Empresa",
+          "Tiempo",
+          "R2 ajustado"
+        ],
+        [
+          "Pooling",
+          "2,78E-11",
+          "1,38E+05",
+          "1,03E+03",
+          "-1,70E+03",
+          "5,05E+03",
+          "0,114"
+        ],
+        [
+          "Between",
+          "8,16E-02",
+          "452208,5 *",
+          "79401,9 *",
+          "-19644,8 *",
+          "16069,4 **",
+          "0,98356"
+        ],
+        [
+          "First Diference",
+          "0,0076115",
+          "4617,7 **",
+          "-4407",
+          "0,01553"
+        ],
+        [
+          "Withing",
+          "8,58E-12",
+          "1037,38",
+          "-1701,61 ***",
+          "0,10592"
+        ],
+        [
+          "Random",
+          "2,78E-11",
+          "138239,98 ***",
+          "1034,42",
+          "-1703,84 ***",
+          "5045,71",
+          "0,11417"
+        ]
+      ]
+    },
+    {
+      "table_number": 6,
+      "data": [
+        [
+          "Significativo",
+          "<0,1",
+          "*"
+        ],
+        [
+          "Muy significativo",
+          "<0,05",
+          "**"
+        ],
+        [
+          "Altamente significativo",
+          ">0,01",
+          "***"
+        ]
+      ]
+    },
+    {
+      "table_number": 7,
+      "data": [
+        [
+          "Modelo",
+          "Valor de p",
+          "intercepto",
+          "Departamento",
+          "Empresa",
+          "Tiempo",
+          "R2 ajustado"
+        ],
+        [
+          "Pooling",
+          "-1,07E+07",
+          "-1,07E+07",
+          "-5,87E+03",
+          "-2280,2 ***",
+          "5,41E+03",
+          "0,138"
+        ],
+        [
+          "Between",
+          "6,87E-05",
+          "-9,08E+06",
+          "-1,47E+04",
+          "-3053,9 ***",
+          "4659,67",
+          "0,19654"
+        ],
+        [
+          "First Difference",
+          "1",
+          "795,78",
+          "109,96",
+          "0,0012026"
+        ],
+        [
+          "Within",
+          "0,00055351",
+          "-115,61",
+          "-1412,42 ***",
+          "-0,22759"
+        ],
+        [
+          "Random",
+          "7,5646E-06",
+          "-11259000",
+          "-698,46",
+          "-1592,7 ***",
+          "5668,2",
+          "0,056321"
+        ]
+      ]
+    },
+    {
+      "table_number": 8,
+      "data": [
+        [
+          "Modelo",
+          "intercepto",
+          "Dep 1",
+          "Dep 2",
+          "Dep 3",
+          "Dep 4",
+          "Dep 5",
+          "Dep 6",
+          "Dep 7",
+          "Dep 8",
+          "Dep 9",
+          "Dep 10",
+          "Dep 11",
+          "Dep 12",
+          "Dep 13",
+          "IHH",
+          "R2"
+        ],
+        [
+          "ajustado",
+          "Valor de"
+        ],
+        [
+          "Agrupado",
+          "0,13**",
+          "- 0,06*",
+          "0,04",
+          "0,11",
+          "- 0,34**",
+          "- 0,04",
+          "- 0,07",
+          "0,02",
+          "- 0,14",
+          "0,16",
+          "- 0,02",
+          "- 0,03",
+          "0,13",
+          "-"
+        ],
+        [
+          "0,00",
+          "0,06",
+          "0,01"
+        ],
+        [
+          "grupos",
+          "0,14**",
+          "-"
+        ],
+        [
+          "0,00",
+          "0,40",
+          "0,22"
+        ],
+        [
+          "periodos",
+          "0,17*",
+          "- 0,05",
+          "0,05",
+          "0,12",
+          "- 0,33**",
+          "- 0,04",
+          "- 0,06",
+          "0,03",
+          "- 0,13",
+          "0,17",
+          "- 0,02",
+          "- 0,02",
+          "0,14",
+          "-"
+        ],
+        [
+          "0,00",
+          "0,04",
+          "0,03"
+        ],
+        [
+          "diferencia",
+          "-"
+        ],
+        [
+          "0,30**",
+          "- 0,09",
+          "- 0,31 *",
+          "0,01*",
+          "0,01*",
+          "0,24",
+          "- 0,12",
+          "0,22",
+          "- 0,05",
+          "0,02",
+          "0,20",
+          "-"
+        ],
+        [
+          "0,00",
+          "0,11",
+          "0,00"
+        ]
+      ]
+    },
+    {
+      "table_number": 9,
+      "data": [
+        [
+          "Significativo",
+          "<0,1",
+          "*"
+        ],
+        [
+          "Muy significativo",
+          "<0,05",
+          "**"
+        ],
+        [
+          "Altamente significativo",
+          ">0,01",
+          "***"
+        ]
+      ]
+    },
+    {
+      "table_number": 10,
+      "data": [
+        [
+          "Ítem",
+          "Valor"
+        ],
+        [
+          "Modelo:",
+          "Pooling o agrupado"
+        ],
+        [
+          "Modelo:",
+          "Porcentaje de crecimiento en las ventas"
+        ],
+        [
+          "Hipótesis alternativa:",
+          "Existen efectos inobservables"
+        ]
+      ]
+    },
+    {
+      "table_number": 11,
+      "data": [
+        [
+          "Ítem",
+          "Valor"
+        ],
+        [
+          "Valor de p",
+          "0,24338"
+        ],
+        [
+          "Estadístico (z):",
+          "1,1656"
+        ]
+      ]
+    },
+    {
+      "table_number": 13,
+      "data": [
+        [
+          "Década",
+          "Factor",
+          "Grupo de alimentos",
+          "% Varianza"
+        ],
+        [
+          "60",
+          "1",
+          "Leche, estimulantes, grasa animal,"
+        ],
+        [
+          "huevos, viseras, carne.",
+          "18,8"
+        ],
+        [
+          "2",
+          "Verduras, nueces, aceites vegetales,"
+        ],
+        [
+          "alcohólicas, cereales",
+          "10,3"
+        ],
+        [
+          "70",
+          "1",
+          "Leche, grasas animales,"
+        ],
+        [
+          "alcohólicas, vísceras",
+          "17,0"
+        ],
+        [
+          "2",
+          "Verduras, nueces, aceites vegetales,"
+        ],
+        [
+          "azúcar y dulcificantes, cereales,",
+          "11,8"
+        ],
+        [
+          "80",
+          "1",
+          "Grasas animales, bebidas"
+        ],
+        [
+          "estimulantes, vísceras",
+          "18,9"
+        ],
+        [
+          "2",
+          "Nueces, verduras, aceites vegetales,"
+        ],
+        [
+          "frutos del mar, cereales",
+          "11,3"
+        ],
+        [
+          "90",
+          "1",
+          "Bebidas alcohólicas, grasas"
+        ],
+        [
+          "huevo, vísceras",
+          "18,0"
+        ],
+        [
+          "2",
+          "Verduras, nueces, aceites vegetales,"
+        ],
+        [
+          "y frutos del mar",
+          "11,3"
+        ],
+        [
+          "2000",
+          "1",
+          "Carne, bebidas alcohólicas, leche,"
+        ],
+        [
+          "grasas animales, estimulantes,",
+          "15,0"
+        ]
+      ]
+    },
+    {
+      "table_number": 14,
+      "data": [
+        [
+          "Década",
+          "Factor",
+          "Grupo de alimentos",
+          "% Varianza"
+        ],
+        [
+          "aceites vegetales, azúcar y"
+        ],
+        [
+          "dulcificantes, huevos"
+        ],
+        [
+          "2",
+          "Leguminosas, almidones derivados"
+        ],
+        [
+          "verduras, aceites vegetales",
+          "9,5"
+        ]
+      ]
+    },
+    {
+      "table_number": 25,
+      "data": [
+        [
+          "Sesenta",
+          "Setenta",
+          "Ochenta",
+          "Noventa",
+          "Dos mil"
+        ],
+        [
+          "ANIMAL",
+          "0,63",
+          "0,62",
+          "0,7",
+          "0,54",
+          "0,34"
+        ],
+        [
+          "VEGETAL",
+          "0,23",
+          "0,17",
+          "0,12",
+          "0,01",
+          "0,1"
+        ]
+      ]
+    }
+  ],
+  "relevance_colombia": {
+    "score": 8,
+    "level": "Alta",
+    "reasons": [
+      "Menciona Colombia directamente",
+      "Menciona Latinoamérica",
+      "Estudia mercado de huevo",
+      "Estudia países en desarrollo"
+    ]
+  }
+}

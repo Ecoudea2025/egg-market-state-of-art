@@ -1,0 +1,1710 @@
+{
+  "metadata": {
+    "filename": "Condiciones de competencia en cadenas.pdf",
+    "authors": "Unknown",
+    "year": null,
+    "title": "FECHA EXTRACCIÓN: 2026-07-19T01:14:28.298893",
+    "processing_date": "2026-07-19T01:17:48.304158"
+  },
+  "content": {
+    "abstract": "de los principales eslabonamientos de\nlas cadenas agroalimentarias más importantes de ALC.\n22\nFigura 3.\nContexto competitivo de la industria aceitera de Argentina\ny determinantes principales de la formación de los\nprecios al consumidor y al agricultor.\n30\nFigura 4.\nContexto competitivo de la industria arrocera de Costa\nRica y determinantes principales de la formación de los precios\nal consumidor y al agricultor (a diciembre del 2006).\n32\nFigura 5.\nContexto competitivo de la industria de jugo de naranja\nde San Pablo (Brasil) y determinantes principales de la\nformación del precio al agricultor.\n33\nFigura 6.\nContexto competitivo del sector aviar de El Salvador y\nprincipales determinantes de la formación del precio\ndoméstico de huevos y carne de pollo.\n42\nFigura 7.\nContexto competitivo y formación de los precios\nen el sector lácteo de Chile.\n44",
+    "methodology": "13\n3. Principales cadenas agroalimentarias de América Latina:\nconcepto y criterios de selección 17\n4. Elementos morfológicos comunes y principales implicaciones 21\n5. Agrocadena alimentaria de base agrícola 25\n5.1. Mercados de insumos y maquinaria agrícola: concentración\ny acciones de las autoridades de competencia. 25\n3\n5.2. Agroindustrias de base agrícola\n(aceites, frutihortícola, molinería, azúcar, café) 28\n5.2.1. Concentración, competencia y formación de precios de\nalgunas agroindustrias 28\n5.2.2. Acciones de autoridades de competencia de algunas agroindustrias 34\n6. Agrocadena alimentaria de base pecuaria (carnes, lácteos, huevos) 39\n6.1. Concentración, competencia y formación de precios en\nagrocadenas pecuarias 40\n6.2. Acciones de autoridades de competencia en agrocadenas pecuarias 45\n7. Distribución y comercialización 49\n8. Implicaciones relacionadas con la competencia del país importador\no exportador neto de alimentos. 51\n9. Conclusiones y recomendaciones 53\n10. Literatura consultada 55",
+    "results": "sociales en términos\nespecíficas-; de tipo estructural –como en el caso de desarrollo, alivio de la pobreza y seguridad\nde los monopolios “de hecho”; o por estrategias alimentaria, de acuerdo con los Objetivos de\nde las firmas para limitar la competencia. Desarrollo del Milenio (Fox 2007).",
+    "conclusion": "es y recomendaciones 53\n10. Literatura consultada 55"
+  },
+  "key_data": {
+    "hhi_values": [],
+    "cr_values": [],
+    "lerner_values": [],
+    "elasticity_values": [],
+    "market_shares": [],
+    "concentration_measures": [],
+    "countries": [
+      "colombia",
+      "estados unidos",
+      "usa",
+      "us",
+      "india",
+      "brasil",
+      "méxico",
+      "argentina",
+      "chile",
+      "perú",
+      "peru",
+      "unión europea",
+      "european union",
+      "china"
+    ],
+    "sectors": [
+      "huevo",
+      "egg",
+      "huevos",
+      "avicultura",
+      "pollo",
+      "carne",
+      "lácteos",
+      "maíz",
+      "soya",
+      "soy",
+      "granos",
+      "agroalimentario",
+      "agri-food",
+      "agrícola",
+      "agricultural"
+    ]
+  },
+  "classification": {
+    "categories": [
+      "Mercado huevos internacional",
+      "Medición poder mercado",
+      "Barreras entrada",
+      "Estructura mercado agroalimentario"
+    ],
+    "primary_category": "Mercado huevos internacional"
+  },
+  "key_quotes": [
+    "Mercados de insumos y maquinaria agrícola: concentración\ny acciones de las autoridades de competencia",
+    "Concentración, competencia y formación de precios de\nalgunas agroindustrias 28\n5",
+    "Concentración, competencia y formación de precios en\nagrocadenas pecuarias 40\n6",
+    "Concentración en insumos agrícolas (pesticidas,\nfertilizantes y semillas) y maquinaria agrícola",
+    "Concentración en agrocadenas alimentarias de base\nagrícola (aceite, frutihortícola, molinería, azúcar, café)"
+  ],
+  "tables": [
+    {
+      "table_number": 8,
+      "data": [
+        [
+          "cápita",
+          "Alimentos"
+        ],
+        [
+          "FAO (*)",
+          "Azúcar",
+          "Carnes",
+          "Lácteos",
+          "Aceites y"
+        ],
+        [
+          "grasas",
+          "Frutas y"
+        ],
+        [
+          "hortalizas",
+          "Con-"
+        ],
+        [
+          "En US$",
+          "En kilocalorías (kcal)"
+        ],
+        [
+          "<500",
+          "1224",
+          "278",
+          "69",
+          "103",
+          "229",
+          "94",
+          "1996"
+        ],
+        [
+          "500-999",
+          "1142",
+          "327",
+          "174",
+          "110",
+          "235",
+          "185",
+          "2173"
+        ],
+        [
+          "1000-1499",
+          "1005",
+          "475",
+          "173",
+          "166",
+          "527",
+          "274",
+          "2620"
+        ],
+        [
+          "4000-4500",
+          "1186",
+          "561",
+          "245",
+          "154",
+          "305",
+          "194",
+          "2644"
+        ],
+        [
+          ">4500",
+          "1273",
+          "419",
+          "427",
+          "209",
+          "308",
+          "144",
+          "2780"
+        ],
+        [
+          "(*) Comprende cereales, leguminosas, raíces y tubérculos"
+        ]
+      ]
+    },
+    {
+      "table_number": 9,
+      "data": [
+        [
+          "cápita",
+          "Alimentos"
+        ],
+        [
+          "FAO (*)",
+          "Azúcar",
+          "Carnes",
+          "Lácteos",
+          "Aceites y"
+        ],
+        [
+          "grasas",
+          "Frutas y"
+        ],
+        [
+          "hortalizas",
+          "Con-"
+        ],
+        [
+          "En US$",
+          "En porcentajes de la contribución energética total"
+        ],
+        [
+          "<500",
+          "61%",
+          "14%",
+          "3%",
+          "5%",
+          "11%",
+          "5%",
+          "100%"
+        ],
+        [
+          "500-999",
+          "53%",
+          "15%",
+          "8%",
+          "5%",
+          "11%",
+          "9%",
+          "100%"
+        ],
+        [
+          "1000-1499",
+          "38%",
+          "18%",
+          "7%",
+          "6%",
+          "20%",
+          "10%",
+          "100%"
+        ],
+        [
+          "4000-4500",
+          "45%",
+          "21%",
+          "9%",
+          "6%",
+          "12%",
+          "7%",
+          "100%"
+        ],
+        [
+          ">4500",
+          "46%",
+          "15%",
+          "15%",
+          "8%",
+          "11%",
+          "5%",
+          "100%"
+        ],
+        [
+          "(*) Comprende cereales, leguminosas, raíces y tubérculos"
+        ]
+      ]
+    },
+    {
+      "table_number": 14,
+      "data": [
+        [
+          "País",
+          "Sector /"
+        ],
+        [
+          "mercado",
+          "Índice de"
+        ],
+        [
+          "valor en %",
+          "Año de"
+        ],
+        [
+          "referencia",
+          "Fuente"
+        ],
+        [
+          "Brasil",
+          "Agroquímicos",
+          "C 4",
+          "72%",
+          "1999",
+          "Leme y Sousa 2000"
+        ],
+        [
+          "Argentina",
+          "Agroquímicos – acaricidas hor-"
+        ],
+        [
+          "talizas",
+          "C 2",
+          "85%",
+          "2001",
+          "CNDC 2002"
+        ],
+        [
+          "Argentina",
+          "Agroquímicos – curasemillas"
+        ],
+        [
+          "fungicidas trigo",
+          "C 2",
+          "61%",
+          "2001",
+          "CNDC 2002"
+        ],
+        [
+          "Argentina",
+          "Agroquímicos – curasemillas"
+        ],
+        [
+          "insecticidas para maíz y girasol",
+          "C 2",
+          "88%",
+          "2001",
+          "CNDC 2002"
+        ],
+        [
+          "Argentina",
+          "Agroquímicos – defoliantes y"
+        ],
+        [
+          "reguladores crecimiento",
+          "C 2",
+          "79%",
+          "2001",
+          "CNDC 2002"
+        ],
+        [
+          "Argentina",
+          "Agroquímicos – fungicidas en"
+        ],
+        [
+          "trigo",
+          "C 2",
+          "66%",
+          "2001",
+          "CNDC 2002"
+        ],
+        [
+          "Argentina",
+          "Agroquímicos – fungicidas maní",
+          "C 2",
+          "72%",
+          "2001",
+          "CNDC 2002"
+        ],
+        [
+          "Argentina",
+          "Agroquímicos – herbicidas arroz",
+          "C 2",
+          "58%",
+          "2001",
+          "CNDC 2002"
+        ],
+        [
+          "Argentina",
+          "Agroquímicos – herbicidas gra-"
+        ],
+        [
+          "y maní)",
+          "C 2",
+          "62%",
+          "2001",
+          "CNDC 2002"
+        ],
+        [
+          "Argentina",
+          "Agroquímicos – herbicidas hor-"
+        ],
+        [
+          "talizas",
+          "C 2",
+          "59%",
+          "2001",
+          "CNDC 2002"
+        ],
+        [
+          "Brasil",
+          "Agroquímicos - herbicidas soja",
+          "C 4",
+          "53%",
+          "2006",
+          "SEAE 2007"
+        ]
+      ]
+    },
+    {
+      "table_number": 15,
+      "data": [
+        [
+          "País",
+          "Sector /"
+        ],
+        [
+          "mercado",
+          "Índice de"
+        ],
+        [
+          "valor en %",
+          "Año de"
+        ],
+        [
+          "referencia",
+          "Fuente"
+        ],
+        [
+          "Argentina",
+          "Agroquímicos – hormiguicidas"
+        ],
+        [
+          "siembra directa",
+          "C 2",
+          "89%",
+          "2001",
+          "CNDC 2002"
+        ],
+        [
+          "Argentina",
+          "Agroquímicos – insecticidas gu-"
+        ],
+        [
+          "sanos brote pera y manzana",
+          "C 2",
+          "63%",
+          "2001",
+          "CNDC 2002"
+        ],
+        [
+          "Argentina",
+          "Agroquímicos – insecticidas oru-"
+        ],
+        [
+          "gas algodón",
+          "C 2",
+          "48%",
+          "2001",
+          "CNDC 2002"
+        ],
+        [
+          "Argentina",
+          "Agroquímicos – insecticidas"
+        ],
+        [
+          "orugas maíz",
+          "C 2",
+          "51%",
+          "2001",
+          "CNDC 2002"
+        ],
+        [
+          "Argentina",
+          "Agroquímicos – insecticidas papa",
+          "C 2",
+          "67%",
+          "2001",
+          "CNDC 2002"
+        ],
+        [
+          "Argentina",
+          "Agroquímicos – insecticidas para"
+        ],
+        [
+          "succionadores algodón",
+          "C 2",
+          "85%",
+          "2001",
+          "CNDC 2002"
+        ],
+        [
+          "Argentina",
+          "Agroquímicos – insecticidas para"
+        ],
+        [
+          "succionadores frutales",
+          "C 2",
+          "53%",
+          "2001",
+          "CNDC 2002"
+        ],
+        [
+          "Argentina",
+          "Agroquímicos – insecticidas"
+        ],
+        [
+          "piretroides",
+          "C 2",
+          "42%",
+          "2001",
+          "CNDC 2002"
+        ],
+        [
+          "Argentina",
+          "Agroquímicos – insecticidas"
+        ],
+        [
+          "porotos",
+          "C 2",
+          "79%",
+          "2001",
+          "CNDC 2002"
+        ],
+        [
+          "Argentina",
+          "Agroquímicos – nematicidas",
+          "C 2",
+          "71%",
+          "2001",
+          "CNDC 2002"
+        ],
+        [
+          "Argentina",
+          "Agroquímicos –enfermedades"
+        ],
+        [
+          "foliares en cítricos",
+          "C 2",
+          "58%",
+          "2001",
+          "CNDC 2002"
+        ],
+        [
+          "Argentina",
+          "Agroquímicos –fungicidas azúcar",
+          "C 2",
+          "51%",
+          "2001",
+          "CNDC 2002"
+        ],
+        [
+          "Argentina",
+          "Agroquímicos –fungicidas en"
+        ],
+        [
+          "papa",
+          "C 4",
+          "75%",
+          "2001",
+          "CNDC 2002"
+        ],
+        [
+          "Brasil",
+          "Fertilizantes",
+          "C 4",
+          "43%",
+          "1999",
+          "Leme y Sousa 2000"
+        ],
+        [
+          "Brasil",
+          "Fertilizantes",
+          "C 4",
+          "60%",
+          "2006",
+          "SEAE 2007"
+        ],
+        [
+          "Mundo",
+          "Fertilizantes fosforados",
+          "C 6",
+          "39%",
+          "2008",
+          "Uralkali, Sept. 2008"
+        ],
+        [
+          "Mundo",
+          "Fertilizantes nitrogenados",
+          "C 6",
+          "25%",
+          "2008",
+          "Uralkali 2008"
+        ],
+        [
+          "Argentina",
+          "Fertilizantes nitrogenados (urea)",
+          "C 2",
+          "79%",
+          "2004",
+          "CNDC 2004"
+        ],
+        [
+          "Mundo",
+          "Fertilizantes potásicos",
+          "C 6",
+          "70%",
+          "2008",
+          "Uralkali, Sept. 2008"
+        ],
+        [
+          "Argentina",
+          "Maquinaria agrícola",
+          "C 2",
+          "86%",
+          "1999",
+          "CNDC 2000"
+        ],
+        [
+          "Brasil",
+          "Maquinaria agrícola",
+          "C 4",
+          "94%",
+          "1999",
+          "Leme y Sousa 2000"
+        ],
+        [
+          "Brasil",
+          "Semilla de soja: variedades certi-"
+        ],
+        [
+          "ficadas",
+          "C 4",
+          "73%",
+          "2007",
+          "SEAE 2007"
+        ],
+        [
+          "Brasil",
+          "Semilla maíz híbrido",
+          "C 4",
+          "78%",
+          "2006",
+          "SEAE 2008"
+        ],
+        [
+          "Brasil",
+          "Semillas",
+          "C 4",
+          "44%",
+          "1999",
+          "Leme y Sousa 2000"
+        ]
+      ]
+    },
+    {
+      "table_number": 17,
+      "data": [
+        [
+          "País",
+          "Mercado",
+          "Procedimiento",
+          "Tipo de pro-"
+        ],
+        [
+          "cedimiento",
+          "Resultado",
+          "Referencia"
+        ],
+        [
+          "Argentina",
+          "Agroquímicos",
+          "Notificación de"
+        ],
+        [
+          "global (1)",
+          "Preventivo",
+          "Autorizada con"
+        ],
+        [
+          "condiciones (2)",
+          "2002"
+        ],
+        [
+          "Brasil",
+          "Agroquímicos y"
+        ],
+        [
+          "soja",
+          "Notificación de"
+        ],
+        [
+          "concentración",
+          "Preventivo",
+          "Autorizada con"
+        ],
+        [
+          "condiciones",
+          "2007"
+        ],
+        [
+          "Argentina",
+          "Fertilizante"
+        ],
+        [
+          "(urea)",
+          "Investigación de"
+        ],
+        [
+          "mercado",
+          "Preventivo",
+          "Cerrada sin ini-"
+        ],
+        [
+          "ciar acciones",
+          "2004-2005"
+        ],
+        [
+          "Brasil",
+          "Fertilizantes",
+          "Notificación de"
+        ],
+        [
+          "concentración",
+          "Preventivo",
+          "Autorizada",
+          "2007"
+        ],
+        [
+          "Colombia",
+          "Fertilizantes",
+          "Cartel",
+          "Represivo",
+          "Compromiso de"
+        ],
+        [
+          "cese (3)",
+          "2006"
+        ],
+        [
+          "El Salvador",
+          "Fertilizantes",
+          "Estudio sectorial"
+        ],
+        [
+          "de competencia",
+          "Preventivo",
+          "En curso",
+          "Iniciado 2008"
+        ],
+        [
+          "Brasil",
+          "Semilla de soja"
+        ],
+        [
+          "glifosato",
+          "Notificación de"
+        ],
+        [
+          "concentración",
+          "Preventivo",
+          "Autorizada con"
+        ],
+        [
+          "condiciones",
+          "2007"
+        ],
+        [
+          "Brasil",
+          "Semilla híbrida"
+        ],
+        [
+          "de maíz",
+          "Notificación de"
+        ],
+        [
+          "concentración",
+          "Preventivo",
+          "Autorizada",
+          "2008"
+        ],
+        [
+          "Brasil",
+          "Semilla híbrida"
+        ],
+        [
+          "de maíz y sorgo",
+          "Notificación de"
+        ],
+        [
+          "(global)",
+          "Preventivo",
+          "Autorizada",
+          "2002"
+        ],
+        [
+          "Argentina",
+          "Maquinaria"
+        ],
+        [
+          "agrícola",
+          "Notificación de"
+        ],
+        [
+          "(global)",
+          "Preventivo",
+          "Autorizada",
+          "2000"
+        ],
+        [
+          "Costa Rica",
+          "Transporte ma-"
+        ],
+        [
+          "rítimo",
+          "Cartel",
+          "Represivo",
+          "Cerrado (inmu-"
+        ],
+        [
+          "cia marítima)",
+          "2001"
+        ],
+        [
+          "Costa Rica",
+          "Transporte ma-"
+        ],
+        [
+          "rítimo",
+          "Cartel",
+          "Represivo",
+          "En curso",
+          "Iniciado 2008"
+        ]
+      ]
+    },
+    {
+      "table_number": 19,
+      "data": [
+        [
+          "País",
+          "Sector / mercado",
+          "Índice de"
+        ],
+        [
+          "valor en %",
+          "Año de"
+        ],
+        [
+          "referencia",
+          "Fuente"
+        ],
+        [
+          "Brasil",
+          "Aceite (procesamiento soja)",
+          "C 4",
+          "54%",
+          "1999",
+          "Leme y Sousa 2000"
+        ],
+        [
+          "Colombia",
+          "Aceites (aceite crudo de palma)",
+          "C 4",
+          "23,8%",
+          "2003",
+          "Observatorio Agroca-"
+        ],
+        [
+          "Colombia",
+          "Aceites (aceites y grasas)",
+          "C 4",
+          "71,6%",
+          "2003",
+          "Observatorio Agroca-"
+        ],
+        [
+          "Argentina",
+          "Aceite (soja)",
+          "C4",
+          "68,6%",
+          "2002",
+          "CNDC 2003"
+        ],
+        [
+          "Colombia",
+          "Industria frutihortícola",
+          "C 4",
+          "43,3%",
+          "2003",
+          "Observatorio Agroca-"
+        ],
+        [
+          "Colombia",
+          "Industria frutihortícola Papa,"
+        ],
+        [
+          "plátano y yuca",
+          "C 4",
+          "96,3%",
+          "2003",
+          "Observatorio Agroca-"
+        ],
+        [
+          "Brasil",
+          "Industria frutihortícola"
+        ],
+        [
+          "Jugo de naranja",
+          "C 4",
+          "35%",
+          "1999",
+          "Leme y Sousa 2000"
+        ],
+        [
+          "Argentina",
+          "Industria frutihortícola"
+        ],
+        [
+          "Jugo de manzana",
+          "C 4",
+          "91%",
+          "2005",
+          "CNDC 2007"
+        ],
+        [
+          "Colombia",
+          "Molinería (arroz)",
+          "C 4",
+          "60,1%",
+          "2003",
+          "Observatorio Agroca-"
+        ],
+        [
+          "Costa Rica",
+          "Molinería (arroz)",
+          "C4",
+          "70%",
+          "2006",
+          "Petrecolla, Dic. 2006"
+        ],
+        [
+          "Colombia",
+          "Molinería (alimentos"
+        ],
+        [
+          "balanceados)",
+          "C 4",
+          "59,1%",
+          "2003",
+          "Observatorio Agroca-"
+        ],
+        [
+          "El Salvador",
+          "Molinería (trigo)",
+          "C2",
+          "97%",
+          "2006-2008",
+          "Consejo Directivo de"
+        ],
+        [
+          "Brasil",
+          "Molinería. (trigo) (nacional)",
+          "C 4",
+          "40%",
+          "2002",
+          "SEAE 2004"
+        ],
+        [
+          "Brasil",
+          "Molinería (trigo)"
+        ],
+        [
+          "(región centro oeste)",
+          "C 4",
+          "83%",
+          "2002",
+          "SEAE 2004"
+        ],
+        [
+          "Colombia",
+          "Azúcar",
+          "C 4",
+          "55,7%",
+          "2003",
+          "Observatorio Agroca-"
+        ],
+        [
+          "Brasil",
+          "Café",
+          "C 4",
+          "75%",
+          "1999",
+          "Leme y Sousa 2000"
+        ]
+      ]
+    },
+    {
+      "table_number": 22,
+      "data": [
+        [
+          "País",
+          "Agrocadena,"
+        ],
+        [
+          "industria",
+          "Procedimiento",
+          "Tipo de"
+        ],
+        [
+          "procedimiento",
+          "Resultado",
+          "Referencia"
+        ],
+        [
+          "Costa Rica",
+          "Arroz",
+          "Estudio sectorial"
+        ],
+        [
+          "de competencia",
+          "Preventivo",
+          "Finalizado",
+          "2006"
+        ],
+        [
+          "El Salvador",
+          "Arroz",
+          "Estudio sectorial"
+        ],
+        [
+          "de competencia",
+          "Preventivo",
+          "En curso",
+          "Iniciado"
+        ],
+        [
+          "Panamá",
+          "Arroz",
+          "Cartel",
+          "Represivo",
+          "Cerrada sin sanción",
+          "2008"
+        ],
+        [
+          "Panamá",
+          "Arroz",
+          "Estudio de precios",
+          "Preventivo",
+          "Cerrado",
+          "2007"
+        ],
+        [
+          "Colombia",
+          "Arroz"
+        ],
+        [
+          "(industria)",
+          "Cartel: precio a"
+        ],
+        [
+          "productores",
+          "Represivo",
+          "Multa: 2531 millones"
+        ],
+        [
+          "de pesos",
+          "2005"
+        ],
+        [
+          "Panamá",
+          "Azúcar"
+        ],
+        [
+          "(industria)",
+          "Cartel",
+          "Represivo",
+          "En curso (sede"
+        ],
+        [
+          "judicial)",
+          "2008"
+        ],
+        [
+          "Honduras",
+          "Azúcar"
+        ],
+        [
+          "(industria)",
+          "Cartel",
+          "Represivo",
+          "Sin datos",
+          "2007"
+        ],
+        [
+          "México",
+          "Harina de"
+        ],
+        [
+          "y tortillas",
+          "Cartel",
+          "Represivo",
+          "Cerrada sin sanción",
+          "Cerrada"
+        ]
+      ]
+    },
+    {
+      "table_number": 24,
+      "data": [
+        [
+          "País",
+          "Agrocadena,"
+        ],
+        [
+          "industria",
+          "Procedimiento",
+          "Tipo de"
+        ],
+        [
+          "procedimiento",
+          "Resultado",
+          "Referencia"
+        ],
+        [
+          "México",
+          "Harina de"
+        ],
+        [
+          "maíz y trigo",
+          "Notificación de"
+        ],
+        [
+          "concentración",
+          "Preventivo",
+          "No autorizada, pero"
+        ],
+        [
+          "revertida por la justicia",
+          "2006"
+        ],
+        [
+          "México",
+          "Harina de"
+        ],
+        [
+          "y tortillas",
+          "Cartel",
+          "Represivo",
+          "En curso",
+          "2007"
+        ],
+        [
+          "Brasil",
+          "Harina"
+        ],
+        [
+          "–molinería",
+          "Notificación de"
+        ],
+        [
+          "concentración",
+          "Preventivo",
+          "Autorizada",
+          "2004"
+        ],
+        [
+          "El Salvador",
+          "Harina"
+        ],
+        [
+          "molinería",
+          "Cartel",
+          "Represivo",
+          "Multa total US$ 4 M",
+          "Finalizado"
+        ],
+        [
+          "Panamá",
+          "Harina"
+        ],
+        [
+          "molinería",
+          "Cartel",
+          "Represivo",
+          "Multa 400 mil balboas"
+        ],
+        [
+          "(año 2006)",
+          "2006"
+        ],
+        [
+          "Panamá",
+          "Harina"
+        ],
+        [
+          "panificación",
+          "Estudio de precios",
+          "Preventivo",
+          "Cerrado",
+          "2007"
+        ],
+        [
+          "Argentina",
+          "Harina"
+        ],
+        [
+          "panificación",
+          "Concentración",
+          "Preventivo",
+          "Autorizada con"
+        ],
+        [
+          "condiciones (1)",
+          "2004"
+        ],
+        [
+          "Argentina",
+          "Ind."
+        ],
+        [
+          "pera)",
+          "Investigación de"
+        ],
+        [
+          "mercado",
+          "Preventivo",
+          "Cerrado",
+          "2005-2007"
+        ],
+        [
+          "Brasil",
+          "Ind."
+        ],
+        [
+          "naranja",
+          "Cartel de"
+        ],
+        [
+          "compradores",
+          "Represivo",
+          "En curso",
+          "1999-2006"
+        ],
+        [
+          "Panamá",
+          "Porotos",
+          "Estudio de precios",
+          "Preventivo",
+          "Cerrado",
+          "2007"
+        ]
+      ]
+    },
+    {
+      "table_number": 27,
+      "data": [
+        [
+          "Región",
+          "Producto",
+          "Kg per cápita"
+        ],
+        [
+          "América Central y Caribe",
+          "Leche entera",
+          "74"
+        ],
+        [
+          "Carne de aves de corral",
+          "21"
+        ],
+        [
+          "Carne de vaca",
+          "13"
+        ],
+        [
+          "Huevos",
+          "11"
+        ],
+        [
+          "Carne de cerdo",
+          "9"
+        ],
+        [
+          "América del Sur",
+          "Leche entera",
+          "89"
+        ],
+        [
+          "Carne de vaca",
+          "28"
+        ],
+        [
+          "Carne de aves de corral",
+          "25"
+        ],
+        [
+          "Carne de cerdo",
+          "9"
+        ],
+        [
+          "Huevos",
+          "6"
+        ],
+        [
+          "ALC",
+          "Leche entera",
+          "84"
+        ],
+        [
+          "Carne de aves de corral",
+          "24"
+        ],
+        [
+          "Carne de vaca",
+          "23"
+        ],
+        [
+          "Carne de cerdo",
+          "9"
+        ],
+        [
+          "Huevos",
+          "7"
+        ]
+      ]
+    },
+    {
+      "table_number": 28,
+      "data": [
+        [
+          "País",
+          "Sector / mercado",
+          "Índice de"
+        ],
+        [
+          "valor en %",
+          "Año de"
+        ],
+        [
+          "referencia",
+          "Fuente"
+        ],
+        [
+          "Colombia",
+          "Alimentos balanceados",
+          "C 4",
+          "59,1%",
+          "2003",
+          "Observatorio"
+        ],
+        [
+          "El Salvador",
+          "Alimentos balanceados",
+          "C 4",
+          "75%",
+          "2007",
+          "Bidart 2007"
+        ],
+        [
+          "Colombia",
+          "Cerdo. Plantas de beneficio"
+        ],
+        [
+          "(res-cerdo)",
+          "C 4",
+          "56,1%",
+          "2003",
+          "Observatorio"
+        ],
+        [
+          "Brasil",
+          "Leche",
+          "C 4",
+          "74%",
+          "1999",
+          "Leme y Sousa 2000"
+        ],
+        [
+          "Chile",
+          "Leche fluida",
+          "C 4",
+          "87,1%",
+          "2005",
+          "Fiscalía Nacional"
+        ],
+        [
+          "Perú",
+          "Leche industrializada",
+          "C 2",
+          "91,8%",
+          "2006",
+          "INDECOPI y CLC"
+        ],
+        [
+          "Colombia",
+          "Leche y derivados",
+          "C 4",
+          "60,2%",
+          "2003",
+          "Observatorio"
+        ],
+        [
+          "Mundo",
+          "Pollo. Genética aviar",
+          "C2",
+          "100%",
+          "2007",
+          "Bidart. 2007"
+        ],
+        [
+          "El Salvador",
+          "Pollos. Granjas incubadoras de"
+        ],
+        [
+          "pollo broiler",
+          "C2",
+          "81%",
+          "2006",
+          "Bidart 2007"
+        ],
+        [
+          "El Salvador",
+          "Pollo. Granjas de pollos broiler"
+        ],
+        [
+          "+ ind. Procesadora",
+          "C2",
+          "70%",
+          "2006",
+          "Bidart 2007"
+        ],
+        [
+          "Mundo",
+          "Huevos. Genética aviar",
+          "C2",
+          "100%",
+          "2007",
+          "Bidart 2007"
+        ]
+      ]
+    },
+    {
+      "table_number": 30,
+      "data": [
+        [
+          "País",
+          "Sector /"
+        ],
+        [
+          "mercado",
+          "Índice de"
+        ],
+        [
+          "valor en %",
+          "Año de"
+        ],
+        [
+          "referencia",
+          "Fuente"
+        ],
+        [
+          "El Salvador",
+          "Huevos. Granjas incubadoras"
+        ],
+        [
+          "ponedoras",
+          "C1",
+          "100%",
+          "2006",
+          "Bidart 2007"
+        ],
+        [
+          "El Salvador",
+          "Huevos. Distribución"
+        ],
+        [
+          "mayorista",
+          "C2",
+          "63%",
+          "2006",
+          "Bidart 2007"
+        ],
+        [
+          "Colombia",
+          "Pollo. Plantas de beneficio",
+          "C 4",
+          "36,6%",
+          "2003",
+          "Observatorio"
+        ]
+      ]
+    },
+    {
+      "table_number": 33,
+      "data": [
+        [
+          "País",
+          "Sector/"
+        ],
+        [
+          "Mercado",
+          "Procedimiento",
+          "Tipo de"
+        ],
+        [
+          "procedimiento",
+          "Resultado",
+          "Referencia"
+        ],
+        [
+          "El Salvador",
+          "Avícola, agro-"
+        ],
+        [
+          "cadena",
+          "Estudio sectorial"
+        ],
+        [
+          "de competencia",
+          "Preventivo",
+          "Finalizado",
+          "2007"
+        ],
+        [
+          "Perú",
+          "Avícola, aves"
+        ],
+        [
+          "de corral",
+          "Cartel",
+          "Represivo",
+          "Cerrada con mul-"
+        ],
+        [
+          "cartel",
+          "1996"
+        ],
+        [
+          "Panamá",
+          "Carne/ frigorí-"
+        ],
+        [
+          "sacrificio)",
+          "Cartel",
+          "Represivo",
+          "Multa 600 mil bal-"
+        ],
+        [
+          "boas (año 2005)",
+          "2005"
+        ],
+        [
+          "Brasil",
+          "Carne/ frigorí-"
+        ],
+        [
+          "ganado bovino",
+          "Cartel",
+          "Represivo",
+          "En curso",
+          "2006"
+        ],
+        [
+          "Colombia",
+          "Frigorífico/"
+        ],
+        [
+          "ficio ganado",
+          "Abuso posición"
+        ],
+        [
+          "gativa venta",
+          "Represivo",
+          "En curso",
+          "2007"
+        ],
+        [
+          "Perú",
+          "Leche - indus-"
+        ],
+        [
+          "tria láctea",
+          "Abuso de posi-"
+        ],
+        [
+          "productores",
+          "Represivo",
+          "Cerrada – no"
+        ],
+        [
+          "cultura",
+          "2007-2008"
+        ],
+        [
+          "Panamá",
+          "Leche - indus-"
+        ],
+        [
+          "tria láctea",
+          "Cartel",
+          "Represivo",
+          "En curso",
+          "2008"
+        ],
+        [
+          "Chile",
+          "Leche - indus-"
+        ],
+        [
+          "tria láctea",
+          "Concentración",
+          "Preventivo",
+          "Informe"
+        ],
+        [
+          "desfavorable",
+          "2006"
+        ],
+        [
+          "Honduras",
+          "Leche - indus-"
+        ],
+        [
+          "tria láctea",
+          "Estudio sectorial",
+          "Preventivo",
+          "En curso",
+          "2008"
+        ]
+      ]
+    },
+    {
+      "table_number": 36,
+      "data": [
+        [
+          "País",
+          "Sector / mercado",
+          "Índice de"
+        ],
+        [
+          "valor en %",
+          "Año de"
+        ],
+        [
+          "referencia",
+          "Fuente"
+        ],
+        [
+          "Argentina",
+          "Supermercados",
+          "C 4",
+          "58%",
+          "1999",
+          "Comisión Nacional de Defensa"
+        ],
+        [
+          "Brasil",
+          "Supermercados",
+          "C 4",
+          "38%",
+          "1999",
+          "Leme y Sousa 2000"
+        ],
+        [
+          "Chile",
+          "Supermercados",
+          "C 4",
+          "75%",
+          "2006",
+          "Fiscalía Nacional Económica"
+        ],
+        [
+          "El Salvador",
+          "Supermercados",
+          "C 2",
+          "98%",
+          "2007",
+          "Bidart 2007"
+        ]
+      ]
+    },
+    {
+      "table_number": 37,
+      "data": [
+        [
+          "País",
+          "Sector/"
+        ],
+        [
+          "Mercado",
+          "Procedimiento",
+          "Tipo de"
+        ],
+        [
+          "procedimiento",
+          "Resultado",
+          "Referencia"
+        ],
+        [
+          "Argentina",
+          "Supermercados",
+          "Concentración"
+        ],
+        [
+          "global",
+          "Preventivo",
+          "Autorizada con"
+        ],
+        [
+          "condiciones",
+          "2000"
+        ],
+        [
+          "Costa Rica",
+          "Supermercados",
+          "Abuso posición"
+        ],
+        [
+          "dominante",
+          "Represivo",
+          "Multa equivalente"
+        ],
+        [
+          "a US$415 279",
+          "2005"
+        ],
+        [
+          "Chile",
+          "Supermercados",
+          "Abuso posición"
+        ],
+        [
+          "dominante",
+          "Represivo",
+          "Informes"
+        ],
+        [
+          "correctivas",
+          "2004 y 2007"
+        ]
+      ]
+    }
+  ],
+  "relevance_colombia": {
+    "score": 8,
+    "level": "Alta",
+    "reasons": [
+      "Menciona Colombia directamente",
+      "Menciona Latinoamérica",
+      "Estudia mercado de huevo",
+      "Estudia países en desarrollo"
+    ]
+  }
+}

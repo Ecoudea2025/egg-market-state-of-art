@@ -1,0 +1,76 @@
+{
+  "metadata": {
+    "filename": "SAEA2015_AgProductionRestrictionsAntitrustAnalysis_Bolotova 01-15-2015.pdf",
+    "authors": "Unknown",
+    "year": null,
+    "title": "FECHA EXTRACCIÓN: 2026-07-19T01:16:30.928100",
+    "processing_date": "2026-07-19T01:17:48.636521"
+  },
+  "content": {
+    "abstract": "During the recent decade the organizations of agricultural producers in the national dairy, potato,\negg and mushroom industries implemented various pre-production and production restriction\npractices with the primary objective of agricultural output price stabilization. The buyers of the\naffected agricultural commodities have challenged the legal status of production restrictions in a\nnumber of recent and current antitrust lawsuits, arguing that the Capper-Volstead Act, a limited\nantitrust exemption, does not protect production restrictions. Using the theory of oligopoly, this\nresearch evaluates potential market effects of agricultural production restrictions by comparing the\norganizations of agricultural producers with classic illegal cartels, which harmful effects antitrust\nlaw aims to prevent. The available empirical evidence on the market and price effects of\nagricultural output control practices is discussed in light of the theoretical analysis.\nKey words: Antitrust, Capper-Volstead Act, cartels, cooperatives, output control agreements,\nSherman Act.\n2",
+    "methodology": "production restrictions\nwas",
+    "results": "reported in the literature, there is evidence suggesting\nthat the potato supply management program was effective during the first few years of its\nimplementation. Bolotova (2009b) reports an increase in the Lerner Index of market power of the\nIdaho potato industry from 0.4% in 2004 to 11.3% in 2005 (the first year of the program\n11",
+    "conclusion": "The empirical evidence on the market and price effects of agricultural production restrictions in\nthe national dairy and potato industries tends to be consistent with the theoretical predictions\ndiscussed earlier in the paper. The economic objective of agricultural production restrictions is\ndifferent from the objective of output control agreements of classic cartels, which simply decrease\noutput quantity, increase price and increase already existing dead-weight loss. The goal of using\nagricultural production restrictions is to balance supply and demand to achieve a fair level of price\nreceived by agricultural producers. An adverse price effect of a typical over-supply market\nscenario is the output price below the level of production cost. Agricultural production restrictions\ntheoretically can correct this adverse market situation, thus eliminating unnecessary production\ncosts and the amount of output that the market cannot absorb.\nThe reviewed empirical evidence on the market and price effects of agricultural production\nrestrictions used in the national dairy and potato industries during the recent decade may suggest\nthat the efforts of the organizations of agricultural producers in these industries were somewhat\neffective in correcting the over-supply market situation and achieving a fair price level. However,\nthe positive price effects of agricultural production restrictions tend to be short-term rather than\nlong-term. The uncertainty and complex nature of agricultural production, constantly increasing\nyield over time and a large membership of agricultural cooperatives are the main factors that\ndiminish the feasibility of the effective agricultural output reduction (control). This consequently\nmakes it challenging, if not impossible, to achieve sustainable (in terms of magnitude and duration)\nprice increases. In summary, the market and price effects of agricultural production restrictions are\nmuch weaker than the market and price effects of output control practices of classic cartels, which\nharmful effects antitrust law aims to prevent.\n13"
+  },
+  "key_data": {
+    "hhi_values": [],
+    "cr_values": [],
+    "lerner_values": [],
+    "elasticity_values": [],
+    "market_shares": [],
+    "concentration_measures": [],
+    "countries": [
+      "united states",
+      "usa",
+      "us"
+    ],
+    "sectors": [
+      "egg",
+      "dairy",
+      "agricultural"
+    ]
+  },
+  "classification": {
+    "categories": [
+      "Mercado huevos internacional",
+      "Medición poder mercado",
+      "Barreras entrada",
+      "Estructura mercado agroalimentario"
+    ],
+    "primary_category": "Mercado huevos internacional"
+  },
+  "key_quotes": [
+    "Using the theory of oligopoly, this\nresearch evaluates potential market effects of agricultural production restrictions by comparing the\norganizations of agricultural producers with classic illegal cartels, which harmful effects antitrust\nlaw aims to prevent",
+    "Section 3, using the theory of oligopoly, compares the organizational structure of agricultural\ncooperatives and classic cartels, the nature of market environment in which they operate as well\nas potential market and price effects of their output control practices (i",
+    "Due to the process of increasing\nconcentration and consolidation in food processing, distribution and supermarket retailing,\nagricultural producers sell their agricultural output to a smaller number of buyers",
+    "The first group includes the structural characteristics of the industry that might facilitate\neffective collusion: a high level of market concentration, a small number of sellers, the\nhomogeneity of product and purchasing commitments, inelastic demand and high barriers to entry",
+    "The overcharge measure is somewhat similar to the Lerner Index of\nmarket power, which reflects the firms’ (industry) ability to increase output price relative to\nmarginal cost"
+  ],
+  "tables": [
+    {
+      "table_number": 2,
+      "data": [
+        [
+          "P cartel"
+        ],
+        [
+          "Cartel Price Increase"
+        ],
+        [
+          "Ag Coop Price Incre",
+          "ase"
+        ],
+        [
+          "MR"
+        ]
+      ]
+    }
+  ],
+  "relevance_colombia": {
+    "score": 2,
+    "level": "Baja",
+    "reasons": [
+      "Estudia mercado de huevo"
+    ]
+  }
+}

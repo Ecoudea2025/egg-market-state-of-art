@@ -1,0 +1,108 @@
+{
+  "analysis_date": "2026-07-19T01:21:20.128777",
+  "geographic_gaps": {
+    "countries_covered": {
+      "us": 26,
+      "méxico": 4,
+      "mexico": 6,
+      "china": 14,
+      "united states": 11,
+      "usa": 22,
+      "ethiopia": 8,
+      "nigeria": 8,
+      "india": 8,
+      "brasil": 4,
+      "brazil": 5,
+      "japan": 5,
+      "colombia": 7,
+      "peru": 7,
+      "spain": 2,
+      "perú": 4,
+      "ecuador": 4,
+      "españa": 4,
+      "estados unidos": 3,
+      "argentina": 4,
+      "chile": 5,
+      "unión europea": 3,
+      "japón": 1,
+      "european union": 3
+    },
+    "over_represented": [
+      "us (26 estudios)",
+      "méxico (4 estudios)",
+      "mexico (6 estudios)",
+      "china (14 estudios)",
+      "united states (11 estudios)",
+      "usa (22 estudios)",
+      "ethiopia (8 estudios)",
+      "nigeria (8 estudios)",
+      "india (8 estudios)",
+      "brasil (4 estudios)",
+      "brazil (5 estudios)",
+      "japan (5 estudios)",
+      "colombia (7 estudios)",
+      "peru (7 estudios)",
+      "perú (4 estudios)",
+      "ecuador (4 estudios)",
+      "españa (4 estudios)",
+      "argentina (4 estudios)",
+      "chile (5 estudios)"
+    ],
+    "under_represented": [
+      "Colombia (específicamente mercado de huevo)",
+      "América Latina (excepto Brasil/México)",
+      "Sudamérica",
+      "Centroamérica",
+      "Caribe",
+      "África Subsahariana (excepto Nigeria/Etiopía)",
+      "Sudeste Asiático (excepto Filipinas)"
+    ]
+  },
+  "methodological_gaps": {
+    "methods_used": {
+      "Mercado huevos internacional": 25,
+      "Estructura mercado agroalimentario": 25,
+      "Barreras entrada": 15,
+      "Medición poder mercado": 16,
+      "Modelo teórico oligopolio": 4
+    },
+    "gaps": [
+      "Análisis de conducta estratégica (pricing, publicidad)",
+      "Estimación de elasticidades con datos de producto",
+      "Análisis de integración vertical",
+      "Evaluación de impacto de regulación sanitaria"
+    ]
+  },
+  "topic_gaps": {
+    "topics_covered": {
+      "Concentración (IHH)": 2
+    },
+    "gaps": [
+      "Mercado del huevo en Colombia (específicamente)",
+      "Competencia entre canales de comercialización",
+      "Efecto del sector informal en la dinámica de mercado",
+      "Diferenciación por marca vs. diferenciación por canal",
+      "Costos de transacción en la cadena avícola",
+      "Regulación sanitaria como barrera de entrada",
+      "Acceso a financiamiento y su efecto en competencia",
+      "Comportamiento estratégico de empresas avícolas colombianas"
+    ]
+  },
+  "project_contribution": {
+    "fills_geographic_gap": true,
+    "fills_methodological_gap": false,
+    "fills_topic_gap": true,
+    "original_contribution": "Este estudio contribuye al conocimiento existente al analizar por primera vez la estructura de mercado del huevo en Colombia utilizando datos de Supersociedades. Mientras que la literatura internacional se ha enfocado en mercados de EE.UU., Europa y algunos países en desarrollo, este trabajo llena el vacío de información sobre mercados latinoamericanos, específicamente colombianos.",
+    "significance": "La relevancia de esta contribución radica en que Colombia es un productor significativo de huevos en Latinoamérica, y comprender su estructura de mercado es fundamental para diseñar políticas de competencia efectivas y mejorar la eficiencia del sector avícola."
+  },
+  "future_research_lines": [
+    "Análisis de conducta estratégica de las principales empresas avícolas colombianas",
+    "Evaluación del impacto de la regulación sanitaria y ambiental en la competencia",
+    "Estudio de la integración vertical en la cadena de valor del huevo",
+    "Análisis de la dinámica competitiva entre canales de comercialización",
+    "Evaluación de políticas de competencia aplicables al sector avícola",
+    "Comparación con otros mercados agroalimentarios colombianos (carne, lácteos)",
+    "Análisis del efecto del sector informal en la eficiencia del mercado"
+  ],
+  "summary_paragraph": "## Vacíos de Investigación y Contribución Original\n\n### Vacíos identificados en la literatura:\n\n**1. Cobertura geográfica limitada:** La mayoría de los estudios se concentran en us (26 estudios), méxico (4 estudios), mexico (6 estudios). Faltan estudios sobre mercados de huevo en Latinoamérica, especialmente en Colombia.\n\n**2. Enfoque metodológico:** Predominan estudios descriptivos; faltan estimaciones estructurales de modelos de oligopolio y análisis econométricos de poder de mercado.\n\n**3. Temas no explorados:** No se ha estudiado el efecto del sector informal (48.5% de producción no reportada) ni la diferenciación por canales de comercialización en Colombia.\n\n### Contribución de este trabajo:\n\nEste estudio contribuye al conocimiento existente al analizar por primera vez la estructura de mercado del huevo en Colombia utilizando datos de Supersociedades. Mientras que la literatura internacional se ha enfocado en mercados de EE.UU., Europa y algunos países en desarrollo, este trabajo llena el vacío de información sobre mercados latinoamericanos, específicamente colombianos.\n\nLa relevancia de esta contribución radica en que Colombia es un productor significativo de huevos en Latinoamérica, y comprender su estructura de mercado es fundamental para diseñar políticas de competencia efectivas y mejorar la eficiencia del sector avícola."
+}

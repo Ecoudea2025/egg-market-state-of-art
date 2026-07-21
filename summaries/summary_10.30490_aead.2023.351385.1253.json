@@ -1,0 +1,53 @@
+{
+  "metadata": {
+    "filename": "10.30490_aead.2023.351385.1253.pdf",
+    "authors": "Unknown",
+    "year": null,
+    "title": "FECHA EXTRACCIÓN: 2026-07-19T01:12:52.758210",
+    "processing_date": "2026-07-19T01:17:47.950584"
+  },
+  "content": {
+    "abstract": "Eggs are one of the most important protein products with a special place in the\nfood basket of Iranian households. The large changes in the price of this product\ncan have a great impact on buyers and producers. A large share of the cost of\negg production is related to the consumption of two inputs, soy and corn;\ntherefore, the final price and fluctuations in the price of eggs are highly\ndependent on the prices of these two inputs and their fluctuations. In this\nresearch, by using bounds-testing, the long-term and short-term relationships\nbetween egg prices and soybean and corn prices were explored, as well as the\neffect of the price shocks of these inputs in the egg market. This test was carried\nout in the form of Autoregressive Distributed Lag (ARDL) and the presence of\ncointegration relationship between the variables in different modes was\ninvestigated. Since the lack of long-term relationship between the variables was\nrejected in all three studied modes, the Vector Error Correction Model (VECM)\nwas found to be suitable for investigating the shocks on the egg market. The\nstudy results showed that the shocks on soybean prices had the greatest effect on\nthe fluctuation of egg prices in the short term, and in the long term, the\nleadership of the egg price (increase or decrease in the price of eggs) was done\nby the shocks on the corn market. Therefore, it is suggested that in the short\nterm, the policy-maker should prevent the transfer of shocks from the soy\n1. Corresponding Author and PhD Student in Agricultural Economics, Faculty of\nAgriculture and Natural Resources, University of Tehran, Tehran, Iran\n(adalatsalim@ut.ac.ir).\n2. PhD Student in Agricultural Economics, Faculty of Agriculture and Natural\nResources, University of Tehran, Tehran, Iran.\n3. Assistant Professor of Agricultural Economics, Faculty of Agriculture and Natural\nResources, University of Tehran, Tehran, Iran.\nDOI: 10.30490/AEAD.2023.351385.1253\n11",
+    "methodology": "in predicting economic variables (case sudy: egg production and wholesale\nprice). The Proceedings of the Fourth Biennial Conference on Agricultural\nEconomics of Iran, Faculty of Agriculture, University of Tehran. (Persian)\n2. Azizi, J. and Torkmani, J. (2001). Estimation of meat demand functions in\nIran. Quarterly Journal of Agricultural Economics and Development, 9(34):\n217-234. (Persian)\n3. Baz-Mohhamadi, H. (2001). Relationship between producer price index,\nconsumer price and welfare index. Tehran: Central Bank of the Islamic\nRepublic of Iran, Office of Investment and Policy. Department of Economic\nStudies. (Persian)\n4. Belloumi, M. (2014). The relationship between trade, FDI and economic\ngrowth in tunisia: an application of the autoregressive distributed lag model.\nEconomic Systems, 38(2): 269-287.\n19",
+    "results": "showed that the shocks on soybean prices had the greatest effect on\nthe fluctuation of egg prices in the short term, and in the long term, the\nleadership of the egg price (increase or decrease in the price of eggs) was done\nby the shocks on the corn market. Therefore, it is suggested that in the short\nterm, the policy-maker should prevent the transfer of shocks from the soy\n1. Corresponding Author and PhD Student in Agricultural Economics, Faculty of\nAgriculture and Natural Resources, University of Tehran, Tehran, Iran\n(adalatsalim@ut.ac.ir).\n2. PhD Student in Agricultural Economics, Faculty of Agriculture and Natural\nResources, University of Tehran, Tehran, Iran.\n3. Assistant Professor of Agricultural Economics, Faculty of Agriculture and Natural\nResources, University of Tehran, Tehran, Iran.\nDOI: 10.30490/AEAD.2023.351385.1253\n11",
+    "conclusion": "the final price and fluctuations in the price of eggs are highly\ndependent on the prices of these two inputs and their fluctuations"
+  },
+  "key_data": {
+    "hhi_values": [],
+    "cr_values": [],
+    "lerner_values": [],
+    "elasticity_values": [],
+    "market_shares": [],
+    "concentration_measures": [],
+    "countries": [
+      "us",
+      "méxico",
+      "mexico",
+      "china"
+    ],
+    "sectors": [
+      "egg",
+      "eggs",
+      "meat",
+      "corn",
+      "soy",
+      "agricultural"
+    ]
+  },
+  "classification": {
+    "categories": [
+      "Mercado huevos internacional",
+      "Estructura mercado agroalimentario"
+    ],
+    "primary_category": "Mercado huevos internacional"
+  },
+  "key_quotes": [],
+  "tables": [],
+  "relevance_colombia": {
+    "score": 2,
+    "level": "Baja",
+    "reasons": [
+      "Estudia mercado de huevo"
+    ]
+  }
+}

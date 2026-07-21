@@ -1,0 +1,384 @@
+{
+  "metadata": {
+    "filename": "American J Agri Economics - 2026 - Kang - Food inflation pass‐through from agricultural imports in a small open economy.pdf",
+    "authors": "Unknown",
+    "year": null,
+    "title": "FECHA EXTRACCIÓN: 2026-07-19T01:13:30.822012",
+    "processing_date": "2026-07-19T01:17:48.085905"
+  },
+  "content": {
+    "abstract": "University,Columbus,Ohio,USA Thispaperdevelopsanewframeworkforquantifyingcost\npass-through in a small open economy by estimating\nCorrespondence\nfirm-level markup responses to agricultural import price\nSeungkiLee,DepartmentofAgricultural,\nEnvironmental,andDevelopmentEconomics, shocks. We show theoretically that markup adjustments\nTheOhioStateUniversity,Columbus,Ohio, depend on firms’ reliance on imported inputs and\nUSA.\ndemand curvature, generating heterogeneous inflationary\nEmail:lee.10168@osu.edu\neffects across firm types. For empirical implementation,\nFundinginformation we postulate a Leontief production structure that\nHatch,Grant/AwardNumber:OHO01523-MRF expressespass-throughelasticityasafunctionofobserved\nmarkup behavior and imported crop dependence. Using\ndata on 10,911 South Korean food manufacturers from\n2000 to 2021, we document considerable market power\nand increasing polarization in markups, particularly led\nby high-markup firms. Markup elasticities under strategic\npricingdecisionsdifferacrosssectorsandfirmtypes,with\nparticularly strong effects for non-large firms exhibiting\nlow reliance on imported crops. Our firm-level pass-\nthrough measure reveals stable aggregate patterns over\ntimebutuncoversconsiderableheterogeneity—mostnota-\nbly, rising pass-through among firms less dependent on\nforeign crops. These findings illustrate how cost shocks\npropagate through strategic pricing and underscore the\nimportance of firm heterogeneity in evaluating equilib-\nriumpass-through.",
+    "methodology": "the 2022 imported crop\nPrice shock\nWe extrapolate our model",
+    "results": "illustrate how cost shocks\npropagate through strategic pricing and underscore the\nimportance of firm heterogeneity in evaluating equilib-\nriumpass-through.\nKEYWORDS\ncostpass-throughelasticity,firm-levelmarkups,foodindustry,grain\nimport,smallopeneconomy\nJEL CLASSIFICATION\nF13,L11,L66,Q17\nThisisanopenaccessarticleunderthetermsoftheCreativeCommonsAttribution-NonCommercial-NoDerivsLicense,whichpermitsuseand\ndistributioninanymedium,providedtheoriginalworkisproperlycited,theuseisnon-commercialandnomodificationsoradaptations\naremade.\n©2026TheAuthor(s).AmericanJournalofAgriculturalEconomicspublishedbyWileyPeriodicalsLLConbehalfofAgricultural&Applied\nEconomicsAssociation.\nAmerJAgrEcon.2026;1–26. wileyonlinelibrary.com/journal/ajae 1",
+    "conclusion": "In this paper, we introduce a novel framework to evaluate the cost pass-through of imported crop\npricesinasmallopeneconomy,andempiricallymeasurethedegreeofsuchcosttransmissionusing\nthe case of South Korea. Our framework demonstrates that the direction of markup adjustments in\nresponse to import price shocks depends on firms’ cost structures (i.e., the degree of dependence of\nimported inputs) and market structure, such as product differentiation and demand curvature\n(Ritz,2024;St-Pierre,2023;Weyl&Fabinger,2013).Specifically,wecategorizefirmsbyforeigncrop\ndependence and demand curvature to illustrate differing markup responses. Recognizing that firm\nsize is also a key determinant of markup adjustment (Amiti et al., 2019), partially accounting for\ndemandproperties,weclassifyfirmsbasedonboththeirsizeanddegreeofforeigncropdependence.\nFurthermore, building on DLW, we develop an empirical approach to estimating cost pass-through\nelasticitiesthatcapturesheterogeneousmarkupadjustmentsacrossfirmtypes.\nOur findings reveal an increasing polarization in the markup distribution, driven by growth\namong higher percentile groups. Also, we identify heterogeneous markup elasticities across firm\ntypes and sectors, providing a nuanced understanding of strategic pricing with respect to imported\ncrop prices. Notably, firms that rely heavily on imported crops have shown declining pass-through\nover time, while firms less or not reliant on foreign crops have increasingly raised their pass-\nthroughrates.Thesepatternssuggestthatmorefirmsthatdonotdirectlyreceiveimportcostshocks\nengageinstrategicmarkupadjustments,underscoringtheimportanceofanalyzingequilibriumpass-\nthroughfrommultipleangles.\nFinally, we note both strengths and caveats of our approach relative to conventional time-series\npass-through measurements.By explicitly using estimated firm-level markups, our method not only\nreveals micro-level markup adjustments and pass-throughs but also facilitates extrapolation to pre-\ndict the first-order approximation of inflationary effects from import price shocks. This feature is\nparticularly useful for short-term simulations,as demonstrated inthe model validation. Building on\nthis, a promising avenue for future research would be to apply our framework to a narrower set of\ncomplementary sectors, exploring how a shock to one firm type propagates cross-sector spillovers\nvia complementary pricing. However, caution is warranted in applying our approach to long-run\ndynamics,asitdoesnotcapturetheintertemporalstoragebehaviorofmaterialinputs.\n24Tocomputethepercentagechangesinfoodprices,weusepass-throughelasticitiesfortheyear2021atfourdifferentlevels:industry-level\n(η\nt\nP\n¼\n,G\n2021\n),sector-level(ηP\ns,t\n,G\n¼2021\n),industry-and-firmtypelevel(ηP\nv,\n,\nt\nG\n¼2021\n),a(cid:1)ndsector-and(cid:3)-firmtypelevel(ηP\ns,v\n,G\n,t¼2021\n)in2021.Theyaremultiplied\nwiththepercentagechangeinimportedcroppricesfrom2021to2022( PG (cid:3)PG =PG ).\n2022 2021 2021\n25Aswedidforthecroppriceseriesduringthe2000–2021period,importpricesforeachcropin2022—total,corn,soybean,andwheat—are\nalsosourcedfromtheFAOdetailedtradematrix,andadjustedbytheKRW/USDexchangerateandtheGDPdeflatorspecifictoSouthKorea\nin2022,obtainedfromFRED.\n26Thefigure41.23%iscalculatedasthepercentageshareofindustry-widepredictedchanges(1.81%)relativetotheindustry-wideobserved\npricechange(4.39%).\n14678276,\n0,\nDownloaded\nfrom\nhttps://onlinelibrary.wiley.com/doi/10.1002/ajae.70063\nby\nCochrane\nColombia,\nWiley\nOnline\nLibrary\non [18/07/2026].\nSee\nthe\nTerms\nand\nConditions\n(https://onlinelibrary.wiley.com/terms-and-conditions)\non\nWiley\nOnline\nLibrary\nfor\nrules\nof\nuse;\nOA\narticles\nare\ngoverned\nby\nthe\napplicable\nCreative\nCommons\nLicense"
+  },
+  "key_data": {
+    "hhi_values": [],
+    "cr_values": [],
+    "lerner_values": [],
+    "elasticity_values": [],
+    "market_shares": [],
+    "concentration_measures": [],
+    "countries": [
+      "colombia",
+      "united states",
+      "usa",
+      "us",
+      "china"
+    ],
+    "sectors": [
+      "meat",
+      "dairy",
+      "corn",
+      "soy",
+      "agricultural"
+    ]
+  },
+  "classification": {
+    "categories": [
+      "Modelo teórico oligopolio",
+      "Medición poder mercado",
+      "Estructura mercado agroalimentario"
+    ],
+    "primary_category": "Modelo teórico oligopolio"
+  },
+  "key_quotes": [
+    "For empirical implementation,\nFundinginformation we postulate a Leontief production structure that\nHatch,Grant/AwardNumber:OHO01523-MRF expressespass-throughelasticityasafunctionofobserved\nmarkup behavior and imported crop dependence",
+    "Under the Leontief-driven\nfixed proportion rule, we show that pass-through elasticity can be expressed as a function of the\nmarkup elasticity to imported crop prices, firm-level markups, the expenditure share of material\ninputs, and the import crop share within material costs",
+    "Using the firm-level markups obtained\nthroughtheDLWprocedure,weestimatethemarkupelasticitywithrespecttoimportedcropprices,\nwhichsubsequentlypermitsustocalculatefirm-levelpass-throughelasticities",
+    "Basedontheproposedpass-throughelasticitymeasure,wediscoverseveralfeaturesthatportray\nthe equilibrium pass-through of the Korean food industry, in line with our theoretical framework",
+    "First,aggregateindustry-wisepass-throughelasticityhasremainedrelativelystableoverthepasttwo\ndecades, averaging around 0"
+  ],
+  "tables": [
+    {
+      "table_number": 2,
+      "data": [
+        [
+          "Variable/mean Entireperiod",
+          "Period"
+        ],
+        [
+          "2000–2004 2005–2010",
+          "2011–2015",
+          "2016–2021"
+        ]
+      ]
+    },
+    {
+      "table_number": 3,
+      "data": [
+        [
+          "No.ofobservations 65,200* 7254 9543",
+          "15,833",
+          "32,570"
+        ]
+      ]
+    },
+    {
+      "table_number": 4,
+      "data": [
+        [
+          "Large(L)firms(%) 0.80 1.20 1.28",
+          "0.81",
+          "0.57"
+        ]
+      ]
+    },
+    {
+      "table_number": 5,
+      "data": [
+        [
+          "Firmtype:FN(%) 15.75 15.19 15.29",
+          "15.35",
+          "16.21"
+        ]
+      ]
+    },
+    {
+      "table_number": 6,
+      "data": [
+        [
+          "Firmtype:FL(%) 0.14 0.34 0.29",
+          "0.15",
+          "0.06"
+        ]
+      ]
+    },
+    {
+      "table_number": 7,
+      "data": [
+        [
+          ")1(",
+          "SLN"
+        ],
+        [
+          "SLO",
+          "rotacidnirotceS",
+          "-non("
+        ],
+        [
+          ")yriad("
+        ],
+        [
+          "lio("
+        ],
+        [
+          ")latot(I(cid:6)"
+        ],
+        [
+          "wnl"
+        ],
+        [
+          ":eulavdetamitsE"
+        ]
+      ]
+    },
+    {
+      "table_number": 8,
+      "data": [
+        [
+          "***850.0(cid:3)",
+          ")10.0("
+        ],
+        [
+          "lioPnl"
+        ]
+      ]
+    },
+    {
+      "table_number": 9,
+      "data": [
+        [
+          "Firmtype",
+          "Statistics"
+        ],
+        [
+          "Mean Min P25 P50 P75 Max"
+        ]
+      ]
+    },
+    {
+      "table_number": 10,
+      "data": [
+        [
+          "Firmtype Sector(KSIC3-digits) Entireperiod",
+          "Period"
+        ],
+        [
+          "2000–2004",
+          "2005–2010 2011–2015 2016–2021"
+        ]
+      ]
+    },
+    {
+      "table_number": 11,
+      "data": [
+        [
+          "FN",
+          "Oilandfat(104) 0.407",
+          "0.411",
+          "0.411 0.410 0.403"
+        ],
+        [
+          "Grainmillsandstarch(106) 0.403",
+          "0.423",
+          "0.397 0.420 0.391"
+        ],
+        [
+          "Others(107) 0.152",
+          "0.144",
+          "0.151 0.154 0.152"
+        ]
+      ]
+    },
+    {
+      "table_number": 12,
+      "data": [
+        [
+          "FL",
+          "Grainmillsandstarch(106) 0.162",
+          "0.156",
+          "0.172 0.176 0.133"
+        ],
+        [
+          "Others(107) 0.005",
+          "0.012",
+          "0.005 0.002 0.003"
+        ]
+      ]
+    },
+    {
+      "table_number": 13,
+      "data": [
+        [
+          "j,t",
+          "(1)",
+          "(2)",
+          "(3) (4)"
+        ],
+        [
+          "G=all",
+          "G=corn",
+          "G=soy G=wheat"
+        ]
+      ]
+    },
+    {
+      "table_number": 14,
+      "data": [
+        [
+          "t",
+          "0.275*",
+          "0.287***",
+          "0.176** 0.363**"
+        ],
+        [
+          "(0.12)",
+          "(0.12)",
+          "(0.08) (0.16)"
+        ]
+      ]
+    },
+    {
+      "table_number": 15,
+      "data": [
+        [
+          "Constant",
+          "(cid:3)1.941**",
+          "(cid:3)1.571**",
+          "(cid:3)1.131** (cid:3)3.411**"
+        ],
+        [
+          "(0.81)",
+          "(0.66)",
+          "(0.47) (1.43)"
+        ]
+      ]
+    },
+    {
+      "table_number": 16,
+      "data": [
+        [
+          "ProductFE Yes",
+          "Yes",
+          "Yes Yes"
+        ]
+      ]
+    },
+    {
+      "table_number": 17,
+      "data": [
+        [
+          "Observations 1502",
+          "1502",
+          "1502 1502"
+        ]
+      ]
+    },
+    {
+      "table_number": 18,
+      "data": [
+        [
+          "AR(2) (cid:3)2.08**",
+          "(cid:3)2.08**",
+          "(cid:3)2.08** (cid:3)2.08**"
+        ]
+      ]
+    },
+    {
+      "table_number": 19,
+      "data": [
+        [
+          "Sargan–Hansentest",
+          "2-Stepw.matrix 31.29",
+          "31.54",
+          "31.77 31.25"
+        ],
+        [
+          "3-Stepw.matrix 44.80",
+          "45.43",
+          "45.71 44.80"
+        ]
+      ]
+    },
+    {
+      "table_number": 20,
+      "data": [
+        [
+          "Sector(KSIC3-digits)",
+          "Crop(“all”eightcommodities)"
+        ],
+        [
+          "ObservedΔPPI",
+          "Modelprediction"
+        ],
+        [
+          "Industry/sectoraverage",
+          "Firmtype"
+        ],
+        [
+          "DN",
+          "FN",
+          "DL FL"
+        ]
+      ]
+    },
+    {
+      "table_number": 21,
+      "data": [
+        [
+          "Meat(101) 6.98% 1.46% 1.40%",
+          "–",
+          "2.33% –"
+        ]
+      ]
+    },
+    {
+      "table_number": 22,
+      "data": [
+        [
+          "Fruitandvegetable(103) 6.69% 1.27% 1.27%",
+          "–",
+          "– –"
+        ]
+      ]
+    },
+    {
+      "table_number": 23,
+      "data": [
+        [
+          "Dairy(105) 0.42% 1.13% 0.98%",
+          "–",
+          "1.16% –"
+        ]
+      ]
+    },
+    {
+      "table_number": 24,
+      "data": [
+        [
+          "Others(107) –– 1.95% 2.04%",
+          "3.29%",
+          "1.86% 0.06%"
+        ]
+      ]
+    },
+    {
+      "table_number": 25,
+      "data": [
+        [
+          "Non-alcoholicbeverage(112) 2.20% 0.73% 0.96%",
+          "–",
+          "0.56% –"
+        ]
+      ]
+    }
+  ],
+  "relevance_colombia": {
+    "score": 3,
+    "level": "Media",
+    "reasons": [
+      "Menciona Colombia directamente"
+    ]
+  }
+}

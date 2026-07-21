@@ -1,0 +1,53 @@
+{
+  "metadata": {
+    "filename": "s40066-024-00472-6.pdf",
+    "authors": "Security",
+    "year": 2024,
+    "title": "FECHA EXTRACCIÓN: 2026-07-19T01:16:26.290990",
+    "processing_date": "2026-07-19T01:17:48.621508"
+  },
+  "content": {
+    "abstract": "Background This paper investigates the effects of price volatility spillover in the poultry industry’s input markets,\nincluding soybean meal, day-old chicks and corn, and the foreign exchange market as an independent market,\non the wholesale egg market in Iran. The experimental investigation is based on dynamic conditional correlation\n(GARCH-DCC). It is one of the most powerful and accepted methods for studying market volatility, whose represen-\ntation is based on conditional variance. On the other hand, eggs are one of the main food items in the food basket\nof Iranian households, playing an important role in ensuring part of the food security of the country. However,\nthe price volatilities of its inputs, which make up more than 70% of egg production costs, cause the instability of its\nprice and the confusion of the producers of this sector. This is although in the relevant literature, there is little research\non the issue of volatility spillover effects on agricultural product markets, especially in the country.\nResults The findings show that any shock in the input market leads to volatility and instability in the market;\non the other hand, these volatilities maintain their stability. In addition, there is a spillover of exchange market volatil-\nity into corn and soybean meal input markets.\nConclusions In that context, this article emphasizes the knowledge of market relationships and their consequences,\nthereby suggesting appropriate policies to control and support the domestic poultry industry.",
+    "methodology": "for studying market volatility, whose represen-\ntation is based on conditional variance. On the other hand, eggs are one of the main food items in the food basket\nof Iranian households, playing an important role in ensuring part of the food security of the country. However,\nthe price volatilities of its inputs, which make up more than 70% of egg production costs, cause the instability of its\nprice and the confusion of the producers of this sector. This is although in the relevant literature, there is little research\non the issue of volatility spillover effects on agricultural product markets, especially in the country.",
+    "results": "The findings show that any shock in the input market leads to volatility and instability in the market;\non the other hand, these volatilities maintain their stability. In addition, there is a spillover of exchange market volatil-\nity into corn and soybean meal input markets.",
+    "conclusion": "s In that context, this article emphasizes the knowledge of market relationships and their consequences,\nthereby suggesting appropriate policies to control and support the domestic poultry industry.\nKeywords Egg, Food security, Poultry industry’s input, Price volatility spillover effects, DCC-GARCH\nIntroduction most natural and healthy source of protein that does not\nIran’s poultry industry, especially egg production, is an need to be cooked for a long time. For this reason, with\nintegral part of social welfare, a country that consumes the encouragement of government agencies and the help\n230 eggs per capita, while the average egg consump- of banks, many investments have been made to develop\ntion of the world is 190 [12]. Eggs can be considered the domestic egg production.\nAs defined by the 2001 World Food Summit, food secu-\nrity is the state that exists when all people, at all times,\n*Correspondence:\nhave physical, social, and economic access to food to\nAkram Javadi\nakramjavadi@tabrizu.ac.ir have an active and healthy life [13]. As eggs are nutritious\n1 Department of Agricultural Economics, Faculty of Agriculture, University food and one of the most important sources of protein\nof Tabriz, Tabriz, Iran\nfor households and this product is easily accessible, it\n2 School of Agriculture and Food Sciences, Faculty of Science, University\nof Queensland, Brisbane, Australia greatly contributes to ensuring the country’s food secu-\nrity [8]. According to statistics provided by the Ministry\n© The Author(s) 2024. Open Access This article is licensed under a Creative Commons Attribution 4.0 International License, which\npermits use, sharing, adaptation, distribution and reproduction in any medium or format, as long as you give appropriate credit to the\noriginal author(s) and the source, provide a link to the Creative Commons licence, and indicate if changes were made. The images or\nother third party material in this article are included in the article’s Creative Commons licence, unless indicated otherwise in a credit line\nto the material. If material is not included in the article’s Creative Commons licence and your intended use is not permitted by statutory\nregulation or exceeds the permitted use, you will need to obtain permission directly from the copyright holder. To view a copy of this\nlicence, visit http:// creat iveco mmons. org/ licen ses/ by/4. 0/. The Creative Commons Public Domain Dedication waiver (http:// creat ivec o\nmmons. org/ publi cdoma in/ zero/1. 0/) applies to the data made available in this article, unless otherwise stated in a credit line to the data."
+  },
+  "key_data": {
+    "hhi_values": [],
+    "cr_values": [],
+    "lerner_values": [],
+    "elasticity_values": [],
+    "market_shares": [],
+    "concentration_measures": [],
+    "countries": [
+      "usa",
+      "us"
+    ],
+    "sectors": [
+      "egg",
+      "eggs",
+      "poultry",
+      "chicken",
+      "meat",
+      "corn",
+      "soy",
+      "agricultural"
+    ]
+  },
+  "classification": {
+    "categories": [
+      "Mercado huevos internacional",
+      "Estructura mercado agroalimentario"
+    ],
+    "primary_category": "Mercado huevos internacional"
+  },
+  "key_quotes": [],
+  "tables": [],
+  "relevance_colombia": {
+    "score": 2,
+    "level": "Baja",
+    "reasons": [
+      "Estudia mercado de huevo"
+    ]
+  }
+}

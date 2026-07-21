@@ -1,0 +1,40 @@
+{
+  "metadata": {
+    "filename": "Egg study EEUU.pdf",
+    "authors": "Unknown",
+    "year": null,
+    "title": "FECHA EXTRACCIÓN: 2026-07-19T01:14:47.563046",
+    "processing_date": "2026-07-19T01:17:48.357675"
+  },
+  "content": {
+    "abstract": null,
+    "methodology": null,
+    "results": null,
+    "conclusion": null
+  },
+  "key_data": {
+    "hhi_values": [],
+    "cr_values": [],
+    "lerner_values": [],
+    "elasticity_values": [],
+    "market_shares": [],
+    "concentration_measures": [],
+    "countries": [],
+    "sectors": []
+  },
+  "classification": {
+    "categories": [
+      "Mercado huevos internacional"
+    ],
+    "primary_category": "Mercado huevos internacional"
+  },
+  "key_quotes": [],
+  "tables": [],
+  "relevance_colombia": {
+    "score": 2,
+    "level": "Baja",
+    "reasons": [
+      "Estudia mercado de huevo"
+    ]
+  }
+}

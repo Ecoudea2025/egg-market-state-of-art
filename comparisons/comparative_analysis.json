@@ -1,0 +1,661 @@
+{
+  "analysis_date": "2026-07-19T01:18:02.334099",
+  "total_studies": 27,
+  "colombia_data": {
+    "country": "Colombia",
+    "sector": "Huevo",
+    "hhi": 1700,
+    "cr4": 69.0,
+    "lerner": 18.8,
+    "elasticity": -0.5,
+    "market_leader": "Incubadora Santander (34.2%)",
+    "sample_size": 15,
+    "notes": "Concentración moderada, fringe informal 48.5%"
+  },
+  "comparative_table": [
+    {
+      "Autores": "Unknown",
+      "Año": NaN,
+      "País": "us, méxico, mexico",
+      "Sector": "egg, eggs, meat",
+      "IHH": NaN,
+      "CR": NaN,
+      "Lerner": NaN,
+      "Elasticidad": NaN,
+      "Relevancia Colombia": "Baja"
+    },
+    {
+      "Autores": "Unknown",
+      "Año": NaN,
+      "País": "united states, usa, us",
+      "Sector": "egg, eggs, chicken",
+      "IHH": NaN,
+      "CR": NaN,
+      "Lerner": NaN,
+      "Elasticidad": NaN,
+      "Relevancia Colombia": "Media"
+    },
+    {
+      "Autores": "Unknown",
+      "Año": NaN,
+      "País": "usa, us, nigeria",
+      "Sector": "egg, eggs, chicken",
+      "IHH": NaN,
+      "CR": NaN,
+      "Lerner": NaN,
+      "Elasticidad": NaN,
+      "Relevancia Colombia": "Media"
+    },
+    {
+      "Autores": "Unknown",
+      "Año": NaN,
+      "País": "united states, usa, us",
+      "Sector": "egg, eggs, poultry",
+      "IHH": NaN,
+      "CR": NaN,
+      "Lerner": NaN,
+      "Elasticidad": NaN,
+      "Relevancia Colombia": "Baja"
+    },
+    {
+      "Autores": "Unknown",
+      "Año": NaN,
+      "País": "us, nigeria, ethiopia",
+      "Sector": "egg, eggs, chicken",
+      "IHH": NaN,
+      "CR": NaN,
+      "Lerner": NaN,
+      "Elasticidad": NaN,
+      "Relevancia Colombia": "Baja"
+    },
+    {
+      "Autores": "Unknown",
+      "Año": NaN,
+      "País": "colombia, usa, us",
+      "Sector": "egg, corn, agricultural",
+      "IHH": NaN,
+      "CR": NaN,
+      "Lerner": NaN,
+      "Elasticidad": NaN,
+      "Relevancia Colombia": "Alta"
+    },
+    {
+      "Autores": "Unknown",
+      "Año": NaN,
+      "País": "colombia, united states, usa",
+      "Sector": "meat, dairy, corn",
+      "IHH": NaN,
+      "CR": NaN,
+      "Lerner": NaN,
+      "Elasticidad": NaN,
+      "Relevancia Colombia": "Media"
+    },
+    {
+      "Autores": "Unknown",
+      "Año": NaN,
+      "País": "colombia, united states, us",
+      "Sector": "egg, eggs, poultry",
+      "IHH": NaN,
+      "CR": NaN,
+      "Lerner": NaN,
+      "Elasticidad": NaN,
+      "Relevancia Colombia": "Alta"
+    },
+    {
+      "Autores": "Unknown",
+      "Año": NaN,
+      "País": "usa, us, ethiopia",
+      "Sector": "egg, eggs, poultry",
+      "IHH": NaN,
+      "CR": NaN,
+      "Lerner": NaN,
+      "Elasticidad": NaN,
+      "Relevancia Colombia": "Baja"
+    },
+    {
+      "Autores": "Unknown",
+      "Año": NaN,
+      "País": "usa, us, perú",
+      "Sector": "huevo, egg, huevos",
+      "IHH": NaN,
+      "CR": NaN,
+      "Lerner": NaN,
+      "Elasticidad": NaN,
+      "Relevancia Colombia": "Baja"
+    },
+    {
+      "Autores": "Porter",
+      "Año": 1979.0,
+      "País": "colombia, estados unidos, united states",
+      "Sector": "huevo, egg, huevos",
+      "IHH": NaN,
+      "CR": NaN,
+      "Lerner": NaN,
+      "Elasticidad": NaN,
+      "Relevancia Colombia": "Alta"
+    },
+    {
+      "Autores": "Unknown",
+      "Año": NaN,
+      "País": "usa, us, perú",
+      "Sector": "huevo, egg, huevos",
+      "IHH": NaN,
+      "CR": NaN,
+      "Lerner": NaN,
+      "Elasticidad": NaN,
+      "Relevancia Colombia": "Baja"
+    },
+    {
+      "Autores": "Unknown",
+      "Año": NaN,
+      "País": "colombia, estados unidos, usa",
+      "Sector": "huevo, egg, huevos",
+      "IHH": NaN,
+      "CR": NaN,
+      "Lerner": NaN,
+      "Elasticidad": NaN,
+      "Relevancia Colombia": "Alta"
+    },
+    {
+      "Autores": "Unknown",
+      "Año": NaN,
+      "País": "united states, usa, us",
+      "Sector": "egg, eggs, poultry",
+      "IHH": NaN,
+      "CR": NaN,
+      "Lerner": NaN,
+      "Elasticidad": NaN,
+      "Relevancia Colombia": "Media"
+    },
+    {
+      "Autores": "Unknown",
+      "Año": NaN,
+      "País": "No especificado",
+      "Sector": "No especificado",
+      "IHH": NaN,
+      "CR": NaN,
+      "Lerner": NaN,
+      "Elasticidad": NaN,
+      "Relevancia Colombia": "Baja"
+    },
+    {
+      "Autores": "Unknown",
+      "Año": NaN,
+      "País": "colombia, estados unidos, united states",
+      "Sector": "huevo, egg, huevos",
+      "IHH": 372.0,
+      "CR": NaN,
+      "Lerner": NaN,
+      "Elasticidad": NaN,
+      "Relevancia Colombia": "Alta"
+    },
+    {
+      "Autores": "Zeberga\nMay",
+      "Año": 2010.0,
+      "País": "usa, us, ethiopia",
+      "Sector": "egg, eggs, poultry",
+      "IHH": 17.0,
+      "CR": NaN,
+      "Lerner": NaN,
+      "Elasticidad": NaN,
+      "Relevancia Colombia": "Media"
+    },
+    {
+      "Autores": "Unknown",
+      "Año": NaN,
+      "País": "usa, us, perú",
+      "Sector": "huevo, egg, huevos",
+      "IHH": NaN,
+      "CR": NaN,
+      "Lerner": NaN,
+      "Elasticidad": NaN,
+      "Relevancia Colombia": "Baja"
+    },
+    {
+      "Autores": "Unknown",
+      "Año": NaN,
+      "País": "usa, us",
+      "Sector": "egg, eggs, poultry",
+      "IHH": NaN,
+      "CR": NaN,
+      "Lerner": NaN,
+      "Elasticidad": NaN,
+      "Relevancia Colombia": "Baja"
+    },
+    {
+      "Autores": "Unknown",
+      "Año": NaN,
+      "País": "united states, usa, us",
+      "Sector": "egg, eggs, poultry",
+      "IHH": NaN,
+      "CR": NaN,
+      "Lerner": NaN,
+      "Elasticidad": NaN,
+      "Relevancia Colombia": "Media"
+    },
+    {
+      "Autores": "Unknown",
+      "Año": NaN,
+      "País": "united states, usa, us",
+      "Sector": "egg, eggs, meat",
+      "IHH": NaN,
+      "CR": NaN,
+      "Lerner": NaN,
+      "Elasticidad": NaN,
+      "Relevancia Colombia": "Media"
+    },
+    {
+      "Autores": "Security",
+      "Año": 2024.0,
+      "País": "usa, us",
+      "Sector": "egg, eggs, poultry",
+      "IHH": NaN,
+      "CR": NaN,
+      "Lerner": NaN,
+      "Elasticidad": NaN,
+      "Relevancia Colombia": "Baja"
+    },
+    {
+      "Autores": "Unknown",
+      "Año": NaN,
+      "País": "united states, usa, us",
+      "Sector": "egg, dairy, agricultural",
+      "IHH": NaN,
+      "CR": NaN,
+      "Lerner": NaN,
+      "Elasticidad": NaN,
+      "Relevancia Colombia": "Baja"
+    },
+    {
+      "Autores": "Unknown",
+      "Año": NaN,
+      "País": "usa, us, nigeria",
+      "Sector": "egg, eggs, poultry",
+      "IHH": NaN,
+      "CR": NaN,
+      "Lerner": NaN,
+      "Elasticidad": NaN,
+      "Relevancia Colombia": "Media"
+    },
+    {
+      "Autores": "Unknown",
+      "Año": NaN,
+      "País": "usa, us, nigeria",
+      "Sector": "egg, eggs, poultry",
+      "IHH": NaN,
+      "CR": NaN,
+      "Lerner": NaN,
+      "Elasticidad": NaN,
+      "Relevancia Colombia": "Media"
+    },
+    {
+      "Autores": "Unknown",
+      "Año": NaN,
+      "País": "colombia, united states, usa",
+      "Sector": "poultry, meat, dairy",
+      "IHH": NaN,
+      "CR": NaN,
+      "Lerner": NaN,
+      "Elasticidad": NaN,
+      "Relevancia Colombia": "Alta"
+    },
+    {
+      "Autores": "Unknown",
+      "Año": NaN,
+      "País": "us, brazil",
+      "Sector": "No especificado",
+      "IHH": NaN,
+      "CR": NaN,
+      "Lerner": NaN,
+      "Elasticidad": NaN,
+      "Relevancia Colombia": "Baja"
+    },
+    {
+      "Autores": "Proyecto actual",
+      "Año": 2026.0,
+      "País": "Colombia",
+      "Sector": "Huevo",
+      "IHH": 1700.0,
+      "CR": 69.0,
+      "Lerner": 18.8,
+      "Elasticidad": -0.5,
+      "Relevancia Colombia": "Proyecto actual"
+    }
+  ],
+  "patterns": {
+    "hhi_ranges": {
+      "bajo": 5,
+      "moderado": 0,
+      "alto": 1,
+      "muy_alto": 0
+    },
+    "lerner_ranges": {
+      "bajo": 0,
+      "moderado": 0,
+      "alto": 0
+    },
+    "countries_distribution": {
+      "us": 26,
+      "méxico": 4,
+      "mexico": 6,
+      "china": 14,
+      "united states": 11,
+      "usa": 22,
+      "ethiopia": 8,
+      "nigeria": 8,
+      "india": 8,
+      "brasil": 4,
+      "brazil": 5,
+      "japan": 5,
+      "colombia": 7,
+      "peru": 7,
+      "spain": 2,
+      "perú": 4,
+      "ecuador": 4,
+      "españa": 4,
+      "estados unidos": 3,
+      "argentina": 4,
+      "chile": 5,
+      "unión europea": 3,
+      "japón": 1,
+      "european union": 3
+    },
+    "sectors_distribution": {
+      "egg": 23,
+      "eggs": 19,
+      "meat": 20,
+      "corn": 14,
+      "soy": 10,
+      "agricultural": 23,
+      "chicken": 14,
+      "agri-food": 3,
+      "grains": 5,
+      "poultry": 16,
+      "dairy": 10,
+      "huevo": 6,
+      "huevos": 6,
+      "avicultura": 6,
+      "pollo": 6,
+      "carne": 6,
+      "lácteos": 4,
+      "agroalimentario": 6,
+      "agrícola": 6,
+      "maíz": 2,
+      "soya": 3,
+      "granos": 2
+    },
+    "models_identified": {
+      "Mercado huevos internacional": 25,
+      "Estructura mercado agroalimentario": 25,
+      "Barreras entrada": 15,
+      "Medición poder mercado": 16,
+      "Modelo teórico oligopolio": 4
+    },
+    "methodological_approaches": {}
+  },
+  "comparisons": [
+    {
+      "study": "Unknown (None)",
+      "filename": "10.30490_aead.2023.351385.1253.pdf",
+      "similarities": [
+        "Mismo sector (huevo)"
+      ],
+      "differences": [],
+      "methodological_comparison": {}
+    },
+    {
+      "study": "Unknown (None)",
+      "filename": "20130203163434703403.pdf",
+      "similarities": [
+        "Mismo sector (huevo)"
+      ],
+      "differences": [],
+      "methodological_comparison": {}
+    },
+    {
+      "study": "Unknown (None)",
+      "filename": "5.+Modelling+Food+Patterns+in+Pakistan.pdf",
+      "similarities": [
+        "Mismo sector (huevo)"
+      ],
+      "differences": [],
+      "methodological_comparison": {}
+    },
+    {
+      "study": "Unknown (None)",
+      "filename": "588_agris-on-line-3-2023-khoiriyah-forgenie-iriany.pdf",
+      "similarities": [
+        "Mismo sector (huevo)"
+      ],
+      "differences": [],
+      "methodological_comparison": {}
+    },
+    {
+      "study": "Unknown (None)",
+      "filename": "admin,+9.+399+Done.+New.pdf",
+      "similarities": [
+        "Mismo sector (huevo)"
+      ],
+      "differences": [],
+      "methodological_comparison": {}
+    },
+    {
+      "study": "Unknown (None)",
+      "filename": "American J Agri Economics - 2021 -  - Issue Information.pdf",
+      "similarities": [
+        "Mismo sector (huevo)",
+        "Mismo país (Colombia)"
+      ],
+      "differences": [],
+      "methodological_comparison": {}
+    },
+    {
+      "study": "Unknown (None)",
+      "filename": "American J Agri Economics - 2026 - Kang - Food inflation pass‐through from agricultural imports in a small open economy.pdf",
+      "similarities": [
+        "Mismo país (Colombia)"
+      ],
+      "differences": [],
+      "methodological_comparison": {}
+    },
+    {
+      "study": "Unknown (None)",
+      "filename": "Applied Eco Perspectives Pol - 2026 - Zhao - Understanding Egg Price Volatility and Policy Implications in the U S  With.pdf",
+      "similarities": [
+        "Mismo sector (huevo)",
+        "Mismo país (Colombia)"
+      ],
+      "differences": [],
+      "methodological_comparison": {}
+    },
+    {
+      "study": "Unknown (None)",
+      "filename": "Artikel5_Ana+Arifatus.pdf",
+      "similarities": [
+        "Mismo sector (huevo)"
+      ],
+      "differences": [],
+      "methodological_comparison": {}
+    },
+    {
+      "study": "Unknown (None)",
+      "filename": "Art_XX_Concentración+y+poder+de+mercado.pdf",
+      "similarities": [
+        "Mismo sector (huevo)"
+      ],
+      "differences": [],
+      "methodological_comparison": {}
+    },
+    {
+      "study": "Porter (1979)",
+      "filename": "CalleCamilo_2018_CompetitividadAvicolaColombia.pdf",
+      "similarities": [
+        "Mismo sector (huevo)",
+        "Mismo país (Colombia)"
+      ],
+      "differences": [],
+      "methodological_comparison": {}
+    },
+    {
+      "study": "Unknown (None)",
+      "filename": "concentracion y poder de mercado.pdf",
+      "similarities": [
+        "Mismo sector (huevo)"
+      ],
+      "differences": [],
+      "methodological_comparison": {}
+    },
+    {
+      "study": "Unknown (None)",
+      "filename": "Condiciones de competencia en cadenas.pdf",
+      "similarities": [
+        "Mismo sector (huevo)",
+        "Mismo país (Colombia)"
+      ],
+      "differences": [],
+      "methodological_comparison": {}
+    },
+    {
+      "study": "Unknown (None)",
+      "filename": "economies-12-00245-v2.pdf",
+      "similarities": [
+        "Mismo sector (huevo)"
+      ],
+      "differences": [],
+      "methodological_comparison": {}
+    },
+    {
+      "study": "Unknown (None)",
+      "filename": "Egg study EEUU.pdf",
+      "similarities": [],
+      "differences": [],
+      "methodological_comparison": {}
+    },
+    {
+      "study": "Unknown (None)",
+      "filename": "Estudio_Huevos_CarnePollo_2022.pdf",
+      "similarities": [
+        "Mismo sector (huevo)",
+        "Mismo país (Colombia)"
+      ],
+      "differences": [
+        "IHH diferente (372.0 vs 1700)"
+      ],
+      "methodological_comparison": {}
+    },
+    {
+      "study": "Zeberga\nMay (2010)",
+      "filename": "FinalThesis_AwolZeberga.pdf",
+      "similarities": [
+        "Mismo sector (huevo)"
+      ],
+      "differences": [
+        "IHH diferente (17.0 vs 1700)"
+      ],
+      "methodological_comparison": {}
+    },
+    {
+      "study": "Unknown (None)",
+      "filename": "Impulso – Análisis de la estructura de mercado de productos pecuarios.pdf",
+      "similarities": [
+        "Mismo sector (huevo)"
+      ],
+      "differences": [],
+      "methodological_comparison": {}
+    },
+    {
+      "study": "Unknown (None)",
+      "filename": "Market Composition and Performance of Firms in Broiler, Chicken Egg, and Swine Production- Implications to the Philippine Competition Act.pdf",
+      "similarities": [
+        "Mismo sector (huevo)"
+      ],
+      "differences": [],
+      "methodological_comparison": {}
+    },
+    {
+      "study": "Unknown (None)",
+      "filename": "Market_Structure_and_Price_Transmission.pdf",
+      "similarities": [
+        "Mismo sector (huevo)"
+      ],
+      "differences": [],
+      "methodological_comparison": {}
+    },
+    {
+      "study": "Unknown (None)",
+      "filename": "Presidential Address.pdf",
+      "similarities": [
+        "Mismo sector (huevo)"
+      ],
+      "differences": [],
+      "methodological_comparison": {}
+    },
+    {
+      "study": "Security (2024)",
+      "filename": "s40066-024-00472-6.pdf",
+      "similarities": [
+        "Mismo sector (huevo)"
+      ],
+      "differences": [],
+      "methodological_comparison": {}
+    },
+    {
+      "study": "Unknown (None)",
+      "filename": "SAEA2015_AgProductionRestrictionsAntitrustAnalysis_Bolotova 01-15-2015.pdf",
+      "similarities": [
+        "Mismo sector (huevo)"
+      ],
+      "differences": [],
+      "methodological_comparison": {}
+    },
+    {
+      "study": "Unknown (None)",
+      "filename": "Shibia et al paper for SAEA Conference.pdf",
+      "similarities": [
+        "Mismo sector (huevo)"
+      ],
+      "differences": [],
+      "methodological_comparison": {}
+    },
+    {
+      "study": "Unknown (None)",
+      "filename": "sustainability-14-08030.pdf",
+      "similarities": [
+        "Mismo sector (huevo)"
+      ],
+      "differences": [],
+      "methodological_comparison": {}
+    },
+    {
+      "study": "Unknown (None)",
+      "filename": "The_role_of_market_concentration_in_the.pdf",
+      "similarities": [
+        "Sector similar (avicultura)",
+        "Mismo país (Colombia)"
+      ],
+      "differences": [],
+      "methodological_comparison": {}
+    },
+    {
+      "study": "Unknown (None)",
+      "filename": "understanding-oligopoly-structure-behavior-and-implications.pdf",
+      "similarities": [],
+      "differences": [],
+      "methodological_comparison": {}
+    }
+  ],
+  "most_comparable_study": {
+    "study": "Unknown (None)",
+    "filename": "American J Agri Economics - 2021 -  - Issue Information.pdf",
+    "score": 2,
+    "similarities": [
+      "Mismo sector (huevo)",
+      "Mismo país (Colombia)"
+    ],
+    "differences": []
+  },
+  "key_insights": [
+    "País más estudiado: us (26 estudios)",
+    "Sector más estudiado: egg (23 menciones)"
+  ]
+}

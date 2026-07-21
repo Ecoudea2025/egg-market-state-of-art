@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Estado del Arte Completo</title>
+<link rel="stylesheet" href="styles.css">
+<script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+</head>
+<body>
+
+<header id="navbar"></header>
+
+<main class="container">
+  <div class="page-header">
+    <h1>&#128216; Estado del Arte: Mercado del Huevo</h1>
+    <p>Documento completo generado a partir de 323 citas verificadas de 27 fuentes academicas.</p>
+    <p class="text-muted" style="margin-top:4px;font-size:0.78rem;">
+      <a href="data/estado_del_arte.md" download>Descargar Markdown</a> &middot;
+      Basado en el filtrado semantico con validacion de contexto.
+    </p>
+  </div>
+
+  <!-- Tabs -->
+  <div class="tabs">
+    <div class="tab active" data-tab="limpias">Citas Verificadas</div>
+  </div>
+
+  <!-- Content -->
+  <div class="card">
+    <div class="md-content" id="md-content">
+      <p class="text-muted text-center" style="padding:40px;">Cargando documento...</p>
+    </div>
+  </div>
+</main>
+
+<footer id="footer"></footer>
+
+<script src="shared.js"></script>
+<script>
+(function() {
+  // Tabs
+  document.querySelectorAll('.tab').forEach(function(tab) {
+    tab.addEventListener('click', function() {
+      document.querySelectorAll('.tab').forEach(function(t) { t.classList.remove('active'); });
+      this.classList.add('active');
+      loadContent(this.dataset.tab);
+    });
+  });
+
+  var contentCache = {};
+
+  function loadContent(tabId) {
+    var el = document.getElementById('md-content');
+    if (contentCache[tabId]) {
+      el.innerHTML = contentCache[tabId];
+      return;
+    }
+    el.innerHTML = '<p class="text-muted text-center" style="padding:40px;">Cargando...</p>';
+
+    fetch('data/estado_del_arte.md')
+      .then(function(r) { return r.text(); })
+      .then(function(text) {
+        var html = marked.parse(text);
+        contentCache[tabId] = html;
+        el.innerHTML = html;
+      })
+      .catch(function() {
+        el.innerHTML = '<p class="text-muted text-center" style="padding:40px;">Error al cargar el documento. Verifica que data/estado_del_arte.md existe.</p>';
+      });
+  }
+
+  loadContent('limpias');
+
+})();
+</script>
+</body>
+</html>

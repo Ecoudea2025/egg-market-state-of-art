@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Documentos - Estado del Arte</title>
+<link rel="stylesheet" href="styles.css">
+<script src="data/documents.js"></script>
+</head>
+<body>
+
+<header id="navbar"></header>
+
+<main class="container">
+  <div class="page-header">
+    <h1>&#128214; Documentos Analizados</h1>
+    <p>25 documentos academicos con citas extraidas, filtradas y organizadas por calidad.</p>
+  </div>
+
+  <div style="display:grid;grid-template-columns:280px 1fr;gap:24px;">
+    <!-- Sidebar -->
+    <aside>
+      <div class="card" style="position:sticky;top:72px;">
+        <h3 style="font-size:0.85rem;margin-bottom:12px;color:var(--text-primary);">Filtros</h3>
+        <div style="margin-bottom:12px;">
+          <label class="text-muted" style="font-size:0.72rem;display:block;margin-bottom:4px;">Calidad principal</label>
+          <select class="filter-select" id="filter-quality" style="width:100%;">
+            <option value="all">Todas</option>
+            <option value="alta">Alta</option>
+            <option value="media">Media</option>
+            <option value="baja">Baja</option>
+          </select>
+        </div>
+        <div style="margin-bottom:12px;">
+          <label class="text-muted" style="font-size:0.72rem;display:block;margin-bottom:4px;">Buscar</label>
+          <input type="text" class="search-input" id="search" placeholder="Nombre del documento..." style="width:100%;min-width:0;" />
+        </div>
+        <div class="text-muted" style="font-size:0.72rem;" id="filter-result"></div>
+      </div>
+    </aside>
+
+    <!-- Document Cards -->
+    <div id="docs-list"></div>
+  </div>
+</main>
+
+<footer id="footer"></footer>
+
+<script src="shared.js"></script>
+<script>
+(function() {
+  var docs = window.DOCUMENTS_DATA || [];
+
+  var qualityFilter = document.getElementById('filter-quality');
+  var searchInput = document.getElementById('search');
+  var listEl = document.getElementById('docs-list');
+  var resultEl = document.getElementById('filter-result');
+
+  function renderDocs(filtered) {
+    resultEl.textContent = 'Mostrando ' + filtered.length + ' de ' + docs.length + ' documentos';
+    var html = '';
+    filtered.forEach(function(doc, idx) {
+      var qualityCls = doc.primary_quality === 'alta' ? 'green' : doc.primary_quality === 'media' ? 'yellow' : 'orange';
+      var total = doc.count;
+      html += '<div class="card">';
+      // Header
+      html += '<div class="card-header" style="cursor:pointer;" onclick="var el=this.nextElementSibling;el.style.display=el.style.display===\'none\'?\'block\':\'none\';this.querySelector(\'.arrow\').textContent=el.style.display===\'block\'?\'&#9660;\':\'&#9654;\';">';
+      html += '<div>';
+      html += '<span style="color:var(--text-muted);margin-right:8px;">' + (idx + 1) + '.</span>';
+      html += '<span class="card-title">' + SHARED.esc(doc.name) + '</span>';
+      html += '<span class="badge badge-' + qualityCls + '" style="margin-left:10px;">' + doc.primary_quality.toUpperCase() + '</span>';
+      html += '</div>';
+      html += '<span class="arrow" style="color:var(--text-muted);font-size:0.7rem;">&#9654;</span>';
+      html += '</div>';
+      // Quality bar (always visible)
+      html += '<div style="margin-bottom:6px;">' + SHARED.qualityBar(doc.quality_dist, total) + '</div>';
+      html += '<div style="font-size:0.75rem;color:var(--text-muted);margin-bottom:4px;">' +
+        '<span class="badge badge-blue" style="font-size:0.65rem;">' + doc.count + ' citas</span> ' +
+        SHARED.topicTags(doc.topics) +
+        '</div>';
+      // Key finding
+      if (doc.key_finding) {
+        html += '<div style="font-size:0.8rem;color:var(--text-secondary);line-height:1.5;margin-bottom:4px;">' +
+          '<em style="color:var(--accent-blue-light);">Hallazgo:</em> ' + SHARED.esc(doc.key_finding).substring(0, 200) + '...</div>';
+      }
+      // Expandable citations
+      html += '<div class="expandable-content collapsed" style="max-height:0;">';
+      html += '<div style="border-top:1px solid var(--border);margin-top:8px;padding-top:8px;">';
+      html += '<h4 style="font-size:0.8rem;color:var(--text-primary);margin-bottom:8px;">Citas (' + doc.citations.length + '):</h4>';
+      doc.citations.forEach(function(c) {
+        html += '<div style="background:var(--bg-primary);border-radius:6px;padding:10px;margin-bottom:8px;font-size:0.78rem;line-height:1.5;">';
+        html += '<div style="margin-bottom:4px;">' + SHARED.qualityBadge(c.quality) +
+          ' <span style="font-family:var(--font-mono);color:var(--text-muted);font-size:0.7rem;">Score: ' + (c.score || 0) + '</span>';
+        if (c.reference) html += ' <span style="color:var(--accent-blue-light);font-size:0.7rem;">Ref: ' + SHARED.esc(c.reference) + '</span>';
+        html += '</div>';
+        html += '<div style="color:var(--text-secondary);">' + SHARED.esc(c.text) + '</div>';
+        if (c.context && c.context.trim()) {
+          html += '<div style="margin-top:4px;font-size:0.7rem;color:var(--text-muted);border-top:1px solid var(--border);padding-top:4px;">' +
+            '<em>Contexto:</em> ' + SHARED.esc(c.context).substring(0, 250) + '...</div>';
+        }
+        html += '</div>';
+      });
+      html += '</div></div>';
+      html += '</div>';
+    });
+    listEl.innerHTML = html;
+    if (filtered.length === 0) {
+      listEl.innerHTML = '<div class="card text-center text-muted" style="padding:40px;">No se encontraron documentos.</div>';
+    }
+  }
+
+  function filter() {
+    var q = qualityFilter.value;
+    var s = searchInput.value.toLowerCase();
+    var filtered = docs.filter(function(doc) {
+      if (q !== 'all' && doc.primary_quality !== q) return false;
+      if (s && doc.name.toLowerCase().indexOf(s) === -1 &&
+          (doc.topics || []).join(' ').toLowerCase().indexOf(s) === -1) return false;
+      return true;
+    });
+    renderDocs(filtered);
+  }
+
+  qualityFilter.addEventListener('change', filter);
+  searchInput.addEventListener('input', filter);
+
+  filter();
+
+})();
+</script>
+</body>
+</html>

@@ -1,0 +1,60 @@
+{
+  "metadata": {
+    "filename": "20130203163434703403.pdf",
+    "authors": "Unknown",
+    "year": null,
+    "title": "FECHA EXTRACCIÓN: 2026-07-19T01:12:56.230958",
+    "processing_date": "2026-07-19T01:17:47.968783"
+  },
+  "content": {
+    "abstract": "This paper examines the vertical price relationship between upstream and downstream products in China’s layer industry\nchain by estimating elasticity coefficients of the price transmission. We use cointegration tests, error correction models\nand finite distributed lag models to analyze vertical price shifts between corn, layer feed, egg-laying chicken and egg\nprices. With monthly data from 1994 to 2010, our results show that various prices in China’s layer industry chain are well\nintegrated. In addition, our results indicate that both long-run and short-run price relationships between upstream and\ndownstream products in layer industry chain exist and the long-run equilibrium, to a certain extent, may eliminate the\nshort-run dynamics price deviation. We also found that the influence of corn and feed prices on egg prices is still more\nremarkable than egg-laying chicken prices. Our findings imply that governments should pay more attention to corn and\nlayer feed prices in order to stabilize egg prices under the conditions of market integration.\nKey words: finite distributed lag model, vertical price transmission, layer industry chain, China\nmeat, eggs and sugar released in nationwide and ex-\nINTRODUCTION ecuted market regulation. The changes in agricultural\ncirculation system have greatly promoted agricultural\nSince the reform and opening up in 1978, China’s eco- production and development of circulation system, es-\nnomic system has changed significantly, and agricul- pecially a multi-channel circulation system, not only\ntural circulation system has developed rapidly. Before enriched the market supply of farm products but also\n1980, China had a restrictive state-run food system; improved the managerial efficiency of agricultural\nsome foods were sold at a fixed price in cities. After markets.\n1980, a series of market policies were introduced and With continuing institutional changes, agriculture and\nthe state-run system was dismantled (Huang and Rozelle rural development, however, are facing more uncertain\n1998). Since then, China’s agri-food market has expe- factors and more serious market risks (Zhang 2010).\nrienced a gradual liberalization, moving from a state- In recent years, prices of fresh agri-food, such as\nowned system to a more diversified system. Along vegetables, fruits, meat, and eggs, were experiencing\nwith market openness continues to expand, agricultural high volatility. According to the monitoring by Minis-\ncirculation system realized by plans to free markets regu- try of Agriculture of China, the changes of China agri-\nlated the circulation system of comprehensive conver- cultural product wholesale prices index show “N” shape\nsion in 1992, the price of vegetables, fruits, edible oil, during January 2005 to April 2010, increasing from 123.2\nReceived 2 June, 2011 Accepted 9 October, 2011\nCorrespondence XU Shi-wei, Professor, Ph D, Tel: +86-10-82109902, E-mail: xushiwei@mail.caas.net.cn\n© 2011, CAAS. All rights reserved. Published by Elsevier Ltd.\ndoi:10.1016/S1671-2927(11)60181-8",
+    "methodology": "contact index methods to analyse spatial price trans- used, including testing for unit roots, cointegration tests,\nmission relationship. Those studies mainly focused on error correction models, granger causality tests, and\nthe grain markets including rice, corn, and wheat (Wan finite distributed lag models approach. A detailed de-\net al. 1997; Yu and Huang 1998; Tian 1998; Wu 1999). scription of our data set is given in Section 3. Empiri-\nStudies have shown that Chinese agricultural commodity cal results and discussions are presented in Section 4.\nbetween spatially separated markets exist cointegrating Finally, conclusions and implications are drawn in Sec-\ntion 5.\nrelationship, and the degree of market integration is\ncontinuously improved (Tian 1998; Yu and Huang 1998;\nWu 1999). Sophisticated econometric techniques are METHODOLOGY\napplied to analyze vertical price relationship in recent\nyears, mainly concerning with grain, vegetable, meat, The rate of price response is measured through the lag\nand aquatic products markets (Fan et al. 2007; Wang relationship between various prices. Since most eco-\n© 2011, CAAS. All rights reserved. Published by Elsevier Ltd.",
+    "results": "show that various prices in China’s layer industry chain are well\nintegrated. In addition, our results indicate that both long-run and short-run price relationships between upstream and\ndownstream products in layer industry chain exist and the long-run equilibrium, to a certain extent, may eliminate the\nshort-run dynamics price deviation. We also found that the influence of corn and feed prices on egg prices is still more\nremarkable than egg-laying chicken prices. Our findings imply that governments should pay more attention to corn and\nlayer feed prices in order to stabilize egg prices under the conditions of market integration.\nKey words: finite distributed lag model, vertical price transmission, layer industry chain, China\nmeat, eggs and sugar released in nationwide and ex-\nINTRODUCTION ecuted market regulation. The changes in agricultural\ncirculation system have greatly promoted agricultural\nSince the reform and opening up in 1978, China’s eco- production and development of circulation system, es-\nnomic system has changed significantly, and agricul- pecially a multi-channel circulation system, not only\ntural circulation system has developed rapidly. Before enriched the market supply of farm products but also\n1980, China had a restrictive state-run food system; improved the managerial efficiency of agricultural\nsome foods were sold at a fixed price in cities. After markets.\n1980, a series of market policies were introduced and With continuing institutional changes, agriculture and\nthe state-run system was dismantled (Huang and Rozelle rural development, however, are facing more uncertain\n1998). Since then, China’s agri-food market has expe- factors and more serious market risks (Zhang 2010).\nrienced a gradual liberalization, moving from a state- In recent years, prices of fresh agri-food, such as\nowned system to a more diversified system. Along vegetables, fruits, meat, and eggs, were experiencing\nwith market openness continues to expand, agricultural high volatility. According to the monitoring by Minis-\ncirculation system realized by plans to free markets regu- try of Agriculture of China, the changes of China agri-\nlated the circulation system of comprehensive conver- cultural product wholesale prices index show “N” shape\nsion in 1992, the price of vegetables, fruits, edible oil, during January 2005 to April 2010, increasing from 123.2\nReceived 2 June, 2011 Accepted 9 October, 2011\nCorrespondence XU Shi-wei, Professor, Ph D, Tel: +86-10-82109902, E-mail: xushiwei@mail.caas.net.cn\n© 2011, CAAS. All rights reserved. Published by Elsevier Ltd.\ndoi:10.1016/S1671-2927(11)60181-8",
+    "conclusion": "s and implications are drawn in Sec-\ntion 5.\nrelationship, and the degree of market integration is\ncontinuously improved (Tian 1998; Yu and Huang 1998;\nWu 1999). Sophisticated econometric techniques are METHODOLOGY\napplied to analyze vertical price relationship in recent\nyears, mainly concerning with grain, vegetable, meat, The rate of price response is measured through the lag\nand aquatic products markets (Fan et al. 2007; Wang relationship between various prices. Since most eco-\n© 2011, CAAS. All rights reserved. Published by Elsevier Ltd."
+  },
+  "key_data": {
+    "hhi_values": [],
+    "cr_values": [],
+    "lerner_values": [],
+    "elasticity_values": [],
+    "market_shares": [],
+    "concentration_measures": [],
+    "countries": [
+      "united states",
+      "usa",
+      "us",
+      "ethiopia",
+      "mexico",
+      "china"
+    ],
+    "sectors": [
+      "egg",
+      "eggs",
+      "chicken",
+      "meat",
+      "corn",
+      "agri-food",
+      "agricultural"
+    ]
+  },
+  "classification": {
+    "categories": [
+      "Mercado huevos internacional",
+      "Estructura mercado agroalimentario"
+    ],
+    "primary_category": "Mercado huevos internacional"
+  },
+  "key_quotes": [
+    "China\nAbstract\nThis paper examines the vertical price relationship between upstream and downstream products in China’s layer industry\nchain by estimating elasticity coefficients of the price transmission",
+    "But the transmission elasticity\nfrom egg price to layer feed price nearly\nunchanged in two periods, the direct im-\npact a 1% price increase (decline) of egg\nprice generates a 0"
+  ],
+  "tables": [],
+  "relevance_colombia": {
+    "score": 3,
+    "level": "Media",
+    "reasons": [
+      "Estudia mercado de huevo",
+      "Estudia países en desarrollo"
+    ]
+  }
+}

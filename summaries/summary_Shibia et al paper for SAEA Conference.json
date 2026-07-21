@@ -1,0 +1,60 @@
+{
+  "metadata": {
+    "filename": "Shibia et al paper for SAEA Conference.pdf",
+    "authors": "Unknown",
+    "year": null,
+    "title": "FECHA EXTRACCIÓN: 2026-07-19T01:16:36.309650",
+    "processing_date": "2026-07-19T01:17:48.650845"
+  },
+  "content": {
+    "abstract": "Per capita consumption of meat products has been rapidly increasing in Sub-Saharan African\ncountries including Kenya. This paper examines a household demand system for five meat\nproducts in Kenya: beef with bones, boneless beef, mutton, chicken, and pork. The Linear\nApproximate Almost Ideal Demand System (LA/AIDS) model is used because of its flexibility\nand ease of application with household expenditure data. The LA/AIDS model is estimated using\nhousehold consumption data obtained from Kenya Integrated Household Budget Survey of 2013.\nExpectedly, the estimates of uncompensated and compensated own price elasticities of demand\nfor all five meat products are negative but larger than –1. Although the estimates of uncompensated\ncross price elasticities are negative implying that these meat products are gross complements, the\nestimates of compensated cross price elasticities are found to be positive indicating a quite strong\nsubstitution between these meat products. Expenditure elasticities of demand for the meat products\nare positive implying normal goods. Mutton/goat is a necessity good (elasticity <1) among the\nKenyan households.\nKey words: LA-AIDS, Meat demand, Elasticities, Kenya\nIntroduction\nThe Livestock sector contributes to 12% of Kenya’s Gross Domestic Product (GDP), 40% to the\nagricultural GDP and 50% of employment in the agricultural sector (Ministry of Livestock\nDevelopment 2010). The estimated contribution is 4.54 billion dollars, which is slightly less than\nthat from crops and horticulture (5.25 billion US dollars) for arable agriculture (IGAD Center for\nPastoral Areas & Livestock Development 2013). Of the total GDP, animal production contributes\nto 5.5%, 22% of agricultural GDP and more than 40% agricultural commodities farm gate value\n(Kenya National Bureau of Statistics 2015; Ministry of Agriculture, Livestock and Fisheries\n(MAL&F) 2015).\nConsequently, the economy is supported by dairy and meat products, eggs, hides, skins, and wool.\nThe arid and semi-arid lands (ASALs) produces about 67% of meat under the pastoral production\nsystem (Institute of Policy Analysis and Research 2004).\n2",
+    "methodology": "a systems",
+    "results": "of allocation using one step and complete information is the same as the two stage process. The\nallocation requires perfect information in the sense that the outcomes are identical.\nThe weak separability of the utility function is a necessary and sufficient condition for the broad\ngroup at the second stage (Dearton and Muellbauer 2009; Taljaard et al. 2004). A demand function\nis weakly separable if the marginal rate of substitution between any two goods that belongs to the\nsame group are independent of quantities of goods outside the group. (Mas-Collel et al. 1995).\nThe study assumed the five meat products are weakly separable and were modeled together.\nTaljaard et al. (2004) conducted two tests of weak separability using F and likelihood ratio test.\nThis research recommended that beef, chicken, pork, and mutton are weakly separable and should\nbe modeled together. Therefore, the empirical model consists of five budget share equations\ncorresponding to each meat product estimated using the seemingly unrelated regression technique.\nData and Estimation Issues\nThe study used secondary data obtained from Kenya Integrated Household Budget Survey 2005-\n2006 (Kenya National Bureau of Statistics (KNBS) 2015). A total sample size of 358 households",
+    "conclusion": "The elasticity estimates in this study are consistent with the economic theory that own price\nelasticities are negative. Uncompensated elasticities suggest that own price elasticities are\nsignificant and meat products are more of complements than substitutes within the different\ncategories.\nBoth the compensated own price and cross price elasticities for meat products are significant. Most\ncompensated cross price elasticities have positive signs as expected of priory implying they are\nsubstitutes. The results suggest evidence of different interrelationships among the meat products.\nThe income elasticities of all the meat products were positive, significant and can be considered\nas normal to luxury good. The results were bone beef (1.03), boneless beef (0.99), goat/mutton\n(0.89), chicken (1.1), and pork (0.96). The findings imply that mutton/goat is a necessity good\namong the meat products while bone beef and chicken a luxury good contrary to earlier studies.\nThe estimates of elasticities are useful in redefining strategies for consumption of meat and would\nprovide insights into policies targeting livestock sector. Thus the study has important implications\nfor policy in the livestock sector and adds to the growing literature on meat demand using LA-\nAIDS model.\nLimitations and future research\nThe study did not incorporate socio-economic characteristics in estimating the demand systems.\nThe household size, household age sex, occupation, location and religion among others are\nrecommended as explanatory variables. The study used truncated LA-AIDS model and applying\ncensoring in a two-stage approach could be appropriate considering zero- consumption of goods.\nThe first stage process involves the application of a binary choice model. The second stage a\ncensored LA-AIDS by incorporating the Inverse Mills Ratio (IMR) from stage one estimation. The\nsocio-economic variables could explain the change in preferences from the chicken as a necessity\ngood to mutton/goat. Future studies could analyze weak separability of meat products and\nincorporate fish and camel in the demand systems.\n15"
+  },
+  "key_data": {
+    "hhi_values": [],
+    "cr_values": [],
+    "lerner_values": [],
+    "elasticity_values": [],
+    "market_shares": [],
+    "concentration_measures": [],
+    "countries": [
+      "usa",
+      "us",
+      "nigeria"
+    ],
+    "sectors": [
+      "egg",
+      "eggs",
+      "poultry",
+      "chicken",
+      "meat",
+      "dairy",
+      "agricultural"
+    ]
+  },
+  "classification": {
+    "categories": [
+      "Mercado huevos internacional",
+      "Estructura mercado agroalimentario"
+    ],
+    "primary_category": "Mercado huevos internacional"
+  },
+  "key_quotes": [
+    "Mutton/goat is a necessity good (elasticity <1) among the\nKenyan households",
+    "However, many studies ignore this differentiation,\nproducing an aggregate elasticity figure that might not be relevant for marketing and policy\ninferences",
+    "Consistent with this study, chicken has the least own price elasticity",
+    "Chicken and beef with bones\nhas income elasticity of greater than 1 and they can be considered as a luxury good",
+    "The relatively less income elasticity on\nGoat/mutton could imply a necessity animal protein source"
+  ],
+  "tables": [],
+  "relevance_colombia": {
+    "score": 3,
+    "level": "Media",
+    "reasons": [
+      "Estudia mercado de huevo",
+      "Estudia países en desarrollo"
+    ]
+  }
+}

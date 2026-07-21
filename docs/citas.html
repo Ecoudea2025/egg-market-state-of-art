@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Citas - Estado del Arte</title>
+<link rel="stylesheet" href="styles.css">
+<script src="data/citations.js"></script>
+</head>
+<body>
+
+<header id="navbar"></header>
+
+<main class="container">
+  <div class="page-header">
+    <h1>&#128221; Citas Verificadas</h1>
+    <p>323 citas extraidas de 27 documentos academicos, filtradas con validacion semantica.</p>
+  </div>
+
+  <!-- Metrics -->
+  <div class="metrics-grid" id="metrics-grid"></div>
+
+  <!-- Filters -->
+  <div class="filter-bar">
+    <input type="text" class="search-input" id="search" placeholder="Buscar en citas, documentos, o contexto..." />
+    <select class="filter-select" id="filter-quality">
+      <option value="all">Todas las calidades</option>
+      <option value="alta">Alta</option>
+      <option value="media">Media</option>
+      <option value="baja">Baja</option>
+    </select>
+    <select class="filter-select" id="filter-topic">
+      <option value="all">Todos los temas</option>
+    </select>
+    <span class="text-muted" style="font-size:0.8rem;" id="result-count">323 resultados</span>
+    <button class="btn btn-primary" onclick="exportCSV()" style="margin-left:auto;">Exportar CSV</button>
+  </div>
+
+  <!-- Table -->
+  <div style="overflow-x:auto;">
+    <table class="data-table" id="citations-table">
+      <thead>
+        <tr>
+          <th data-sort="score" style="width:50px;">Score</th>
+          <th data-sort="quality" style="width:60px;">Calidad</th>
+          <th data-sort="text">Cita</th>
+          <th data-sort="document" style="width:160px;">Documento</th>
+          <th data-sort="topic" style="width:120px;">Tema</th>
+          <th data-sort="context" style="width:240px;">Contexto</th>
+        </tr>
+      </thead>
+      <tbody id="table-body"></tbody>
+    </table>
+  </div>
+</main>
+
+<footer id="footer"></footer>
+
+<script src="shared.js"></script>
+<script>
+(function() {
+  var allCitations = window.CITATIONS_DATA || [];
+
+  // --- Metrics ---
+  function updateMetrics(filtered) {
+    var total = filtered.length;
+    var alta = filtered.filter(function(c) { return c.quality === 'alta'; }).length;
+    var media = filtered.filter(function(c) { return c.quality === 'media'; }).length;
+    var baja = filtered.filter(function(c) { return c.quality === 'baja'; }).length;
+    var grid = document.getElementById('metrics-grid');
+    grid.innerHTML = [
+      { label: 'Total', value: total, sub: 'citas filtradas', cls: 'blue' },
+      { label: 'Alta Calidad', value: alta, sub: Math.round(alta/total*100) + '% del total', cls: 'green' },
+      { label: 'Media Calidad', value: media, sub: Math.round(media/total*100) + '% del total', cls: 'yellow' },
+      { label: 'Baja Calidad', value: baja, sub: Math.round(baja/total*100) + '% del total', cls: 'orange' },
+    ].map(function(c) {
+      return '<div class="metric-card ' + c.cls + '">' +
+        '<div class="metric-label">' + c.label + '</div>' +
+        '<div class="metric-value">' + c.value + '</div>' +
+        '<div class="metric-sub">' + c.sub + '</div>' +
+        '</div>';
+    }).join('');
+    document.getElementById('result-count').textContent = total + ' resultados';
+  }
+
+  // --- Populate topic filter ---
+  var topics = {};
+  allCitations.forEach(function(c) {
+    if (c.topic) topics[c.topic] = (topics[c.topic] || 0) + 1;
+  });
+  var topicOpts = Object.keys(topics).sort();
+  var topicSelect = document.getElementById('filter-topic');
+  topicOpts.forEach(function(t) {
+    var opt = document.createElement('option');
+    opt.value = t; opt.textContent = t + ' (' + topics[t] + ')';
+    topicSelect.appendChild(opt);
+  });
+
+  // --- Render table ---
+  var sortCol = 'score';
+  var sortDir = 'desc';
+
+  function renderTable(filtered) {
+    var tbody = document.getElementById('table-body');
+    var html = '';
+    filtered.forEach(function(c) {
+      html += '<tr>' +
+        '<td style="font-family:var(--font-mono);color:var(--text-muted);">' + (c.score || 0) + '</td>' +
+        '<td>' + SHARED.qualityBadge(c.quality) + '</td>' +
+        '<td><div class="cit-text">' + SHARED.esc(c.text) + '</div></td>' +
+        '<td><div style="font-size:0.78rem;">' + SHARED.esc(SHARED.truncate(c.document, 40)) + '</div></td>' +
+        '<td><span class="badge badge-gray" style="font-size:0.65rem;">' + SHARED.esc(c.topic) + '</span></td>' +
+        '<td><div class="cit-context">' + SHARED.esc(c.context || '') + '</div></td>' +
+        '</tr>';
+    });
+    tbody.innerHTML = html || '<tr><td colspan="6" class="text-center text-muted">Sin resultados</td></tr>';
+  }
+
+  // --- Filter ---
+  function filter() {
+    var search = document.getElementById('search').value.toLowerCase();
+    var quality = document.getElementById('filter-quality').value;
+    var topic = document.getElementById('filter-topic').value;
+
+    var filtered = allCitations.filter(function(c) {
+      if (quality !== 'all' && c.quality !== quality) return false;
+      if (topic !== 'all' && c.topic !== topic) return false;
+      if (search) {
+        var haystack = (c.text + ' ' + c.document + ' ' + c.context + ' ' + c.topic).toLowerCase();
+        if (haystack.indexOf(search) === -1) return false;
+      }
+      return true;
+    });
+
+    // Sort
+    filtered.sort(function(a, b) {
+      var va = a[sortCol] || '';
+      var vb = b[sortCol] || '';
+      if (typeof va === 'string') va = va.toLowerCase();
+      if (typeof vb === 'string') vb = vb.toLowerCase();
+      if (va < vb) return sortDir === 'asc' ? -1 : 1;
+      if (va > vb) return sortDir === 'asc' ? 1 : -1;
+      return 0;
+    });
+
+    updateMetrics(filtered);
+    renderTable(filtered);
+    return filtered;
+  }
+
+  document.getElementById('search').addEventListener('input', filter);
+  document.getElementById('filter-quality').addEventListener('change', filter);
+  document.getElementById('filter-topic').addEventListener('change', filter);
+
+  // --- Sort ---
+  document.querySelectorAll('.data-table th[data-sort]').forEach(function(th) {
+    th.addEventListener('click', function() {
+      var col = this.dataset.sort;
+      if (sortCol === col) {
+        sortDir = sortDir === 'asc' ? 'desc' : 'asc';
+      } else {
+        sortCol = col;
+        sortDir = 'desc';
+      }
+      document.querySelectorAll('.data-table th').forEach(function(t) {
+        t.classList.remove('sorted', 'sorted-desc');
+      });
+      if (sortDir === 'desc') this.classList.add('sorted-desc');
+      else this.classList.add('sorted');
+      filter();
+    });
+  });
+
+  // --- Export CSV ---
+  window.exportCSV = function() {
+    var filtered = filter();
+    var headers = ['Score', 'Calidad', 'Cita', 'Documento', 'Tema', 'Contexto'];
+    var rows = filtered.map(function(c) {
+      return [c.score, c.quality, '"' + (c.text || '').replace(/"/g, '""') + '"',
+              '"' + (c.document || '').replace(/"/g, '""') + '"',
+              c.topic, '"' + (c.context || '').replace(/"/g, '""') + '"'];
+    });
+    var csv = [headers.join(',')].concat(rows.map(function(r) { return r.join(','); })).join('\n');
+    var blob = new Blob(['\uFEFF' + csv], { type: 'text/csv;charset=utf-8' });
+    var url = URL.createObjectURL(blob);
+    var a = document.createElement('a');
+    a.href = url; a.download = 'citas_estado_del_arte.csv'; a.click();
+    URL.revokeObjectURL(url);
+  };
+
+  // Initial sort (by score desc)
+  document.querySelector('.data-table th[data-sort]').classList.add('sorted-desc');
+  filter();
+
+})();
+</script>
+</body>
+</html>

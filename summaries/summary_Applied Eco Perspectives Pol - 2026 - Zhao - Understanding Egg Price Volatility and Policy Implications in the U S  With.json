@@ -1,0 +1,134 @@
+{
+  "metadata": {
+    "filename": "Applied Eco Perspectives Pol - 2026 - Zhao - Understanding Egg Price Volatility and Policy Implications in the U S  With.pdf",
+    "authors": "Unknown",
+    "year": null,
+    "title": "FECHA EXTRACCIÓN: 2026-07-19T01:13:40.098951",
+    "processing_date": "2026-07-19T01:17:48.122437"
+  },
+  "content": {
+    "abstract": "Eggs are an inexpensive and sustainable source of proteins, but volatility in the U.S. egg prices has intensified in recent years,\nraising concerns over food affordability and market stability. This study examines the drivers of U.S. egg price dynamics over\n2004–2025 using a two- stage framework that combines LASSO- based variable selection with an ARIMAX forecasting model.\nThe results reveal strong price persistence, together with significant impacts of energy, feed costs and seasonal demand. The\ninfluence of avian influenza is strongly time- dependent, with limited effects in full- sample averages but significant impacts\nduring high- intensity outbreak periods, particularly in the mid- 2010s and after 2022. Out- of- sample forecasts indicate that the\nLASSO- ARIMAX model reduces forecast errors by more than 60% relative to a univariate ARIMA benchmark. These findings\nsuggest that stabilizing key input costs, strengthening timely epidemiological surveillance, and proactively managing predictable\nseasonal demand pressures are more effective than relying on any single explanatory factor.\n1 | Introduction (Yu 2014a; Keller et al. 2022; Zhu and Yu 2025). Recent record-\nhigh egg prices in Japan have led consumer to stop buying eggs\nEggs are one of the most affordable, environment- friendly and as casually as before.1\nessential protein sources consumed widely, offering high nutri-\ntional value and efficient protein conversion from feed compared Multiple factors drive egg prices, often influenced by intri-\nto other animal products (Alexander et al. 2016; Garnett 2009; cate interactions between supply, demand, market shocks,\nLiu et al. 2022; Meister and Yu 2025). However, recent volatility and broader macroeconomic conditions. Agricultural input\nin egg prices has raised significant concerns among consumers, costs, particularly feed (grain prices), energy, and labor, sig-\nproducers, and policymakers in many countries including the nificantly influence the production cost of eggs (Matthews\nUS, Germany and Japan. According to recent USDA reports, and Sumner 2015; Keller et al. 2022; Meister and Yu 2025;\negg prices in the U.S. surged dramatically by more than 60% in Yu 2014b). Market structure (e.g., market power), and animal\n2022 alone, marking one of the sharpest increases ever recorded welfare policies are also possible driving forces (Allender and\n(USDA 2024). Such price volatility poses serious economic and Richards 2010). Additionally, recent market shocks, including\nsocial welfare concerns, disproportionately affecting lower- the COVID- 19 pandemic, international conflicts, monetary\nincome households and prompting urgent calls for reliable policy shifts, and recurrent outbreaks of avian influenza, have\nforecasting and effective management of egg market dynamics significantly contributed to uncertainty and disruption in egg\nThis is an open access article under the terms of the Creative Commons Attribution License, which permits use, distribution and reproduction in any medium,\nprovided the original work is properly cited.\n© 2026 The Author(s). Applied Economic Perspectives and Policy published by Wiley Periodicals LLC on behalf of Agricultural & Applied Economics Association.\nApplied Economic Perspectives and Policy, 2026; 0:1–21 1\nhttps://doi.org/10.1002/aepp.70082",
+    "methodology": "in agricultural markets.\nTraditional time- series approaches such as ARIMA and its exten- Section 3 describes the methodology used for predictor selection,\nsions with exogenous variables (ARIMAX) have provided a trans- prediction, and forecasting accuracy measurement. Section 4\nparent framework for short- term prediction (Roy 1971; Cryer and presents data source and pre- processing steps. Section 5 dis-\nChan 2008; Meister and Yu 2025). Accurately predicting food cusses the feature selection results. And Section 6 presents\nprices could help governments and producers make preventive the model forecasting results. Section 7 concludes with policy\npolicies to mitigate the negative impacts (Liu et al. 2022; Wang implementation.\net al. 2021). However, when dozens of potential predictors—\nranging from grain and energy price indices to pandemic case\ncounts and seasonal consumption dummies—are considered 2 | Literature Review\nsimultaneously, ordinary linear models suffer from overfitting,\nmulticollinearity, and a loss of interpretability. This challenge 2.1 | Egg Market in the U.S.\nis particularly relevant when the importance of predictors may\nvary across market conditions. The current state of the egg industry and market in the United\nStates is shaped by an intricate interplay of evolving produc-\nEconometric analysis primarily focuses on statistical signif- tion systems, shifting consumer preferences, changing regu-\nicance of each variable, which is different from economic sig- latory frameworks, and macroeconomic pressures. Over the\nnificance. All statistically significant variables are not equal in past century, the industry has undergone significant transfor-\nimportance of affecting outcome variables. From the policy per- mations toward more sustainable and welfare- oriented sys-\nspective, governments could spend more resources for import- tems. These developments have not only altered how eggs are\nant variables, given the limited resources. In the case of high produced but have also affected market structures and con-\negg prices, governments could first identify the most important sumer access.\nvariables which triggered the high prices, and then take corre-\nsponding policies to stabilize the prices. A marked trend in the U.S. egg industry is the ongoing expan-\nsion of alternative housing models, such as cage- free, barn, and\nTo address these limitations, we propose a two- stage method- organic systems, alongside conventional battery cage produc-\nology to predict monthly egg- price changes from January 2004 tion. This shift has been primarily consumer- driven, reflecting\nthrough January 2025, that first applies the Least Absolute growing societal concern for animal welfare and environmen-\nShrinkage and Selection Operator (LASSO) to isolate the most tally sustainable practices (Kidd and Anderson 2019; Meister\ninfluential drivers, while allowing their relevance to vary across and Yu 2025). While alternative systems have grown rapidly\nmarket conditions. By shrinking negligible coefficients to in recent years, they have not fully replaced conventional pro-\nzero, LASSO reduces dimensionality while preserving predic- duction, and the industry is currently characterized by a mixed\ntive power. housing structure.2 Despite a decline in the number of small-\nscale egg producers, industry consolidation and technologi-\nIn the second stage, we estimate an ARIMAX model using cal innovations have sustained the supply of affordable eggs\nonly the LASSO- selected variables, thereby constructing a through enhanced productivity and efficiency.\nparsimonious yet powerful forecasting specification. Out- of-\nsample evaluation demonstrates that this targeted ARIMAX Recent improvements in hen management practices, such as ex-\noutperforms both a simple ARIMA baseline and more tending the laying cycle, have allowed some flocks to reach out-\nparameter- rich alternatives in terms of root- mean- squared puts of up to 500 eggs per hen across their productive lifetime,\nerror and mean absolute percentage error. Our results reveal supporting both economic and environmental sustainability\nthat, alongside the expected persistence of past price levels, (Gautron et al. 2021).\nshocks to feed and energy inputs, fluctuations in labor costs,\nand discrete events such as avian influenza outbreaks and The movement toward alternative production systems has signif-\nholiday- season demand spikes emerge as the primary deter- icant economic implications. The cost of producing eggs in barn\nminants of price dynamics. or cage- free systems is estimated to be approximately 40% higher\nper dozen compared to conventional cage systems (Sumner\nBy combining rigorous variable selection with a classic econo- et al. 2010). These added costs are often passed onto consumers,\nmetric forecasting framework, this study contributes to the leading to higher retail prices and raising concerns about equity\nliterature in three respects. First, it provides a transparent, and accessibility, especially for low- income populations.\ndata- driven ranking of cost and demand factors that drive egg-\nprice volatility in the U.S. market. Second, it demonstrates how Nevertheless, the specialty egg market—including organic and\nLASSO- driven dimensionality reduction can enhance ARIMAX cage- free products—has seen notable growth. These products\nforecasting performance without sacrificing interpretabil- often command premium prices and are capturing an increas-\nity. Finally, it offers policymakers and industry participants a ing share of total egg sales (Oberholtzer et al. 2006). The demand\n2 Applied Economic Perspectives and Policy, 2026\n20405804,\n0,\nDownloaded\nfrom\nhttps://onlinelibrary.wiley.com/doi/10.1002/aepp.70082\nby\nCochrane\nColombia,\nWiley\nOnline\nLibrary\non\n[18/07/2026].\nSee\nthe\nTerms\nand\nConditions\n(https://onlinelibrary.wiley.com/terms-and-conditions)\non\nWiley\nOnline\nLibrary\nfor\nrules\nof\nuse;\nOA\narticles\nare\ngoverned\nby\nthe\napplicable\nCreative\nCommons\nLicense",
+    "results": "reveal strong price persistence, together with significant impacts of energy, feed costs and seasonal demand. The\ninfluence of avian influenza is strongly time- dependent, with limited effects in full- sample averages but significant impacts\nduring high- intensity outbreak periods, particularly in the mid- 2010s and after 2022. Out- of- sample forecasts indicate that the\nLASSO- ARIMAX model reduces forecast errors by more than 60% relative to a univariate ARIMA benchmark. These findings\nsuggest that stabilizing key input costs, strengthening timely epidemiological surveillance, and proactively managing predictable\nseasonal demand pressures are more effective than relying on any single explanatory factor.\n1 | Introduction (Yu 2014a; Keller et al. 2022; Zhu and Yu 2025). Recent record-\nhigh egg prices in Japan have led consumer to stop buying eggs\nEggs are one of the most affordable, environment- friendly and as casually as before.1\nessential protein sources consumed widely, offering high nutri-\ntional value and efficient protein conversion from feed compared Multiple factors drive egg prices, often influenced by intri-\nto other animal products (Alexander et al. 2016; Garnett 2009; cate interactions between supply, demand, market shocks,\nLiu et al. 2022; Meister and Yu 2025). However, recent volatility and broader macroeconomic conditions. Agricultural input\nin egg prices has raised significant concerns among consumers, costs, particularly feed (grain prices), energy, and labor, sig-\nproducers, and policymakers in many countries including the nificantly influence the production cost of eggs (Matthews\nUS, Germany and Japan. According to recent USDA reports, and Sumner 2015; Keller et al. 2022; Meister and Yu 2025;\negg prices in the U.S. surged dramatically by more than 60% in Yu 2014b). Market structure (e.g., market power), and animal\n2022 alone, marking one of the sharpest increases ever recorded welfare policies are also possible driving forces (Allender and\n(USDA 2024). Such price volatility poses serious economic and Richards 2010). Additionally, recent market shocks, including\nsocial welfare concerns, disproportionately affecting lower- the COVID- 19 pandemic, international conflicts, monetary\nincome households and prompting urgent calls for reliable policy shifts, and recurrent outbreaks of avian influenza, have\nforecasting and effective management of egg market dynamics significantly contributed to uncertainty and disruption in egg\nThis is an open access article under the terms of the Creative Commons Attribution License, which permits use, distribution and reproduction in any medium,\nprovided the original work is properly cited.\n© 2026 The Author(s). Applied Economic Perspectives and Policy published by Wiley Periodicals LLC on behalf of Agricultural & Applied Economics Association.\nApplied Economic Perspectives and Policy, 2026; 0:1–21 1\nhttps://doi.org/10.1002/aepp.70082",
+    "conclusion": "and Policy Implementation\nImportantly, the model's performance is driven by the inclu- This study investigates the structural and temporal drivers of egg\nsion of lagged exogenous predictors selected within the train- price volatility in the United States over the period 2004–2025.\ning sample, ensuring temporal validity and avoiding look- ahead By integrating data- driven feature selection with a time- series\nbias. LASSO selected variables such as energyppi_lag1 provide forecasting framework, we offer new insights into the determi-\ninterpretable signals of cost conditions, while price_real_lag1 nants of food price movements under structural shocks, biolog-\ncaptures endogenous price persistence and inventory- related ical risk, and evolving macroeconomic conditions. Specifically,\nadjustment dynamics. Seasonal dummy variables, including we adopt a two- stage approach combining LASSO- based vari-\nchristmas_season, further enhance the model's ability to ac- able selection with ARIMAX modeling, implemented with\ncount for recurring demand surges. time- series cross- validation and subsample diagnostics, captur-\ning both endogenous price inertia and exogenous cost, policy,\nThese results reinforce the theoretical understanding that and seasonal effects.\nagricultural price formation is jointly driven by autoregres-\nsive dynamics, seasonal consumption patterns, and external The empirical results confirm the multifaceted nature of\ncost shocks (Wohlgenant and Lusk 2011). Methodologically, egg price formation. The strongest predictor across all mod-\nthis LASSO- ARIMAX framework demonstrates that els remains the 1- month lag of egg price, underscoring the\n12 Applied Economic Perspectives and Policy, 2026\n20405804,\n0,\nDownloaded\nfrom\nhttps://onlinelibrary.wiley.com/doi/10.1002/aepp.70082\nby\nCochrane\nColombia,\nWiley\nOnline\nLibrary\non\n[18/07/2026].\nSee\nthe\nTerms\nand\nConditions\n(https://onlinelibrary.wiley.com/terms-and-conditions)\non\nWiley\nOnline\nLibrary\nfor\nrules\nof\nuse;\nOA\narticles\nare\ngoverned\nby\nthe\napplicable\nCreative\nCommons\nLicense"
+  },
+  "key_data": {
+    "hhi_values": [],
+    "cr_values": [],
+    "lerner_values": [],
+    "elasticity_values": [],
+    "market_shares": [],
+    "concentration_measures": [],
+    "countries": [
+      "colombia",
+      "united states",
+      "us",
+      "spain",
+      "china",
+      "japan"
+    ],
+    "sectors": [
+      "egg",
+      "eggs",
+      "poultry",
+      "chicken",
+      "meat",
+      "dairy",
+      "corn",
+      "soy",
+      "grains",
+      "agricultural"
+    ]
+  },
+  "classification": {
+    "categories": [
+      "Mercado huevos internacional",
+      "Medición poder mercado",
+      "Estructura mercado agroalimentario"
+    ],
+    "primary_category": "Mercado huevos internacional"
+  },
+  "key_quotes": [],
+  "tables": [
+    {
+      "table_number": 4,
+      "data": [
+        [
+          "FIGURE 1",
+          "Egg prices at retail in the US."
+        ]
+      ]
+    },
+    {
+      "table_number": 5,
+      "data": [
+        [
+          "FIGURE 2",
+          "LASSO coefficients by the full sample."
+        ]
+      ]
+    },
+    {
+      "table_number": 6,
+      "data": [
+        [
+          "FIGURE 3",
+          "LASSO coefficients by 5- year period."
+        ]
+      ]
+    },
+    {
+      "table_number": 7,
+      "data": [
+        [
+          "FIGURE 4",
+          "ACF and PACF test results."
+        ]
+      ]
+    },
+    {
+      "table_number": 8,
+      "data": [
+        [
+          "FIGURE 5",
+          "Prediction results of LASSO- ARIMAX and simple ARIMA."
+        ]
+      ]
+    },
+    {
+      "table_number": 9,
+      "data": [
+        [
+          "FIGURE A1",
+          "LASSO paths."
+        ]
+      ]
+    },
+    {
+      "table_number": 10,
+      "data": [
+        [
+          "FIGURE A2",
+          "Post- 2022 LASSO coefficients with CDC HPAI data."
+        ]
+      ]
+    },
+    {
+      "table_number": 11,
+      "data": [
+        [
+          "FIGURE A3",
+          "Regime- LASSO barplots."
+        ]
+      ]
+    }
+  ],
+  "relevance_colombia": {
+    "score": 5,
+    "level": "Alta",
+    "reasons": [
+      "Menciona Colombia directamente",
+      "Estudia mercado de huevo"
+    ]
+  }
+}

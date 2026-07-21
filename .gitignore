@@ -1,0 +1,30 @@
+# PDF source files (too large for git)
+pdfs/
+*.pdf
+
+# Extracted text (too large for git)
+extracted_text/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Virtual env
+venv/
+env/
+.env
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb

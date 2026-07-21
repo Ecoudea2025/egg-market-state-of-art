@@ -1,0 +1,1465 @@
+{
+  "extraction_date": "2026-07-19T01:17:15.289654",
+  "total_files": 27,
+  "successful": 27,
+  "failed": 0,
+  "results": [
+    {
+      "status": "success",
+      "filename": "10.30490_aead.2023.351385.1253.pdf",
+      "text_file": "D:\\Proyecto estado del arte\\extracted_text\\10.30490_aead.2023.351385.1253.txt",
+      "metadata_file": "D:\\Proyecto estado del arte\\extracted_text\\10.30490_aead.2023.351385.1253_metadata.json",
+      "keydata_file": "D:\\Proyecto estado del arte\\extracted_text\\10.30490_aead.2023.351385.1253_keydata.json",
+      "metadata": {
+        "filename": "10.30490_aead.2023.351385.1253.pdf",
+        "filepath": "D:\\Proyecto estado del arte\\10.30490_aead.2023.351385.1253.pdf",
+        "text_length": 35319,
+        "word_count": 6690,
+        "page_count": 22,
+        "extraction_date": "2026-07-19T01:12:52.748801",
+        "sections_found": [
+          "abstract",
+          "methods",
+          "results"
+        ],
+        "has.abstract": true,
+        "has.references": false,
+        "language": "english",
+        "tables_count": 0
+      },
+      "key_data": {
+        "hhi_values": [],
+        "cr_values": [],
+        "lerner_values": [],
+        "elasticity_values": [],
+        "market_shares": [],
+        "concentration_measures": [],
+        "countries": [
+          "us",
+          "méxico",
+          "mexico",
+          "china"
+        ],
+        "sectors": [
+          "egg",
+          "eggs",
+          "meat",
+          "corn",
+          "soy",
+          "agricultural"
+        ]
+      }
+    },
+    {
+      "status": "success",
+      "filename": "20130203163434703403.pdf",
+      "text_file": "D:\\Proyecto estado del arte\\extracted_text\\20130203163434703403.txt",
+      "metadata_file": "D:\\Proyecto estado del arte\\extracted_text\\20130203163434703403_metadata.json",
+      "keydata_file": "D:\\Proyecto estado del arte\\extracted_text\\20130203163434703403_keydata.json",
+      "metadata": {
+        "filename": "20130203163434703403.pdf",
+        "filepath": "D:\\Proyecto estado del arte\\20130203163434703403.pdf",
+        "text_length": 44581,
+        "word_count": 7242,
+        "page_count": 12,
+        "extraction_date": "2026-07-19T01:12:56.218320",
+        "sections_found": [
+          "abstract",
+          "introduction",
+          "methodology",
+          "methods",
+          "results",
+          "conclusion",
+          "conclusions",
+          "discussion",
+          "references"
+        ],
+        "has.abstract": true,
+        "has.references": true,
+        "language": "english",
+        "tables_count": 0
+      },
+      "key_data": {
+        "hhi_values": [],
+        "cr_values": [],
+        "lerner_values": [],
+        "elasticity_values": [],
+        "market_shares": [],
+        "concentration_measures": [],
+        "countries": [
+          "united states",
+          "usa",
+          "us",
+          "ethiopia",
+          "mexico",
+          "china"
+        ],
+        "sectors": [
+          "egg",
+          "eggs",
+          "chicken",
+          "meat",
+          "corn",
+          "agri-food",
+          "agricultural"
+        ]
+      }
+    },
+    {
+      "status": "success",
+      "filename": "5.+Modelling+Food+Patterns+in+Pakistan.pdf",
+      "text_file": "D:\\Proyecto estado del arte\\extracted_text\\5.+Modelling+Food+Patterns+in+Pakistan.txt",
+      "metadata_file": "D:\\Proyecto estado del arte\\extracted_text\\5.+Modelling+Food+Patterns+in+Pakistan_metadata.json",
+      "keydata_file": "D:\\Proyecto estado del arte\\extracted_text\\5.+Modelling+Food+Patterns+in+Pakistan_keydata.json",
+      "metadata": {
+        "filename": "5.+Modelling+Food+Patterns+in+Pakistan.pdf",
+        "filepath": "D:\\Proyecto estado del arte\\5.+Modelling+Food+Patterns+in+Pakistan.pdf",
+        "text_length": 75407,
+        "word_count": 11206,
+        "page_count": 33,
+        "extraction_date": "2026-07-19T01:13:08.711101",
+        "sections_found": [
+          "abstract",
+          "introduction",
+          "methodology",
+          "methods",
+          "results",
+          "conclusion",
+          "discussion",
+          "references"
+        ],
+        "has.abstract": true,
+        "has.references": true,
+        "language": "english",
+        "tables_count": 1
+      },
+      "key_data": {
+        "hhi_values": [],
+        "cr_values": [],
+        "lerner_values": [],
+        "elasticity_values": [],
+        "market_shares": [],
+        "concentration_measures": [],
+        "countries": [
+          "usa",
+          "us",
+          "nigeria",
+          "india",
+          "china"
+        ],
+        "sectors": [
+          "egg",
+          "eggs",
+          "chicken",
+          "meat",
+          "grains",
+          "agricultural"
+        ]
+      }
+    },
+    {
+      "status": "success",
+      "filename": "588_agris-on-line-3-2023-khoiriyah-forgenie-iriany.pdf",
+      "text_file": "D:\\Proyecto estado del arte\\extracted_text\\588_agris-on-line-3-2023-khoiriyah-forgenie-iriany.txt",
+      "metadata_file": "D:\\Proyecto estado del arte\\extracted_text\\588_agris-on-line-3-2023-khoiriyah-forgenie-iriany_metadata.json",
+      "keydata_file": "D:\\Proyecto estado del arte\\extracted_text\\588_agris-on-line-3-2023-khoiriyah-forgenie-iriany_keydata.json",
+      "metadata": {
+        "filename": "588_agris-on-line-3-2023-khoiriyah-forgenie-iriany.pdf",
+        "filepath": "D:\\Proyecto estado del arte\\588_agris-on-line-3-2023-khoiriyah-forgenie-iriany.pdf",
+        "text_length": 55490,
+        "word_count": 8309,
+        "page_count": 14,
+        "extraction_date": "2026-07-19T01:13:13.738580",
+        "sections_found": [
+          "abstract",
+          "introduction",
+          "methods",
+          "results",
+          "conclusion",
+          "discussion",
+          "references"
+        ],
+        "has.abstract": true,
+        "has.references": true,
+        "language": "english",
+        "tables_count": 2
+      },
+      "key_data": {
+        "hhi_values": [],
+        "cr_values": [],
+        "lerner_values": [],
+        "elasticity_values": [],
+        "market_shares": [],
+        "concentration_measures": [],
+        "countries": [
+          "united states",
+          "usa",
+          "us",
+          "nigeria",
+          "ethiopia",
+          "brasil",
+          "brazil",
+          "mexico",
+          "china",
+          "japan"
+        ],
+        "sectors": [
+          "egg",
+          "eggs",
+          "poultry",
+          "chicken",
+          "meat",
+          "dairy",
+          "agricultural"
+        ]
+      }
+    },
+    {
+      "status": "success",
+      "filename": "admin,+9.+399+Done.+New.pdf",
+      "text_file": "D:\\Proyecto estado del arte\\extracted_text\\admin,+9.+399+Done.+New.txt",
+      "metadata_file": "D:\\Proyecto estado del arte\\extracted_text\\admin,+9.+399+Done.+New_metadata.json",
+      "keydata_file": "D:\\Proyecto estado del arte\\extracted_text\\admin,+9.+399+Done.+New_keydata.json",
+      "metadata": {
+        "filename": "admin,+9.+399+Done.+New.pdf",
+        "filepath": "D:\\Proyecto estado del arte\\admin,+9.+399+Done.+New.pdf",
+        "text_length": 40951,
+        "word_count": 6320,
+        "page_count": 12,
+        "extraction_date": "2026-07-19T01:13:19.229635",
+        "sections_found": [
+          "abstract",
+          "introduction",
+          "methods",
+          "results",
+          "conclusion",
+          "discussion",
+          "references"
+        ],
+        "has.abstract": true,
+        "has.references": true,
+        "language": "english",
+        "tables_count": 7
+      },
+      "key_data": {
+        "hhi_values": [],
+        "cr_values": [],
+        "lerner_values": [],
+        "elasticity_values": [],
+        "market_shares": [],
+        "concentration_measures": [],
+        "countries": [
+          "us",
+          "nigeria",
+          "ethiopia",
+          "india",
+          "mexico",
+          "china"
+        ],
+        "sectors": [
+          "egg",
+          "eggs",
+          "chicken",
+          "meat",
+          "agricultural"
+        ]
+      }
+    },
+    {
+      "status": "success",
+      "filename": "American J Agri Economics - 2021 -  - Issue Information.pdf",
+      "text_file": "D:\\Proyecto estado del arte\\extracted_text\\American J Agri Economics - 2021 -  - Issue Information.txt",
+      "metadata_file": "D:\\Proyecto estado del arte\\extracted_text\\American J Agri Economics - 2021 -  - Issue Information_metadata.json",
+      "keydata_file": "D:\\Proyecto estado del arte\\extracted_text\\American J Agri Economics - 2021 -  - Issue Information_keydata.json",
+      "metadata": {
+        "filename": "American J Agri Economics - 2021 -  - Issue Information.pdf",
+        "filepath": "D:\\Proyecto estado del arte\\American J Agri Economics - 2021 -  - Issue Information.pdf",
+        "text_length": 21244,
+        "word_count": 2802,
+        "page_count": 6,
+        "extraction_date": "2026-07-19T01:13:22.804864",
+        "sections_found": [
+          "results"
+        ],
+        "has.abstract": false,
+        "has.references": false,
+        "language": "english",
+        "tables_count": 2
+      },
+      "key_data": {
+        "hhi_values": [],
+        "cr_values": [],
+        "lerner_values": [],
+        "elasticity_values": [],
+        "market_shares": [],
+        "concentration_measures": [],
+        "countries": [
+          "colombia",
+          "usa",
+          "us",
+          "nigeria",
+          "ethiopia",
+          "brazil",
+          "peru",
+          "japan"
+        ],
+        "sectors": [
+          "egg",
+          "corn",
+          "agricultural"
+        ]
+      }
+    },
+    {
+      "status": "success",
+      "filename": "American J Agri Economics - 2026 - Kang - Food inflation pass‐through from agricultural imports in a small open economy.pdf",
+      "text_file": "D:\\Proyecto estado del arte\\extracted_text\\American J Agri Economics - 2026 - Kang - Food inflation pass‐through from agricultural imports in a small open economy.txt",
+      "metadata_file": "D:\\Proyecto estado del arte\\extracted_text\\American J Agri Economics - 2026 - Kang - Food inflation pass‐through from agricultural imports in a small open economy_metadata.json",
+      "keydata_file": "D:\\Proyecto estado del arte\\extracted_text\\American J Agri Economics - 2026 - Kang - Food inflation pass‐through from agricultural imports in a small open economy_keydata.json",
+      "metadata": {
+        "filename": "American J Agri Economics - 2026 - Kang - Food inflation pass‐through from agricultural imports in a small open economy.pdf",
+        "filepath": "D:\\Proyecto estado del arte\\American J Agri Economics - 2026 - Kang - Food inflation pass‐through from agricultural imports in a small open economy.pdf",
+        "text_length": 90086,
+        "word_count": 8649,
+        "page_count": 26,
+        "extraction_date": "2026-07-19T01:13:30.795386",
+        "sections_found": [
+          "abstract",
+          "introduction",
+          "results",
+          "conclusion",
+          "references"
+        ],
+        "has.abstract": true,
+        "has.references": true,
+        "language": "english",
+        "tables_count": 24
+      },
+      "key_data": {
+        "hhi_values": [],
+        "cr_values": [],
+        "lerner_values": [],
+        "elasticity_values": [],
+        "market_shares": [],
+        "concentration_measures": [],
+        "countries": [
+          "colombia",
+          "united states",
+          "usa",
+          "us",
+          "china"
+        ],
+        "sectors": [
+          "meat",
+          "dairy",
+          "corn",
+          "soy",
+          "agricultural"
+        ]
+      }
+    },
+    {
+      "status": "success",
+      "filename": "Applied Eco Perspectives Pol - 2026 - Zhao - Understanding Egg Price Volatility and Policy Implications in the U S  With.pdf",
+      "text_file": "D:\\Proyecto estado del arte\\extracted_text\\Applied Eco Perspectives Pol - 2026 - Zhao - Understanding Egg Price Volatility and Policy Implications in the U S  With.txt",
+      "metadata_file": "D:\\Proyecto estado del arte\\extracted_text\\Applied Eco Perspectives Pol - 2026 - Zhao - Understanding Egg Price Volatility and Policy Implications in the U S  With_metadata.json",
+      "keydata_file": "D:\\Proyecto estado del arte\\extracted_text\\Applied Eco Perspectives Pol - 2026 - Zhao - Understanding Egg Price Volatility and Policy Implications in the U S  With_keydata.json",
+      "metadata": {
+        "filename": "Applied Eco Perspectives Pol - 2026 - Zhao - Understanding Egg Price Volatility and Policy Implications in the U S  With.pdf",
+        "filepath": "D:\\Proyecto estado del arte\\Applied Eco Perspectives Pol - 2026 - Zhao - Understanding Egg Price Volatility and Policy Implications in the U S  With.pdf",
+        "text_length": 94920,
+        "word_count": 13982,
+        "page_count": 21,
+        "extraction_date": "2026-07-19T01:13:40.084993",
+        "sections_found": [
+          "abstract",
+          "introduction",
+          "methodology",
+          "methods",
+          "results",
+          "conclusion",
+          "discussion",
+          "references"
+        ],
+        "has.abstract": true,
+        "has.references": true,
+        "language": "english",
+        "tables_count": 10
+      },
+      "key_data": {
+        "hhi_values": [],
+        "cr_values": [],
+        "lerner_values": [],
+        "elasticity_values": [],
+        "market_shares": [],
+        "concentration_measures": [],
+        "countries": [
+          "colombia",
+          "united states",
+          "us",
+          "spain",
+          "china",
+          "japan"
+        ],
+        "sectors": [
+          "egg",
+          "eggs",
+          "poultry",
+          "chicken",
+          "meat",
+          "dairy",
+          "corn",
+          "soy",
+          "grains",
+          "agricultural"
+        ]
+      }
+    },
+    {
+      "status": "success",
+      "filename": "Artikel5_Ana+Arifatus.pdf",
+      "text_file": "D:\\Proyecto estado del arte\\extracted_text\\Artikel5_Ana+Arifatus.txt",
+      "metadata_file": "D:\\Proyecto estado del arte\\extracted_text\\Artikel5_Ana+Arifatus_metadata.json",
+      "keydata_file": "D:\\Proyecto estado del arte\\extracted_text\\Artikel5_Ana+Arifatus_keydata.json",
+      "metadata": {
+        "filename": "Artikel5_Ana+Arifatus.pdf",
+        "filepath": "D:\\Proyecto estado del arte\\Artikel5_Ana+Arifatus.pdf",
+        "text_length": 40670,
+        "word_count": 6065,
+        "page_count": 16,
+        "extraction_date": "2026-07-19T01:13:47.165883",
+        "sections_found": [
+          "abstract",
+          "introduction",
+          "methods",
+          "results",
+          "conclusion",
+          "conclusions",
+          "discussion",
+          "references"
+        ],
+        "has.abstract": true,
+        "has.references": true,
+        "language": "english",
+        "tables_count": 2
+      },
+      "key_data": {
+        "hhi_values": [],
+        "cr_values": [],
+        "lerner_values": [],
+        "elasticity_values": [],
+        "market_shares": [],
+        "concentration_measures": [],
+        "countries": [
+          "usa",
+          "us",
+          "ethiopia",
+          "peru"
+        ],
+        "sectors": [
+          "egg",
+          "eggs",
+          "poultry",
+          "chicken",
+          "meat",
+          "corn",
+          "soy",
+          "agricultural"
+        ]
+      }
+    },
+    {
+      "status": "success",
+      "filename": "Art_XX_Concentración+y+poder+de+mercado.pdf",
+      "text_file": "D:\\Proyecto estado del arte\\extracted_text\\Art_XX_Concentración+y+poder+de+mercado.txt",
+      "metadata_file": "D:\\Proyecto estado del arte\\extracted_text\\Art_XX_Concentración+y+poder+de+mercado_metadata.json",
+      "keydata_file": "D:\\Proyecto estado del arte\\extracted_text\\Art_XX_Concentración+y+poder+de+mercado_keydata.json",
+      "metadata": {
+        "filename": "Art_XX_Concentración+y+poder+de+mercado.pdf",
+        "filepath": "D:\\Proyecto estado del arte\\Art_XX_Concentración+y+poder+de+mercado.pdf",
+        "text_length": 37385,
+        "word_count": 5338,
+        "page_count": 13,
+        "extraction_date": "2026-07-19T01:13:51.215905",
+        "sections_found": [
+          "abstract",
+          "introduction",
+          "results",
+          "resumen",
+          "introducción",
+          "metodología",
+          "resultados"
+        ],
+        "has.abstract": true,
+        "has.references": false,
+        "language": "english",
+        "tables_count": 3
+      },
+      "key_data": {
+        "hhi_values": [],
+        "cr_values": [],
+        "lerner_values": [],
+        "elasticity_values": [],
+        "market_shares": [],
+        "concentration_measures": [],
+        "countries": [
+          "usa",
+          "us",
+          "perú",
+          "peru",
+          "ecuador",
+          "españa"
+        ],
+        "sectors": [
+          "huevo",
+          "egg",
+          "huevos",
+          "eggs",
+          "avicultura",
+          "poultry",
+          "pollo",
+          "carne",
+          "meat",
+          "lácteos",
+          "agroalimentario",
+          "agrícola",
+          "agricultural"
+        ]
+      }
+    },
+    {
+      "status": "success",
+      "filename": "CalleCamilo_2018_CompetitividadAvicolaColombia.pdf",
+      "text_file": "D:\\Proyecto estado del arte\\extracted_text\\CalleCamilo_2018_CompetitividadAvicolaColombia.txt",
+      "metadata_file": "D:\\Proyecto estado del arte\\extracted_text\\CalleCamilo_2018_CompetitividadAvicolaColombia_metadata.json",
+      "keydata_file": "D:\\Proyecto estado del arte\\extracted_text\\CalleCamilo_2018_CompetitividadAvicolaColombia_keydata.json",
+      "metadata": {
+        "filename": "CalleCamilo_2018_CompetitividadAvicolaColombia.pdf",
+        "filepath": "D:\\Proyecto estado del arte\\CalleCamilo_2018_CompetitividadAvicolaColombia.pdf",
+        "text_length": 138174,
+        "word_count": 21181,
+        "page_count": 124,
+        "extraction_date": "2026-07-19T01:14:06.738162",
+        "sections_found": [
+          "abstract",
+          "introduction",
+          "methodology",
+          "methods",
+          "results",
+          "conclusion",
+          "conclusions",
+          "references",
+          "resumen",
+          "introducción",
+          "metodología",
+          "resultados",
+          "conclusiones"
+        ],
+        "has.abstract": true,
+        "has.references": true,
+        "language": "english",
+        "tables_count": 25
+      },
+      "key_data": {
+        "hhi_values": [],
+        "cr_values": [],
+        "lerner_values": [],
+        "elasticity_values": [],
+        "market_shares": [],
+        "concentration_measures": [],
+        "countries": [
+          "colombia",
+          "estados unidos",
+          "united states",
+          "usa",
+          "us",
+          "brasil",
+          "méxico",
+          "argentina",
+          "chile",
+          "españa",
+          "unión europea",
+          "china",
+          "japón"
+        ],
+        "sectors": [
+          "huevo",
+          "egg",
+          "huevos",
+          "avicultura",
+          "poultry",
+          "pollo",
+          "carne",
+          "agroalimentario",
+          "agrícola"
+        ]
+      }
+    },
+    {
+      "status": "success",
+      "filename": "concentracion y poder de mercado.pdf",
+      "text_file": "D:\\Proyecto estado del arte\\extracted_text\\concentracion y poder de mercado.txt",
+      "metadata_file": "D:\\Proyecto estado del arte\\extracted_text\\concentracion y poder de mercado_metadata.json",
+      "keydata_file": "D:\\Proyecto estado del arte\\extracted_text\\concentracion y poder de mercado_keydata.json",
+      "metadata": {
+        "filename": "concentracion y poder de mercado.pdf",
+        "filepath": "D:\\Proyecto estado del arte\\concentracion y poder de mercado.pdf",
+        "text_length": 37385,
+        "word_count": 5338,
+        "page_count": 13,
+        "extraction_date": "2026-07-19T01:14:13.828219",
+        "sections_found": [
+          "abstract",
+          "introduction",
+          "results",
+          "resumen",
+          "introducción",
+          "metodología",
+          "resultados"
+        ],
+        "has.abstract": true,
+        "has.references": false,
+        "language": "english",
+        "tables_count": 3
+      },
+      "key_data": {
+        "hhi_values": [],
+        "cr_values": [],
+        "lerner_values": [],
+        "elasticity_values": [],
+        "market_shares": [],
+        "concentration_measures": [],
+        "countries": [
+          "usa",
+          "us",
+          "perú",
+          "peru",
+          "ecuador",
+          "españa"
+        ],
+        "sectors": [
+          "huevo",
+          "egg",
+          "huevos",
+          "eggs",
+          "avicultura",
+          "poultry",
+          "pollo",
+          "carne",
+          "meat",
+          "lácteos",
+          "agroalimentario",
+          "agrícola",
+          "agricultural"
+        ]
+      }
+    },
+    {
+      "status": "success",
+      "filename": "Condiciones de competencia en cadenas.pdf",
+      "text_file": "D:\\Proyecto estado del arte\\extracted_text\\Condiciones de competencia en cadenas.txt",
+      "metadata_file": "D:\\Proyecto estado del arte\\extracted_text\\Condiciones de competencia en cadenas_metadata.json",
+      "keydata_file": "D:\\Proyecto estado del arte\\extracted_text\\Condiciones de competencia en cadenas_keydata.json",
+      "metadata": {
+        "filename": "Condiciones de competencia en cadenas.pdf",
+        "filepath": "D:\\Proyecto estado del arte\\Condiciones de competencia en cadenas.pdf",
+        "text_length": 128041,
+        "word_count": 19858,
+        "page_count": 59,
+        "extraction_date": "2026-07-19T01:14:28.283298",
+        "sections_found": [
+          "results",
+          "conclusion",
+          "resumen",
+          "introducción",
+          "metodología",
+          "resultados",
+          "conclusiones"
+        ],
+        "has.abstract": true,
+        "has.references": false,
+        "language": "english",
+        "tables_count": 40
+      },
+      "key_data": {
+        "hhi_values": [],
+        "cr_values": [],
+        "lerner_values": [],
+        "elasticity_values": [],
+        "market_shares": [],
+        "concentration_measures": [],
+        "countries": [
+          "colombia",
+          "estados unidos",
+          "usa",
+          "us",
+          "india",
+          "brasil",
+          "méxico",
+          "argentina",
+          "chile",
+          "perú",
+          "peru",
+          "unión europea",
+          "european union",
+          "china"
+        ],
+        "sectors": [
+          "huevo",
+          "egg",
+          "huevos",
+          "avicultura",
+          "pollo",
+          "carne",
+          "lácteos",
+          "maíz",
+          "soya",
+          "soy",
+          "granos",
+          "agroalimentario",
+          "agri-food",
+          "agrícola",
+          "agricultural"
+        ]
+      }
+    },
+    {
+      "status": "success",
+      "filename": "economies-12-00245-v2.pdf",
+      "text_file": "D:\\Proyecto estado del arte\\extracted_text\\economies-12-00245-v2.txt",
+      "metadata_file": "D:\\Proyecto estado del arte\\extracted_text\\economies-12-00245-v2_metadata.json",
+      "keydata_file": "D:\\Proyecto estado del arte\\extracted_text\\economies-12-00245-v2_keydata.json",
+      "metadata": {
+        "filename": "economies-12-00245-v2.pdf",
+        "filepath": "D:\\Proyecto estado del arte\\economies-12-00245-v2.pdf",
+        "text_length": 63533,
+        "word_count": 3954,
+        "page_count": 14,
+        "extraction_date": "2026-07-19T01:14:32.886502",
+        "sections_found": [
+          "abstract",
+          "introduction",
+          "methodology",
+          "methods",
+          "results",
+          "conclusion",
+          "conclusions",
+          "discussion",
+          "references"
+        ],
+        "has.abstract": true,
+        "has.references": true,
+        "language": "english",
+        "tables_count": 0
+      },
+      "key_data": {
+        "hhi_values": [],
+        "cr_values": [],
+        "lerner_values": [],
+        "elasticity_values": [],
+        "market_shares": [],
+        "concentration_measures": [],
+        "countries": [
+          "united states",
+          "usa",
+          "us",
+          "china",
+          "japan"
+        ],
+        "sectors": [
+          "egg",
+          "eggs",
+          "poultry",
+          "chicken",
+          "meat",
+          "dairy",
+          "corn",
+          "grains",
+          "agricultural"
+        ]
+      }
+    },
+    {
+      "status": "success",
+      "filename": "Egg study EEUU.pdf",
+      "text_file": "D:\\Proyecto estado del arte\\extracted_text\\Egg study EEUU.txt",
+      "metadata_file": "D:\\Proyecto estado del arte\\extracted_text\\Egg study EEUU_metadata.json",
+      "keydata_file": "D:\\Proyecto estado del arte\\extracted_text\\Egg study EEUU_keydata.json",
+      "metadata": {
+        "filename": "Egg study EEUU.pdf",
+        "filepath": "D:\\Proyecto estado del arte\\Egg study EEUU.pdf",
+        "text_length": 0,
+        "word_count": 0,
+        "page_count": 14,
+        "extraction_date": "2026-07-19T01:14:47.562730",
+        "sections_found": [],
+        "has.abstract": false,
+        "has.references": false,
+        "language": "unknown",
+        "tables_count": 0
+      },
+      "key_data": {
+        "hhi_values": [],
+        "cr_values": [],
+        "lerner_values": [],
+        "elasticity_values": [],
+        "market_shares": [],
+        "concentration_measures": [],
+        "countries": [],
+        "sectors": []
+      }
+    },
+    {
+      "status": "success",
+      "filename": "Estudio_Huevos_CarnePollo_2022.pdf",
+      "text_file": "D:\\Proyecto estado del arte\\extracted_text\\Estudio_Huevos_CarnePollo_2022.txt",
+      "metadata_file": "D:\\Proyecto estado del arte\\extracted_text\\Estudio_Huevos_CarnePollo_2022_metadata.json",
+      "keydata_file": "D:\\Proyecto estado del arte\\extracted_text\\Estudio_Huevos_CarnePollo_2022_keydata.json",
+      "metadata": {
+        "filename": "Estudio_Huevos_CarnePollo_2022.pdf",
+        "filepath": "D:\\Proyecto estado del arte\\Estudio_Huevos_CarnePollo_2022.pdf",
+        "text_length": 391472,
+        "word_count": 60100,
+        "page_count": 150,
+        "extraction_date": "2026-07-19T01:15:32.059753",
+        "sections_found": [
+          "conclusion",
+          "resumen",
+          "introducción",
+          "metodología",
+          "resultados",
+          "conclusiones"
+        ],
+        "has.abstract": true,
+        "has.references": false,
+        "language": "english",
+        "tables_count": 51
+      },
+      "key_data": {
+        "hhi_values": [
+          372.0,
+          2010.0,
+          372.0,
+          201.0
+        ],
+        "cr_values": [],
+        "lerner_values": [],
+        "elasticity_values": [],
+        "market_shares": [],
+        "concentration_measures": [],
+        "countries": [
+          "colombia",
+          "estados unidos",
+          "united states",
+          "usa",
+          "us",
+          "india",
+          "brasil",
+          "méxico",
+          "mexico",
+          "argentina",
+          "chile",
+          "ecuador",
+          "unión europea",
+          "china"
+        ],
+        "sectors": [
+          "huevo",
+          "egg",
+          "huevos",
+          "eggs",
+          "avicultura",
+          "poultry",
+          "pollo",
+          "chicken",
+          "carne",
+          "meat",
+          "maíz",
+          "corn",
+          "soya",
+          "soy",
+          "granos",
+          "agroalimentario",
+          "agrícola"
+        ]
+      }
+    },
+    {
+      "status": "success",
+      "filename": "FinalThesis_AwolZeberga.pdf",
+      "text_file": "D:\\Proyecto estado del arte\\extracted_text\\FinalThesis_AwolZeberga.txt",
+      "metadata_file": "D:\\Proyecto estado del arte\\extracted_text\\FinalThesis_AwolZeberga_metadata.json",
+      "keydata_file": "D:\\Proyecto estado del arte\\extracted_text\\FinalThesis_AwolZeberga_keydata.json",
+      "metadata": {
+        "filename": "FinalThesis_AwolZeberga.pdf",
+        "filepath": "D:\\Proyecto estado del arte\\FinalThesis_AwolZeberga.pdf",
+        "text_length": 224598,
+        "word_count": 35924,
+        "page_count": 146,
+        "extraction_date": "2026-07-19T01:15:52.281624",
+        "sections_found": [
+          "abstract",
+          "introduction",
+          "methodology",
+          "methods",
+          "results",
+          "conclusion",
+          "conclusions",
+          "discussion"
+        ],
+        "has.abstract": true,
+        "has.references": false,
+        "language": "english",
+        "tables_count": 2
+      },
+      "key_data": {
+        "hhi_values": [
+          17.0,
+          17.0
+        ],
+        "cr_values": [],
+        "lerner_values": [],
+        "elasticity_values": [],
+        "market_shares": [],
+        "concentration_measures": [],
+        "countries": [
+          "usa",
+          "us",
+          "ethiopia",
+          "india",
+          "china"
+        ],
+        "sectors": [
+          "egg",
+          "eggs",
+          "poultry",
+          "chicken",
+          "meat",
+          "dairy",
+          "corn",
+          "grains",
+          "agricultural"
+        ]
+      }
+    },
+    {
+      "status": "success",
+      "filename": "Impulso – Análisis de la estructura de mercado de productos pecuarios.pdf",
+      "text_file": "D:\\Proyecto estado del arte\\extracted_text\\Impulso – Análisis de la estructura de mercado de productos pecuarios.txt",
+      "metadata_file": "D:\\Proyecto estado del arte\\extracted_text\\Impulso – Análisis de la estructura de mercado de productos pecuarios_metadata.json",
+      "keydata_file": "D:\\Proyecto estado del arte\\extracted_text\\Impulso – Análisis de la estructura de mercado de productos pecuarios_keydata.json",
+      "metadata": {
+        "filename": "Impulso – Análisis de la estructura de mercado de productos pecuarios.pdf",
+        "filepath": "D:\\Proyecto estado del arte\\Impulso – Análisis de la estructura de mercado de productos pecuarios.pdf",
+        "text_length": 55935,
+        "word_count": 8199,
+        "page_count": 19,
+        "extraction_date": "2026-07-19T01:15:58.132966",
+        "sections_found": [
+          "abstract",
+          "introduction",
+          "results",
+          "conclusion",
+          "resumen",
+          "introducción",
+          "resultados",
+          "conclusiones"
+        ],
+        "has.abstract": true,
+        "has.references": false,
+        "language": "english",
+        "tables_count": 6
+      },
+      "key_data": {
+        "hhi_values": [],
+        "cr_values": [],
+        "lerner_values": [],
+        "elasticity_values": [],
+        "market_shares": [],
+        "concentration_measures": [],
+        "countries": [
+          "usa",
+          "us",
+          "perú",
+          "peru",
+          "ecuador",
+          "españa"
+        ],
+        "sectors": [
+          "huevo",
+          "egg",
+          "huevos",
+          "eggs",
+          "avicultura",
+          "poultry",
+          "pollo",
+          "carne",
+          "meat",
+          "lácteos",
+          "soy",
+          "agroalimentario",
+          "agrícola",
+          "agricultural"
+        ]
+      }
+    },
+    {
+      "status": "success",
+      "filename": "Market Composition and Performance of Firms in Broiler, Chicken Egg, and Swine Production- Implications to the Philippine Competition Act.pdf",
+      "text_file": "D:\\Proyecto estado del arte\\extracted_text\\Market Composition and Performance of Firms in Broiler, Chicken Egg, and Swine Production- Implications to the Philippine Competition Act.txt",
+      "metadata_file": "D:\\Proyecto estado del arte\\extracted_text\\Market Composition and Performance of Firms in Broiler, Chicken Egg, and Swine Production- Implications to the Philippine Competition Act_metadata.json",
+      "keydata_file": "D:\\Proyecto estado del arte\\extracted_text\\Market Composition and Performance of Firms in Broiler, Chicken Egg, and Swine Production- Implications to the Philippine Competition Act_keydata.json",
+      "metadata": {
+        "filename": "Market Composition and Performance of Firms in Broiler, Chicken Egg, and Swine Production- Implications to the Philippine Competition Act.pdf",
+        "filepath": "D:\\Proyecto estado del arte\\Market Composition and Performance of Firms in Broiler, Chicken Egg, and Swine Production- Implications to the Philippine Competition Act.pdf",
+        "text_length": 43376,
+        "word_count": 6558,
+        "page_count": 17,
+        "extraction_date": "2026-07-19T01:16:04.568499",
+        "sections_found": [
+          "abstract",
+          "introduction",
+          "methodology",
+          "results",
+          "conclusion",
+          "discussion",
+          "references"
+        ],
+        "has.abstract": true,
+        "has.references": true,
+        "language": "english",
+        "tables_count": 5
+      },
+      "key_data": {
+        "hhi_values": [],
+        "cr_values": [],
+        "lerner_values": [],
+        "elasticity_values": [],
+        "market_shares": [],
+        "concentration_measures": [],
+        "countries": [
+          "usa",
+          "us"
+        ],
+        "sectors": [
+          "egg",
+          "eggs",
+          "poultry",
+          "chicken",
+          "meat",
+          "agricultural"
+        ]
+      }
+    },
+    {
+      "status": "success",
+      "filename": "Market_Structure_and_Price_Transmission.pdf",
+      "text_file": "D:\\Proyecto estado del arte\\extracted_text\\Market_Structure_and_Price_Transmission.txt",
+      "metadata_file": "D:\\Proyecto estado del arte\\extracted_text\\Market_Structure_and_Price_Transmission_metadata.json",
+      "keydata_file": "D:\\Proyecto estado del arte\\extracted_text\\Market_Structure_and_Price_Transmission_keydata.json",
+      "metadata": {
+        "filename": "Market_Structure_and_Price_Transmission.pdf",
+        "filepath": "D:\\Proyecto estado del arte\\Market_Structure_and_Price_Transmission.pdf",
+        "text_length": 58382,
+        "word_count": 9265,
+        "page_count": 22,
+        "extraction_date": "2026-07-19T01:16:13.229402",
+        "sections_found": [
+          "abstract",
+          "introduction",
+          "methods",
+          "results",
+          "conclusion",
+          "discussion",
+          "references"
+        ],
+        "has.abstract": true,
+        "has.references": true,
+        "language": "english",
+        "tables_count": 10
+      },
+      "key_data": {
+        "hhi_values": [],
+        "cr_values": [],
+        "lerner_values": [],
+        "elasticity_values": [],
+        "market_shares": [],
+        "concentration_measures": [],
+        "countries": [
+          "united states",
+          "usa",
+          "us",
+          "nigeria",
+          "india",
+          "brazil",
+          "china"
+        ],
+        "sectors": [
+          "egg",
+          "eggs",
+          "poultry",
+          "chicken",
+          "dairy",
+          "corn",
+          "agricultural"
+        ]
+      }
+    },
+    {
+      "status": "success",
+      "filename": "Presidential Address.pdf",
+      "text_file": "D:\\Proyecto estado del arte\\extracted_text\\Presidential Address.txt",
+      "metadata_file": "D:\\Proyecto estado del arte\\extracted_text\\Presidential Address_metadata.json",
+      "keydata_file": "D:\\Proyecto estado del arte\\extracted_text\\Presidential Address_keydata.json",
+      "metadata": {
+        "filename": "Presidential Address.pdf",
+        "filepath": "D:\\Proyecto estado del arte\\Presidential Address.pdf",
+        "text_length": 61427,
+        "word_count": 9439,
+        "page_count": 22,
+        "extraction_date": "2026-07-19T01:16:20.836553",
+        "sections_found": [
+          "abstract",
+          "introduction",
+          "methods",
+          "results",
+          "conclusion",
+          "conclusions",
+          "references"
+        ],
+        "has.abstract": true,
+        "has.references": true,
+        "language": "english",
+        "tables_count": 1
+      },
+      "key_data": {
+        "hhi_values": [],
+        "cr_values": [],
+        "lerner_values": [],
+        "elasticity_values": [],
+        "market_shares": [],
+        "concentration_measures": [],
+        "countries": [
+          "united states",
+          "usa",
+          "us",
+          "chile",
+          "european union"
+        ],
+        "sectors": [
+          "egg",
+          "eggs",
+          "meat",
+          "dairy",
+          "corn",
+          "agricultural"
+        ]
+      }
+    },
+    {
+      "status": "success",
+      "filename": "s40066-024-00472-6.pdf",
+      "text_file": "D:\\Proyecto estado del arte\\extracted_text\\s40066-024-00472-6.txt",
+      "metadata_file": "D:\\Proyecto estado del arte\\extracted_text\\s40066-024-00472-6_metadata.json",
+      "keydata_file": "D:\\Proyecto estado del arte\\extracted_text\\s40066-024-00472-6_keydata.json",
+      "metadata": {
+        "filename": "s40066-024-00472-6.pdf",
+        "filepath": "D:\\Proyecto estado del arte\\s40066-024-00472-6.pdf",
+        "text_length": 45231,
+        "word_count": 7555,
+        "page_count": 10,
+        "extraction_date": "2026-07-19T01:16:26.278037",
+        "sections_found": [
+          "abstract",
+          "introduction",
+          "methodology",
+          "methods",
+          "results",
+          "conclusion",
+          "conclusions",
+          "references"
+        ],
+        "has.abstract": true,
+        "has.references": true,
+        "language": "english",
+        "tables_count": 0
+      },
+      "key_data": {
+        "hhi_values": [],
+        "cr_values": [],
+        "lerner_values": [],
+        "elasticity_values": [],
+        "market_shares": [],
+        "concentration_measures": [],
+        "countries": [
+          "usa",
+          "us"
+        ],
+        "sectors": [
+          "egg",
+          "eggs",
+          "poultry",
+          "chicken",
+          "meat",
+          "corn",
+          "soy",
+          "agricultural"
+        ]
+      }
+    },
+    {
+      "status": "success",
+      "filename": "SAEA2015_AgProductionRestrictionsAntitrustAnalysis_Bolotova 01-15-2015.pdf",
+      "text_file": "D:\\Proyecto estado del arte\\extracted_text\\SAEA2015_AgProductionRestrictionsAntitrustAnalysis_Bolotova 01-15-2015.txt",
+      "metadata_file": "D:\\Proyecto estado del arte\\extracted_text\\SAEA2015_AgProductionRestrictionsAntitrustAnalysis_Bolotova 01-15-2015_metadata.json",
+      "keydata_file": "D:\\Proyecto estado del arte\\extracted_text\\SAEA2015_AgProductionRestrictionsAntitrustAnalysis_Bolotova 01-15-2015_keydata.json",
+      "metadata": {
+        "filename": "SAEA2015_AgProductionRestrictionsAntitrustAnalysis_Bolotova 01-15-2015.pdf",
+        "filepath": "D:\\Proyecto estado del arte\\SAEA2015_AgProductionRestrictionsAntitrustAnalysis_Bolotova 01-15-2015.pdf",
+        "text_length": 36186,
+        "word_count": 5293,
+        "page_count": 17,
+        "extraction_date": "2026-07-19T01:16:30.918776",
+        "sections_found": [
+          "abstract",
+          "introduction",
+          "results",
+          "conclusion",
+          "discussion",
+          "references"
+        ],
+        "has.abstract": true,
+        "has.references": true,
+        "language": "english",
+        "tables_count": 1
+      },
+      "key_data": {
+        "hhi_values": [],
+        "cr_values": [],
+        "lerner_values": [],
+        "elasticity_values": [],
+        "market_shares": [],
+        "concentration_measures": [],
+        "countries": [
+          "united states",
+          "usa",
+          "us"
+        ],
+        "sectors": [
+          "egg",
+          "dairy",
+          "agricultural"
+        ]
+      }
+    },
+    {
+      "status": "success",
+      "filename": "Shibia et al paper for SAEA Conference.pdf",
+      "text_file": "D:\\Proyecto estado del arte\\extracted_text\\Shibia et al paper for SAEA Conference.txt",
+      "metadata_file": "D:\\Proyecto estado del arte\\extracted_text\\Shibia et al paper for SAEA Conference_metadata.json",
+      "keydata_file": "D:\\Proyecto estado del arte\\extracted_text\\Shibia et al paper for SAEA Conference_keydata.json",
+      "metadata": {
+        "filename": "Shibia et al paper for SAEA Conference.pdf",
+        "filepath": "D:\\Proyecto estado del arte\\Shibia et al paper for SAEA Conference.pdf",
+        "text_length": 37875,
+        "word_count": 5752,
+        "page_count": 20,
+        "extraction_date": "2026-07-19T01:16:36.299187",
+        "sections_found": [
+          "abstract",
+          "introduction",
+          "results",
+          "conclusion",
+          "discussion",
+          "references"
+        ],
+        "has.abstract": true,
+        "has.references": true,
+        "language": "english",
+        "tables_count": 0
+      },
+      "key_data": {
+        "hhi_values": [],
+        "cr_values": [],
+        "lerner_values": [],
+        "elasticity_values": [],
+        "market_shares": [],
+        "concentration_measures": [],
+        "countries": [
+          "usa",
+          "us",
+          "nigeria"
+        ],
+        "sectors": [
+          "egg",
+          "eggs",
+          "poultry",
+          "chicken",
+          "meat",
+          "dairy",
+          "agricultural"
+        ]
+      }
+    },
+    {
+      "status": "success",
+      "filename": "sustainability-14-08030.pdf",
+      "text_file": "D:\\Proyecto estado del arte\\extracted_text\\sustainability-14-08030.txt",
+      "metadata_file": "D:\\Proyecto estado del arte\\extracted_text\\sustainability-14-08030_metadata.json",
+      "keydata_file": "D:\\Proyecto estado del arte\\extracted_text\\sustainability-14-08030_keydata.json",
+      "metadata": {
+        "filename": "sustainability-14-08030.pdf",
+        "filepath": "D:\\Proyecto estado del arte\\sustainability-14-08030.pdf",
+        "text_length": 60154,
+        "word_count": 3709,
+        "page_count": 18,
+        "extraction_date": "2026-07-19T01:16:41.298315",
+        "sections_found": [
+          "abstract",
+          "introduction",
+          "methodology",
+          "methods",
+          "results",
+          "conclusion",
+          "conclusions",
+          "discussion",
+          "references"
+        ],
+        "has.abstract": true,
+        "has.references": true,
+        "language": "english",
+        "tables_count": 0
+      },
+      "key_data": {
+        "hhi_values": [],
+        "cr_values": [],
+        "lerner_values": [],
+        "elasticity_values": [],
+        "market_shares": [],
+        "concentration_measures": [],
+        "countries": [
+          "usa",
+          "us",
+          "nigeria",
+          "ethiopia",
+          "india"
+        ],
+        "sectors": [
+          "egg",
+          "eggs",
+          "poultry",
+          "chicken",
+          "meat",
+          "corn",
+          "soya",
+          "soy",
+          "agricultural"
+        ]
+      }
+    },
+    {
+      "status": "success",
+      "filename": "The_role_of_market_concentration_in_the.pdf",
+      "text_file": "D:\\Proyecto estado del arte\\extracted_text\\The_role_of_market_concentration_in_the.txt",
+      "metadata_file": "D:\\Proyecto estado del arte\\extracted_text\\The_role_of_market_concentration_in_the_metadata.json",
+      "keydata_file": "D:\\Proyecto estado del arte\\extracted_text\\The_role_of_market_concentration_in_the_keydata.json",
+      "metadata": {
+        "filename": "The_role_of_market_concentration_in_the.pdf",
+        "filepath": "D:\\Proyecto estado del arte\\The_role_of_market_concentration_in_the.pdf",
+        "text_length": 217309,
+        "word_count": 20404,
+        "page_count": 99,
+        "extraction_date": "2026-07-19T01:17:14.371365",
+        "sections_found": [
+          "abstract",
+          "introduction",
+          "methodology",
+          "methods",
+          "results",
+          "conclusion",
+          "conclusions",
+          "discussion",
+          "references"
+        ],
+        "has.abstract": true,
+        "has.references": true,
+        "language": "english",
+        "tables_count": 0
+      },
+      "key_data": {
+        "hhi_values": [],
+        "cr_values": [],
+        "lerner_values": [],
+        "elasticity_values": [],
+        "market_shares": [],
+        "concentration_measures": [],
+        "countries": [
+          "colombia",
+          "united states",
+          "usa",
+          "us",
+          "nigeria",
+          "ethiopia",
+          "india",
+          "brazil",
+          "mexico",
+          "argentina",
+          "chile",
+          "peru",
+          "spain",
+          "european union",
+          "china",
+          "japan"
+        ],
+        "sectors": [
+          "poultry",
+          "meat",
+          "dairy",
+          "corn",
+          "soy",
+          "grains",
+          "agri-food",
+          "agricultural"
+        ]
+      }
+    },
+    {
+      "status": "success",
+      "filename": "understanding-oligopoly-structure-behavior-and-implications.pdf",
+      "text_file": "D:\\Proyecto estado del arte\\extracted_text\\understanding-oligopoly-structure-behavior-and-implications.txt",
+      "metadata_file": "D:\\Proyecto estado del arte\\extracted_text\\understanding-oligopoly-structure-behavior-and-implications_metadata.json",
+      "keydata_file": "D:\\Proyecto estado del arte\\extracted_text\\understanding-oligopoly-structure-behavior-and-implications_keydata.json",
+      "metadata": {
+        "filename": "understanding-oligopoly-structure-behavior-and-implications.pdf",
+        "filepath": "D:\\Proyecto estado del arte\\understanding-oligopoly-structure-behavior-and-implications.pdf",
+        "text_length": 7602,
+        "word_count": 1037,
+        "page_count": 3,
+        "extraction_date": "2026-07-19T01:17:15.270133",
+        "sections_found": [
+          "abstract",
+          "introduction",
+          "conclusion",
+          "references"
+        ],
+        "has.abstract": true,
+        "has.references": true,
+        "language": "english",
+        "tables_count": 0
+      },
+      "key_data": {
+        "hhi_values": [],
+        "cr_values": [],
+        "lerner_values": [],
+        "elasticity_values": [],
+        "market_shares": [],
+        "concentration_measures": [],
+        "countries": [
+          "us",
+          "brazil"
+        ],
+        "sectors": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,231 @@
+{
+  "name": "PDF Academic Extraction Workflow",
+  "description": "Flujo de trabajo completo para extracción y análisis de PDFs académicos - Estado del Arte Mercado del Huevo en Colombia",
+  "version": "1.0.0",
+  "created": "2026-07-19",
+  "project": {
+    "name": "Estado del Arte - Mercado del Huevo en Colombia",
+    "research_question": "¿Cómo se comporta el mercado del huevo en Colombia? ¿A qué tipo de modelo teórico se asemeja más?",
+    "level": "Microeconomía I - Universidad de Antioquia",
+    "team": ["Davian Mazo Giraldo", "Juan Manuel Giraldo"],
+    "keywords": [
+      "oligopolio", "mercado de huevos", "estructura de mercado",
+      "índice de Lerner", "IHH", "concentración industrial", "avicultura",
+      "competencia imperfecta", "Bertrand", "Cournot", "Stackelberg",
+      "competencia monopolística", "poder de mercado", "barreras de entrada",
+      "costos hundidos", "diferenciación de producto", "mercados agroalimentarios"
+    ]
+  },
+  "directories": {
+    "input": "D:\\Proyecto estado del arte",
+    "pdfs": "D:\\Proyecto estado del arte",
+    "extracted_text": "D:\\Proyecto estado del arte\\extracted_text",
+    "summaries": "D:\\Proyecto estado del arte\\summaries",
+    "comparisons": "D:\\Proyecto estado del arte\\comparisons",
+    "synthesis": "D:\\Proyecto estado del arte\\synthesis",
+    "output": "D:\\Proyecto estado del arte\\output",
+    "scripts": "D:\\Proyecto estado del arte\\scripts"
+  },
+  "workflow": {
+    "steps": [
+      {
+        "id": "step1_extract",
+        "name": "Extracción Masiva de PDFs",
+        "description": "Extrae texto y tablas de todos los PDFs académicos",
+        "script": "scripts/extract_pdfs.py",
+        "input": "*.pdf en directorio raíz",
+        "output": [
+          "extracted_text/*.txt",
+          "extracted_text/*_metadata.json",
+          "extracted_text/*_keydata.json"
+        ],
+        "dependencies": [],
+        "estimated_time": "5-10 minutos"
+      },
+      {
+        "id": "step2_process",
+        "name": "Procesamiento de Texto",
+        "description": "Analiza textos extraídos y genera resúmenes estructurados",
+        "script": "scripts/process_text.py",
+        "input": "extracted_text/*.txt",
+        "output": [
+          "summaries/summary_*.json",
+          "summaries/consolidated_summaries.json"
+        ],
+        "dependencies": ["step1_extract"],
+        "estimated_time": "3-5 minutos"
+      },
+      {
+        "id": "step3_compare",
+        "name": "Análisis Comparativo",
+        "description": "Compara hallazgos empíricos entre estudios",
+        "script": "scripts/generate_comparative.py",
+        "input": "summaries/summary_*.json",
+        "output": [
+          "comparisons/comparative_table.csv",
+          "comparisons/comparative_table.json",
+          "comparisons/comparative_analysis.json"
+        ],
+        "dependencies": ["step2_process"],
+        "estimated_time": "2-3 minutos"
+      },
+      {
+        "id": "step4_synthesize",
+        "name": "Síntesis Teórica",
+        "description": "Sintetiza modelos teóricos de oligopolio y los conecta con evidencia empírica",
+        "agent": "theoretical_synthesizer",
+        "input": [
+          "summaries/consolidated_summaries.json",
+          "comparisons/comparative_analysis.json"
+        ],
+        "output": "synthesis/theoretical_synthesis.json",
+        "dependencies": ["step3_compare"],
+        "estimated_time": "5-10 minutos (agente IA)"
+      },
+      {
+        "id": "step5_gaps",
+        "name": "Identificación de Vacíos",
+        "description": "Identifica vacíos en la literatura y contribución original",
+        "agent": "gap_identifier",
+        "input": [
+          "summaries/consolidated_summaries.json",
+          "comparisons/comparative_analysis.json",
+          "synthesis/theoretical_synthesis.json"
+        ],
+        "output": "synthesis/research_gaps.json",
+        "dependencies": ["step4_synthesize"],
+        "estimated_time": "5-10 minutos (agente IA)"
+      },
+      {
+        "id": "step6_write",
+        "name": "Redacción del Estado del Arte",
+        "description": "Redacta el documento final del estado del arte",
+        "agent": "academic_writer",
+        "input": [
+          "summaries/consolidated_summaries.json",
+          "comparisons/comparative_analysis.json",
+          "synthesis/theoretical_synthesis.json",
+          "synthesis/research_gaps.json"
+        ],
+        "output": "output/estado_del_arte_final.md",
+        "dependencies": ["step5_gaps"],
+        "estimated_time": "10-15 minutos (agente IA)"
+      }
+    ]
+  },
+  "agents": {
+    "theoretical_synthesizer": {
+      "name": "Sintetizador de Marco Teórico",
+      "description": "Sintetiza modelos teóricos de oligopolio y los conecta con evidencia empírica",
+      "prompt": "Eres un sintetizador de teoría económica especializado en oligopolios. Tu tarea es:\n\n1. REVISAR los resúmenes de artículos y datos comparativos proporcionados\n\n2. IDENTIFICAR modelos teóricos utilizados en la literatura:\n   - Cournot (competencia en cantidades)\n   - Bertrand (competencia en precios)\n   - Stackelberg (liderazgo estratégico)\n   - Competencia monopolística\n   - Empresa dominante con fringe\n   - Curva demanda quebrada\n\n3. PARA CADA MODELO, documentar:\n   - Supuestos principales\n   - Predicciones sobre precios y cantidades\n   - Condiciones de applicabilidad\n   - Evidencia empírica encontrada\n\n4. EVALUAR idoneidad para el caso colombiano:\n   - IHH ~1,700 (concentración moderada)\n   - CR4 ~69%\n   - Lerner ~18.8%\n   - ε ~ -0.50\n   - Costos homogéneos (maíz, soya internacionales)\n   - Diferenciación por canales de comercialización\n   - Fringe informal (48.5% no reportada)\n\n5. FUNDAMENTAR la conclusión de \"Bertrand con diferenciación\"\n\n6. GENERAR salida en formato JSON estructurado",
+      "output_schema": {
+        "models_reviewed": [
+          {
+            "model": "string",
+            "assumptions": ["string"],
+            "predictions": ["string"],
+            "applicability_conditions": ["string"],
+            "empirical_evidence": ["string"],
+            "applicable_to_colombia": "boolean"
+          }
+        ],
+        "models_applied_to_eggs": ["string"],
+        "recommended_model_for_colombia": "string",
+        "justification": "string",
+        "theoretical_framework": "string"
+      }
+    },
+    "gap_identifier": {
+      "name": "Detector de Vacíos y Oportunidades",
+      "description": "Identifica vacíos en la literatura y propone contribuciones originales",
+      "prompt": "Eres un identificador de vacíos de investigación en economía. Tu tarea es:\n\n1. REVISAR todos los artículos procesados y datos comparativos\n\n2. IDENTIFICAR qué aspectos NO han sido estudiados:\n   - Mercado del huevo en Colombia\n   - Poder de mercado en avicultura latinoamericana\n   - Efecto del sector informal\n   - Diferenciación por canales vs. producto\n\n3. COMPARAR cobertura geográfica:\n   - ¿Qué países están sobre-representados?\n   - ¿Qué países/regiones faltan?\n\n4. COMPARAR metodologías:\n   - ¿Qué métodos son más comunes?\n   - ¿Qué métodos innovadores podrían aplicarse?\n\n5. IDENTIFICAR vacío específico que llena este proyecto:\n   - Estudio del mercado del huevo en Colombia\n   - Datos de Supersociedades (15 empresas)\n   - IHH, Lerner y contrastes de modelos\n   - Sector informal (48.5% no reportado)\n\n6. REDACTAR párrafo de \"contribución original\"\n\n7. GENERAR líneas de investigación futura",
+      "output_schema": {
+        "gaps_identified": [
+          {
+            "gap": "string",
+            "importance": "alta/media/baja",
+            "how_this_project_fills_it": "string"
+          }
+        ],
+        "geographic_coverage": {
+          "over_represented": ["string"],
+          "under_represented": ["string"]
+        },
+        "methodological_gaps": ["string"],
+        "original_contribution": "string",
+        "future_research": ["string"]
+      }
+    },
+    "academic_writer": {
+      "name": "Redactor Académico de Estado del Arte",
+      "description": "Redacta estado del arte académico completo integrando todos los análisis",
+      "prompt": "Eres un redactor académico especializado en economía. Tu tarea es:\n\n1. RECIBIR:\n   - Resúmenes de artículos procesados\n   - Tabla comparativa de hallazgos\n   - Síntesis teórica\n   - Identificación de vacíos\n\n2. REDACTAR estado del arte de MÁXIMO 1,500 palabras con:\n\n   a) INTRODUCCIÓN (1 párrafo):\n      - Importancia de estudiar estructura de mercado del huevo\n      - Contexto Colombia\n      - Objetivo del estado del arte\n\n   b) ESTRUCTURA DE MERCADO EN AGRICULTURA (2-3 párrafos):\n      - Revisión general de concentración en agricultura\n      - Comparación entre países desarrollados y en desarrollo\n\n   c) MERCADOS DE HUEVO: EVIDENCIA INTERNACIONAL (3-4 párrafos):\n      - Casos: EE.UU., Nigeria, Etiopía, India, Colombia\n      - Incluir tabla comparativa\n\n   d) MODELOS TEÓRICOS DE OLIGOPOLIO APLICADOS (2-3 párrafos):\n      - Cournot, Bertrand, Stackelberg, competencia monopolística\n      - Cuándo aplican cada uno\n\n   e) MEDICIÓN DE PODER DE MERCADO (1-2 párrafos):\n      - IHH, Lerner, limitaciones\n\n   f) BARRERAS DE ENTRADA EN AVICULTURA (1-2 párrafos):\n      - Economías de escala, costos hundidos, acceso a insumos\n\n   g) VACÍOS DE INVESTIGACIÓN Y APORTES (1-2 párrafos):\n      - Qué falta estudiar\n      - Cómo este trabajo contribuye\n\n   h) REFERENCIAS (mínimo 5, formato APA)\n\n3. INTEGRAR citas textuales de artículos revisados\n4. USAR formato APA para referencias\n5. INCLUIR tabla comparativa de hallazgos empíricos\n6. TERMINAR con párrafo que conecte estado del arte con pregunta de investigación\n\n7. GENERAR salida en formato Markdown",
+      "output_format": "markdown",
+      "max_words": 1500
+    }
+  },
+  "colombia_context": {
+    "ihh": 1700,
+    "cr4": 69.0,
+    "lerner_weighted": 18.8,
+    "demand_function": "P = -385.5 + 0.0474Q",
+    "elasticity": -0.50,
+    "market_leader": "Incubadora Santander (34.2% cuota)",
+    "sample_size": 15,
+    "total_companies_report": 56,
+    "production_coverage": 51.5,
+    "informal_sector": 48.5,
+    "preliminary_conclusion": "Oligopolio de Bertrand con productos diferenciados"
+  },
+  "data_sources": {
+    "academic_databases": [
+      "Google Scholar",
+      "Scopus",
+      "Web of Science",
+      "EconLit",
+      "RePEc",
+      "SciELO",
+      "Redalyc",
+      "Dialnet"
+    ],
+    "search_terms": {
+      "english": [
+        "egg market structure oligopoly",
+        "poultry egg industry concentration Herfindahl",
+        "egg market Lerner index market power",
+        "agricultural market structure oligopoly model",
+        "food industry market concentration empirical",
+        "Bertrand competition differentiated products agriculture",
+        "poultry industry barriers to entry sunk costs"
+      ],
+      "spanish": [
+        "estructura de mercado huevos Colombia Latinoamérica",
+        "oligopolio avicultura concentración",
+        "índice de Lerner poder de mercado agricultura",
+        "competencia imperfecta mercados agroalimentarios",
+        "barreras de entrada sector avícola"
+      ]
+    }
+  },
+  "quality_criteria": {
+    "minimum_articles": 5,
+    "minimum_references_apa": 5,
+    "max_words_state_of_art": 1500,
+    "required_sections": [
+      "Introducción",
+      "Estructura de mercado en agricultura",
+      "Mercados de huevo internacionales",
+      "Modelos teóricos aplicados",
+      "Medición de poder de mercado",
+      "Barreras de entrada",
+      "Vacíos y aporte",
+      "Referencias"
+    ]
+  },
+  "execution_commands": {
+    "step1": "python scripts/extract_pdfs.py",
+    "step2": "python scripts/process_text.py",
+    "step3": "python scripts/generate_comparative.py",
+    "full_pipeline": "python scripts/extract_pdfs.py && python scripts/process_text.py && python scripts/generate_comparative.py"
+  }
+}

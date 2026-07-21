@@ -1,0 +1,75 @@
+{
+  "metadata": {
+    "filename": "5.+Modelling+Food+Patterns+in+Pakistan.pdf",
+    "authors": "Unknown",
+    "year": null,
+    "title": "FECHA EXTRACCIÓN: 2026-07-19T01:13:08.725913",
+    "processing_date": "2026-07-19T01:17:47.993578"
+  },
+  "content": {
+    "abstract": "This research focuses on the application of the Almost Ideal Demand System (AIDS) in\nPakistan for the necessity food commodities. AIDS is an econometric technique that is used to\nderive demand patterns and elasticities. The data was taken from the Household Integrated\nEconomic Survey of Pakistan for the years 2007-08, 2010-11, 2013-14, and 2018-19. Eight\nfood commodities are aggregated as cereals, chicken, fish, eggs (CFE), meat, milk, oils, pulses,\nsugar products, and vegetables and fruits (VegFru). Both Linear Approximation of AIDS (LA-\nAIDS) and Quadratic-AIDS (QUAIDS) were implemented with the demographic factors\ninvolved. Bootstrapping was also implemented to ensure that our estimates are reliable. Both\nmodels provided similar results with slight changes in elasticities. The findings also revealed\ndifferences in the demand patterns across the years and demographics. The regional differences\nwithin the nation were also found, with Sindh having the highest expenditure as compared to\nother provinces, and Balochistan having the lowest. It was found that consumption patterns\nhave changed over the years. The study recommends improving affordability and access to\nlivestock products and CFE, as their demand is highly income responsive. It also highlights the\nneed for stable pricing of essential food commodities and region-specific food policies to improve\ndietary quality and food security in Pakistan.",
+    "methodology": "to analyze food consumption patterns of Pakistani households (Malik, 1982;\nAhmad et al., 1988; Burki, 1997; Ahmad and Arshad, 2007). Most of the work has been\ncarried out on cross-sectional data. Research has highlighted that changes in prices\ndirectly impact the responsiveness of consumers toward particular commodities.\nThis research contributes by providing robust estimations of elasticities by\nconsidering price, income, and substitution effects through LA-AIDS and QUAIDS\nmodels. It enhances empirical analysis using machine learning methods such as\nbootstrapping and KNN. The study also includes demographic factors, making the\nfindings more comprehensive. To the best of our knowledge, there are hardly any\nstudies that have incorporated 8 food commodity groups with such a large dataset.\n97",
+    "results": "with slight changes in elasticities. The findings also revealed\ndifferences in the demand patterns across the years and demographics. The regional differences\nwithin the nation were also found, with Sindh having the highest expenditure as compared to\nother provinces, and Balochistan having the lowest. It was found that consumption patterns\nhave changed over the years. The study recommends improving affordability and access to\nlivestock products and CFE, as their demand is highly income responsive. It also highlights the\nneed for stable pricing of essential food commodities and region-specific food policies to improve\ndietary quality and food security in Pakistan.\nKeywords: AIDS, LA-AIDS, QUAIDS, Bootstrapping, Consumer Demand\nJEL Classification: D12, C51, D11\nCopyright: © The Authors; Licensing: This article is open access and is\ndistributed under the term of Creative Common Attribution 4.0 International License.\n1. Introduction\nFood is an important component of our daily requirements to live an active and\nhealthy life (Hameed et al., 2021). Poor nutrition leads to a wide range of health issues,\nsuch as weakened immune systems, chronic diseases, and stunted growth (Millward,\n2017). Poverty and unemployment limit the ability of individuals to afford nutritious\nfood (Vilar-Compte et al., 2021). In Pakistan, 21.9% of the population lives below the\n1 Research Scholar, Information Technology University, Faculty of Humanities and Social Sciences, Lahore,\nPakistan. (Corresponding Author Email: (usmanshaukat43@yahoo.com)\n2 Assistant Professor, Information Technology University, Faculty of Humanities and Social Sciences, Lahore,\nPakistan.",
+    "conclusion": "of the study.\n2. Literature Review\nThe following table provides the comparative literature review carried out for\nthis research.\nTable 1: Comparative Literature Review\nStudy Country Data Source / Model Estimation Commodity Key Findings Limitations /\nPeriod Used Method Groups Research Gap\nDeaton & UK Household AIDS / Theoretical Consumer Developed a Linear\nMuellbauer survey LA-AIDS and goods flexible approximation\n(1980) empirical demand system introduces\nconsistent with aggregation\nmicroeconomic bias\ntheory; allowed\nelasticity\nestimation\nBanks et al. UK Household QUAIDS Maximum Consumer Captured Requires larger\n(1997) data Likelihood goods nonlinear Engel sample and\ncurves and complex\nincome effects estimation\nmore accurately\nBilgic & Yen Turkey Household LA-AIDS Two-step / 16 food Negative own- Aggregated\n(2013) Budget SUR products price commodities;\nSurvey elasticities; limited\npositive demographic\nexpenditure heterogeneity\nelasticities;\nsubstitution\ndominates\nLi et al. (2021) China Rural QUAIDS SUR Food groups Food demand Limited focus\nhousehold strongly on regional\ndata influenced by variation\nincome; grains\nless income\nelastic\nUllah et al. Pakistan HIES pooled QUAIDS Two-stage Aggregate All food groups Aggregated\n(2017) datasets budgeting food groups normal goods; groups mask\nprice inelastic commodity-\ndemand; level behavior\nsubstitution\neffects present\nAhmed et al. Pakistan HIES and AIDS SUR Composite Positive Limited\n(2013) Statistical goods expenditure commodity\nYearbook elasticities; disaggregation\nnegative own-\nprice elasticities\nAkram (2020) Pakistan HICS 2015-16 QUAIDS Maximum Food items Beef, seafood, Did not assess\nLikelihood dry fruits are long-term\nluxuries; structural shifts\n98"
+  },
+  "key_data": {
+    "hhi_values": [],
+    "cr_values": [],
+    "lerner_values": [],
+    "elasticity_values": [],
+    "market_shares": [],
+    "concentration_measures": [],
+    "countries": [
+      "usa",
+      "us",
+      "nigeria",
+      "india",
+      "china"
+    ],
+    "sectors": [
+      "egg",
+      "eggs",
+      "chicken",
+      "meat",
+      "grains",
+      "agricultural"
+    ]
+  },
+  "classification": {
+    "categories": [
+      "Mercado huevos internacional",
+      "Barreras entrada",
+      "Estructura mercado agroalimentario"
+    ],
+    "primary_category": "Mercado huevos internacional"
+  },
+  "key_quotes": [
+    "• To derive the reliability of the elasticity estimates and issues related to sample\nvariability through bootstrapping",
+    "Moreover,\nmany studies focus specifically on elasticity estimation without providing comparison\nof model performance or heterogeneity across income groups and regions",
+    "To address this gap, this study employs a bootstrapping approach\nfor elasticity estimates, thereby improving the reliability and robustness of the\nempirical results and contributing towards more accurate and policy-relevant\nanalysis",
+    "The\nsignificance of this model is that it calculates the elasticity measures, such as price\nelasticity and expenditure elasticity, and measures the spending behavior of various\nhouseholds across different groups",
+    "Hicksian Elasticities (Compensated Price Elasticities)\nThe Hicksian price elasticity is defined as the change in quantity demanded to\nthe change in prices"
+  ],
+  "tables": [
+    {
+      "table_number": 2,
+      "data": [
+        [
+          "Copyright: © The Authors; Licensing:",
+          "This article is open access and is"
+        ],
+        [
+          "distributed under the term of Creative Common Attribution 4.0 International License."
+        ]
+      ]
+    }
+  ],
+  "relevance_colombia": {
+    "score": 3,
+    "level": "Media",
+    "reasons": [
+      "Estudia mercado de huevo",
+      "Estudia países en desarrollo"
+    ]
+  }
+}

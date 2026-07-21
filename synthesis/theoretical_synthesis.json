@@ -1,0 +1,174 @@
+{
+  "models_reviewed": [
+    {
+      "model": "Cournot",
+      "description": "Competencia en cantidades",
+      "assumptions": [
+        "Empresas compiten eligiendo cantidades simultaneamente",
+        "Productos homogeneos o diferenciados",
+        "Cada empresa elige produccion tomando como dada la de sus competidores",
+        "Informacion completa o incompleta"
+      ],
+      "predictions": [
+        "Precio mayor al de competencia perfecta pero menor al de monopolio",
+        "Cantidad total menor que en competencia perfecta",
+        "Beneficios positivos para las empresas"
+      ],
+      "applicability_conditions": [
+        "Mercados con pocos productores",
+        "Productos relativamente homogeneos",
+        "Decisiones de produccion son el principal instrumento estrategico",
+        "Costos de produccion similares entre empresas"
+      ],
+      "empirical_evidence": [
+        "Aplicado a mercados agricolas con productos homogeneos",
+        "Utilizado en analisis de industrias extractivas",
+        "Comun en mercados de commodities"
+      ],
+      "applicable_to_colombia": false,
+      "evaluation_score": 1,
+      "evaluation_reasons": [
+        "Costos homogeneos facilitan comparacion"
+      ]
+    },
+    {
+      "model": "Bertrand",
+      "description": "Competencia en precios",
+      "assumptions": [
+        "Empresas compiten eligiendo precios simultaneamente",
+        "Productos homogeneos (paradoja de Bertrand) o diferenciados",
+        "Consumidores compran al precio mas bajo",
+        "Capacidad de produccion ilimitada (en version basica)"
+      ],
+      "predictions": [
+        "Con productos homogeneos: precio igual al costo marginal (paradoja)",
+        "Con productos diferenciados: precios superiores al costo marginal",
+        "Beneficios nulos o positivos dependiendo de diferenciacion"
+      ],
+      "applicability_conditions": [
+        "Mercados donde el precio es la variable estrategica principal",
+        "Productos con algun grado de diferenciacion",
+        "Barreras de entrada moderadas",
+        "Consumidores informados sobre precios"
+      ],
+      "empirical_evidence": [
+        "Aplicado a mercados de retail y servicios",
+        "Utilizado en analisis de cadenas de supermercados",
+        "Relevante para mercados con productos diferenciados"
+      ],
+      "applicable_to_colombia": true,
+      "evaluation_score": 7,
+      "evaluation_reasons": [
+        "IHH moderado favorece competencia en precios",
+        "Diferenciacion por canales y marcas favorece Bertrand",
+        "Costos homogeneos facilitan comparacion",
+        "Lerner moderado consistente con competencia diferenciada"
+      ]
+    },
+    {
+      "model": "Stackelberg",
+      "description": "Liderazgo estrategico",
+      "assumptions": [
+        "Una empresa lider (first-mover) y otra seguidora",
+        "El lider elige cantidad primero",
+        "El seguidor observa y responde",
+        "Informacion completa"
+      ],
+      "predictions": [
+        "El lider produce mas y obtiene mayores beneficios",
+        "El seguidor produce menos que en Cournot",
+        "Precio total menor que en Cournot"
+      ],
+      "applicability_conditions": [
+        "Mercados con empresa dominante clara",
+        "Ventaja de primer movimiento significativa",
+        "Asimetria de informacion o capacidad",
+        "Historial de competencia observable"
+      ],
+      "empirical_evidence": [
+        "Aplicado a industrias con empresa lider clara",
+        "Utilizado en mercados de tecnologia",
+        "Relevante para sectores con economias de escala"
+      ],
+      "applicable_to_colombia": false,
+      "evaluation_score": 2,
+      "evaluation_reasons": [
+        "Empresa lider (Incubadora Santander) sugiere liderazgo"
+      ]
+    },
+    {
+      "model": "Competencia Monopolistica",
+      "description": "Diferenciacion de producto",
+      "assumptions": [
+        "Diferenciacion de producto real o percibida",
+        "Muchas empresas",
+        "Libre entrada y salida",
+        "Control limitado sobre precio"
+      ],
+      "predictions": [
+        "Precio mayor al costo marginal",
+        "Exceso de capacidad productiva",
+        "Beneficios nulos en largo plazo",
+        "Variety excesiva desde perspectiva social"
+      ],
+      "applicability_conditions": [
+        "Mercados con productos diferenciados",
+        "Barreras de entrada bajas",
+        "Muchas empresas pequenas",
+        "Publicidad y marca importan"
+      ],
+      "empirical_evidence": [
+        "Aplicado a restaurantes, retail, servicios",
+        "Utilizado en mercados de alimentos procesados",
+        "Relevante para sectores con marca fuerte"
+      ],
+      "applicable_to_colombia": true,
+      "evaluation_score": 6,
+      "evaluation_reasons": [
+        "IHH moderado favorece competencia en precios",
+        "Diferenciacion por canales y marcas favorece Bertrand",
+        "Lerner moderado consistente con competencia diferenciada"
+      ]
+    },
+    {
+      "model": "Empresa Dominante con Fringe",
+      "description": "Liderazgo de precio",
+      "assumptions": [
+        "Una empresa dominante (price leader)",
+        "Fringe competitivo de pequenas empresas",
+        "La dominante fija precio, el fringe toma precio",
+        "La dominante satisface residuo de demanda"
+      ],
+      "predictions": [
+        "Precio determinado por empresa dominante",
+        "Fringe produce donde P = MC",
+        "Empresa dominante tiene poder de mercado"
+      ],
+      "applicability_conditions": [
+        "Mercados con empresa claramente dominante",
+        "Fringe competitivo pero influyente",
+        "Asimetria de costos o tamano",
+        "Historial de liderazgo de precio"
+      ],
+      "empirical_evidence": [
+        "Aplicado a mercados de energia y commodities",
+        "Utilizado en industrias con empresa estatal",
+        "Relevante para mercados con empresa incu"
+      ],
+      "applicable_to_colombia": true,
+      "evaluation_score": 4,
+      "evaluation_reasons": [
+        "Empresa lider (Incubadora Santander) sugiere liderazgo",
+        "Fringe informal significativo (48.5%)"
+      ]
+    }
+  ],
+  "models_applied_to_eggs": [
+    "Bertrand",
+    "Competencia Monopolistica",
+    "Empresa Dominante con Fringe"
+  ],
+  "recommended_model_for_colombia": "Bertrand",
+  "justification": "El modelo de Bertrand es el mas adecuado para el mercado del huevo en Colombia por las siguientes razones:\n\n- IHH moderado favorece competencia en precios\n- Diferenciacion por canales y marcas favorece Bertrand\n- Costos homogeneos facilitan comparacion\n- Lerner moderado consistente con competencia diferenciada\n\nCon un puntaje de evaluacion de 7/10, este modelo captura mejor las caracteristicas del mercado colombiano.",
+  "theoretical_framework": "## Marco Teorico para el Mercado del Huevo en Colombia\n\nEl mercado del huevo en Colombia presenta caracteristicas que sugieren una estructura de **oligopolio con diferenciacion de producto**, consistent con el modelo de **Bertrand** o **competencia monopolistica**.\n\n### Caracteristicas clave del mercado:\n- **IHH: 1700** (concentracion moderada)\n- **CR4: 69.0%** (cuatro empresas controlan 69.0% del mercado)\n- **Lerner: 18.8%** (poder de mercado moderado)\n- **Empresa lider: Incubadora Santander (34.2% cuota)**\n- **Sector informal: 48.5%** de produccion no reportada\n\n### Implicaciones para la politica de competencia:\n1. La concentracion moderada sugiere que no hay monopolio, pero si poder de mercado\n2. La diferenciacion por canales justifica el uso de modelos de precios\n3. El fringe informal puede limitar el poder de mercado de las empresas formales\n4. Los costos homogeneos facilitan la comparacion entre empresas\n"
+}

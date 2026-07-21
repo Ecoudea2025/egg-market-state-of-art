@@ -1,0 +1,30 @@
+Autores,Año,País,Sector,IHH,CR,Lerner,Elasticidad,Relevancia Colombia
+Unknown,,"us, méxico, mexico","egg, eggs, meat",,,,,Baja
+Unknown,,"united states, usa, us","egg, eggs, chicken",,,,,Media
+Unknown,,"usa, us, nigeria","egg, eggs, chicken",,,,,Media
+Unknown,,"united states, usa, us","egg, eggs, poultry",,,,,Baja
+Unknown,,"us, nigeria, ethiopia","egg, eggs, chicken",,,,,Baja
+Unknown,,"colombia, usa, us","egg, corn, agricultural",,,,,Alta
+Unknown,,"colombia, united states, usa","meat, dairy, corn",,,,,Media
+Unknown,,"colombia, united states, us","egg, eggs, poultry",,,,,Alta
+Unknown,,"usa, us, ethiopia","egg, eggs, poultry",,,,,Baja
+Unknown,,"usa, us, perú","huevo, egg, huevos",,,,,Baja
+Porter,1979.0,"colombia, estados unidos, united states","huevo, egg, huevos",,,,,Alta
+Unknown,,"usa, us, perú","huevo, egg, huevos",,,,,Baja
+Unknown,,"colombia, estados unidos, usa","huevo, egg, huevos",,,,,Alta
+Unknown,,"united states, usa, us","egg, eggs, poultry",,,,,Media
+Unknown,,No especificado,No especificado,,,,,Baja
+Unknown,,"colombia, estados unidos, united states","huevo, egg, huevos",372.0,,,,Alta
+"Zeberga
+May",2010.0,"usa, us, ethiopia","egg, eggs, poultry",17.0,,,,Media
+Unknown,,"usa, us, perú","huevo, egg, huevos",,,,,Baja
+Unknown,,"usa, us","egg, eggs, poultry",,,,,Baja
+Unknown,,"united states, usa, us","egg, eggs, poultry",,,,,Media
+Unknown,,"united states, usa, us","egg, eggs, meat",,,,,Media
+Security,2024.0,"usa, us","egg, eggs, poultry",,,,,Baja
+Unknown,,"united states, usa, us","egg, dairy, agricultural",,,,,Baja
+Unknown,,"usa, us, nigeria","egg, eggs, poultry",,,,,Media
+Unknown,,"usa, us, nigeria","egg, eggs, poultry",,,,,Media
+Unknown,,"colombia, united states, usa","poultry, meat, dairy",,,,,Alta
+Unknown,,"us, brazil",No especificado,,,,,Baja
+Proyecto actual,2026.0,Colombia,Huevo,1700.0,69.0,18.8,-0.5,Proyecto actual
