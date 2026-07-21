@@ -111,7 +111,7 @@ window.SHARED = (function() {
   }
 
   // --- Toggle mobile menu ---
-  window.toggleMobileMenu = function() {
+  function toggleMobileMenu() {
     var overlay = document.getElementById('mobile-overlay');
     var menu = document.getElementById('mobile-menu');
     if (!overlay || !menu) return;
@@ -124,9 +124,7 @@ window.SHARED = (function() {
       overlay.classList.add('open');
       menu.classList.add('open');
     }
-  };
-
-  window.SHARED.toggleMobileMenu = window.toggleMobileMenu;
+  }
 
   // --- Render footer ---
   function renderFooter() {
@@ -157,7 +155,7 @@ window.SHARED = (function() {
     renderFooter: renderFooter,
     init: init,
     currentPage: currentPage,
-    toggleMobileMenu: window.toggleMobileMenu,
+    toggleMobileMenu: toggleMobileMenu,
   };
 })();
 
