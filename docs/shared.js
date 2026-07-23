@@ -60,6 +60,7 @@ window.SHARED = (function() {
     { href: 'citas.html', label: 'Citas' },
     { href: 'documentos.html', label: 'Documentos' },
     { href: 'estado-del-arte.html', label: 'Estado del Arte' },
+    { href: 'simulacion.html', label: 'Simulacion' },
   ];
 
   // --- Render navbar (desktop) ---
