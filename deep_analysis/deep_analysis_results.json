@@ -1,6 +1,6 @@
 {
-  "analysis_date": "2026-07-20T22:28:42.209356",
-  "total_documents": 27,
+  "analysis_date": "2026-07-22T23:22:43.502380",
+  "total_documents": 29,
   "all_analyses": [
     {
       "filename": "10.30490_aead.2023.351385.1253.txt",
@@ -324,8 +324,8 @@
       },
       "total_citations": 44,
       "topics_covered": [
-        "Mercado de huevo/avícola",
-        "Competencia"
+        "Competencia",
+        "Mercado de huevo/avícola"
       ]
     },
     {
@@ -382,8 +382,8 @@
       },
       "total_citations": 5,
       "topics_covered": [
-        "Mercado de huevo/avícola",
-        "Economías de escala"
+        "Economías de escala",
+        "Mercado de huevo/avícola"
       ]
     },
     {
@@ -680,8 +680,8 @@
       },
       "total_citations": 53,
       "topics_covered": [
-        "Mercado de huevo/avícola",
         "Economías de escala",
+        "Mercado de huevo/avícola",
         "Diferenciación de producto"
       ]
     },
@@ -965,9 +965,9 @@
       },
       "total_citations": 18,
       "topics_covered": [
-        "Mercado de huevo/avícola",
-        "Economías de escala",
         "Poder de mercado",
+        "Economías de escala",
+        "Mercado de huevo/avícola",
         "Oligopolio"
       ]
     },
@@ -1622,9 +1622,9 @@
       "topics_covered": [
         "Poder de mercado",
         "Concentración de mercado",
-        "Competencia",
         "Oligopolio",
-        "Diferenciación de producto"
+        "Diferenciación de producto",
+        "Competencia"
       ]
     },
     {
@@ -2121,8 +2121,8 @@
       },
       "total_citations": 93,
       "topics_covered": [
-        "Mercado de huevo/avícola",
-        "Poder de mercado"
+        "Poder de mercado",
+        "Mercado de huevo/avícola"
       ]
     },
     {
@@ -3145,14 +3145,14 @@
       },
       "total_citations": 181,
       "topics_covered": [
+        "Economías de escala",
+        "Mercado de huevo/avícola",
         "Poder de mercado",
         "Concentración de mercado",
         "General",
-        "Competencia",
         "Oligopolio",
-        "Mercado de huevo/avícola",
-        "Economías de escala",
-        "Barreras de entrada"
+        "Barreras de entrada",
+        "Competencia"
       ]
     },
     {
@@ -3824,13 +3824,13 @@
       },
       "total_citations": 128,
       "topics_covered": [
+        "Mercado de huevo/avícola",
         "Poder de mercado",
         "Concentración de mercado",
         "General",
-        "Competencia",
         "Oligopolio",
-        "Mercado de huevo/avícola",
-        "Barreras de entrada"
+        "Barreras de entrada",
+        "Competencia"
       ]
     },
     {
@@ -4762,14 +4762,14 @@
       },
       "total_citations": 180,
       "topics_covered": [
+        "Economías de escala",
+        "Mercado de huevo/avícola",
         "Poder de mercado",
         "Concentración de mercado",
         "General",
-        "Competencia",
         "Oligopolio",
-        "Mercado de huevo/avícola",
-        "Economías de escala",
-        "Barreras de entrada"
+        "Barreras de entrada",
+        "Competencia"
       ]
     },
     {
@@ -5768,12 +5768,12 @@
       },
       "total_citations": 194,
       "topics_covered": [
+        "Mercado de huevo/avícola",
         "Poder de mercado",
         "Concentración de mercado",
-        "Competencia",
         "Oligopolio",
-        "Mercado de huevo/avícola",
-        "Barreras de entrada"
+        "Barreras de entrada",
+        "Competencia"
       ]
     },
     {
@@ -6435,8 +6435,8 @@
       },
       "total_citations": 126,
       "topics_covered": [
-        "Mercado de huevo/avícola",
-        "Concentración de mercado"
+        "Concentración de mercado",
+        "Mercado de huevo/avícola"
       ]
     },
     {
@@ -8701,14 +8701,426 @@
       },
       "total_citations": 439,
       "topics_covered": [
+        "Mercado de huevo/avícola",
+        "Economías de escala",
         "Poder de mercado",
         "Concentración de mercado",
         "General",
-        "Competencia",
-        "Mercado de huevo/avícola",
-        "Economías de escala",
         "Diferenciación de producto",
-        "Barreras de entrada"
+        "Barreras de entrada",
+        "Competencia"
+      ]
+    },
+    {
+      "filename": "Fenaviquin_ed3892023.txt",
+      "doc_name": "Fenaviquin_ed3892023",
+      "structure": {
+        "title": "FECHA EXTRACCIÓN: 2026-07-22T23:09:09.870134",
+        "authors": "",
+        "abstract": "",
+        "methodology": "de cálculo: Estimación de los costos de las materias primas: para el año 2020 y 2021, la fuente de información de las materias primas\nes Urner Barry y para los precios futuros, la Bolsa de Chicago. El valor CIF\nse calcula teniendo en cuenta el valor FOB, la base, los fletes rezagados 15\ndías(Puerto Costa Atlántica) y el seguro. El costo total por materia prima\n(US/t) es la sumatoria del valor CIF, multiplicada por el arancel y sumado\nel costo de internación. Este resultado se multiplica por la T",
+        "key_findings": [
+          "una tendencia al alza, y si es el caso contrario, a la baja. Y esto puede ocurrir\npor dos razones: 1) que, en efecto, la demanda esté en crecimiento, como en\nAfectación vías nacionales - sector\nel caso particular del huevo, en el que por un efecto inflación en la canasta\navícola\nde alimentos, se ha ",
+          "La bioseguridad avícola emerge como un pilar Si fallan estos esquemas de prevención y conten-\nfundamental para la mitigación de riesgos y la ción de enfermedades, podría ingresar una bacteria\nmaximización de la rentabilidad en la producción. Sin y atacar a las aves, resultando en gastos adicionales ",
+          "Afectación vías nacionales - sector\navícola\nESTADÍSTICAS\nImpacto de costos: proyección\nTermómetro de mercado Pollo (Dane)\nTermómetro de mercado Huevo (Dane)\nIndicadores Pollo Colombia vs. EEUU\nPrecios cuartos traseros para\nexportación desde EEUU | \n |",
+          "que el consumo\nque se determinen para su operación, y en el se aceleró a una velocidad superior al crecimiento\ncaso de los granos para la producción de proteína poblacional y de la economía",
+          "r el impacto que se ha te- poder producir fríjol soya (lo uno va con lo otro)"
+        ],
+        "conclusions": []
+      },
+      "citations": [
+        {
+          "text": "competitivos respec-\nto a otras latitudes.",
+          "source": "Fenaviquin_ed3892023",
+          "topic": "Competencia"
+        },
+        {
+          "text": "competencia perfecta,\nbajo el cual se deben cumplir ciertas premisas, entre las\nque se destacan las siguientes: 1) deben existir muchos\noferentes; 2) no se tienen barreras a la entrada; 3) todas\nlas empresas venden un producto idéntico; 4) el precio se\ndetermina por oferta y demanda, y ninguna empresa tiene\ncapacidad de incidir directamente en este; 5) los compra-\ndores tienen información plena del producto y el mercado.",
+          "source": "Fenaviquin_ed3892023",
+          "topic": "Competencia"
+        },
+        {
+          "text": "economías de escala y, desde luego, las tecnologías\nnacional de granos fuera creciendo par y paso con de punta, siempre y cuando el objetivo primario sea el\nla expansión de la demanda de pollo y huevo.",
+          "source": "Fenaviquin_ed3892023",
+          "topic": "Economías de escala"
+        },
+        {
+          "text": "huevo\nDevolución bimestral de IVA: ¡otra vez!\nArancel inteligente y el maíz\nFinagro: líneas de crédito\nCOYUNTURA\nInflación avícola\nMercado del huevo: algo no cuadra\nE: pollita: hacia el 2024\nPrecio gallina fin de ciclo\nPollo en el mercado: ¡algo pasa! Fuente: Dane.",
+          "source": "Fenaviquin_ed3892023",
+          "topic": "Mercado de huevo/avícola"
+        },
+        {
+          "text": "huevo, en el que por un efecto inflación en la canasta\navícola\nde alimentos, se ha propiciado una sustitución a este producto; 2) por una\nreducción de la oferta, por estar en un ciclo de contracción o bien por un\nESTADÍSTICAS efecto neto que la reduzca (eventos sanitarios).",
+          "source": "Fenaviquin_ed3892023",
+          "topic": "Mercado de huevo/avícola"
+        },
+        {
+          "text": "Huevo (Dane) desploma independientemente del costo de producción.",
+          "source": "Fenaviquin_ed3892023",
+          "topic": "Mercado de huevo/avícola"
+        },
+        {
+          "text": "huevo o carne de po- silla con 0% no sería igual a una en blanco.",
+          "source": "Fenaviquin_ed3892023",
+          "topic": "Mercado de huevo/avícola"
+        },
+        {
+          "text": "huevo o carne, pero resulta que corresponde al valor imputado en este impuesto\nesta se compró previamente a terceros, se convierte en para bienes exentos, en tanto que la casilla en blan-\ningreso excluido; por tanto, la celda debe aparecer en co corresponde a los bienes sin gravamen y a los\nblanco excluidos.",
+          "source": "Fenaviquin_ed3892023",
+          "topic": "Mercado de huevo/avícola"
+        },
+        {
+          "text": "huevo, era insuficiente para abastecer los de aplicar, nuevamente, mecanismos de protección.",
+          "source": "Fenaviquin_ed3892023",
+          "topic": "Mercado de huevo/avícola"
+        },
+        {
+          "text": "HUEVOS DIA PRODUCCIÓN POLLO DIA\nPequeño productor de bajos ingresos 53.",
+          "source": "Fenaviquin_ed3892023",
+          "topic": "Mercado de huevo/avícola"
+        },
+        {
+          "text": "huevo referencia AA en el mercado mayo-\nrista fue de $488 la unidad, y para el pollo entero\nFuente: Dane.",
+          "source": "Fenaviquin_ed3892023",
+          "topic": "Mercado de huevo/avícola"
+        },
+        {
+          "text": "huevo, tenemos que se ha convertido en tado en el rango de los $12 mil por más de un\nel principal sustituto de los productos más costosos de año, sin perspectivas de cambio en el corto plazo.",
+          "source": "Fenaviquin_ed3892023",
+          "topic": "Mercado de huevo/avícola"
+        },
+        {
+          "text": "huevo, está girando por los alrededores de\nto que, en el pollo, el precio dependerá de la estructura los $550, pese al ritmo de la demanda.",
+          "source": "Fenaviquin_ed3892023",
+          "topic": "Mercado de huevo/avícola"
+        },
+        {
+          "text": "huevo, en el que, ante un incremento en los precios, la de-\nmanda se reducía.",
+          "source": "Fenaviquin_ed3892023",
+          "topic": "Mercado de huevo/avícola"
+        },
+        {
+          "text": "huevo ya no se ajusta a la\nCiclo de producción y precios característica indicada de competencia perfecta.",
+          "source": "Fenaviquin_ed3892023",
+          "topic": "Competencia"
+        },
+        {
+          "text": "huevo, la oferta es inelástica en el corto\nplazo, por corresponder a una condición biológica.",
+          "source": "Fenaviquin_ed3892023",
+          "topic": "Mercado de huevo/avícola"
+        },
+        {
+          "text": "huevo: algo no cuadra\nPrecio de huevo rojo AA En la primera gráfica de la nota anterior se ob-\nen el mercado mayorista serva una correlación entre la oferta y los pre-\ncios del mercado, lo cual refleja la dinámica de la\ndemanda.",
+          "source": "Fenaviquin_ed3892023",
+          "topic": "Mercado de huevo/avícola"
+        },
+        {
+          "text": "huevo: en un lapso de dieciocho años el precio solo\nse incrementó $200 por unidad, es decir, a razón de\n$11 año.",
+          "source": "Fenaviquin_ed3892023",
+          "topic": "Mercado de huevo/avícola"
+        },
+        {
+          "text": "huevo está de\nVar Pcc neta -5,7% -4,4% -3,1% -1,2% moda”, y 2) un desplazamiento (contracción) de la\noferta; siguiendo un modelo de elasticidad normal,\nFuente: Fenavi.",
+          "source": "Fenaviquin_ed3892023",
+          "topic": "Mercado de huevo/avícola"
+        },
+        {
+          "text": "huevo está transitando\ncio del huevo en un mercado de referencia como el por un periodo de crecimiento del consumo, la\nmayorista Bogotá, muestra un incremento de 13.",
+          "source": "Fenaviquin_ed3892023",
+          "topic": "Mercado de huevo/avícola"
+        },
+        {
+          "text": "avicultura, que nos lleva por lo demás a un productor cuando se le preguntó por la bo-\npensar en la necesidad de incrementar las inversio- dega: “No se alcanza a acumular sino la producción\nnes en bioseguridad.",
+          "source": "Fenaviquin_ed3892023",
+          "topic": "Mercado de huevo/avícola"
+        },
+        {
+          "text": "huevo es “rentable”, se crea un incentivo para\nel IPP alimento balanceado (indicador proxy para medir el\nalargar las semanas de producción, al pasar de\ncosto), se incrementó 3.",
+          "source": "Fenaviquin_ed3892023",
+          "topic": "Mercado de huevo/avícola"
+        },
+        {
+          "text": "huevo ha aumentado, mientras que el\nincluso hasta 100, dependiendo de cada pro-\ndel alimento balanceado ha disminuido en los últimos meses.",
+          "source": "Fenaviquin_ed3892023",
+          "topic": "Mercado de huevo/avícola"
+        },
+        {
+          "text": "huevo hace llamativa la en el que se afectó significativamente la producción nacional\ncompra de estas ponedoras –que a pesar de por los bloqueos de las vías), cumplieron 80 semanas.",
+          "source": "Fenaviquin_ed3892023",
+          "topic": "Mercado de huevo/avícola"
+        },
+        {
+          "text": "huevo y a la disminución en los costos, se debe a que\nlos inventarios de estas aves son bajos, debido a la caída del\nencasetamiento en el 2021, por efecto bloqueos.",
+          "source": "Fenaviquin_ed3892023",
+          "topic": "Mercado de huevo/avícola"
+        },
+        {
+          "text": "huevo que, por su precio, es de\nTres de las fuentes proteicas más consumidas a ni- fácil acceso para gran parte de la población.",
+          "source": "Fenaviquin_ed3892023",
+          "topic": "Mercado de huevo/avícola"
+        },
+        {
+          "text": "Huevo Res\nlos eventos sanitarios (brotes de enfermedades), los\nbloqueos o derrumbes en la vías y cambios en los pa-\nGr proteína en 100\n27 27 13 18,7 trones de consumo, los cuales también tienen un im-\ngramos producto\npacto importante en la disponibilidad y los precios.",
+          "source": "Fenaviquin_ed3892023",
+          "topic": "Mercado de huevo/avícola"
+        },
+        {
+          "text": "huevo res de las empresas avícolas.",
+          "source": "Fenaviquin_ed3892023",
+          "topic": "Mercado de huevo/avícola"
+        },
+        {
+          "text": "HUEVO Costo de producción ($/ huevo) sin amortización ave\nESTRUCTURA VARIABLE/INSUMOS PROMEDIO\nDE COSTOS\n22-oga 22-pes 22-tco 22-von 22-cid 32-ene 32-bef 32-oga 32-pes 32-tco 32-von 32-cid 42-ene 42-bef ESTRUCTURA PROMEDIO\nDE COSTOS\nAlimento Balanceado 68,2% 3.",
+          "source": "Fenaviquin_ed3892023",
+          "topic": "Mercado de huevo/avícola"
+        },
+        {
+          "text": "huevo se incluye la variable de amortización de la gallina),\nse obtiene el costo total de producción por kg de pollo en pie, kg de pollo\nen canal y huevo, segun los parámetros productivos descritos al final del\nanálisis y la estructura de costos promedio se utilizo la de cundinamarca.",
+          "source": "Fenaviquin_ed3892023",
+          "topic": "Mercado de huevo/avícola"
+        },
+        {
+          "text": "HUEVO Costo de producción ($/ huevo) con amortización ave\nPrecio de gallina ($) 11.",
+          "source": "Fenaviquin_ed3892023",
+          "topic": "Mercado de huevo/avícola"
+        },
+        {
+          "text": "Huevos acumulados ave alojada 350 Partic.",
+          "source": "Fenaviquin_ed3892023",
+          "topic": "Mercado de huevo/avícola"
+        },
+        {
+          "text": "huevo) 0,160\nHuevo 60% 5% 16%\nMortalidad (%) 5 Mortalidad del ciclo (%) 12\n\n--- PÁGINA 16 ---\nEstadística\nTermómetro de mercado Pollo (Dane)\nPrecios de pollo ($/kg en central mayorista)\nVariación\nPollo entero Semana del Semana del Variación Promedio\nTendencia semana Tendencia\nfresco sin Plaza Mayorista 21 al 27 de 14 al 20 de última mes anterior\nsemanal actual/mes mensual\nvísceras octubre octubre semana (septiembre)\nanterior\nFrigorífico\nGuadalupe 9.",
+          "source": "Fenaviquin_ed3892023",
+          "topic": "Mercado de huevo/avícola"
+        },
+        {
+          "text": "huevo: algo no cuadra\nE: pollita: hacia el 2024\nPrecio gallina fin de ciclo\nPollo en el mercado: ¡algo pasa!\nEl precio de la proteínas\nArancel SAFP: 1ra Quincena de\nNov/2023\nFallas en la bioseguridad, resultados\nAfectación vías nacionales - sector\navícola\nESTADÍSTICAS\nImpacto de costos: proyección\nTermómetro de mercado Pollo (Dane)\nTermómetro de mercado Huevo (Dane)\nIndicadores Pollo Colombia vs.",
+          "source": "Fenaviquin_ed3892023",
+          "topic": "Mercado de huevo/avícola"
+        },
+        {
+          "text": "HUEVOS DIA | PRODUCCIÓN POLLO DIA\nPequeño productor de bajos ingresos | 53.",
+          "source": "Fenaviquin_ed3892023",
+          "topic": "Mercado de huevo/avícola"
+        },
+        {
+          "text": "Huevos acumulados ave alojada | 350\nConsumo alimento acumulado (kg/ave) | 56,035\nConsumo alimento kg/huevo) | 0,160\nMortalidad del ciclo (%) | 12\n\n--- TABLA 12 (Página 15) ---\nPartic.",
+          "source": "Fenaviquin_ed3892023",
+          "topic": "Mercado de huevo/avícola"
+        },
+        {
+          "text": "Huevo | 60% | 5% | 16\n\n--- TABLA 1 (Página 16) ---\n | \n\n--- TABLA 2 (Página 16) ---\nPollo entero\nfresco sin\nvísceras | Plaza Mayorista | Semana del\n21 al 27 de\noctubre | Semana del\n14 al 20 de\noctubre | Variación\núltima\nsemana | Tendencia\nsemanal | Promedio\nmes anterior\n(septiembre) | Variación\nsemana\nactual/mes\nanterior | Tendencia\nmensual\n | Frigorífico\nGuadalupe | 9.",
+          "source": "Fenaviquin_ed3892023",
+          "topic": "Mercado de huevo/avícola"
+        }
+      ],
+      "numeric_data": {
+        "hhi_values": [],
+        "cr_values": [],
+        "lerner_values": [],
+        "market_shares": [],
+        "other_metrics": []
+      },
+      "total_citations": 37,
+      "topics_covered": [
+        "Economías de escala",
+        "Competencia",
+        "Mercado de huevo/avícola"
+      ]
+    },
+    {
+      "filename": "Fenavi_comnsumo_producion.txt",
+      "doc_name": "Fenavi_comnsumo_producion",
+      "structure": {
+        "title": "FECHA EXTRACCIÓN: 2026-07-22T23:09:33.329067",
+        "authors": "Carlos Duque,\nOlga Castillo",
+        "abstract": "",
+        "methodology": "",
+        "key_findings": [
+          "a destacar en colo-\nrenta. Y con similar posición según la matriz de caciones que suman más de $550.000 millones\nOferta y Utilización del DANE dentro de los ren- orientados a la modernización competitiva del\nglones productivos con actividad propia. De allí sector avícola sólo en avicultura sostenibl",
+          "ndo el papel del sector\nen la reducción de la pobreza, al garan-\ntizar proteína de alta calidad, accesible y\ndisponible"
+        ],
+        "conclusions": []
+      },
+      "citations": [
+        {
+          "text": "competitivos, sino para contar ha alcanzado varios titulares: Colombia exporta\ncon una oferta exportadora.",
+          "source": "Fenavi_comnsumo_producion",
+          "topic": "Competencia"
+        },
+        {
+          "text": "competitivos, sino para\ninstitucional, que va desde la capacidad técnica contar con una oferta exportadora.",
+          "source": "Fenavi_comnsumo_producion",
+          "topic": "Competencia"
+        },
+        {
+          "text": "Competencias Laborales, orientado a certifi-\nPrograma Económico vuelve a hacer car a 3.",
+          "source": "Fenavi_comnsumo_producion",
+          "topic": "Competencia"
+        },
+        {
+          "text": "Competencias Laborales\nSector Avícola en alianza con el SENA\ninstitucional y productivo, con impactos posi-\ntivos en la competitividad del sector nacional.",
+          "source": "Fenavi_comnsumo_producion",
+          "topic": "Competencia"
+        },
+        {
+          "text": "competencias, transferencia de co- de concertación, permitiendo dar a conocer\nnocimiento y adopción de mejores prácticas.",
+          "source": "Fenavi_comnsumo_producion",
+          "topic": "Competencia"
+        },
+        {
+          "text": "Avicultura colombiana:\nrompiendo fronteras\n6 • Los 20 hitos más relevantes que marcaron\nla agenda avícola mediática del 2025\n34 • El Programa Económico FENAVI – FONAV\nimpulsa una agenda estratégica desde la\nMesa Sectorial Avícola\nPRESIDENTE EJECUTIVO DIRECTORA EJECUTIVA PRODUCCIÓN EDITORIAL\nGonzalo Moreno Gómez FENAVI ANTIOQUIA Vector Creativo\nÉrika Montaño javiernietodiaz@gmail.",
+          "source": "Fenavi_comnsumo_producion",
+          "topic": "Mercado de huevo/avícola"
+        },
+        {
+          "text": "HUEVO Sandra Correa\nOlga Castillo FOTOGRAFÍA\nDIRECTORA EJECUTIVA Fenavi\nDIRECTOR PROGRAMA POLLO FENAVI COSTA Archivo particular\nLuis Rodolfo Álvarez Piñeres Lucy de la Ossa\nDIRECTORA PROGRAMA TÉCNICO DIRECTORA EJECUTIVA\nDiana Sarita Nieto FENAVI CENTRAL\nAdriana Dávila avicultores@fenavi.",
+          "source": "Fenavi_comnsumo_producion",
+          "topic": "Mercado de huevo/avícola"
+        },
+        {
+          "text": "Avicultura colombiana\nRompiendo\nfronteras\nEn el 2025 el sector avícola colombiano\nalcanzó una producción de 3,1 millones de\ntoneladas de proteína animal con un cre-\nPor: Gonzalo Moreno,\ncimiento 8,3%.",
+          "source": "Fenavi_comnsumo_producion",
+          "topic": "Mercado de huevo/avícola"
+        },
+        {
+          "text": "huevo, con 1,16 millones de\ntoneladas (19.",
+          "source": "Fenavi_comnsumo_producion",
+          "topic": "Mercado de huevo/avícola"
+        },
+        {
+          "text": "huevo habitante año, sin lugar\na duda, algo que contribuye a la reducción de\nla pobreza.",
+          "source": "Fenavi_comnsumo_producion",
+          "topic": "Mercado de huevo/avícola"
+        },
+        {
+          "text": "avicultura\nallí que se viene impulsando el desarrollo de una\ncolombiana demuestra avicultura articulada con el medio ambiente: uso\nque Colombia tienen un y optimización del agua, vertimientos, manejo\nelevado potencial en el sector adecuado de desechos orgánicos, generación\nde olores y articulación con la comunidad, entre\nagropecuario, no sólo para\notros aspectos.",
+          "source": "Fenavi_comnsumo_producion",
+          "topic": "Mercado de huevo/avícola"
+        },
+        {
+          "text": "huevo a Cuba\ny Centro América; Colombia recibe visto bue-\nno para exportar huevo para quebradoras en\ny en huevo -1,55% respectivamente.",
+          "source": "Fenavi_comnsumo_producion",
+          "topic": "Mercado de huevo/avícola"
+        },
+        {
+          "text": "huevo,\nde Precios al Productor de alimento para anima- esto es, 64,7 millones de unidades.",
+          "source": "Fenavi_comnsumo_producion",
+          "topic": "Mercado de huevo/avícola"
+        },
+        {
+          "text": "Avicultura Sostenible,\nsegún ingresos respecto de los sectores econó- en operación desde el segundo semestre del\nmicos formales contribuyentes del impuesto de presente año, con resultados a destacar en colo-\nrenta.",
+          "source": "Fenavi_comnsumo_producion",
+          "topic": "Mercado de huevo/avícola"
+        },
+        {
+          "text": "avicultura sostenible más\nque el sector avícola alcance una participación de un 15% de las colocaciones totales de crédito\ndel 0,42% en el PIB y del 17,48% dentro del rubro que supera los $3,7 billones.",
+          "source": "Fenavi_comnsumo_producion",
+          "topic": "Mercado de huevo/avícola"
+        },
+        {
+          "text": "avicultura colombiana de-\nPara llegar al nivel actual de desarrollo del sector muestra que Colombia tienen un elevado\navícola no se ha escatimado esfuerzo alguno potencial en el sector agropecuario, no sólo\npor preservar las condiciones sanitarias de país, para garantizar una amplia oferta de alimentos\na través del fortalecimiento de una plataforma a la población a precios competitivos, sino para\ninstitucional, que va desde la capacidad técnica contar con una oferta exportadora.",
+          "source": "Fenavi_comnsumo_producion",
+          "topic": "Competencia"
+        },
+        {
+          "text": "huevo\nEn 2025, el sector avícola alcanzó una\nproducción total de 3,1 millones de\ntoneladas de proteína animal, con un\ncrecimiento del 8,3%.",
+          "source": "Fenavi_comnsumo_producion",
+          "topic": "Mercado de huevo/avícola"
+        },
+        {
+          "text": "huevo\nllegó a 1,16 millones de\ntoneladas,\nequivalentes a 19.",
+          "source": "Fenavi_comnsumo_producion",
+          "topic": "Mercado de huevo/avícola"
+        },
+        {
+          "text": "huevos\nal año, evidenciando el papel del sector\nen la reducción de la pobreza, al garan-\ntizar proteína de alta calidad, accesible y\ndisponible.",
+          "source": "Fenavi_comnsumo_producion",
+          "topic": "Mercado de huevo/avícola"
+        },
+        {
+          "text": "huevos para quebrar\n(breaking eggs) a Estados Unidos, por parte del Gobierno\nestadounidense.",
+          "source": "Fenavi_comnsumo_producion",
+          "topic": "Mercado de huevo/avícola"
+        },
+        {
+          "text": "Huevo, la Federación Nacional\nde Avicultores de Colombia, Fenavi, se unió con la chef de\ntalla internacional Leonor Espinosa y varios cocineros del país,\npara lanzar la serie documental “Detrás del Cascarón”, un ho-\nmenaje cultural y gastronómico que rescata los platos tradicionales\ncolombianos en los que el huevo es protagonista.",
+          "source": "Fenavi_comnsumo_producion",
+          "topic": "Mercado de huevo/avícola"
+        },
+        {
+          "text": "Huevo, fue ‘Mejó-\nralo con huevo’ una propuesta pensada para redescubrir este ingre-\ndiente esencial y llevarlo a otro nivel en la cocina diaria.",
+          "source": "Fenavi_comnsumo_producion",
+          "topic": "Mercado de huevo/avícola"
+        },
+        {
+          "text": "huevo como\nese aliado versátil capaz de transformar cualquier comida —desde\nlo más simple hasta lo más creativo— demostrando que un buen\ntoque de huevo siempre eleva el sabor.",
+          "source": "Fenavi_comnsumo_producion",
+          "topic": "Mercado de huevo/avícola"
+        },
+        {
+          "text": "Huevo: Alimento\nque deja huella” Fenavi celebró la\nhistoria de cada colombiano que\ndeja huella cada día.",
+          "source": "Fenavi_comnsumo_producion",
+          "topic": "Mercado de huevo/avícola"
+        },
+        {
+          "text": "huevo, que ha estado presente\nen cada momento de nuestras vidas, dejan-\ndo sabor, nutrición y recuerdos que perduran.",
+          "source": "Fenavi_comnsumo_producion",
+          "topic": "Mercado de huevo/avícola"
+        },
+        {
+          "text": "avicultura sostenible?\nDestinos Finagro\nActividades requeridas para\nhacer la transformación Código Destino\nNombre del Destino\nde Crédito\nAdopción plena de prácticas de avicultura sostenible financiando a la vez inversiones\nen bioseguridad, equipos e implementos nuevos para manejo del recurso hídrico, 104009 Avicultura Sostenible\nasistencia técnica, fuentes de energía no convencionales y certificaciones en buenas\nprácticas de origen.",
+          "source": "Fenavi_comnsumo_producion",
+          "topic": "Mercado de huevo/avícola"
+        },
+        {
+          "text": "huevo colombiano y avanzar en los requisitos para la futura\nexportación de carne de pollo a la isla.",
+          "source": "Fenavi_comnsumo_producion",
+          "topic": "Mercado de huevo/avícola"
+        },
+        {
+          "text": "Huevo de Fenavi, consolida a Colombia como un jugador relevante en\nel Caribe.",
+          "source": "Fenavi_comnsumo_producion",
+          "topic": "Mercado de huevo/avícola"
+        },
+        {
+          "text": "avicultura en 60\nsegundos\nEn 2025, Fenavi lanzó “60 segun-\ndos con la avicultura”, una sección\ndigital diseñada para explicar en un\nminuto temas clave del sector de\nmanera dinámica, cercana y pedagógica.",
+          "source": "Fenavi_comnsumo_producion",
+          "topic": "Mercado de huevo/avícola"
+        },
+        {
+          "text": "huevo significa un compromiso\ncon la calidad y seguridad de los alimen-\ntos y además, generar una cultura de\ninocuidad en granja, plantas, comercializadores\ny consumidor final.",
+          "source": "Fenavi_comnsumo_producion",
+          "topic": "Mercado de huevo/avícola"
+        },
+        {
+          "text": "avicultura colombia-\nna como un sector líder en productividad,\nbioseguridad, sostenibilidad y expansión\ninternacional.",
+          "source": "Fenavi_comnsumo_producion",
+          "topic": "Mercado de huevo/avícola"
+        },
+        {
+          "text": "avicultura sostenible financiando a la vez inversiones\nen bioseguridad, equipos e implementos nuevos para manejo del recurso hídrico,\nasistencia técnica, fuentes de energía no convencionales y certificaciones en buenas\nprácticas de origen.",
+          "source": "Fenavi_comnsumo_producion",
+          "topic": "Mercado de huevo/avícola"
+        },
+        {
+          "text": "Avicultura Sostenible\nLa producción agropecuaria y su sostenimiento.",
+          "source": "Fenavi_comnsumo_producion",
+          "topic": "Mercado de huevo/avícola"
+        }
+      ],
+      "numeric_data": {
+        "hhi_values": [],
+        "cr_values": [],
+        "lerner_values": [],
+        "market_shares": [],
+        "other_metrics": []
+      },
+      "total_citations": 33,
+      "topics_covered": [
+        "Competencia",
+        "Mercado de huevo/avícola"
       ]
     },
     {
@@ -10515,14 +10927,14 @@
       },
       "total_citations": 354,
       "topics_covered": [
+        "Economías de escala",
+        "Mercado de huevo/avícola",
         "Poder de mercado",
         "Concentración de mercado",
-        "Competencia",
         "Oligopolio",
-        "Mercado de huevo/avícola",
-        "Economías de escala",
         "Diferenciación de producto",
-        "Barreras de entrada"
+        "Barreras de entrada",
+        "Competencia"
       ]
     },
     {
@@ -11494,14 +11906,14 @@
       },
       "total_citations": 188,
       "topics_covered": [
+        "Economías de escala",
+        "Mercado de huevo/avícola",
         "Poder de mercado",
         "Concentración de mercado",
         "General",
-        "Competencia",
         "Oligopolio",
-        "Mercado de huevo/avícola",
-        "Economías de escala",
-        "Barreras de entrada"
+        "Barreras de entrada",
+        "Competencia"
       ]
     },
     {
@@ -12104,13 +12516,13 @@
       },
       "total_citations": 115,
       "topics_covered": [
+        "Mercado de huevo/avícola",
         "Poder de mercado",
         "Concentración de mercado",
-        "Competencia",
         "Oligopolio",
-        "Mercado de huevo/avícola",
         "Diferenciación de producto",
-        "Barreras de entrada"
+        "Barreras de entrada",
+        "Competencia"
       ]
     },
     {
@@ -13000,12 +13412,12 @@
       },
       "total_citations": 172,
       "topics_covered": [
+        "Mercado de huevo/avícola",
         "Poder de mercado",
         "Concentración de mercado",
-        "Competencia",
         "Oligopolio",
-        "Mercado de huevo/avícola",
-        "Barreras de entrada"
+        "Barreras de entrada",
+        "Competencia"
       ]
     },
     {
@@ -13362,12 +13774,12 @@
       },
       "total_citations": 65,
       "topics_covered": [
+        "Mercado de huevo/avícola",
         "Poder de mercado",
         "Concentración de mercado",
-        "Competencia",
         "Oligopolio",
-        "Mercado de huevo/avícola",
-        "Diferenciación de producto"
+        "Diferenciación de producto",
+        "Competencia"
       ]
     },
     {
@@ -13855,12 +14267,12 @@
       },
       "total_citations": 37,
       "topics_covered": [
+        "Mercado de huevo/avícola",
         "Poder de mercado",
         "Concentración de mercado",
-        "Competencia",
         "Oligopolio",
-        "Mercado de huevo/avícola",
-        "Barreras de entrada"
+        "Barreras de entrada",
+        "Competencia"
       ]
     },
     {
@@ -14674,9 +15086,9 @@
       },
       "total_citations": 146,
       "topics_covered": [
+        "Concentración de mercado",
         "Mercado de huevo/avícola",
         "Competencia",
-        "Concentración de mercado",
         "Diferenciación de producto"
       ]
     },
@@ -16764,14 +17176,14 @@
       },
       "total_citations": 411,
       "topics_covered": [
+        "Economías de escala",
+        "Mercado de huevo/avícola",
         "Poder de mercado",
         "Concentración de mercado",
-        "Competencia",
         "Oligopolio",
-        "Mercado de huevo/avícola",
-        "Economías de escala",
         "Diferenciación de producto",
-        "Barreras de entrada"
+        "Barreras de entrada",
+        "Competencia"
       ]
     },
     {
@@ -17006,10 +17418,10 @@
       },
       "total_citations": 42,
       "topics_covered": [
-        "Competencia",
         "Poder de mercado",
-        "Oligopolio",
-        "Barreras de entrada"
+        "Competencia",
+        "Barreras de entrada",
+        "Oligopolio"
       ]
     }
   ],
@@ -19875,6 +20287,246 @@
         {
           "citation": "Huevo |  |  |  | \n\n--- TABLA 2 (Página 93) ---\n | Carne de pollo | \n\n--- TABLA 1 (Página 94) ---\n | Empresa |  |  | Marca |  |  | Participación | \n\n--- TABLA 1 (Página 96) ---\n76% 78%\n78% 81%\n76% 79%\n70% 80%\n73% 87%\n74% 85%\n73% 86%\n73% 88%\n72% 88%\n76% 90%\n\n--- TABLA 1 (Página 98) ---\n42.",
           "source": "Estudio_Huevos_CarnePollo_2022"
+        },
+        {
+          "citation": "huevo\nDevolución bimestral de IVA: ¡otra vez!\nArancel inteligente y el maíz\nFinagro: líneas de crédito\nCOYUNTURA\nInflación avícola\nMercado del huevo: algo no cuadra\nE: pollita: hacia el 2024\nPrecio gallina fin de ciclo\nPollo en el mercado: ¡algo pasa! Fuente: Dane.",
+          "source": "Fenaviquin_ed3892023"
+        },
+        {
+          "citation": "huevo, en el que por un efecto inflación en la canasta\navícola\nde alimentos, se ha propiciado una sustitución a este producto; 2) por una\nreducción de la oferta, por estar en un ciclo de contracción o bien por un\nESTADÍSTICAS efecto neto que la reduzca (eventos sanitarios).",
+          "source": "Fenaviquin_ed3892023"
+        },
+        {
+          "citation": "Huevo (Dane) desploma independientemente del costo de producción.",
+          "source": "Fenaviquin_ed3892023"
+        },
+        {
+          "citation": "huevo o carne de po- silla con 0% no sería igual a una en blanco.",
+          "source": "Fenaviquin_ed3892023"
+        },
+        {
+          "citation": "huevo o carne, pero resulta que corresponde al valor imputado en este impuesto\nesta se compró previamente a terceros, se convierte en para bienes exentos, en tanto que la casilla en blan-\ningreso excluido; por tanto, la celda debe aparecer en co corresponde a los bienes sin gravamen y a los\nblanco excluidos.",
+          "source": "Fenaviquin_ed3892023"
+        },
+        {
+          "citation": "huevo, era insuficiente para abastecer los de aplicar, nuevamente, mecanismos de protección.",
+          "source": "Fenaviquin_ed3892023"
+        },
+        {
+          "citation": "HUEVOS DIA PRODUCCIÓN POLLO DIA\nPequeño productor de bajos ingresos 53.",
+          "source": "Fenaviquin_ed3892023"
+        },
+        {
+          "citation": "huevo referencia AA en el mercado mayo-\nrista fue de $488 la unidad, y para el pollo entero\nFuente: Dane.",
+          "source": "Fenaviquin_ed3892023"
+        },
+        {
+          "citation": "huevo, tenemos que se ha convertido en tado en el rango de los $12 mil por más de un\nel principal sustituto de los productos más costosos de año, sin perspectivas de cambio en el corto plazo.",
+          "source": "Fenaviquin_ed3892023"
+        },
+        {
+          "citation": "huevo, está girando por los alrededores de\nto que, en el pollo, el precio dependerá de la estructura los $550, pese al ritmo de la demanda.",
+          "source": "Fenaviquin_ed3892023"
+        },
+        {
+          "citation": "huevo, en el que, ante un incremento en los precios, la de-\nmanda se reducía.",
+          "source": "Fenaviquin_ed3892023"
+        },
+        {
+          "citation": "huevo, la oferta es inelástica en el corto\nplazo, por corresponder a una condición biológica.",
+          "source": "Fenaviquin_ed3892023"
+        },
+        {
+          "citation": "huevo: algo no cuadra\nPrecio de huevo rojo AA En la primera gráfica de la nota anterior se ob-\nen el mercado mayorista serva una correlación entre la oferta y los pre-\ncios del mercado, lo cual refleja la dinámica de la\ndemanda.",
+          "source": "Fenaviquin_ed3892023"
+        },
+        {
+          "citation": "huevo: en un lapso de dieciocho años el precio solo\nse incrementó $200 por unidad, es decir, a razón de\n$11 año.",
+          "source": "Fenaviquin_ed3892023"
+        },
+        {
+          "citation": "huevo está de\nVar Pcc neta -5,7% -4,4% -3,1% -1,2% moda”, y 2) un desplazamiento (contracción) de la\noferta; siguiendo un modelo de elasticidad normal,\nFuente: Fenavi.",
+          "source": "Fenaviquin_ed3892023"
+        },
+        {
+          "citation": "huevo está transitando\ncio del huevo en un mercado de referencia como el por un periodo de crecimiento del consumo, la\nmayorista Bogotá, muestra un incremento de 13.",
+          "source": "Fenaviquin_ed3892023"
+        },
+        {
+          "citation": "avicultura, que nos lleva por lo demás a un productor cuando se le preguntó por la bo-\npensar en la necesidad de incrementar las inversio- dega: “No se alcanza a acumular sino la producción\nnes en bioseguridad.",
+          "source": "Fenaviquin_ed3892023"
+        },
+        {
+          "citation": "huevo es “rentable”, se crea un incentivo para\nel IPP alimento balanceado (indicador proxy para medir el\nalargar las semanas de producción, al pasar de\ncosto), se incrementó 3.",
+          "source": "Fenaviquin_ed3892023"
+        },
+        {
+          "citation": "huevo ha aumentado, mientras que el\nincluso hasta 100, dependiendo de cada pro-\ndel alimento balanceado ha disminuido en los últimos meses.",
+          "source": "Fenaviquin_ed3892023"
+        },
+        {
+          "citation": "huevo hace llamativa la en el que se afectó significativamente la producción nacional\ncompra de estas ponedoras –que a pesar de por los bloqueos de las vías), cumplieron 80 semanas.",
+          "source": "Fenaviquin_ed3892023"
+        },
+        {
+          "citation": "huevo y a la disminución en los costos, se debe a que\nlos inventarios de estas aves son bajos, debido a la caída del\nencasetamiento en el 2021, por efecto bloqueos.",
+          "source": "Fenaviquin_ed3892023"
+        },
+        {
+          "citation": "huevo que, por su precio, es de\nTres de las fuentes proteicas más consumidas a ni- fácil acceso para gran parte de la población.",
+          "source": "Fenaviquin_ed3892023"
+        },
+        {
+          "citation": "Huevo Res\nlos eventos sanitarios (brotes de enfermedades), los\nbloqueos o derrumbes en la vías y cambios en los pa-\nGr proteína en 100\n27 27 13 18,7 trones de consumo, los cuales también tienen un im-\ngramos producto\npacto importante en la disponibilidad y los precios.",
+          "source": "Fenaviquin_ed3892023"
+        },
+        {
+          "citation": "huevo res de las empresas avícolas.",
+          "source": "Fenaviquin_ed3892023"
+        },
+        {
+          "citation": "HUEVO Costo de producción ($/ huevo) sin amortización ave\nESTRUCTURA VARIABLE/INSUMOS PROMEDIO\nDE COSTOS\n22-oga 22-pes 22-tco 22-von 22-cid 32-ene 32-bef 32-oga 32-pes 32-tco 32-von 32-cid 42-ene 42-bef ESTRUCTURA PROMEDIO\nDE COSTOS\nAlimento Balanceado 68,2% 3.",
+          "source": "Fenaviquin_ed3892023"
+        },
+        {
+          "citation": "huevo se incluye la variable de amortización de la gallina),\nse obtiene el costo total de producción por kg de pollo en pie, kg de pollo\nen canal y huevo, segun los parámetros productivos descritos al final del\nanálisis y la estructura de costos promedio se utilizo la de cundinamarca.",
+          "source": "Fenaviquin_ed3892023"
+        },
+        {
+          "citation": "HUEVO Costo de producción ($/ huevo) con amortización ave\nPrecio de gallina ($) 11.",
+          "source": "Fenaviquin_ed3892023"
+        },
+        {
+          "citation": "Huevos acumulados ave alojada 350 Partic.",
+          "source": "Fenaviquin_ed3892023"
+        },
+        {
+          "citation": "huevo) 0,160\nHuevo 60% 5% 16%\nMortalidad (%) 5 Mortalidad del ciclo (%) 12\n\n--- PÁGINA 16 ---\nEstadística\nTermómetro de mercado Pollo (Dane)\nPrecios de pollo ($/kg en central mayorista)\nVariación\nPollo entero Semana del Semana del Variación Promedio\nTendencia semana Tendencia\nfresco sin Plaza Mayorista 21 al 27 de 14 al 20 de última mes anterior\nsemanal actual/mes mensual\nvísceras octubre octubre semana (septiembre)\nanterior\nFrigorífico\nGuadalupe 9.",
+          "source": "Fenaviquin_ed3892023"
+        },
+        {
+          "citation": "huevo: algo no cuadra\nE: pollita: hacia el 2024\nPrecio gallina fin de ciclo\nPollo en el mercado: ¡algo pasa!\nEl precio de la proteínas\nArancel SAFP: 1ra Quincena de\nNov/2023\nFallas en la bioseguridad, resultados\nAfectación vías nacionales - sector\navícola\nESTADÍSTICAS\nImpacto de costos: proyección\nTermómetro de mercado Pollo (Dane)\nTermómetro de mercado Huevo (Dane)\nIndicadores Pollo Colombia vs.",
+          "source": "Fenaviquin_ed3892023"
+        },
+        {
+          "citation": "HUEVOS DIA | PRODUCCIÓN POLLO DIA\nPequeño productor de bajos ingresos | 53.",
+          "source": "Fenaviquin_ed3892023"
+        },
+        {
+          "citation": "Huevos acumulados ave alojada | 350\nConsumo alimento acumulado (kg/ave) | 56,035\nConsumo alimento kg/huevo) | 0,160\nMortalidad del ciclo (%) | 12\n\n--- TABLA 12 (Página 15) ---\nPartic.",
+          "source": "Fenaviquin_ed3892023"
+        },
+        {
+          "citation": "Huevo | 60% | 5% | 16\n\n--- TABLA 1 (Página 16) ---\n | \n\n--- TABLA 2 (Página 16) ---\nPollo entero\nfresco sin\nvísceras | Plaza Mayorista | Semana del\n21 al 27 de\noctubre | Semana del\n14 al 20 de\noctubre | Variación\núltima\nsemana | Tendencia\nsemanal | Promedio\nmes anterior\n(septiembre) | Variación\nsemana\nactual/mes\nanterior | Tendencia\nmensual\n | Frigorífico\nGuadalupe | 9.",
+          "source": "Fenaviquin_ed3892023"
+        },
+        {
+          "citation": "Avicultura colombiana:\nrompiendo fronteras\n6 • Los 20 hitos más relevantes que marcaron\nla agenda avícola mediática del 2025\n34 • El Programa Económico FENAVI – FONAV\nimpulsa una agenda estratégica desde la\nMesa Sectorial Avícola\nPRESIDENTE EJECUTIVO DIRECTORA EJECUTIVA PRODUCCIÓN EDITORIAL\nGonzalo Moreno Gómez FENAVI ANTIOQUIA Vector Creativo\nÉrika Montaño javiernietodiaz@gmail.",
+          "source": "Fenavi_comnsumo_producion"
+        },
+        {
+          "citation": "HUEVO Sandra Correa\nOlga Castillo FOTOGRAFÍA\nDIRECTORA EJECUTIVA Fenavi\nDIRECTOR PROGRAMA POLLO FENAVI COSTA Archivo particular\nLuis Rodolfo Álvarez Piñeres Lucy de la Ossa\nDIRECTORA PROGRAMA TÉCNICO DIRECTORA EJECUTIVA\nDiana Sarita Nieto FENAVI CENTRAL\nAdriana Dávila avicultores@fenavi.",
+          "source": "Fenavi_comnsumo_producion"
+        },
+        {
+          "citation": "Avicultura colombiana\nRompiendo\nfronteras\nEn el 2025 el sector avícola colombiano\nalcanzó una producción de 3,1 millones de\ntoneladas de proteína animal con un cre-\nPor: Gonzalo Moreno,\ncimiento 8,3%.",
+          "source": "Fenavi_comnsumo_producion"
+        },
+        {
+          "citation": "huevo, con 1,16 millones de\ntoneladas (19.",
+          "source": "Fenavi_comnsumo_producion"
+        },
+        {
+          "citation": "huevo habitante año, sin lugar\na duda, algo que contribuye a la reducción de\nla pobreza.",
+          "source": "Fenavi_comnsumo_producion"
+        },
+        {
+          "citation": "avicultura\nallí que se viene impulsando el desarrollo de una\ncolombiana demuestra avicultura articulada con el medio ambiente: uso\nque Colombia tienen un y optimización del agua, vertimientos, manejo\nelevado potencial en el sector adecuado de desechos orgánicos, generación\nde olores y articulación con la comunidad, entre\nagropecuario, no sólo para\notros aspectos.",
+          "source": "Fenavi_comnsumo_producion"
+        },
+        {
+          "citation": "huevo a Cuba\ny Centro América; Colombia recibe visto bue-\nno para exportar huevo para quebradoras en\ny en huevo -1,55% respectivamente.",
+          "source": "Fenavi_comnsumo_producion"
+        },
+        {
+          "citation": "huevo,\nde Precios al Productor de alimento para anima- esto es, 64,7 millones de unidades.",
+          "source": "Fenavi_comnsumo_producion"
+        },
+        {
+          "citation": "Avicultura Sostenible,\nsegún ingresos respecto de los sectores econó- en operación desde el segundo semestre del\nmicos formales contribuyentes del impuesto de presente año, con resultados a destacar en colo-\nrenta.",
+          "source": "Fenavi_comnsumo_producion"
+        },
+        {
+          "citation": "avicultura sostenible más\nque el sector avícola alcance una participación de un 15% de las colocaciones totales de crédito\ndel 0,42% en el PIB y del 17,48% dentro del rubro que supera los $3,7 billones.",
+          "source": "Fenavi_comnsumo_producion"
+        },
+        {
+          "citation": "huevo\nEn 2025, el sector avícola alcanzó una\nproducción total de 3,1 millones de\ntoneladas de proteína animal, con un\ncrecimiento del 8,3%.",
+          "source": "Fenavi_comnsumo_producion"
+        },
+        {
+          "citation": "huevo\nllegó a 1,16 millones de\ntoneladas,\nequivalentes a 19.",
+          "source": "Fenavi_comnsumo_producion"
+        },
+        {
+          "citation": "huevos\nal año, evidenciando el papel del sector\nen la reducción de la pobreza, al garan-\ntizar proteína de alta calidad, accesible y\ndisponible.",
+          "source": "Fenavi_comnsumo_producion"
+        },
+        {
+          "citation": "huevos para quebrar\n(breaking eggs) a Estados Unidos, por parte del Gobierno\nestadounidense.",
+          "source": "Fenavi_comnsumo_producion"
+        },
+        {
+          "citation": "Huevo, la Federación Nacional\nde Avicultores de Colombia, Fenavi, se unió con la chef de\ntalla internacional Leonor Espinosa y varios cocineros del país,\npara lanzar la serie documental “Detrás del Cascarón”, un ho-\nmenaje cultural y gastronómico que rescata los platos tradicionales\ncolombianos en los que el huevo es protagonista.",
+          "source": "Fenavi_comnsumo_producion"
+        },
+        {
+          "citation": "Huevo, fue ‘Mejó-\nralo con huevo’ una propuesta pensada para redescubrir este ingre-\ndiente esencial y llevarlo a otro nivel en la cocina diaria.",
+          "source": "Fenavi_comnsumo_producion"
+        },
+        {
+          "citation": "huevo como\nese aliado versátil capaz de transformar cualquier comida —desde\nlo más simple hasta lo más creativo— demostrando que un buen\ntoque de huevo siempre eleva el sabor.",
+          "source": "Fenavi_comnsumo_producion"
+        },
+        {
+          "citation": "Huevo: Alimento\nque deja huella” Fenavi celebró la\nhistoria de cada colombiano que\ndeja huella cada día.",
+          "source": "Fenavi_comnsumo_producion"
+        },
+        {
+          "citation": "huevo, que ha estado presente\nen cada momento de nuestras vidas, dejan-\ndo sabor, nutrición y recuerdos que perduran.",
+          "source": "Fenavi_comnsumo_producion"
+        },
+        {
+          "citation": "avicultura sostenible?\nDestinos Finagro\nActividades requeridas para\nhacer la transformación Código Destino\nNombre del Destino\nde Crédito\nAdopción plena de prácticas de avicultura sostenible financiando a la vez inversiones\nen bioseguridad, equipos e implementos nuevos para manejo del recurso hídrico, 104009 Avicultura Sostenible\nasistencia técnica, fuentes de energía no convencionales y certificaciones en buenas\nprácticas de origen.",
+          "source": "Fenavi_comnsumo_producion"
+        },
+        {
+          "citation": "huevo colombiano y avanzar en los requisitos para la futura\nexportación de carne de pollo a la isla.",
+          "source": "Fenavi_comnsumo_producion"
+        },
+        {
+          "citation": "Huevo de Fenavi, consolida a Colombia como un jugador relevante en\nel Caribe.",
+          "source": "Fenavi_comnsumo_producion"
+        },
+        {
+          "citation": "avicultura en 60\nsegundos\nEn 2025, Fenavi lanzó “60 segun-\ndos con la avicultura”, una sección\ndigital diseñada para explicar en un\nminuto temas clave del sector de\nmanera dinámica, cercana y pedagógica.",
+          "source": "Fenavi_comnsumo_producion"
+        },
+        {
+          "citation": "huevo significa un compromiso\ncon la calidad y seguridad de los alimen-\ntos y además, generar una cultura de\ninocuidad en granja, plantas, comercializadores\ny consumidor final.",
+          "source": "Fenavi_comnsumo_producion"
+        },
+        {
+          "citation": "avicultura colombia-\nna como un sector líder en productividad,\nbioseguridad, sostenibilidad y expansión\ninternacional.",
+          "source": "Fenavi_comnsumo_producion"
+        },
+        {
+          "citation": "avicultura sostenible financiando a la vez inversiones\nen bioseguridad, equipos e implementos nuevos para manejo del recurso hídrico,\nasistencia técnica, fuentes de energía no convencionales y certificaciones en buenas\nprácticas de origen.",
+          "source": "Fenavi_comnsumo_producion"
+        },
+        {
+          "citation": "Avicultura Sostenible\nLa producción agropecuaria y su sostenimiento.",
+          "source": "Fenavi_comnsumo_producion"
         },
         {
           "citation": "POULTRY MARKET CHAIN: THE CASE OF DALE\nAND ALABA ‘SPECIAL’ WOREDAS OF SNNPRS, ETHIOPIA\nM.",
@@ -23431,6 +24083,42 @@
           "source": "Estudio_Huevos_CarnePollo_2022"
         },
         {
+          "citation": "competitivos respec-\nto a otras latitudes.",
+          "source": "Fenaviquin_ed3892023"
+        },
+        {
+          "citation": "competencia perfecta,\nbajo el cual se deben cumplir ciertas premisas, entre las\nque se destacan las siguientes: 1) deben existir muchos\noferentes; 2) no se tienen barreras a la entrada; 3) todas\nlas empresas venden un producto idéntico; 4) el precio se\ndetermina por oferta y demanda, y ninguna empresa tiene\ncapacidad de incidir directamente en este; 5) los compra-\ndores tienen información plena del producto y el mercado.",
+          "source": "Fenaviquin_ed3892023"
+        },
+        {
+          "citation": "huevo ya no se ajusta a la\nCiclo de producción y precios característica indicada de competencia perfecta.",
+          "source": "Fenaviquin_ed3892023"
+        },
+        {
+          "citation": "competitivos, sino para contar ha alcanzado varios titulares: Colombia exporta\ncon una oferta exportadora.",
+          "source": "Fenavi_comnsumo_producion"
+        },
+        {
+          "citation": "competitivos, sino para\ninstitucional, que va desde la capacidad técnica contar con una oferta exportadora.",
+          "source": "Fenavi_comnsumo_producion"
+        },
+        {
+          "citation": "Competencias Laborales, orientado a certifi-\nPrograma Económico vuelve a hacer car a 3.",
+          "source": "Fenavi_comnsumo_producion"
+        },
+        {
+          "citation": "Competencias Laborales\nSector Avícola en alianza con el SENA\ninstitucional y productivo, con impactos posi-\ntivos en la competitividad del sector nacional.",
+          "source": "Fenavi_comnsumo_producion"
+        },
+        {
+          "citation": "competencias, transferencia de co- de concertación, permitiendo dar a conocer\nnocimiento y adopción de mejores prácticas.",
+          "source": "Fenavi_comnsumo_producion"
+        },
+        {
+          "citation": "avicultura colombiana de-\nPara llegar al nivel actual de desarrollo del sector muestra que Colombia tienen un elevado\navícola no se ha escatimado esfuerzo alguno potencial en el sector agropecuario, no sólo\npor preservar las condiciones sanitarias de país, para garantizar una amplia oferta de alimentos\na través del fortalecimiento de una plataforma a la población a precios competitivos, sino para\ninstitucional, que va desde la capacidad técnica contar con una oferta exportadora.",
+          "source": "Fenavi_comnsumo_producion"
+        },
+        {
           "citation": "competitively when they are supported by dedicated business organizations, both\nformal and informal, which participate in enabling produce to flow from the farm gate to\nthe final consumer.",
           "source": "FinalThesis_AwolZeberga"
         },
@@ -24499,6 +25187,10 @@
         {
           "citation": "huevos, las economías de escala y sus\nrespectivos costos fijos para alcanzarlas también se encuentran presentes, aunque de manera\ndiferenciada según el canal en que se busque competir.",
           "source": "Estudio_Huevos_CarnePollo_2022"
+        },
+        {
+          "citation": "economías de escala y, desde luego, las tecnologías\nnacional de granos fuera creciendo par y paso con de punta, siempre y cuando el objetivo primario sea el\nla expansión de la demanda de pollo y huevo.",
+          "source": "Fenaviquin_ed3892023"
         },
         {
           "citation": "economies of scale, capital and technological factors to analyze the\nmarket structure.",
@@ -29891,19 +30583,19 @@
         "topic": "Mercado de huevo/avícola",
         "best_citation": "huevo/costo unitario de pollitas de\npostura del segundo productor de mayor tamaño\nÍndice base enero 2010=100 79\nSupermercado/costos\nMercado/costos\n120\n100\n80\n60\n0 0 0 1 1 2 2 2 3 3 4 4 5 5 5 6 6 7 7 7 8 8 9\n1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1\n-e\nn e\n-n\nu j\n-v\no n\n-r\nb a\n-p\ne s\n-b\ne f\n-lu\nj\n-c\nid\n-y\na m\n-tc\no\n-r\na m\n-o\ng a\n-e\nn e\n-n\nu j\n-v\no n\n-r\nb a\n-p\ne s\n-b\ne f\n-lu\nj\n-c\nid\n-y\na m\n-tc\no\n-r\na m\nFuente: Elaboración propia con base en datos de DC y productores/distribuidores de huevo.",
         "source": "Estudio_Huevos_CarnePollo_2022",
-        "total_sources": 1357
+        "total_sources": 1417
       },
       {
         "topic": "Competencia",
         "best_citation": "competencia\nCerrada con mul-\nAvícola, aves\nPerú Cartel Represivo ta 10% ventas del 1996\nde corral\ncartel\nCarne/ frigorí-\nMulta 600 mil bal-\nPanamá fico (planta de Cartel Represivo 2005\nboas (año 2005)\nsacrificio)\nCarne/ frigorí-\nBrasil fico / sacrificio Cartel Represivo En curso 2006\nganado bovino\nFrigorífico/ Abuso posición\nColombia planta de sacri- dominante - Ne- Represivo En curso 2007\nficio ganado gativa venta\nAbuso de posi- Cerrada – no\nLeche - indus- ción dominante: sancionable.",
         "source": "Condiciones de competencia en cadenas",
-        "total_sources": 487
+        "total_sources": 496
       },
       {
         "topic": "Economías de escala",
         "best_citation": "Economies of Scale with Application to Food Assistance\nDirectors and Work Incentive Programs\nYU NA LEE • Does Aversion to Price Risk Drive Migration? Evidence from Rural Ethiopia\nTitus Awokuse, Michigan State University ALAN DE BRAUW AND SYLVAN HERSKOWITZ • Income Variability, Evolving Diets, and Elasticity Estimation of\nTimothy Beatty, University of California, Davis Demand for Processed Foods in Nigeria\nSTEVEN M.",
         "source": "American J Agri Economics - 2021 -  - Issue Information",
-        "total_sources": 32
+        "total_sources": 33
       },
       {
         "topic": "Diferenciación de producto",
@@ -30166,6 +30858,29 @@
         ]
       },
       {
+        "filename": "Fenaviquin_ed3892023.txt",
+        "title": "FECHA EXTRACCIÓN: 2026-07-22T23:09:09.870134",
+        "authors": "",
+        "main_contribution": "",
+        "key_findings": [
+          "una tendencia al alza, y si es el caso contrario, a la baja. Y esto puede ocurrir\npor dos razones: 1) que, en efecto, la demanda esté en crecimiento, como en\nAfectación vías nacionales - sector\nel caso particular del huevo, en el que por un efecto inflación en la canasta\navícola\nde alimentos, se ha ",
+          "La bioseguridad avícola emerge como un pilar Si fallan estos esquemas de prevención y conten-\nfundamental para la mitigación de riesgos y la ción de enfermedades, podría ingresar una bacteria\nmaximización de la rentabilidad en la producción. Sin y atacar a las aves, resultando en gastos adicionales ",
+          "Afectación vías nacionales - sector\navícola\nESTADÍSTICAS\nImpacto de costos: proyección\nTermómetro de mercado Pollo (Dane)\nTermómetro de mercado Huevo (Dane)\nIndicadores Pollo Colombia vs. EEUU\nPrecios cuartos traseros para\nexportación desde EEUU | \n |"
+        ],
+        "relevant_citations": []
+      },
+      {
+        "filename": "Fenavi_comnsumo_producion.txt",
+        "title": "FECHA EXTRACCIÓN: 2026-07-22T23:09:33.329067",
+        "authors": "Carlos Duque,\nOlga Castillo",
+        "main_contribution": "",
+        "key_findings": [
+          "a destacar en colo-\nrenta. Y con similar posición según la matriz de caciones que suman más de $550.000 millones\nOferta y Utilización del DANE dentro de los ren- orientados a la modernización competitiva del\nglones productivos con actividad propia. De allí sector avícola sólo en avicultura sostenibl",
+          "ndo el papel del sector\nen la reducción de la pobreza, al garan-\ntizar proteína de alta calidad, accesible y\ndisponible"
+        ],
+        "relevant_citations": []
+      },
+      {
         "filename": "FinalThesis_AwolZeberga.txt",
         "title": "FECHA EXTRACCIÓN: 2026-07-19T01:15:52.329588",
         "authors": "by Awol Zeberga",
@@ -30391,6 +31106,14 @@
       {
         "source": "Estudio_Huevos_CarnePollo_2022.txt",
         "contribution": "del estudio elaborado por la firma consultora\nAGON Economía y Derecho, SC. Lo expresado en este informe es de responsabilidad de la\nSuperintendencia de Competencia y puede, o no, coincidir con los argumentos de la firma\nconsultora.\nSuperintendencia de Competencia\nAgosto de 2022\n1"
+      },
+      {
+        "source": "Fenaviquin_ed3892023.txt",
+        "contribution": "una tendencia al alza, y si es el caso contrario, a la baja. Y esto puede ocurrir\npor dos razones: 1) que, en efecto, la demanda esté en crecimiento, como en\nAfectación vías nacionales - sector\nel caso particular del huevo, en el que por un efecto inflación en la canasta\navícola\nde alimentos, se ha "
+      },
+      {
+        "source": "Fenavi_comnsumo_producion.txt",
+        "contribution": "a destacar en colo-\nrenta. Y con similar posición según la matriz de caciones que suman más de $550.000 millones\nOferta y Utilización del DANE dentro de los ren- orientados a la modernización competitiva del\nglones productivos con actividad propia. De allí sector avícola sólo en avicultura sostenibl"
       },
       {
         "source": "FinalThesis_AwolZeberga.txt",

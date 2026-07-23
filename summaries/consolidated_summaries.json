@@ -1,15 +1,15 @@
 {
-  "processing_date": "2026-07-19T01:17:48.731337",
-  "total_articles": 27,
+  "processing_date": "2026-07-22T23:09:51.031827",
+  "total_articles": 29,
   "categories_distribution": {
-    "Mercado huevos internacional": 25,
-    "Estructura mercado agroalimentario": 25,
-    "Barreras entrada": 15,
-    "Medición poder mercado": 16,
+    "Mercado huevos internacional": 27,
+    "Estructura mercado agroalimentario": 27,
+    "Barreras entrada": 16,
+    "Medición poder mercado": 17,
     "Modelo teórico oligopolio": 4
   },
   "relevance_distribution": {
-    "Alta": 6,
+    "Alta": 8,
     "Media": 9,
     "Baja": 12
   },
@@ -20,7 +20,7 @@
         "authors": "Unknown",
         "year": null,
         "title": "FECHA EXTRACCIÓN: 2026-07-19T01:12:52.758210",
-        "processing_date": "2026-07-19T01:17:47.950584"
+        "processing_date": "2026-07-22T23:09:50.161551"
       },
       "content": {
         "abstract": "Eggs are one of the most important protein products with a special place in the\nfood basket of Iranian households. The large changes in the price of this product\ncan have a great impact on buyers and producers. A large share of the cost of\negg production is related to the consumption of two inputs, soy and corn;\ntherefore, the final price and fluctuations in the price of eggs are highly\ndependent on the prices of these two inputs and their fluctuations. In this\nresearch, by using bounds-testing, the long-term and short-term relationships\nbetween egg prices and soybean and corn prices were explored, as well as the\neffect of the price shocks of these inputs in the egg market. This test was carried\nout in the form of Autoregressive Distributed Lag (ARDL) and the presence of\ncointegration relationship between the variables in different modes was\ninvestigated. Since the lack of long-term relationship between the variables was\nrejected in all three studied modes, the Vector Error Correction Model (VECM)\nwas found to be suitable for investigating the shocks on the egg market. The\nstudy results showed that the shocks on soybean prices had the greatest effect on\nthe fluctuation of egg prices in the short term, and in the long term, the\nleadership of the egg price (increase or decrease in the price of eggs) was done\nby the shocks on the corn market. Therefore, it is suggested that in the short\nterm, the policy-maker should prevent the transfer of shocks from the soy\n1. Corresponding Author and PhD Student in Agricultural Economics, Faculty of\nAgriculture and Natural Resources, University of Tehran, Tehran, Iran\n(adalatsalim@ut.ac.ir).\n2. PhD Student in Agricultural Economics, Faculty of Agriculture and Natural\nResources, University of Tehran, Tehran, Iran.\n3. Assistant Professor of Agricultural Economics, Faculty of Agriculture and Natural\nResources, University of Tehran, Tehran, Iran.\nDOI: 10.30490/AEAD.2023.351385.1253\n11",
@@ -73,7 +73,7 @@
         "authors": "Unknown",
         "year": null,
         "title": "FECHA EXTRACCIÓN: 2026-07-19T01:12:56.230958",
-        "processing_date": "2026-07-19T01:17:47.968783"
+        "processing_date": "2026-07-22T23:09:50.175864"
       },
       "content": {
         "abstract": "This paper examines the vertical price relationship between upstream and downstream products in China’s layer industry\nchain by estimating elasticity coefficients of the price transmission. We use cointegration tests, error correction models\nand finite distributed lag models to analyze vertical price shifts between corn, layer feed, egg-laying chicken and egg\nprices. With monthly data from 1994 to 2010, our results show that various prices in China’s layer industry chain are well\nintegrated. In addition, our results indicate that both long-run and short-run price relationships between upstream and\ndownstream products in layer industry chain exist and the long-run equilibrium, to a certain extent, may eliminate the\nshort-run dynamics price deviation. We also found that the influence of corn and feed prices on egg prices is still more\nremarkable than egg-laying chicken prices. Our findings imply that governments should pay more attention to corn and\nlayer feed prices in order to stabilize egg prices under the conditions of market integration.\nKey words: finite distributed lag model, vertical price transmission, layer industry chain, China\nmeat, eggs and sugar released in nationwide and ex-\nINTRODUCTION ecuted market regulation. The changes in agricultural\ncirculation system have greatly promoted agricultural\nSince the reform and opening up in 1978, China’s eco- production and development of circulation system, es-\nnomic system has changed significantly, and agricul- pecially a multi-channel circulation system, not only\ntural circulation system has developed rapidly. Before enriched the market supply of farm products but also\n1980, China had a restrictive state-run food system; improved the managerial efficiency of agricultural\nsome foods were sold at a fixed price in cities. After markets.\n1980, a series of market policies were introduced and With continuing institutional changes, agriculture and\nthe state-run system was dismantled (Huang and Rozelle rural development, however, are facing more uncertain\n1998). Since then, China’s agri-food market has expe- factors and more serious market risks (Zhang 2010).\nrienced a gradual liberalization, moving from a state- In recent years, prices of fresh agri-food, such as\nowned system to a more diversified system. Along vegetables, fruits, meat, and eggs, were experiencing\nwith market openness continues to expand, agricultural high volatility. According to the monitoring by Minis-\ncirculation system realized by plans to free markets regu- try of Agriculture of China, the changes of China agri-\nlated the circulation system of comprehensive conver- cultural product wholesale prices index show “N” shape\nsion in 1992, the price of vegetables, fruits, edible oil, during January 2005 to April 2010, increasing from 123.2\nReceived 2 June, 2011 Accepted 9 October, 2011\nCorrespondence XU Shi-wei, Professor, Ph D, Tel: +86-10-82109902, E-mail: xushiwei@mail.caas.net.cn\n© 2011, CAAS. All rights reserved. Published by Elsevier Ltd.\ndoi:10.1016/S1671-2927(11)60181-8",
@@ -133,7 +133,7 @@
         "authors": "Unknown",
         "year": null,
         "title": "FECHA EXTRACCIÓN: 2026-07-19T01:13:08.725913",
-        "processing_date": "2026-07-19T01:17:47.993578"
+        "processing_date": "2026-07-22T23:09:50.199872"
       },
       "content": {
         "abstract": "This research focuses on the application of the Almost Ideal Demand System (AIDS) in\nPakistan for the necessity food commodities. AIDS is an econometric technique that is used to\nderive demand patterns and elasticities. The data was taken from the Household Integrated\nEconomic Survey of Pakistan for the years 2007-08, 2010-11, 2013-14, and 2018-19. Eight\nfood commodities are aggregated as cereals, chicken, fish, eggs (CFE), meat, milk, oils, pulses,\nsugar products, and vegetables and fruits (VegFru). Both Linear Approximation of AIDS (LA-\nAIDS) and Quadratic-AIDS (QUAIDS) were implemented with the demographic factors\ninvolved. Bootstrapping was also implemented to ensure that our estimates are reliable. Both\nmodels provided similar results with slight changes in elasticities. The findings also revealed\ndifferences in the demand patterns across the years and demographics. The regional differences\nwithin the nation were also found, with Sindh having the highest expenditure as compared to\nother provinces, and Balochistan having the lowest. It was found that consumption patterns\nhave changed over the years. The study recommends improving affordability and access to\nlivestock products and CFE, as their demand is highly income responsive. It also highlights the\nneed for stable pricing of essential food commodities and region-specific food policies to improve\ndietary quality and food security in Pakistan.",
@@ -208,7 +208,7 @@
         "authors": "Unknown",
         "year": null,
         "title": "FECHA EXTRACCIÓN: 2026-07-19T01:13:13.754288",
-        "processing_date": "2026-07-19T01:17:48.018240"
+        "processing_date": "2026-07-22T23:09:50.215555"
       },
       "content": {
         "abstract": "Bengkulu is one of the provinces in Indonesia where household protein consumption is still below the national\nprotein recommended allowance. This paper examines the effect of price, income and socio-demographic\nfactors on household demand using the Quadratic Almost Ideal Demand System (QUAIDS) model\nand data from the Indonesian National Socio-Economic Survey (Susenas) in March 2021, which includes\n5,079 households. The QUADS parameters were estimated using the Iterated Nonlinear Seemingly Unrelated\nRegression technique with theoretical restrictions imposed. The estimated parameters from the model were\nutilized to derive price and income elasticities for animal-derived foods. Empirically, it was found that fish\nis the most elastic animal-sourced food with a demand elasticity of 4.44%, followed by beef (2.78%), milk\n(1.94%), poultry (1.54%), and eggs (0.82%). Fish substitutes for beef, chicken, and eggs when prices increase\nbut is complementary to milk. Four animal-sourced food groups, namely fish, beef, milk, and poultry, are\nluxury items, with income elasticities of 2.57%, 2.39%, 2.22%, and 1.36%, respectively. In contrast, eggs\nwere found to be a normal good with an income elasticity of 0.53%. Fish and beef are very elastic; thus,\nthe government can use pricing strategies and implement policy to increase poultry and eggs production\nso that daily protein requirements of 57 grams per capita per day are reached in Bengkulu province.",
@@ -346,7 +346,7 @@
         "authors": "Unknown",
         "year": null,
         "title": "FECHA EXTRACCIÓN: 2026-07-19T01:13:19.241598",
-        "processing_date": "2026-07-19T01:17:48.034773"
+        "processing_date": "2026-07-22T23:09:50.229822"
       },
       "content": {
         "abstract": "Protein deficiency is one of the causes of the poor nutritional status of the Indonesian population, is\npermanent, and long-term will have an impact on the lower quality of human resources. This study analyzes the\nimpact of price and income changes on animal food consumption patterns and demand on five poverty level in\nIndonesia. The demand esimation uses Quadratic Almost Ideal Demand Systems, using the National Socio\nEconomic Survey (SUSENAS) data (March 2016) compilation data of 291,414 households. The results showed\nthat there were different interactions between beef and the other four animal protein food sources, namely the Poor,\nAlmost Poor and Vulnerable Poor beef substitution was mainly chicken, followed by fresh fish and eggs. Hicksian's\nown-price elasticity decreases following the decrease in the level of household poverty. Cases of beef, household\nown-price elasticity \"extremely poor\" -11.70% and \"not poor\" -1.95%. The sensitivity of the decrease in beef\nconsumption is due to an increase in own-prices for \"extremely poor\" households 5.5 times compared to \"non-\npoor\". Beef is a very luxurious and relatively inaccessible source of animal protein food, especially for extremely\npoor, poor, almost poor, and vulnerable poor households, and this constitutes 40% of Indonesia's population. To\nincrease beef consumption, it is necessary to increase domestic beef production so that the price of beef is\naffordable not only for non-poor households but also for extremely poor, poor, almost poor and vulnerable poor\nhouseholds in Indonesia",
@@ -421,7 +421,7 @@
         "authors": "Unknown",
         "year": null,
         "title": "FECHA EXTRACCIÓN: 2026-07-19T01:13:22.808863",
-        "processing_date": "2026-07-19T01:17:48.052062"
+        "processing_date": "2026-07-22T23:09:50.245100"
       },
       "content": {
         "abstract": null,
@@ -508,7 +508,7 @@
         "authors": "Unknown",
         "year": null,
         "title": "FECHA EXTRACCIÓN: 2026-07-19T01:13:30.822012",
-        "processing_date": "2026-07-19T01:17:48.085905"
+        "processing_date": "2026-07-22T23:09:50.276509"
       },
       "content": {
         "abstract": "University,Columbus,Ohio,USA Thispaperdevelopsanewframeworkforquantifyingcost\npass-through in a small open economy by estimating\nCorrespondence\nfirm-level markup responses to agricultural import price\nSeungkiLee,DepartmentofAgricultural,\nEnvironmental,andDevelopmentEconomics, shocks. We show theoretically that markup adjustments\nTheOhioStateUniversity,Columbus,Ohio, depend on firms’ reliance on imported inputs and\nUSA.\ndemand curvature, generating heterogeneous inflationary\nEmail:lee.10168@osu.edu\neffects across firm types. For empirical implementation,\nFundinginformation we postulate a Leontief production structure that\nHatch,Grant/AwardNumber:OHO01523-MRF expressespass-throughelasticityasafunctionofobserved\nmarkup behavior and imported crop dependence. Using\ndata on 10,911 South Korean food manufacturers from\n2000 to 2021, we document considerable market power\nand increasing polarization in markups, particularly led\nby high-markup firms. Markup elasticities under strategic\npricingdecisionsdifferacrosssectorsandfirmtypes,with\nparticularly strong effects for non-large firms exhibiting\nlow reliance on imported crops. Our firm-level pass-\nthrough measure reveals stable aggregate patterns over\ntimebutuncoversconsiderableheterogeneity—mostnota-\nbly, rising pass-through among firms less dependent on\nforeign crops. These findings illustrate how cost shocks\npropagate through strategic pricing and underscore the\nimportance of firm heterogeneity in evaluating equilib-\nriumpass-through.",
@@ -892,7 +892,7 @@
         "authors": "Unknown",
         "year": null,
         "title": "FECHA EXTRACCIÓN: 2026-07-19T01:13:40.098951",
-        "processing_date": "2026-07-19T01:17:48.122437"
+        "processing_date": "2026-07-22T23:09:50.316511"
       },
       "content": {
         "abstract": "Eggs are an inexpensive and sustainable source of proteins, but volatility in the U.S. egg prices has intensified in recent years,\nraising concerns over food affordability and market stability. This study examines the drivers of U.S. egg price dynamics over\n2004–2025 using a two- stage framework that combines LASSO- based variable selection with an ARIMAX forecasting model.\nThe results reveal strong price persistence, together with significant impacts of energy, feed costs and seasonal demand. The\ninfluence of avian influenza is strongly time- dependent, with limited effects in full- sample averages but significant impacts\nduring high- intensity outbreak periods, particularly in the mid- 2010s and after 2022. Out- of- sample forecasts indicate that the\nLASSO- ARIMAX model reduces forecast errors by more than 60% relative to a univariate ARIMA benchmark. These findings\nsuggest that stabilizing key input costs, strengthening timely epidemiological surveillance, and proactively managing predictable\nseasonal demand pressures are more effective than relying on any single explanatory factor.\n1 | Introduction (Yu 2014a; Keller et al. 2022; Zhu and Yu 2025). Recent record-\nhigh egg prices in Japan have led consumer to stop buying eggs\nEggs are one of the most affordable, environment- friendly and as casually as before.1\nessential protein sources consumed widely, offering high nutri-\ntional value and efficient protein conversion from feed compared Multiple factors drive egg prices, often influenced by intri-\nto other animal products (Alexander et al. 2016; Garnett 2009; cate interactions between supply, demand, market shocks,\nLiu et al. 2022; Meister and Yu 2025). However, recent volatility and broader macroeconomic conditions. Agricultural input\nin egg prices has raised significant concerns among consumers, costs, particularly feed (grain prices), energy, and labor, sig-\nproducers, and policymakers in many countries including the nificantly influence the production cost of eggs (Matthews\nUS, Germany and Japan. According to recent USDA reports, and Sumner 2015; Keller et al. 2022; Meister and Yu 2025;\negg prices in the U.S. surged dramatically by more than 60% in Yu 2014b). Market structure (e.g., market power), and animal\n2022 alone, marking one of the sharpest increases ever recorded welfare policies are also possible driving forces (Allender and\n(USDA 2024). Such price volatility poses serious economic and Richards 2010). Additionally, recent market shocks, including\nsocial welfare concerns, disproportionately affecting lower- the COVID- 19 pandemic, international conflicts, monetary\nincome households and prompting urgent calls for reliable policy shifts, and recurrent outbreaks of avian influenza, have\nforecasting and effective management of egg market dynamics significantly contributed to uncertainty and disruption in egg\nThis is an open access article under the terms of the Creative Commons Attribution License, which permits use, distribution and reproduction in any medium,\nprovided the original work is properly cited.\n© 2026 The Author(s). Applied Economic Perspectives and Policy published by Wiley Periodicals LLC on behalf of Agricultural & Applied Economics Association.\nApplied Economic Perspectives and Policy, 2026; 0:1–21 1\nhttps://doi.org/10.1002/aepp.70082",
@@ -1026,7 +1026,7 @@
         "authors": "Unknown",
         "year": null,
         "title": "FECHA EXTRACCIÓN: 2026-07-19T01:13:47.171412",
-        "processing_date": "2026-07-19T01:17:48.140364"
+        "processing_date": "2026-07-22T23:09:50.336762"
       },
       "content": {
         "abstract": "Strategic food price stability is crucial for East Java, Indonesia’s sec-\nArticle history:\nond-largest economy and a major food producer, yet its households\nReceived: 2 July 2025\nface significant welfare impacts from price fluctuations. This study\nRevised: 21 July 2025\naims to analyze the complete demand system for 11 strategic food\nAccepted: 25 July 2025\ncommodities in East Java by estimating expenditure shares and a full\nmatrix of demand elasticities to understand household consumption\nbehavior. Utilizing cross-sectional data from 32,545 households in",
@@ -1203,7 +1203,7 @@
         "authors": "Unknown",
         "year": null,
         "title": "FECHA EXTRACCIÓN: 2026-07-19T01:13:51.221433",
-        "processing_date": "2026-07-19T01:17:48.158543"
+        "processing_date": "2026-07-22T23:09:50.351391"
       },
       "content": {
         "abstract": "La estructura del mercado de productos pecuarios de primera necesidad en Perú ha experimentado\ntransformaciones asociadas al crecimiento productivo, cambios en la demanda y mayor participación de\ngrandes empresas. En este contexto, la investigación tuvo como objetivo analizar la estructura de mercado\nde estos productos durante el período 2018–2023, con énfasis en la concentración y el poder de mercado.\nPara ello, se desarrolló un estudio de alcance descriptivo con enfoque cuantitativo, basado en información\nsecundaria del sector pecuario y en el análisis de indicadores de concentración y participación empresarial.\nLos resultados evidenciaron un crecimiento sostenido de la producción, con mayor dinamismo en carne\nde pollo, cerdo y huevo, así como una creciente concentración en varios segmentos, especialmente en\npollo y huevo, mientras la carne de res mantuvo un comportamiento más competitivo. Se concluye que el\nsector pecuario peruano presenta un proceso progresivo de concentración empresarial que combina\neficiencia productiva con potenciales riesgos para la competencia y el acceso equitativo al mercado.",
@@ -1477,7 +1477,7 @@
         "authors": "Porter",
         "year": 1979,
         "title": "FECHA EXTRACCIÓN: 2026-07-19T01:14:06.769180",
-        "processing_date": "2026-07-19T01:17:48.220707"
+        "processing_date": "2026-07-22T23:09:50.387174"
       },
       "content": {
         "abstract": "..................................................................................................................... 11\nIntroducción ................................................................................................................ 13\nObjetivo ....................................................................................................................... 14\nMarco Teórico ............................................................................................................. 15\nEnfoques de competitividad ..................................................................................... 17\nMetodología ................................................................................................................ 22\nResultados y Discusión ............................................................................................... 24\nConclusiones .................................................................................................................. 36\nReferencias bibliográficas .............................................................................................. 37\nCapítulo II: Evolución de la relación entre el consumo de huevo de gallina (gallus gallus\ndomesticus) y los principales alimentos entre 1961 y 2009, en el mundo ...................... 41\nResumen ..................................................................................................................... 43\nIntroducción ................................................................................................................ 45\nObjetivo ....................................................................................................................... 47\nMetodología ................................................................................................................ 48\nResultados .................................................................................................................. 51\nDiscusión .................................................................................................................... 61\nConclusiones .............................................................................................................. 65\nReferencias bibliográficas ........................................................................................... 67\nCAPÍTULO III: Construcción de un índice de competitividad para el subsector avícola\ncolombiano ..................................................................................................................... 71",
@@ -2182,7 +2182,7 @@
         "authors": "Unknown",
         "year": null,
         "title": "FECHA EXTRACCIÓN: 2026-07-19T01:14:13.834095",
-        "processing_date": "2026-07-19T01:17:48.252114"
+        "processing_date": "2026-07-22T23:09:50.407118"
       },
       "content": {
         "abstract": "La estructura del mercado de productos pecuarios de primera necesidad en Perú ha experimentado\ntransformaciones asociadas al crecimiento productivo, cambios en la demanda y mayor participación de\ngrandes empresas. En este contexto, la investigación tuvo como objetivo analizar la estructura de mercado\nde estos productos durante el período 2018–2023, con énfasis en la concentración y el poder de mercado.\nPara ello, se desarrolló un estudio de alcance descriptivo con enfoque cuantitativo, basado en información\nsecundaria del sector pecuario y en el análisis de indicadores de concentración y participación empresarial.\nLos resultados evidenciaron un crecimiento sostenido de la producción, con mayor dinamismo en carne\nde pollo, cerdo y huevo, así como una creciente concentración en varios segmentos, especialmente en\npollo y huevo, mientras la carne de res mantuvo un comportamiento más competitivo. Se concluye que el\nsector pecuario peruano presenta un proceso progresivo de concentración empresarial que combina\neficiencia productiva con potenciales riesgos para la competencia y el acceso equitativo al mercado.",
@@ -2456,7 +2456,7 @@
         "authors": "Unknown",
         "year": null,
         "title": "FECHA EXTRACCIÓN: 2026-07-19T01:14:28.298893",
-        "processing_date": "2026-07-19T01:17:48.304158"
+        "processing_date": "2026-07-22T23:09:50.445602"
       },
       "content": {
         "abstract": "de los principales eslabonamientos de\nlas cadenas agroalimentarias más importantes de ALC.\n22\nFigura 3.\nContexto competitivo de la industria aceitera de Argentina\ny determinantes principales de la formación de los\nprecios al consumidor y al agricultor.\n30\nFigura 4.\nContexto competitivo de la industria arrocera de Costa\nRica y determinantes principales de la formación de los precios\nal consumidor y al agricultor (a diciembre del 2006).\n32\nFigura 5.\nContexto competitivo de la industria de jugo de naranja\nde San Pablo (Brasil) y determinantes principales de la\nformación del precio al agricultor.\n33\nFigura 6.\nContexto competitivo del sector aviar de El Salvador y\nprincipales determinantes de la formación del precio\ndoméstico de huevos y carne de pollo.\n42\nFigura 7.\nContexto competitivo y formación de los precios\nen el sector lácteo de Chile.\n44",
@@ -4166,7 +4166,7 @@
         "authors": "Unknown",
         "year": null,
         "title": "FECHA EXTRACCIÓN: 2026-07-19T01:14:32.900675",
-        "processing_date": "2026-07-19T01:17:48.345765"
+        "processing_date": "2026-07-22T23:09:50.468157"
       },
       "content": {
         "abstract": "Chickeneggsareastaplefoodwidelyconsumeddirectlyorindirectly(asaningredient\nin other food items) in Saudi Arabia. Due to the importance of eggs in Saudi consumers’ diet,\nthisstudyaimedtodeterminethesociodemographicfactorsaffectingSaudiconsumerdemandfor\neggsandhowchangesineggpricesandconsumerincomemayinfluencedietaryintakederived\nfromeggs.Thisstudyanalyzessurveydatafrom466respondents.Weusedadouble-logdemand\nmodeltoobtainthepriceandincomeelasticitiesofeggdemand. Theresultsshowthattheprice\nelasticityofeggdemandisnegativeandinelastic,indicatingthatchangesineggpricehaveasmall\ninfluenceoneggdemand.Additionally,incomeelasticityispositiveand<1,implyingthateggsarea\nnecessaryfooditem.Cross-priceelasticitiesshowthatcheeseandmilkcomplementeggconsumption.\nMeanwhile,cornflakes(abreakfastcereal)werefoundtobeagoodsubstituteforeggs.Furthermore,\ntheresultsshowthatconsumerdemandforeggsisexpectedtoincreaseashouseholdsizeincreases.\nWomenexhibitedahigherdemandforeggs,comparedwithmen.Nutrientincomeelasticityshows\nthatanincreaseinconsumerincomeincreasesprotein,fat,andcalorieintakefromeggs. Nutrient\npriceelasticityshowsthatanincreaseineggpricehasthegreatestnegativeinfluenceonprotein\nintake,resultingfromadecreaseineggconsumption.Thisstudyrecommendsthatdecisionmakers\nactivelymonitoreggpricesandtakeallnecessaryactionstopreventspikesineggprices,asthiswill\nimprovenutritionalandfoodsecurityandhelpconsumersmaintainastableproteinintakefrom\neggconsumption.\nCitation:Alsaad,Dana,and Keywords:demandelasticity;eggconsumption;nutrientelasticity\nMohammedAl-Mahish.2024.\nDemandandNutrientElasticitiesof\nEggConsumption:Evidencefrom\nSaudiArabia.Economies12: 245.\n1. Introduction\nhttps://doi.org/10.3390/\nThelackofadequatefoodcanresultinmalnutritionandfamine. Accordingly, the\neconomies12090245\nfoodsectorplaysanimportantroleineconomicactivitiesworldwide. Thevolatilityoffood\nAcademicEditor:SanzidurRahman pricesresultingfromafluctuatingfoodsupplyaffectsconsumers’acquisitionoffoodand,\nconsequently,theirnutrientintakederivedfromfood.\nReceived:13June2024\nChickeneggshavebeenananimalfoodsourceconsumedbyhumansforthousandsof\nRevised:18August2024\nyearsworldwide.Eggshavebeenconsideredasoneofthestaplefoodproductsthatarepart\nAccepted:5September2024\nPublished:11September2024 ofmostpeople’sdietworldwide(FoodandAgricultureOrganization1995). Nonetheless,\neggscanbeconsumedascomplementaryfoodinbabies’diet(Faberetal.2022). Theyare\nanessentialsourceofvitamins,minerals,andproteins,whichmakesthemanimportant\nandindispensablefoodcomponent,especiallyforlow-incomefamilies. Moreover,eggs\nCopyright: © 2024 by the authors. contain essential amino acids in appropriate proportions to meet human requirements\nLicensee MDPI, Basel, Switzerland. (Ruxtonetal.2010;MatsuokaandSugano2022;PuglisiandFernandez2022).\nThisarticleisanopenaccessarticle Owingtotheglobalimportanceofchickeneggs,globalproductionhasincreasedby\ndistributed under the terms and\n69%,comparedtothattwentyyearsago,reachingaproductionof87million/tonin2020\nconditionsoftheCreativeCommons\n(FoodandAgricultureOrganization2022). Thetotalannualdomesticeggproductionin\nAttribution(CCBY)license (https://\nSaudiArabiaconstitutes0.4%ofthetotalglobalproductionatarateof315thousand/ton\ncreativecommons.org/licenses/by/\nperyear(MinistryofEnvironmentWaterandAgriculture2019). Onereport(Ministryof\n4.0/).\nEconomies2024,12,245.https://doi.org/10.3390/economies12090245 https://www.mdpi.com/journal/economies",
@@ -4230,7 +4230,7 @@
         "authors": "Unknown",
         "year": null,
         "title": "FECHA EXTRACCIÓN: 2026-07-19T01:14:47.563046",
-        "processing_date": "2026-07-19T01:17:48.357675"
+        "processing_date": "2026-07-22T23:09:50.479229"
       },
       "content": {
         "abstract": null,
@@ -4270,7 +4270,7 @@
         "authors": "Unknown",
         "year": null,
         "title": "FECHA EXTRACCIÓN: 2026-07-19T01:15:32.139512",
-        "processing_date": "2026-07-19T01:17:48.459708"
+        "processing_date": "2026-07-22T23:09:50.572904"
       },
       "content": {
         "abstract": "EJECUTIVO\nEste estudio evalúa las condiciones de competencia en los mercados del huevo y la carne de pollo en\nEl Salvador, con el objetivo de entender su naturaleza y funcionamiento, identificar los efectos que\ntienen sobre la demanda final e intermedia y presentar recomendaciones de política pública para\nfortalecer y promover la competencia.\nPara lograr los objetivos planteados se utilizó información primaria y secundaria. Se consultaron\ndocumentos públicos, se realizaron entrevistas con diversos agentes económicos representativos de\ncada eslabón de las cadenas de producción y distribución del huevo y la carne de pollo, y se emitieron\nmás de 30 requerimientos de información a instituciones públicas y empresas privadas.\nEl marco teórico empleado fue el paradigma de Estructura, Conducta y Resultado (ECR) desarrollado\npor el economista Joe S. Bain, que establece una relación directa entre la estructura del mercado, el\ncomportamiento de las firmas y su desempeño. El análisis regulatorio se realizó tomando como\nreferencia la Lista de Verificación de Impacto Competitivo desarrollada por la Organización para la\nCooperación y el Desarrollo Económico (OCDE).\nLos agentes económicos se encuentran regulados principalmente por tres entidades: el Ministerio de\nAgricultura y Ganadería (MAG) en lo que respecta a la sanidad animal, el Ministerio de Salud (MINSAL)\nen la seguridad e inocuidad de alimentos y el Ministerio de Medio Ambiente y Recursos Naturales\n(MARN) en la instalación y control del impacto ambiental de las actividades avícolas.\nSobre la normativa, se identificaron tres disposiciones del Ministerio de Agricultura y Ganadería que\npodrían reducir la capacidad de las empresas extranjeras de competir en mercados relacionados al\nsector aviar. Además, se identificaron espacios de mejora en diversos trámites: el otorgamiento del\npermiso ambiental por parte del MARN, en la calificación de lugar de la Oficina de Planificación del\nÁrea Metropolitana de San Salvador (OPAMSS) y el permiso sanitario de instalación y funcionamiento\notorgado por el MINSAL.\nEn la cadena de valor del huevo se examina cada eslabón, iniciando con la genética aviar, dominada\npor dos empresas globales: Hendrix Genetics y Erich Wesjohan Group. Esta última es la principal\nproveedora de genética, es decir, de aves reproductoras para producir gallinas de postura a través\nde su subsidiaria Hy-Line International. El siguiente segmento corresponde a las granjas de incubación\ny reproducción, donde las gallinas se aparean con los machos y proveen huevos fértiles que\nposteriormente se incuban, proceso que genera las pollitas de un día para postura. Esta fase de\nproducción se encuentra principalmente concentrada en CRIAVES, S.A. de C.V. (CRIAVES).\nEl siguiente eslabón consiste en la crianza, manejo y explotación de las gallinas ponedoras. Se\ndesarrollan las pollitas de un día hasta su madurez y entre las semanas 16 y 18 de edad inician el\nperiodo de producción de huevos, que dura entre 12 y 14 meses.\ni",
@@ -5298,11 +5298,2534 @@
     },
     {
       "metadata": {
+        "filename": "Fenaviquin_ed3892023.pdf",
+        "authors": "Unknown",
+        "year": null,
+        "title": "FECHA EXTRACCIÓN: 2026-07-22T23:09:09.870134",
+        "processing_date": "2026-07-22T23:09:50.613118"
+      },
+      "content": {
+        "abstract": null,
+        "methodology": "de cálculo: Estimación de los costos de las materias primas: para el año 2020 y 2021, la fuente de información de las materias primas\nes Urner Barry y para los precios futuros, la Bolsa de Chicago. El valor CIF\nse calcula teniendo en cuenta el valor FOB, la base, los fletes rezagados 15\ndías(Puerto Costa Atlántica) y el seguro. El costo total por materia prima\n(US/t) es la sumatoria del valor CIF, multiplicada por el arancel y sumado\nel costo de internación. Este resultado se multiplica por la TRM rezagada 1\nmes, adicionandoel valor del flete terrestre que para este ejercicio se toma\ncomo referencia Barranquilla-Bogotá y se obtiene el valor del costo por\ntonelada de cada materia prima en pesos. El costo por tonelada de cada\nmateria prima ($/t), es utilizado para calcular el costo del alimento consu-\nmido en cada etapa de producción que sumado con otras variables (polli-\nto/a, y otros costos (Vacunas y medicamentos, cama, gas, desinfectantes,\nelementos de aseo, arriendos, servicios públicos, mano de obra y en\nproducción de huevo se incluye la variable de amortización de la gallina),\nse obtiene el costo total de producción por kg de pollo en pie, kg de pollo\nen canal y huevo, segun los parámetros productivos descritos al final del\nanálisis y la estructura de costos promedio se utilizo la de cundinamarca.\nEs de aclarar que la estructura de costos (Pollo y Huevo) esta rezagada 2\nmeses. El porcentaje de participación de las variables en la estructura de\ncostos corresponde al último mes calculado.\nLa siguiente estimación de costos, es indicativa y no reflejan necesariamente la realidad de una operación comercial.\nNo se incluyen los costos de mano de obra, empaque, administrativos, financieros, y depreciaciones en la fabricacion del alimento, ni gasots administrativos, de comercializació, ventas y financieros en granja.\n78,2% 283,5 295,1 340,2 330,9 336,9 349,7 349,6 348,4 315,8 293,6 292,0 285,6 279,0 267,8 276,3 273,8\n2,5% 7,7 7,7 7,7 7,7 7,7 7,7 7,9 7,9 8,9 8,9 8,9 8,9 8,9 8,9 8,8 8,8\n19,3% 61,3 61,3 61,3 61,3 61,3 61,3 61,8 63,0 66,2 66,4 66,5 66,6 66,8 66,9 67,3 67,4\n100% 352,5 364,1 409,2 399,9 405,9 418,7 419,3 419,2 390,8 368,9 367,3 361,1 354,6 343,6352,4350,0\nVariación mensual (%) 3,3% 12,4% -2,3% 1,5% 3,2% 0,1% 0,0% -5,6%-0,4% -1,7% -1,8% -3,1% 2,6%-0,7%\nVariación anual (%) 10,9% 1,3%-10,2% -9,7%-12,6%-17,9%-16,0%-16,5%\nPOLLO Costo de producción ($/ kg en canal) HUEVO Costo de producción ($/ huevo) con amortización ave\nPrecio de gallina ($) 11.000 11.000 11.500 12.000 12.000 10.000 10.000 10.000 11.500 11.500 11.500 12.000 12.000 12.000 12.000 12.000\nTotal 6.111 6.666 6.521 6.618 6.792 6.904 6.885 6.486 6.469 6.354 6.275 6.138 6.306 6.293 amortización ave 31 31 33 34 34 29 29 29 33 33 33 34 34 34 34 34\nTotal 321,1 332,7 376,3 365,6 371,6 390,1 390,3 391,0 358,0 336,0 334,5 326,8 320,3 309,3 318,1 315,8\nVariación mensual (%) 2,7% 9,1%-2,2% 1,5% 2,6% 1,6%-0,3% -0,2%-1,8%-1,2%-2,2% 2,7%-0,2% Variación mensual (%) 3,6% 13,1% -2,9% 1,6% 5,0% 0,0% 0,2% -6,1%-0,5% -2,3% -2,0% -3,4% 2,8% -0,7%\nVariación anual (%) 6,1%-2,9%-2,6%-5,2%-9,6%-8,7%-8,6% Variación anual (%) 11,5% 1,0%-11,1%-10,6%-13,8%-20,7%-18,5%-19,2%\nCosto de producción por pollo en canal al final del ciclo productivo Costo de producción por ave al final del ciclo de producción (completo) sin amortización del ave\nTotal 11.283 11.528 12.436 12.522 12.536 12.859 12.979 12.303 11.805 11.702 11.520 11.367 11.134 11.272 Total 106.895 108.686 111.264 113.531 115.750 118.093 120.400 122.522 131.980 133.447 134.383 135.303 135.788 135.857 135.903 135.802\nVariación mensual (%) -0,1% 2,2% 7,9% 0,7% 0,1% 2,6% 0,9% -4,0%-0,9%-1,6%-1,3%-2,0% 1,2% Variación mensual (%) 1,7% 2,4% 2,0% 2,0% 2,0% 2,0% 1,8% 1,1% 0,7% 0,7% 0,4% 0,1% 0,0% -0,1%\nVariación respecto a marzo 2022 (%) 9,0% 2,4%-5,9%-8,0%-9,3%-13,4%-13,2% Variación anual (%) 23,5% 22,8% 20,8% 19,2% 17,3% 15,0% 12,9% 10,8%\nParámetros Ponderaciones de las materias primas\nPárametro Indicador Párametro Indicador\nProductivos en la formulación básica para el alimento\nEdad al sacrificio ( dias) 39 Periodo de postura (semanas) 18-80\nPeso al sacrificio (kg) 2,35 Huevos acumulados ave alojada 350 Partic. % Maíz Soya Torta\nPeso en canal fresco con vísceras (kg) 2,102\nConsumo alimento acumulado (kg/ave) 56,035\nConsumo alimento acumulado (kg/ave) 3,8 Pollo 58% 14% 14%\nConversión Alimenticia 1,62 Consumo alimento kg/huevo) 0,160\nHuevo 60% 5% 16%\nMortalidad (%) 5 Mortalidad del ciclo (%) 12",
+        "results": "una tendencia al alza, y si es el caso contrario, a la baja. Y esto puede ocurrir\npor dos razones: 1) que, en efecto, la demanda esté en crecimiento, como en\nAfectación vías nacionales - sector\nel caso particular del huevo, en el que por un efecto inflación en la canasta\navícola\nde alimentos, se ha propiciado una sustitución a este producto; 2) por una\nreducción de la oferta, por estar en un ciclo de contracción o bien por un\nESTADÍSTICAS efecto neto que la reduzca (eventos sanitarios).\nPero, quiere decir que el costo no tiene efecto alguno en el precio. Por\nImpacto de costos: proyección supuesto que sí, solo que, en el caso de productos del sector agro-\npecuario, el productor no tiene garantizada su rentabilidad; de hecho, si su\nTermómetro de mercado Pollo (Dane)\ncosecha es muy buena, hasta el punto de saturar el mercado, el precio se\nTermómetro de mercado Huevo (Dane) desploma independientemente del costo de producción. La única forma de\nlograr que el costo se refleje en la producción es cuando alcanza un ajuste en\nIndicadores Pollo Colombia vs. EEUU\nla oferta. Ahora bien, si la demanda va al alza y los costos están en reducción,\nesto permite que el precio final tenga un menor efecto. Su incremento será\nPrecios cuartos traseros para\nmás bajo si las empresas alcanzan a superar el nivel de rentabilidad.\nexportación desde EEUU\nEsto, a su vez, permite que los productores incrementen sus inversio-\nnes en activos biológicos para el siguiente ciclo de producción. Como\nestá pasando en la actualidad, solo que sus efectos se verán cinco meses o\nmás adelante.\nOctubre 31 de 2023 No. 389 Año 19 1",
+        "conclusion": ", el precio récord de las aves de fin de\nciclo actual, además de atribuirse al aumento en el pre-\ncio del huevo y a la disminución en los costos, se debe a que\nlos inventarios de estas aves son bajos, debido a la caída del\nencasetamiento en el 2021, por efecto bloqueos. Esta situa-\nción se suma al incremento en el consumo (demanda), expli-\nFuente: Fenavi-PEE. Sondeo realizado a productores de huevo. cado en la nota E: pollita: hacia el 2024.\nOctubre 31 de 2023 No. 389 Año 19 9"
+      },
+      "key_data": {
+        "hhi_values": [],
+        "cr_values": [],
+        "lerner_values": [],
+        "elasticity_values": [],
+        "market_shares": [],
+        "concentration_measures": [],
+        "countries": [
+          "colombia",
+          "estados unidos",
+          "usa",
+          "us"
+        ],
+        "sectors": [
+          "huevo",
+          "huevos",
+          "avicultura",
+          "pollo",
+          "carne",
+          "maíz",
+          "soya",
+          "soy",
+          "granos"
+        ]
+      },
+      "classification": {
+        "categories": [
+          "Mercado huevos internacional",
+          "Medición poder mercado",
+          "Barreras entrada",
+          "Estructura mercado agroalimentario"
+        ],
+        "primary_category": "Mercado huevos internacional"
+      },
+      "key_quotes": [],
+      "tables": [
+        {
+          "table_number": 2,
+          "data": [
+            [
+              "Edición Octubre 31 de 2023 - Año 19"
+            ],
+            [
+              "exportación desde EEUU"
+            ]
+          ]
+        },
+        {
+          "table_number": 7,
+          "data": [
+            [
+              "DESCRIPTOR",
+              "TIPO DE GRAVAMEN"
+            ],
+            [
+              "Ingresos"
+            ],
+            [
+              "Ingresos gravados",
+              "5%, 19%"
+            ],
+            [
+              "Ingreso por venta de exentos",
+              "0%"
+            ],
+            [
+              "Ingresos excluidos del IVA",
+              "{celda en blanco}"
+            ],
+            [
+              "Ingresos sin gravamen",
+              "{celda en blanco}"
+            ],
+            [
+              "Egresos"
+            ],
+            [
+              "y servicios gravados",
+              "5%"
+            ],
+            [
+              "Compras a tarifa general",
+              "19%"
+            ],
+            [
+              "gravados",
+              "{celda en blanco}"
+            ]
+          ]
+        },
+        {
+          "table_number": 8,
+          "data": [
+            [
+              "DESCRIPTOR",
+              "EJEMPLOS"
+            ],
+            [
+              "Gravados",
+              "Alimento balanceado y granos"
+            ],
+            [
+              "Exento",
+              "Art. 477, otros. Aves de un día,"
+            ],
+            [
+              "Excluidos 1/",
+              "Art. 424, otros. Animales vivos,"
+            ],
+            [
+              "Ingresos no gravados 2/",
+              "Ingresos por diferencia en cambio,"
+            ],
+            [
+              "Egresos no gravados",
+              "Salarios."
+            ]
+          ]
+        },
+        {
+          "table_number": 11,
+          "data": [
+            [
+              "TIPO DE PRODUCTOR",
+              "INGRESOS BRUTOS ANUALES",
+              "PRODUCCIÓN HUEVOS DIA",
+              "PRODUCCIÓN POLLO DIA"
+            ],
+            [
+              "Pequeño productor de bajos ingresos",
+              "53.015.000",
+              "268",
+              "8"
+            ],
+            [
+              "Pequeño productor",
+              "53.015.000",
+              "268",
+              "8"
+            ],
+            [
+              "148.422.000",
+              "750",
+              "22"
+            ],
+            [
+              "Mediano productor",
+              "148.422.000",
+              "750",
+              "22"
+            ],
+            [
+              "2.884.016.000",
+              "14.566",
+              "424"
+            ]
+          ]
+        },
+        {
+          "table_number": 13,
+          "data": [
+            [
+              "INFLACIÓN",
+              "ALIMENTOS",
+              "RES",
+              "CERDO",
+              "POLLO",
+              "HUEVO"
+            ],
+            [
+              "Sep 22",
+              "1,53",
+              "0,02",
+              "2,23",
+              "1,00",
+              "2,59"
+            ],
+            [
+              "Corrido",
+              "21,38",
+              "17,33",
+              "4,94",
+              "14,04",
+              "25,36"
+            ],
+            [
+              "Anualizado",
+              "26,99",
+              "25,17",
+              "11,02",
+              "16,42",
+              "30,91"
+            ],
+            [
+              "Sep 23",
+              "0,74",
+              "-0,13",
+              "0,51",
+              "0,46",
+              "1,61"
+            ],
+            [
+              "Corrido",
+              "5,45",
+              "3,44",
+              "2,62",
+              "7,67",
+              "2,45"
+            ],
+            [
+              "Anualizado",
+              "11,15",
+              "5,97",
+              "11,91",
+              "9,76",
+              "9,25"
+            ]
+          ]
+        },
+        {
+          "table_number": 19,
+          "data": [
+            [
+              "VARIABLES",
+              "J 22/O"
+            ],
+            [
+              "23",
+              "REF",
+              "ESCENARIOS DE REDUCCIÓN"
+            ],
+            [
+              "EN PROEDUCCIÓN Y PRECIOS 1/"
+            ],
+            [
+              "Var producción",
+              "8,3%",
+              "8,2%",
+              "-14,0%",
+              "-12,7%",
+              "-11,4%",
+              "-9,5%"
+            ],
+            [
+              "Var precios",
+              "22,1%",
+              "-13,0%",
+              "22%",
+              "20%",
+              "18%",
+              "15%"
+            ],
+            [
+              "Elasticidad O/P",
+              "0,377",
+              "-0,634"
+            ],
+            [
+              "Var Pcc neta",
+              "-5,7%",
+              "-4,4%",
+              "-3,1%",
+              "-1,2%"
+            ]
+          ]
+        },
+        {
+          "table_number": 24,
+          "data": [
+            [
+              "AÑO",
+              "2020",
+              "2021",
+              "2022",
+              "2023"
+            ],
+            [
+              "Pollo",
+              "2.487",
+              "3.084",
+              "3.639",
+              "4.932"
+            ],
+            [
+              "Cerdo",
+              "2.941",
+              "3.966",
+              "4.412",
+              "5.070"
+            ],
+            [
+              "Huevo",
+              "3.674",
+              "4.577",
+              "6.255",
+              "6.848"
+            ],
+            [
+              "Res",
+              "4.867",
+              "6.362",
+              "8.082",
+              "8.653"
+            ]
+          ]
+        },
+        {
+          "table_number": 25,
+          "data": [
+            [
+              "Tipo de producto",
+              "Pollo",
+              "Cerdo",
+              "Huevo",
+              "Res"
+            ],
+            [
+              "gramos producto",
+              "27",
+              "27",
+              "13",
+              "18,7"
+            ]
+          ]
+        },
+        {
+          "table_number": 27,
+          "data": [
+            [
+              "Fecha",
+              "Maíz amarillo",
+              "Frijol Soya"
+            ],
+            [
+              "Precio FOB",
+              "Base",
+              "Precio FOB",
+              "Base"
+            ],
+            [
+              "(US$ / Tonelada)"
+            ],
+            [
+              "17/10/2023",
+              "192,5",
+              "31,7",
+              "476,5",
+              "27,4"
+            ],
+            [
+              "18/10/2023",
+              "193,7",
+              "31,7",
+              "481,7",
+              "27,4"
+            ],
+            [
+              "19/10/2023",
+              "198,8",
+              "31,7",
+              "483,4",
+              "27,4"
+            ],
+            [
+              "20/10/2023",
+              "195,1",
+              "31,7",
+              "478,5",
+              "27,4"
+            ],
+            [
+              "24/10/2023",
+              "193,0"
+            ],
+            [
+              "190,5",
+              "31,7"
+            ],
+            [
+              "31,7",
+              "472,8"
+            ],
+            [
+              "475,9",
+              "27,4"
+            ],
+            [
+              "25/10/2023",
+              "189,0",
+              "31,7",
+              "473,4",
+              "27,4"
+            ],
+            [
+              "26/10/2023",
+              "188,7",
+              "31,7",
+              "470,1",
+              "27,4"
+            ],
+            [
+              "27/10/2023",
+              "189,3",
+              "31,7",
+              "476,7",
+              "27,4"
+            ],
+            [
+              "30/10/2023",
+              "188,3",
+              "31,7",
+              "471,3",
+              "27,4"
+            ],
+            [
+              "Precio CIF",
+              "188,3 31,7"
+            ],
+            [
+              "244",
+              "471,3 27,4"
+            ],
+            [
+              "526"
+            ],
+            [
+              "Arancel",
+              "8%",
+              "0%"
+            ]
+          ]
+        },
+        {
+          "table_number": 28,
+          "data": [
+            [
+              "Arancel CAN",
+              "Arancel Cálculos"
+            ],
+            [
+              "Fenavi"
+            ],
+            [
+              "1a quincena de nov 2023",
+              "2a quincena de nov 2023",
+              "Variación"
+            ],
+            [
+              "Precio CIF"
+            ],
+            [
+              "(US/Ton)",
+              "Arancel",
+              "Precio CIF"
+            ],
+            [
+              "(US/Ton)",
+              "Arancel",
+              "Precio"
+            ],
+            [
+              "Maíz",
+              "251",
+              "4%",
+              "244",
+              "8%",
+              "-2,8%"
+            ]
+          ]
+        },
+        {
+          "table_number": 30,
+          "data": [
+            [
+              "VALOR TOTAL/CICLO"
+            ],
+            [
+              "PRODUCTIVO ($)",
+              "VALOR AVE ($)"
+            ],
+            [
+              "Ingreso estimado",
+              "51.300.000",
+              "18.000"
+            ],
+            [
+              "Total, perdidas",
+              "-3.494.000",
+              "-1.226"
+            ],
+            [
+              "Ingreso total",
+              "47.806.000",
+              "16.774"
+            ]
+          ]
+        },
+        {
+          "table_number": 32,
+          "data": [
+            [
+              "Variables",
+              "22-nuj",
+              "22-luj",
+              "22-oga",
+              "22-pes",
+              "22-tco",
+              "22-von",
+              "22-cid",
+              "32-nuj",
+              "32-luj",
+              "32-oga",
+              "32-pes",
+              "32-tco",
+              "32-von",
+              "32-cid"
+            ],
+            [
+              "TRM",
+              "3.931",
+              "4.394",
+              "4.324",
+              "4.430",
+              "4.688",
+              "4.931",
+              "4.804",
+              "4.415",
+              "4.201",
+              "3.915",
+              "4.112",
+              "4.046",
+              "4.146",
+              "4.151"
+            ],
+            [
+              "Precio futuro Maíz amarillo (cent./ bushel)",
+              "763",
+              "744",
+              "630",
+              "681",
+              "688",
+              "672",
+              "647",
+              "594",
+              "590",
+              "521",
+              "462",
+              "488",
+              "478",
+              "478"
+            ],
+            [
+              "Precio futuro Fríjol soya (cent. / bushel)",
+              "1.695",
+              "1.580",
+              "1.633",
+              "1.517",
+              "1.379 1",
+              ".442",
+              "1.460",
+              "1.296",
+              "1.451",
+              "1.487",
+              "1.381",
+              "1.300",
+              "1.283",
+              "1.307"
+            ],
+            [
+              "Precio futuro Torta de soya (US$/t)",
+              "423",
+              "463",
+              "504",
+              "465",
+              "409",
+              "407",
+              "448",
+              "393",
+              "402",
+              "455",
+              "423",
+              "392",
+              "427",
+              "414"
+            ],
+            [
+              "CIF Maíz amarillo (US$/t)",
+              "383,2",
+              "379,0",
+              "330,7",
+              "348,7",
+              "378,9 3",
+              "55,3",
+              "345,4",
+              "283,4",
+              "289,8",
+              "267,1",
+              "246",
+              "260",
+              "255",
+              "255"
+            ],
+            [
+              "CIF Fríjol soya (US$/t)",
+              "710,1",
+              "713,5",
+              "690,4",
+              "728,0",
+              "674,7",
+              "621,3",
+              "644,6",
+              "524,2",
+              "589,5",
+              "618,7",
+              "567,5",
+              "540,6",
+              "535,0",
+              "543,8"
+            ],
+            [
+              "CIF Torta de soya (US$/t)",
+              "513,2",
+              "550,3",
+              "610,6",
+              "589,5",
+              "523,1 5",
+              "09,6",
+              "550,6",
+              "481,0",
+              "499,0",
+              "574,0",
+              "526,1",
+              "494,8",
+              "534,2",
+              "519,8"
+            ]
+          ]
+        },
+        {
+          "table_number": 33,
+          "data": [
+            [
+              "MATERIA PRIMA",
+              "22-luj",
+              "22-oga",
+              "22-pes",
+              "22-tco",
+              "22-von",
+              "22-cid",
+              "32-ene",
+              "32-luj",
+              "32-oga",
+              "32-pes",
+              "32-tco",
+              "32-von",
+              "32-cid",
+              "42-ene"
+            ],
+            [
+              "Maíz",
+              "395",
+              "391",
+              "342",
+              "360",
+              "390",
+              "367",
+              "357",
+              "295",
+              "301",
+              "27",
+              "9 258",
+              "260",
+              "255",
+              "255"
+            ],
+            [
+              "Fríjol de soya",
+              "722",
+              "725",
+              "702",
+              "740",
+              "687",
+              "633",
+              "656",
+              "536",
+              "601",
+              "63",
+              "1 579",
+              "541",
+              "535",
+              "544"
+            ],
+            [
+              "Torta de soya",
+              "525",
+              "562",
+              "622",
+              "601",
+              "535",
+              "521",
+              "562",
+              "493",
+              "511",
+              "58",
+              "6 538",
+              "495",
+              "534",
+              "520"
+            ],
+            [
+              "básica alimento",
+              "376",
+              "379",
+              "357",
+              "368",
+              "371",
+              "351",
+              "353",
+              "295",
+              "308",
+              "30",
+              "8 284",
+              "275",
+              "278",
+              "276"
+            ],
+            [
+              "( %)",
+              "-2,2%",
+              "0,9%-",
+              "5,9%",
+              "3,2%",
+              "0,8%",
+              "-5,4%",
+              "0,5%",
+              "4,2%",
+              "0,1%",
+              "-7,8%",
+              "-3,1%",
+              "1,0%",
+              "-0,5%"
+            ],
+            [
+              "Variación anual (%)",
+              "-21,5%",
+              "-18,9%",
+              "-13,8",
+              "%-22,9%",
+              "-25,9%",
+              "-21%",
+              "-22%"
+            ]
+          ]
+        },
+        {
+          "table_number": 34,
+          "data": [
+            [
+              "MATERIA PRIMA",
+              "22-nuj",
+              "22-luj",
+              "22-oga",
+              "22-pes",
+              "22-tco",
+              "22-von",
+              "22-cid",
+              "32-ene 32-nuj",
+              "32-luj",
+              "32-oga",
+              "32-pes",
+              "32-tco",
+              "32-von 32-cid"
+            ],
+            [
+              "Maíz",
+              "1.648",
+              "1.552",
+              "1.909",
+              "1.673",
+              "1.76",
+              "0 2.022",
+              "2.001 1.",
+              "907 1.917",
+              "1.524",
+              "1.489",
+              "1.314",
+              "1.284",
+              "1.274 1.28"
+            ],
+            [
+              "Fríjol de soya",
+              "3.079",
+              "3.007",
+              "3.380",
+              "3.230",
+              "3.44",
+              "1 3.411",
+              "3.314 3.",
+              "345 3.356",
+              "2.569",
+              "2.728",
+              "2.692",
+              "2.606",
+              "2.410 2.4"
+            ],
+            [
+              "Torta de soya",
+              "2.316",
+              "2.233",
+              "2.663",
+              "2.885",
+              "2.82",
+              "8 2.700",
+              "3.263 2.",
+              "894 2.904",
+              "2.378",
+              "2.348",
+              "2.517",
+              "2.435",
+              "2.225 2.43"
+            ],
+            [
+              "Costo fórmula básica alimento pollo",
+              "1.684",
+              "1.608",
+              "1.923",
+              "1.796",
+              "1.86",
+              "7 1.998",
+              "1.981 1.",
+              "948 1.957",
+              "1.552",
+              "1.549",
+              "1.465",
+              "1.425",
+              "1.365 1.40"
+            ],
+            [
+              "Variación mensual %",
+              "-4,5%",
+              "19,6%",
+              "-6,6%",
+              "4,0%",
+              "7,0%",
+              "-0,9% -1",
+              ",7% -",
+              "20,7%",
+              "-0,2%",
+              "-5,4%",
+              "-2,7%",
+              "-4,2% 2,8"
+            ],
+            [
+              "Variación anual (%)",
+              "16,2%",
+              "-3,5%",
+              "-19,5%",
+              "-18,4%",
+              "-23,7%",
+              "-31,7%-29,2"
+            ],
+            [
+              "Costo fórmula básica alimento huevo",
+              "1.502",
+              "1.428",
+              "1.727",
+              "1.613",
+              "1.66",
+              "6 1.802",
+              "1.872 1.",
+              "760 1.768",
+              "1.411",
+              "1.394",
+              "1.313",
+              "1.278",
+              "1.230 1.26"
+            ],
+            [
+              "Variación mensual %",
+              "-4,9%",
+              "21,0%",
+              "-6,6%",
+              "3,3%",
+              "8,2%",
+              "3,9%-6,",
+              "0% -",
+              "20,2%",
+              "-1,3%",
+              "-5,8%",
+              "-2,7%",
+              "-3,8% 3,2"
+            ],
+            [
+              "Variación anual (%)",
+              "17,7%",
+              "-1,1%",
+              "-19,3%",
+              "-18,6%",
+              "-23,3%",
+              "-31,8%-32,2"
+            ]
+          ]
+        },
+        {
+          "table_number": 35,
+          "data": [
+            [
+              "VARIABLE/INSUMOS",
+              "ESTRUCTURA"
+            ],
+            [
+              "DE COSTOS",
+              "22-oga",
+              "22-pes",
+              "22-tco",
+              "22-von",
+              "22-cid",
+              "32-ene",
+              "32-bef",
+              "32-oga",
+              "32-pes",
+              "32-tco",
+              "32-von",
+              "32-cid",
+              "42-ene",
+              "42-bef"
+            ],
+            [
+              "Alimento Balanceado",
+              "68,2%",
+              "3.580",
+              "4.075",
+              "3.945",
+              "4.025",
+              "4.143",
+              "4.169",
+              "4.149",
+              "3.513",
+              "3.495",
+              "3.388",
+              "3.314",
+              "3.188",
+              "3.28",
+              "6 3.270"
+            ],
+            [
+              "Pollito/a",
+              "15,4%",
+              "561",
+              "561",
+              "561",
+              "561",
+              "561",
+              "574",
+              "574",
+              "735",
+              "735",
+              "735",
+              "735",
+              "736",
+              "73",
+              "6 737"
+            ],
+            [
+              "Otros costos",
+              "16,5%",
+              "694",
+              "695",
+              "696",
+              "697",
+              "698",
+              "701",
+              "703",
+              "773",
+              "776",
+              "780",
+              "782",
+              "785",
+              "78",
+              "8 791"
+            ],
+            [
+              "Total",
+              "100%",
+              "4.835",
+              "5.331",
+              "5.202",
+              "5.283",
+              "5.402",
+              "5.445",
+              "5.427",
+              "5.021",
+              "5.006",
+              "4.903",
+              "4.832",
+              "4.709",
+              "4.81",
+              "1 4.798"
+            ],
+            [
+              "Variación mensual (%)",
+              "3,0%",
+              "10,3%",
+              "-2,4%",
+              "1,6%",
+              "2,3%",
+              "0,8%",
+              "-0,3%",
+              "-0,3%",
+              "-2,1%",
+              "-1,4%",
+              "-2,5%",
+              "2,1",
+              "%-0,3%"
+            ],
+            [
+              "Variación anual (%)",
+              "3,8%",
+              "-6,1%",
+              "-5,7%",
+              "-8,5%",
+              "-12,8%",
+              "-11,7",
+              "%-11,6%"
+            ]
+          ]
+        },
+        {
+          "table_number": 36,
+          "data": [
+            [
+              "DE COSTOS",
+              "22-luj",
+              "22-oga",
+              "22-pes",
+              "22-tco",
+              "22-von",
+              "22-cid",
+              "32-ene",
+              "32-bef",
+              "32-luj 32-oga",
+              "32-pes",
+              "32-tco",
+              "32-von",
+              "32-cid 42-ene"
+            ],
+            [
+              "78,2%",
+              "283,5",
+              "295,1",
+              "340,2",
+              "330,9",
+              "336,9",
+              "349,7",
+              "349,6",
+              "348,4 3",
+              "15,8 293,6",
+              "292,0",
+              "285,6",
+              "279,0",
+              "267,8 276,3"
+            ],
+            [
+              "2,5%",
+              "7,7",
+              "7,7",
+              "7,7",
+              "7,7",
+              "7,7",
+              "7,7",
+              "7,9",
+              "7,9",
+              "8,9 8,9",
+              "8,9",
+              "8,9",
+              "8,9",
+              "8,9 8,8"
+            ],
+            [
+              "19,3%",
+              "61,3",
+              "61,3",
+              "61,3",
+              "61,3",
+              "61,3",
+              "61,3",
+              "61,8",
+              "63,0",
+              "66,2 66,4",
+              "66,5",
+              "66,6",
+              "66,8",
+              "66,9 67,3"
+            ],
+            [
+              "100%",
+              "352,5",
+              "364,1",
+              "409,2",
+              "399,9",
+              "405,9",
+              "418,7",
+              "419,3",
+              "419,2 39",
+              "0,8 368,9",
+              "367,3",
+              "361,1",
+              "354,6",
+              "343,6352,4"
+            ],
+            [
+              "Variación mensual (%)",
+              "3,3%",
+              "12,4%",
+              "-2,3%",
+              "1,5%",
+              "3,2%",
+              "0,1%",
+              "0,0%",
+              "-5,6%",
+              "-0,4%",
+              "-1,7%",
+              "-1,8%",
+              "-3,1% 2,6%"
+            ],
+            [
+              "Variación anual (%)",
+              "10",
+              ",9% 1,3%",
+              "-10,2%",
+              "-9,7%",
+              "-12,6%",
+              "-17,9%-16,0%"
+            ]
+          ]
+        },
+        {
+          "table_number": 37,
+          "data": [
+            [
+              "Total",
+              "6.111",
+              "6.666",
+              "6.521",
+              "6.618",
+              "6.792",
+              "6.904",
+              "6.885",
+              "6.486",
+              "6.469",
+              "6.354",
+              "6.275",
+              "6.138",
+              "6.30",
+              "6 6.293"
+            ],
+            [
+              "Variación mensual (%)",
+              "2,7%"
+            ],
+            [
+              "Variación anual (%)",
+              "6,1%",
+              "-2,9%",
+              "-2,6%",
+              "-5,2%",
+              "-9,6%",
+              "-8,7",
+              "%-8,6%"
+            ]
+          ]
+        },
+        {
+          "table_number": 38,
+          "data": [
+            [
+              "Precio de gallina ($)",
+              "11.000",
+              "11.000",
+              "11.500",
+              "12.000",
+              "12.000",
+              "10.000",
+              "10.000",
+              "10.000 11.",
+              "500 11.500",
+              "11.500",
+              "12.000",
+              "12.000",
+              "12.000 12.000"
+            ],
+            [
+              "amortización ave",
+              "31",
+              "31",
+              "33",
+              "34",
+              "34",
+              "29",
+              "29",
+              "29",
+              "33 33",
+              "33",
+              "34",
+              "34",
+              "34 34"
+            ],
+            [
+              "Total",
+              "321,1",
+              "332,7",
+              "376,3",
+              "365,6",
+              "371,6",
+              "390,1",
+              "390,3",
+              "391,0 3",
+              "58,0 336,0",
+              "334,5",
+              "326,8",
+              "320,3",
+              "309,3 318,"
+            ],
+            [
+              "Variación mensual (%)",
+              "3,6%",
+              "13,1%",
+              "-2,9%",
+              "1,6%",
+              "5,0%",
+              "0,0%",
+              "0,2%",
+              "-6,1%",
+              "-0,5%",
+              "-2,3%",
+              "-2,0%",
+              "-3,4% 2,8%"
+            ],
+            [
+              "Variación anual (%)",
+              "11",
+              ",5% 1,0%",
+              "-11,1%",
+              "-10,6%",
+              "-13,8%",
+              "-20,7%-18,5%"
+            ]
+          ]
+        },
+        {
+          "table_number": 39,
+          "data": [
+            [
+              "Total",
+              "11.283",
+              "11.528",
+              "12.436",
+              "12.522",
+              "12.536",
+              "12.859",
+              "12.979",
+              "12.303",
+              "11.805",
+              "11.702",
+              "11.520",
+              "11.367",
+              "11.134",
+              "11.272"
+            ],
+            [
+              "Variación mensual (%)",
+              "-0,1%",
+              "2,2%",
+              "7,9%",
+              "0,7%",
+              "0,1%",
+              "2,6%",
+              "0,9%",
+              "-4,0%",
+              "-0,9%",
+              "-1,6%",
+              "-1,3%",
+              "-2,0",
+              "% 1,2%"
+            ],
+            [
+              "Variación respecto a marzo 2022 (%)",
+              "9,0%",
+              "2,4%",
+              "-5,9%",
+              "-8,0%",
+              "-9,3%",
+              "-13,4",
+              "%-13,2%"
+            ]
+          ]
+        },
+        {
+          "table_number": 40,
+          "data": [
+            [
+              "Total",
+              "106.895",
+              "108.686",
+              "111.264",
+              "113.531",
+              "115.750",
+              "118.093 1",
+              "20.400",
+              "122.522 131",
+              ".980 133.44",
+              "7 134.383",
+              "135.303",
+              "135.788",
+              "135.857 135.90"
+            ],
+            [
+              "Variación mensual (%)",
+              "1,7%",
+              "2,4%",
+              "2,0%",
+              "2,0%",
+              "2,0%",
+              "2,0%",
+              "1,8%",
+              "1,1%",
+              "0,7%",
+              "0,7%",
+              "0,4%",
+              "0,1% 0,0%"
+            ],
+            [
+              "Variación anual (%)",
+              "2",
+              "3,5% 22,8%",
+              "20,8%",
+              "19,2%",
+              "17,3%",
+              "15,0% 12,9%"
+            ]
+          ]
+        },
+        {
+          "table_number": 41,
+          "data": [
+            [
+              "Párametro",
+              "Indicador"
+            ],
+            [
+              "Edad al sacrificio ( dias)",
+              "39"
+            ],
+            [
+              "Peso al sacrificio (kg)",
+              "2,35"
+            ],
+            [
+              "Peso en canal fresco con vísceras (kg)",
+              "2,102"
+            ],
+            [
+              "Consumo alimento acumulado (kg/ave)",
+              "3,8"
+            ],
+            [
+              "Conversión Alimenticia",
+              "1,62"
+            ],
+            [
+              "Mortalidad (%)",
+              "5"
+            ]
+          ]
+        },
+        {
+          "table_number": 42,
+          "data": [
+            [
+              "Párametro",
+              "Indicador"
+            ],
+            [
+              "Periodo de postura (semanas)",
+              "18-80"
+            ],
+            [
+              "Huevos acumulados ave alojada",
+              "350"
+            ],
+            [
+              "Consumo alimento acumulado (kg/ave)",
+              "56,035"
+            ],
+            [
+              "Consumo alimento kg/huevo)",
+              "0,160"
+            ],
+            [
+              "Mortalidad del ciclo (%)",
+              "12"
+            ]
+          ]
+        },
+        {
+          "table_number": 43,
+          "data": [
+            [
+              "Partic. %",
+              "Maíz",
+              "Soya",
+              "Tor"
+            ],
+            [
+              "Pollo",
+              "58%",
+              "14%",
+              "14"
+            ],
+            [
+              "Huevo",
+              "60%",
+              "5%",
+              "16"
+            ]
+          ]
+        },
+        {
+          "table_number": 45,
+          "data": [
+            [
+              "vísceras",
+              "Plaza Mayorista",
+              "Semana del"
+            ],
+            [
+              "octubre",
+              "Semana del"
+            ],
+            [
+              "octubre",
+              "Variación"
+            ],
+            [
+              "semana",
+              "Tendencia"
+            ],
+            [
+              "semanal",
+              "Promedio"
+            ],
+            [
+              "(septiembre)",
+              "Variación"
+            ],
+            [
+              "anterior",
+              "Tendencia"
+            ],
+            [
+              "Frigorífico"
+            ],
+            [
+              "Guadalupe",
+              "9.950",
+              "9.825",
+              "1,3%",
+              "↑",
+              "11.300",
+              "-11,9%",
+              "↓"
+            ],
+            [
+              "Cenabastos Cúcuta",
+              "10.750",
+              "10.833",
+              "-0,8%",
+              "↓",
+              "10.833",
+              "-0,8%",
+              "↓"
+            ],
+            [
+              "Paloquemao -"
+            ],
+            [
+              "Bogotá",
+              "11.725",
+              "12.375",
+              "-5,3%",
+              "↓",
+              "12.334",
+              "-4,9%",
+              "↓"
+            ],
+            [
+              "Pechuga",
+              "Plaza Mayorista",
+              "Semana del"
+            ],
+            [
+              "octubre",
+              "Semana del"
+            ],
+            [
+              "octubre",
+              "Variación"
+            ],
+            [
+              "semana",
+              "Tendencia"
+            ],
+            [
+              "semanal",
+              "Promedio"
+            ],
+            [
+              "(septiembre)",
+              "Variación"
+            ],
+            [
+              "anterior",
+              "Tendencia"
+            ],
+            [
+              "Frigorífico"
+            ],
+            [
+              "Guadalupe",
+              "14.225",
+              "14.625",
+              "-2,7%",
+              "↓",
+              "14.409",
+              "-1,3%",
+              "↓"
+            ],
+            [
+              "Central Mayorista"
+            ],
+            [
+              "de Antioquia",
+              "15.250",
+              "14.975",
+              "1,8%",
+              "↑",
+              "14.331",
+              "6,4%",
+              "↑"
+            ],
+            [
+              "Frigorífico -"
+            ],
+            [
+              "Bucaramanga",
+              "16.600",
+              "16.600",
+              "0,0%",
+              "=",
+              "16.725",
+              "-0,7%",
+              "↓"
+            ],
+            [
+              "B/quilla - B/quillita",
+              "11.367",
+              "11.367",
+              "0,0%",
+              "=",
+              "11.067",
+              "2,7%",
+              "↑"
+            ],
+            [
+              "pollo",
+              "Plaza Mayorista",
+              "Semana del"
+            ],
+            [
+              "octubre",
+              "Semana del"
+            ],
+            [
+              "octubre",
+              "Variación"
+            ],
+            [
+              "semana",
+              "Tendencia"
+            ],
+            [
+              "semanal",
+              "Promedio"
+            ],
+            [
+              "(septiembre)",
+              "Variación"
+            ],
+            [
+              "anterior",
+              "Tendencia"
+            ],
+            [
+              "Frigorífico"
+            ],
+            [
+              "Guadalupe",
+              "11.250",
+              "11.650",
+              "-3,4%",
+              "↓",
+              "12.681",
+              "-11,3%",
+              "↓"
+            ],
+            [
+              "Central Mayorista"
+            ],
+            [
+              "de Antioquia",
+              "11.275",
+              "10.725",
+              "5,1%",
+              "↑",
+              "11.300",
+              "-0,2%",
+              "↓"
+            ],
+            [
+              "Frigorífico -"
+            ],
+            [
+              "Bucaramanga",
+              "13.050",
+              "13.050",
+              "0,0%",
+              "=",
+              "12.983",
+              "0,5%",
+              "↑"
+            ],
+            [
+              "Cenabastos Cúcuta",
+              "9.350",
+              "9.133",
+              "2,4%",
+              "↑",
+              "9.108",
+              "2,7%",
+              "↑"
+            ],
+            [
+              "costillar",
+              "Plaza Mayorista",
+              "Semana del"
+            ],
+            [
+              "octubre",
+              "Semana del"
+            ],
+            [
+              "octubre",
+              "Variación"
+            ],
+            [
+              "semana",
+              "Tendencia"
+            ],
+            [
+              "semanal",
+              "Promedio"
+            ],
+            [
+              "(septiembre)",
+              "Variación"
+            ],
+            [
+              "anterior",
+              "Tendencia"
+            ],
+            [
+              "Frigorífico"
+            ],
+            [
+              "Guadalupe",
+              "10.800",
+              "10.875",
+              "-0,7%",
+              "↓",
+              "10.960",
+              "-1,5%",
+              "↓"
+            ],
+            [
+              "Central Mayorista"
+            ],
+            [
+              "de Antioquia",
+              "12.325",
+              "12.325",
+              "0,0%",
+              "=",
+              "12.225",
+              "0,8%",
+              "↑"
+            ],
+            [
+              "Frigorífico -"
+            ],
+            [
+              "Bucaramanga",
+              "13.000",
+              "13.000",
+              "0,0%",
+              "=",
+              "12.925",
+              "0,6%",
+              "↑"
+            ],
+            [
+              "Cenabastos Cúcuta",
+              "11.250",
+              "11.100",
+              "1,4%",
+              "↑",
+              "11.175",
+              "0,7%",
+              "↑"
+            ]
+          ]
+        },
+        {
+          "table_number": 47,
+          "data": [
+            [
+              "AAA",
+              "Plaza Mayorista",
+              "Semana del"
+            ],
+            [
+              "octubre",
+              "Semana del"
+            ],
+            [
+              "octubre",
+              "Variación"
+            ],
+            [
+              "semana",
+              "Tendencia"
+            ],
+            [
+              "semanal",
+              "Promedio"
+            ],
+            [
+              "(septiembre)",
+              "Variación"
+            ],
+            [
+              "anterior",
+              "Tendencia"
+            ],
+            [
+              "Corabastos - Bogotá",
+              "593",
+              "591",
+              "0,3%",
+              "↑",
+              "595",
+              "-0,3%",
+              "↓"
+            ],
+            [
+              "Paloquemao - Bogotá",
+              "625",
+              "610",
+              "2,5%",
+              "↑",
+              "620",
+              "0,8%",
+              "↑"
+            ],
+            [
+              "Siloé - Cali",
+              "656",
+              "650",
+              "0,9%",
+              "↑",
+              "602",
+              "9,0%",
+              "↑"
+            ],
+            [
+              "Central Mayorista de"
+            ],
+            [
+              "Antioquia",
+              "605",
+              "605",
+              "0,0%",
+              "=",
+              "614",
+              "-1,4%",
+              "↓"
+            ],
+            [
+              "Medellín, Plaza Minorista"
+            ],
+            [
+              "\"José María Villa\"",
+              "652",
+              "655",
+              "-0,5%",
+              "↓",
+              "664",
+              "-1,8%",
+              "↓"
+            ],
+            [
+              "Rojo AA",
+              "Plaza Mayorista",
+              "Semana del"
+            ],
+            [
+              "octubre",
+              "Semana del"
+            ],
+            [
+              "octubre",
+              "Variación"
+            ],
+            [
+              "semana",
+              "Tendencia"
+            ],
+            [
+              "semanal",
+              "Promedio"
+            ],
+            [
+              "(septiembre)",
+              "Variación"
+            ],
+            [
+              "anterior",
+              "Tendencia"
+            ],
+            [
+              "Corabastos - Bogotá",
+              "550",
+              "554",
+              "-0,7%",
+              "↓",
+              "553",
+              "-0,5%",
+              "↓"
+            ],
+            [
+              "Paloquemao - Bogotá",
+              "563",
+              "557",
+              "1,1%",
+              "↑",
+              "551",
+              "2,3%",
+              "↑"
+            ],
+            [
+              "Siloé - Cali",
+              "622",
+              "617",
+              "0,8%",
+              "↑",
+              "568",
+              "9,5%",
+              "↑"
+            ],
+            [
+              "Central Mayorista de"
+            ],
+            [
+              "Antioquia",
+              "569",
+              "569",
+              "0,0%",
+              "=",
+              "558",
+              "2,1%",
+              "↑"
+            ],
+            [
+              "Medellín, Plaza Minorista"
+            ],
+            [
+              "\"José María Villa\"",
+              "599",
+              "600",
+              "-0,2%",
+              "↓",
+              "603",
+              "-0,7%",
+              "↓"
+            ],
+            [
+              "Rojo A",
+              "Plaza Mayorista",
+              "Semana del"
+            ],
+            [
+              "octubre",
+              "Semana del"
+            ],
+            [
+              "octubre",
+              "Variación"
+            ],
+            [
+              "semana",
+              "Tendencia"
+            ],
+            [
+              "semanal",
+              "Promedio"
+            ],
+            [
+              "(septiembre)",
+              "Variación"
+            ],
+            [
+              "anterior",
+              "Tendencia"
+            ],
+            [
+              "Corabastos - Bogotá",
+              "519",
+              "525",
+              "-1,1%",
+              "↓",
+              "521",
+              "-0,4%",
+              "↓"
+            ],
+            [
+              "Paloquemao - Bogotá",
+              "523",
+              "510",
+              "2,5%",
+              "↑",
+              "526",
+              "-0,5%",
+              "↓"
+            ],
+            [
+              "Centroabastos -"
+            ],
+            [
+              "Bucaramanga",
+              "517",
+              "517",
+              "0,0%",
+              "=",
+              "504",
+              "2,6%",
+              "↑"
+            ],
+            [
+              "Siloé - Cali",
+              "572",
+              "567",
+              "0,9%",
+              "↑",
+              "524",
+              "9,3%",
+              "↑"
+            ],
+            [
+              "Central Mayorista de"
+            ],
+            [
+              "Antioquia",
+              "546",
+              "546",
+              "0,0%",
+              "=",
+              "540",
+              "1,1%",
+              "↑"
+            ],
+            [
+              "Rojo B",
+              "Plaza Mayorista",
+              "Semana del"
+            ],
+            [
+              "octubre",
+              "Semana del"
+            ],
+            [
+              "octubre",
+              "Variación"
+            ],
+            [
+              "semana",
+              "Tendencia"
+            ],
+            [
+              "semanal",
+              "Promedio"
+            ],
+            [
+              "(septiembre)",
+              "Variación"
+            ],
+            [
+              "anterior",
+              "Tendencia"
+            ],
+            [
+              "Corabastos - Bogotá",
+              "489",
+              "489",
+              "0,0%",
+              "=",
+              "496",
+              "-1,5%",
+              "↓"
+            ],
+            [
+              "Paloquemao - Bogotá",
+              "493",
+              "490",
+              "0,6%",
+              "↑",
+              "484",
+              "1,8%",
+              "↑"
+            ],
+            [
+              "Centroabastos -"
+            ],
+            [
+              "Bucaramanga",
+              "500",
+              "500",
+              "0,0%",
+              "=",
+              "484",
+              "3,4%",
+              "↑"
+            ],
+            [
+              "Central Mayorista de"
+            ],
+            [
+              "Antioquia",
+              "511",
+              "504",
+              "1,4%",
+              "↑",
+              "502",
+              "1,8%",
+              "↑"
+            ],
+            [
+              "Medellín, Plaza Minorista"
+            ],
+            [
+              "\"José María Villa\"",
+              "558",
+              "557",
+              "0,2%",
+              "↑",
+              "529",
+              "5,5%",
+              "↑"
+            ]
+          ]
+        },
+        {
+          "table_number": 49,
+          "data": [
+            [
+              "vísceras",
+              "Plaza Mayorista",
+              "Semana del"
+            ],
+            [
+              "octubre",
+              "Semana del"
+            ],
+            [
+              "octubre",
+              "Variación"
+            ],
+            [
+              "semana",
+              "Tendencia"
+            ],
+            [
+              "semanal",
+              "Promedio"
+            ],
+            [
+              "(septiembre)",
+              "Variación"
+            ],
+            [
+              "anterior",
+              "Tendencia"
+            ],
+            [
+              "Estados Unidos",
+              "2.91"
+            ],
+            [
+              "Colombia (mercado"
+            ],
+            [
+              "mayorista - Bogotá)",
+              "2.37",
+              "2.32",
+              "2.0%",
+              "↑",
+              "2.82",
+              "-16.2%",
+              "↓"
+            ]
+          ]
+        },
+        {
+          "table_number": 50,
+          "data": [
+            [
+              "Pechuga",
+              "Plaza Mayorista",
+              "Semana del"
+            ],
+            [
+              "octubre",
+              "Semana del"
+            ],
+            [
+              "octubre",
+              "Variación"
+            ],
+            [
+              "semana",
+              "Tendencia"
+            ],
+            [
+              "semanal",
+              "Promedio"
+            ],
+            [
+              "(septiembre)",
+              "Variación"
+            ],
+            [
+              "anterior",
+              "Tendencia"
+            ],
+            [
+              "Estados Unidos",
+              "2.34"
+            ],
+            [
+              "Colombia (mercado"
+            ],
+            [
+              "mayorista - Bogotá)",
+              "3.38",
+              "3.45",
+              "-2.0%",
+              "↓",
+              "3.60",
+              "-6.0%",
+              "↓"
+            ]
+          ]
+        },
+        {
+          "table_number": 51,
+          "data": [
+            [
+              "pollo",
+              "Plaza Mayorista",
+              "Semana del"
+            ],
+            [
+              "octubre",
+              "Semana del"
+            ],
+            [
+              "octubre",
+              "Variación"
+            ],
+            [
+              "semana",
+              "Tendencia"
+            ],
+            [
+              "semanal",
+              "Promedio"
+            ],
+            [
+              "(septiembre)",
+              "Variación"
+            ],
+            [
+              "anterior",
+              "Tendencia"
+            ],
+            [
+              "Estados Unidos",
+              "1.22"
+            ],
+            [
+              "Colombia (mercado"
+            ],
+            [
+              "mayorista - Bogotá)",
+              "2.67",
+              "2.75",
+              "-2.7%",
+              "↓",
+              "3.17",
+              "-15.5%",
+              "↓"
+            ]
+          ]
+        },
+        {
+          "table_number": 52,
+          "data": [
+            [
+              "costillar",
+              "Plaza Mayorista",
+              "Semana del"
+            ],
+            [
+              "octubre",
+              "Semana del"
+            ],
+            [
+              "octubre",
+              "Variación"
+            ],
+            [
+              "semana",
+              "Tendencia"
+            ],
+            [
+              "semanal",
+              "Promedio"
+            ],
+            [
+              "(septiembre)",
+              "Variación"
+            ],
+            [
+              "anterior",
+              "Tendencia"
+            ],
+            [
+              "Estados Unidos",
+              "2.56"
+            ],
+            [
+              "Colombia (mercado"
+            ],
+            [
+              "mayorista - Bogotá)",
+              "2.57",
+              "2.57",
+              "0.0%",
+              "=",
+              "2.74",
+              "-6.2%",
+              "↓"
+            ]
+          ]
+        },
+        {
+          "table_number": 54,
+          "data": [
+            [
+              "(Español / Inglés)",
+              "Precio histórico",
+              "Precio"
+            ],
+            [
+              "(USD/Kg) 1/",
+              "Valor FOB"
+            ],
+            [
+              "2/",
+              "Valor CIF"
+            ],
+            [
+              "3/",
+              "Valor CIF"
+            ],
+            [
+              "1,40",
+              "1,48",
+              "1,62",
+              "6.798"
+            ],
+            [
+              "Small",
+              "0,98",
+              "1,06",
+              "1,16",
+              "4.865"
+            ],
+            [
+              "Medium",
+              "0,91",
+              "1,00",
+              "1,09",
+              "4.559"
+            ],
+            [
+              "Jumbo",
+              "0,87",
+              "0,95",
+              "1,04",
+              "4.356"
+            ],
+            [
+              "Jumbo",
+              "0,89",
+              "0,97",
+              "1,06",
+              "4.458"
+            ],
+            [
+              "Medium",
+              "0,98",
+              "1,06",
+              "1,16",
+              "4.865"
+            ]
+          ]
+        }
+      ],
+      "relevance_colombia": {
+        "score": 5,
+        "level": "Alta",
+        "reasons": [
+          "Menciona Colombia directamente",
+          "Estudia mercado de huevo"
+        ]
+      }
+    },
+    {
+      "metadata": {
+        "filename": "Fenavi_comnsumo_producion.pdf",
+        "authors": "Unknown",
+        "year": null,
+        "title": "FECHA EXTRACCIÓN: 2026-07-22T23:09:33.329067",
+        "processing_date": "2026-07-22T23:09:50.640758"
+      },
+      "content": {
+        "abstract": null,
+        "methodology": null,
+        "results": "a destacar en colo-\nrenta. Y con similar posición según la matriz de caciones que suman más de $550.000 millones\nOferta y Utilización del DANE dentro de los ren- orientados a la modernización competitiva del\nglones productivos con actividad propia. De allí sector avícola sólo en avicultura sostenible más\nque el sector avícola alcance una participación de un 15% de las colocaciones totales de crédito\ndel 0,42% en el PIB y del 17,48% dentro del rubro que supera los $3,7 billones.\npecuario e industrias cárnicas.\nEl desarrollo de la avicultura colombiana de-\nPara llegar al nivel actual de desarrollo del sector muestra que Colombia tienen un elevado\navícola no se ha escatimado esfuerzo alguno potencial en el sector agropecuario, no sólo\npor preservar las condiciones sanitarias de país, para garantizar una amplia oferta de alimentos\na través del fortalecimiento de una plataforma a la población a precios competitivos, sino para\ninstitucional, que va desde la capacidad técnica contar con una oferta exportadora. Hay que\nde Fenavi con el soporte del Fondo Nacional desarrollar su potencial favoreciendo el entorno\nAvícola hasta la articulación con el Instituto Co- para la inversión de la mano del fortalecimiento\nlombiano Agropecuario, ICA, para aplicar los al- empresarial.\nAvicultores 329 55",
+        "conclusion": null
+      },
+      "key_data": {
+        "hhi_values": [],
+        "cr_values": [],
+        "lerner_values": [],
+        "elasticity_values": [],
+        "market_shares": [],
+        "concentration_measures": [],
+        "countries": [
+          "colombia",
+          "estados unidos",
+          "us",
+          "brasil",
+          "china",
+          "japón"
+        ],
+        "sectors": [
+          "huevo",
+          "egg",
+          "huevos",
+          "eggs",
+          "avicultura",
+          "pollo",
+          "carne",
+          "meat",
+          "maíz",
+          "soya",
+          "soy",
+          "granos"
+        ]
+      },
+      "classification": {
+        "categories": [
+          "Mercado huevos internacional",
+          "Estructura mercado agroalimentario"
+        ],
+        "primary_category": "Mercado huevos internacional"
+      },
+      "key_quotes": [],
+      "tables": [
+        {
+          "table_number": 5,
+          "data": [
+            [
+              "Código Destino"
+            ],
+            [
+              "de Crédito",
+              "Nombre del Destino"
+            ],
+            [
+              "prácticas de origen.",
+              "104009",
+              "Avicultura Sostenible"
+            ],
+            [
+              "reconversión productiva para el desarrollo sostenible y la adaptación al cambio climático.",
+              "110017",
+              "Inversiones de Bioseguridad"
+            ],
+            [
+              "de las actividades agropecuarias.",
+              "641150",
+              "Compra de transporte especializado"
+            ],
+            [
+              "presente artículo.",
+              "205006",
+              "Infraestructura y Equipos nuevos para manejo"
+            ],
+            [
+              "347490",
+              "Construcción infraestructura para la"
+            ],
+            [
+              "447250",
+              "Equipos nuevos para producción pecuaria"
+            ],
+            [
+              "547060",
+              "Equipos e implementos nuevos manejo"
+            ],
+            [
+              "547410",
+              "Construcción obras civiles para suministro de"
+            ],
+            [
+              "Adecuación de tierras e infraestructura de riego, drenaje y/o control de inundaciones.",
+              "105002",
+              "Adecuación de tierras para uso Agropecuario"
+            ],
+            [
+              "105043",
+              "Infraestructura, maquinaria y equipos nuevos"
+            ],
+            [
+              "relacionadas con insumos agropecuarios.",
+              "260000",
+              "Biotecnología"
+            ],
+            [
+              "incluyan las de adaptación y mitigación a los efectos del cambio climático.",
+              "841250",
+              "Asistencia Técnica"
+            ],
+            [
+              "su sostenimiento, así como las actividades requeridas para su obtención.",
+              "841300",
+              "Certificaciones de buenas prácticas, de origen,"
+            ],
+            [
+              "920000",
+              "Fuentes de Energía No Convencionales"
+            ]
+          ]
+        },
+        {
+          "table_number": 7,
+          "data": [
+            [
+              "Sección"
+            ],
+            [
+              "Sección"
+            ],
+            [
+              "Avicultores 329 37"
+            ]
+          ]
+        }
+      ],
+      "relevance_colombia": {
+        "score": 5,
+        "level": "Alta",
+        "reasons": [
+          "Menciona Colombia directamente",
+          "Estudia mercado de huevo"
+        ]
+      }
+    },
+    {
+      "metadata": {
         "filename": "FinalThesis_AwolZeberga.pdf",
         "authors": "Zeberga\nMay",
         "year": 2010,
         "title": "FECHA EXTRACCIÓN: 2026-07-19T01:15:52.329588",
-        "processing_date": "2026-07-19T01:17:48.515479"
+        "processing_date": "2026-07-22T23:09:50.681699"
       },
       "content": {
         "abstract": "XVI\n1. INTRODUCTION 1\n1.1. Background 1\n1.2. Statement of the Problem 4\n1.3. Objective of the Study 6\n1.3. Significance of the Study 7\n1.5. Scope and Limitation of the Study 7\n2. LITERATURE REVIEW 8\n2.1. Basic Concepts 8\n2.1.1. Market and marketing 8\n2.1.2. Marketing systems 9\n2.1.3. Marketing efficiency 10\n2.1.4. Marketing channel 11\n2.1.5. Market chain and business support services 12\n2.2. Approaches Used to the Study of Agricultural Marketing 13\n2.2.1. Functional approach 13\n2.2.2. Institutional approach 13\n2.2.3. Commodity approach 13\n2.3. Methods of Evaluating Marketing System 14\n2.3.1. The Structure, Conduct and Performance (SCP) Model 15\n2.3.1.1. Market Structure 15\n2.3.1.1.1. Market Concentration Ratio (measure) 16\nviii",
@@ -5471,7 +7994,7 @@
         "authors": "Unknown",
         "year": null,
         "title": "FECHA EXTRACCIÓN: 2026-07-19T01:15:58.145909",
-        "processing_date": "2026-07-19T01:17:48.536796"
+        "processing_date": "2026-07-22T23:09:50.699323"
       },
       "content": {
         "abstract": "La estruct ura del mercado de productos pecuarios de primera necesidad en Perú ha experimentado transformaciones\nasociadas al crecimiento productivo, cambios en la demanda y mayor participación de grandes empresas. La\ninvestigación tuvo como objetivo analizar la estructura de mercado de estos productos durante el período 2018–2023,\ncon énfasis en la concentración y el poder de mercado. Se desarrolló un estudio de alcance descriptivo con enfoque\ncuantitativo, basado en información secundaria del sector pecuario y en el análisis de indicadores de concentración y\nparticipación empresarial. Los resultados evidenciaron un crecimiento sostenido de la producción, con mayor dinamismo\nen carne de pollo, cerdo y huevo, así como una creciente concentración en varios segmentos, especialmente en pollo y\nhuevo, mientras la carne de res mantuvo un comportamiento más competitivo. Se concluye que el sector pecuario peruano\npresenta un proceso progresivo de concentración empresarial que combina eficiencia productiva con potenciales riesgos\npara la competencia y el acceso equitativo al mercado.",
@@ -5623,7 +8146,7 @@
         "authors": "Unknown",
         "year": null,
         "title": "FECHA EXTRACCIÓN: 2026-07-19T01:16:04.578504",
-        "processing_date": "2026-07-19T01:17:48.553845"
+        "processing_date": "2026-07-22T23:09:50.716040"
       },
       "content": {
         "abstract": "The Philippine Competition Act promotes free and fair market competition to\nimprove market efficiency and protect consumer welfare. Thus, it is necessary to examine\nand assess the nature of competition in any industry. This was done by conducting the\nstudy of broiler, chicken egg, and swine industries using the market structure-conduct-\nperformance approach. The degree of firm concentration, barriers to entry, profitability of\nproduction, return on investment, and share in every peso spent by the consumers were\ndetermined. Based on the analysis, markets for chicken egg and pork were fairly\ncompetitive while that of chicken meat was oligopolistic. Huge capital investment also\nshowed to be a hindrance for greater competition in all the industries. Large share in\nconsumer’s peso was more likely an issue in the chicken meat market than in chicken egg\nand swine. Monitoring the behavior of large firms, reducing structural barriers, and\nincreasing production efficiencies are necessary to improve markets of these industries\nthus ensuring a vibrant competition.",
@@ -6045,7 +8568,7 @@
         "authors": "Unknown",
         "year": null,
         "title": "FECHA EXTRACCIÓN: 2026-07-19T01:16:13.240272",
-        "processing_date": "2026-07-19T01:17:48.576558"
+        "processing_date": "2026-07-22T23:09:50.737913"
       },
       "content": {
         "abstract": "Purposes of this research are to determine some characteristics of distribution channel, market structure, and price maker\ntransmission in purebred chicken egg commodity in Banyumas District, Central Java Province. Primary data applied on this research\nis from all channel distribution levels; from producers to final consumers. Meanwhile secondary data is collected from government\nofficial sources, such as BPS-Statistic of Banyumas Disrict, Banyumas Department of Industry, Trading and Cooperation, and previous\nresearches which has been made by researcher team. Sample determining is directed by proportional random sampling methods.\nSome measurements are applied to this research, including to; Herfindahl Index (HI), Concentration Ratio (CF), and Minimum\nEfficiency Scale (MES) to investigate market structure; and Asymmetric Price Transmission (APT) to determine price transmission\nmechanism model. This research finds that (1) the distribution channel of egg commodity is spitted to different channel, the first\nchannel: egg producer – retail traders – final consumers, and second channel: egg producers – whole seller – retail traders – final\nconsumers; (2) market structure which is created to this farming specific commodity is perfect market; (3) price transmission\nmechanism analysis statistically shows that there is almost no existence of dominant power in price formation.\nKey words : purebred chicken egg, distribution channel, market structure, perfect competition, asymmetric price\ntransmission.\nHow to Cite: Ahmad, A., Arifin, A., & Chew, B. (2016). Market Structure and Price Transmission of Eggs\nCommodity. JEJAK: Jurnal Ekonomi Dan Kebijakan, 9(2), 200-221.\ndoi:http://dx.doi.org/10.15294/jejak.v9i2.8234\n© 2016 Semarang State University. All rights reserved\n Corresponding author : ISSN 1979-715X\nAddress: Jl. Prof. H.R. Boenyamin No. 708, Purwokerto,\nCentral Java 53122, Indonesia\nE-mail: rekan.aziz@gmail.com",
@@ -6219,7 +8742,7 @@
         "authors": "Unknown",
         "year": null,
         "title": "FECHA EXTRACCIÓN: 2026-07-19T01:16:20.850816",
-        "processing_date": "2026-07-19T01:17:48.601552"
+        "processing_date": "2026-07-22T23:09:50.759439"
       },
       "content": {
         "abstract": "Price transmission refers to the process via which information is transmitted between participants in\na market. Focusing on vertical markets such as the food chain, this Address considers developments\nin theory, methods and data that help economists understand how information is conveyed\nbetween food consumers and agricultural producers. Central to this understanding is the\nincreasingly important role played by the food industry (retailing, manufacturing and processing) in\nprice transmission. Not only is the food industry a major source of the price changes that producers\nand consumers face but it also mediates price signals originating in other parts of the food chain in\nincreasingly nuanced ways, as revealed by highly detailed retail (‘scanner’) data that is becoming\nprogressively available to researchers. While the speed, magnitude and asymmetry of price\ntransmission are valuable descriptors of price adjustment in vertical markets, we should be wary of\ninferring too much about the competitive setting on the basis of prices alone. Theory-consistent\nempirical models are a step in the right direction and represent a useful complement to the\napproaches developed in the New Empirical Industrial Organisation (NEIO) literature which address\nthe issue of market power directly. Being the mechanism underlying food inflation, price\ntransmission also has an important macro-economic dimension, and concerns about competition\nsurface here too. Given the rapidly changing nature of the food industry in many countries, the\nneed to understand the forces shaping price transmission is as cogent as ever.",
@@ -6433,7 +8956,7 @@
         "authors": "Security",
         "year": 2024,
         "title": "FECHA EXTRACCIÓN: 2026-07-19T01:16:26.290990",
-        "processing_date": "2026-07-19T01:17:48.621508"
+        "processing_date": "2026-07-22T23:09:50.793257"
       },
       "content": {
         "abstract": "Background This paper investigates the effects of price volatility spillover in the poultry industry’s input markets,\nincluding soybean meal, day-old chicks and corn, and the foreign exchange market as an independent market,\non the wholesale egg market in Iran. The experimental investigation is based on dynamic conditional correlation\n(GARCH-DCC). It is one of the most powerful and accepted methods for studying market volatility, whose represen-\ntation is based on conditional variance. On the other hand, eggs are one of the main food items in the food basket\nof Iranian households, playing an important role in ensuring part of the food security of the country. However,\nthe price volatilities of its inputs, which make up more than 70% of egg production costs, cause the instability of its\nprice and the confusion of the producers of this sector. This is although in the relevant literature, there is little research\non the issue of volatility spillover effects on agricultural product markets, especially in the country.\nResults The findings show that any shock in the input market leads to volatility and instability in the market;\non the other hand, these volatilities maintain their stability. In addition, there is a spillover of exchange market volatil-\nity into corn and soybean meal input markets.\nConclusions In that context, this article emphasizes the knowledge of market relationships and their consequences,\nthereby suggesting appropriate policies to control and support the domestic poultry industry.",
@@ -6486,7 +9009,7 @@
         "authors": "Unknown",
         "year": null,
         "title": "FECHA EXTRACCIÓN: 2026-07-19T01:16:30.928100",
-        "processing_date": "2026-07-19T01:17:48.636521"
+        "processing_date": "2026-07-22T23:09:50.815685"
       },
       "content": {
         "abstract": "During the recent decade the organizations of agricultural producers in the national dairy, potato,\negg and mushroom industries implemented various pre-production and production restriction\npractices with the primary objective of agricultural output price stabilization. The buyers of the\naffected agricultural commodities have challenged the legal status of production restrictions in a\nnumber of recent and current antitrust lawsuits, arguing that the Capper-Volstead Act, a limited\nantitrust exemption, does not protect production restrictions. Using the theory of oligopoly, this\nresearch evaluates potential market effects of agricultural production restrictions by comparing the\norganizations of agricultural producers with classic illegal cartels, which harmful effects antitrust\nlaw aims to prevent. The available empirical evidence on the market and price effects of\nagricultural output control practices is discussed in light of the theoretical analysis.\nKey words: Antitrust, Capper-Volstead Act, cartels, cooperatives, output control agreements,\nSherman Act.\n2",
@@ -6562,7 +9085,7 @@
         "authors": "Unknown",
         "year": null,
         "title": "FECHA EXTRACCIÓN: 2026-07-19T01:16:36.309650",
-        "processing_date": "2026-07-19T01:17:48.650845"
+        "processing_date": "2026-07-22T23:09:50.842231"
       },
       "content": {
         "abstract": "Per capita consumption of meat products has been rapidly increasing in Sub-Saharan African\ncountries including Kenya. This paper examines a household demand system for five meat\nproducts in Kenya: beef with bones, boneless beef, mutton, chicken, and pork. The Linear\nApproximate Almost Ideal Demand System (LA/AIDS) model is used because of its flexibility\nand ease of application with household expenditure data. The LA/AIDS model is estimated using\nhousehold consumption data obtained from Kenya Integrated Household Budget Survey of 2013.\nExpectedly, the estimates of uncompensated and compensated own price elasticities of demand\nfor all five meat products are negative but larger than –1. Although the estimates of uncompensated\ncross price elasticities are negative implying that these meat products are gross complements, the\nestimates of compensated cross price elasticities are found to be positive indicating a quite strong\nsubstitution between these meat products. Expenditure elasticities of demand for the meat products\nare positive implying normal goods. Mutton/goat is a necessity good (elasticity <1) among the\nKenyan households.\nKey words: LA-AIDS, Meat demand, Elasticities, Kenya\nIntroduction\nThe Livestock sector contributes to 12% of Kenya’s Gross Domestic Product (GDP), 40% to the\nagricultural GDP and 50% of employment in the agricultural sector (Ministry of Livestock\nDevelopment 2010). The estimated contribution is 4.54 billion dollars, which is slightly less than\nthat from crops and horticulture (5.25 billion US dollars) for arable agriculture (IGAD Center for\nPastoral Areas & Livestock Development 2013). Of the total GDP, animal production contributes\nto 5.5%, 22% of agricultural GDP and more than 40% agricultural commodities farm gate value\n(Kenya National Bureau of Statistics 2015; Ministry of Agriculture, Livestock and Fisheries\n(MAL&F) 2015).\nConsequently, the economy is supported by dairy and meat products, eggs, hides, skins, and wool.\nThe arid and semi-arid lands (ASALs) produces about 67% of meat under the pastoral production\nsystem (Institute of Policy Analysis and Research 2004).\n2",
@@ -6622,7 +9145,7 @@
         "authors": "Unknown",
         "year": null,
         "title": "FECHA EXTRACCIÓN: 2026-07-19T01:16:41.317339",
-        "processing_date": "2026-07-19T01:17:48.669804"
+        "processing_date": "2026-07-22T23:09:50.872521"
       },
       "content": {
         "abstract": "Anincreaseinthepriceofbrandedfeedhasbeenamajorproblemforthepoultrysubsector\nofNigerianagriculture,andbrandswitchingforacheapfeedattheexpenseofqualityisacommon\nstrategyusedbyegg-producingfarmers.Usingdescriptivestatistics,theMarkovchainmodeland\nthelogisticregressionmodel,ourstudyshowsthatalmost96%oftheeggproducersusebranded\nfeedwhile43.1%switchedfeedbrandsbecauseoftheincreaseinthepriceoftheirpreferredbrands.\nMostfarmersusedChikun(39.3%)andTopfeed(23.2%)sixmonthsbeforedatacollectionandduring\ndatacollection,respectively. Ourstudyfoundthatapproximately37%ofthefeedsellerssoldat\nleast10–50bagsperday.Werevealedgreatinequalityregardingmarketconcentration:50%ofthe\nCitation:Sowunmi,F.A.;Bello,A.A.; feed sellers accounted for 89.5% of the total bags of feed sold per day. Hybrid had the highest\nOgunniyi,A.I.;Omotayo,A.O.\ncustomerloyalty.ThestudyshowsthatChikungained23.7%and7.1%fromHybridandTopfeed,\nDelvingDeeperintoMarket\nrespectively,whileHybridgained36.0%and35.7%fromChikunandTopfeed(changeinloyaltyby\nConcentrationofPoultryFeedand\neggproducers),respectively.Membershipofanassociation,distancetofeedsellers,flocksizeand\ntheDrivingFactorsforBrand\ntheaveragepriceoffeedperbagwerefactorsthatinfluencedbrandswitchingofpoultryfeedamong\nSwitching:Evidencefrom\neggproducers.Thestudyrecommendsthatthegovernmentassistsinsubsidizingthepriceofcritical\nCommercialEggProducersin\ningredients(maizeandsoyabean)infeedproductiontopreventthepriceofeggs(thecheapsource\nNigeria.Sustainability2022,14,8030.\nhttps://doi.org/10.3390/su14138030 ofprotein)frombecomingoutofreachformostNigerians.\nAcademicEditor:AaronK.Hoshide",
@@ -6686,7 +9209,7 @@
         "authors": "Unknown",
         "year": null,
         "title": "FECHA EXTRACCIÓN: 2026-07-19T01:17:14.414994",
-        "processing_date": "2026-07-19T01:17:48.714360"
+        "processing_date": "2026-07-22T23:09:50.915450"
       },
       "content": {
         "abstract": ".........................................................................................................................................iv\nAcknowledgments..........................................................................................................................v\nSummary.......................................................................................................................................vi\n1. Introduction...........................................................................................................................1\n2. Whatisthecurrentstateofmarketconcentrationacrosstheagri-foodindustry?........5\n2.1 Upstream.........................................................................................................................6\nFertilizers................................................................................................................................6\nAgrochemicals........................................................................................................................8\nSeeds.....................................................................................................................................10\n2.2 Midstream.....................................................................................................................12\n2.3 Downstream..................................................................................................................15\n3. Marketconcentration,conductandperformanceinagri-foodsystems........................21\n3.1 Upstream.......................................................................................................................22\nFertilizers..............................................................................................................................22\nSeeds.....................................................................................................................................24\n3.2 Midstream.....................................................................................................................26\n3.3 Downstream..................................................................................................................34\n4. Implicationsofmarketconcentrationfor foodsecurityandnutritionand\nenvironmentalsustainability......................................................................................................42\n4.1 Implicationsforfoodsecurityandnutrition..............................................................42\n4.2 Implicationsforenvironmentalsustainability...........................................................47\n5. Concludingremarksandthewayforward.......................................................................52\nReferences....................................................................................................................................58",
@@ -6764,7 +9287,7 @@
         "authors": "Unknown",
         "year": null,
         "title": "FECHA EXTRACCIÓN: 2026-07-19T01:17:15.272660",
-        "processing_date": "2026-07-19T01:17:48.725831"
+        "processing_date": "2026-07-22T23:09:50.930929"
       },
       "content": {
         "abstract": "Oligopoly stands as a significant market structure characterized by a small number of\nlarge firms dominating an industry, exerting substantial influence on market outcomes. This\npaper provides a comprehensive exploration of oligopoly, delving into its structure, behavior,\nand implications for market dynamics and economic welfare. It analyzes the distinctive\nfeatures of oligopolistic markets, including interdependence among firms, strategic\ninteractions, and barriers to entry. Moreover, the paper examines various models and\ntheories that elucidate oligopolistic behavior, such as game theory, strategic pricing, and\ncollusion.",

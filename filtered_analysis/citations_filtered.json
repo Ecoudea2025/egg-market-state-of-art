@@ -1,14 +1,14 @@
 {
-  "filtering_date": "2026-07-21T00:34:40.440274",
+  "filtering_date": "2026-07-22T23:29:21.985861",
   "parameters": {
     "context_window": 750
   },
   "stats": {
-    "total_filtered": 323,
+    "total_filtered": 333,
     "by_quality": {
-      "alta": 121,
-      "media": 112,
-      "baja": 90
+      "alta": 125,
+      "media": 115,
+      "baja": 93
     }
   },
   "filtered_citations": [
@@ -2879,6 +2879,195 @@
       "is_noise": false,
       "noise_reason": null,
       "context": "La teoría económica señala que en un mercado cuyo IHH se encuentra por debajo de los 1,500 puntos se considera no concentrado; este es el caso de la producción y distribución de huevos a nivel mayorista. No obstante, resulta importante señalar la diferencia de estos resultados si se compara con el mercado segmentado a nivel minorista, lo cual se presenta a continuación. Gráfica 28. Índices de concentración en producción/distribución mayorista de huevos (2010- 2019) A. HHI (puntos) B. Indicador K",
+      "simple_reference": null
+    },
+    {
+      "citation_text": "Huevo (Dane) desploma independientemente del costo de producción.",
+      "source": "Fenaviquin_ed3892023",
+      "filename": "Fenaviquin_ed3892023.txt",
+      "topic": "Mercado de huevo/avícola",
+      "classification": "hallazgo_autor",
+      "quality_score": 2,
+      "quality_level": "media",
+      "reasons": [
+        "contexto: hallazgo_autor",
+        "fragmento incompleto",
+        "contexto rico disponible"
+      ],
+      "is_noise": false,
+      "noise_reason": null,
+      "context": "Y esto puede ocurrir por dos razones: 1) que, en efecto, la demanda esté en crecimiento, como en Afectación vías nacionales - sector el caso particular del huevo, en el que por un efecto inflación en la canasta avícola de alimentos, se ha propiciado una sustitución a este producto; 2) por una reducción de la oferta, por estar en un ciclo de contracción o bien por un ESTADÍSTICAS efecto neto que la reduzca (eventos sanitarios). Pero, quiere decir que el costo no tiene efecto alguno en el precio. ",
+      "simple_reference": null
+    },
+    {
+      "citation_text": "HUEVO Costo de producción ($/ huevo) sin amortización ave\nESTRUCTURA VARIABLE/INSUMOS PROMEDIO\nDE COSTOS\n22-oga 22-pes 22-tco 22-von 22-cid 32-ene 32-bef 32-oga 32-pes 32-tco 32-von 32-cid 42-ene 42-bef ESTRUCTURA PROMEDIO\nDE COSTOS\nAlimento Balanceado 68,2% 3.",
+      "source": "Fenaviquin_ed3892023",
+      "filename": "Fenaviquin_ed3892023.txt",
+      "topic": "Mercado de huevo/avícola",
+      "classification": "datos_tabla",
+      "quality_score": 0,
+      "quality_level": "baja",
+      "reasons": [
+        "cita muy extensa (>250 chars)",
+        "fragmento incompleto",
+        "demasiados datos numericos",
+        "contexto rico disponible",
+        "oracion sustancial"
+      ],
+      "is_noise": false,
+      "noise_reason": null,
+      "context": "441 2.480 Torta de soya 2.316 2.233 2.663 2.885 2.828 2.700 3.263 2.894 2.904 2.378 2.348 2.517 2.435 2.225 2.438 2.381 Costo fórmula básica alimento pollo 1.684 1.608 1.923 1.796 1.867 1.998 1.981 1.948 1.957 1.552 1.549 1.465 1.425 1.365 1.402 1.401 Variación mensual % -4,5%19,6%-6,6% 4,0% 7,0%-0,9% -1,7% -20,7%-0,2%-5,4%-2,7%-4,2% 2,8%-0,1% Variación anual (%) 16,2%-3,5%-19,5%-18,4%-23,7%-31,7%-29,2%-28,1% Costo fórmula básica alimento huevo 1.502 1.428 1.727 1.613 1.666 1.802 1.872 1.760 1.7",
+      "simple_reference": null
+    },
+    {
+      "citation_text": "Avicultura Sostenible,\nsegún ingresos respecto de los sectores econó- en operación desde el segundo semestre del\nmicos formales contribuyentes del impuesto de presente año, con resultados a destacar en colo-\nrenta.",
+      "source": "Fenavi_comnsumo_producion",
+      "filename": "Fenavi_comnsumo_producion.txt",
+      "topic": "Mercado de huevo/avícola",
+      "classification": "hallazgo_autor",
+      "quality_score": 8,
+      "quality_level": "alta",
+      "reasons": [
+        "contexto: hallazgo_autor",
+        "cita completa (120-250 chars)",
+        "oracion completa",
+        "contexto rico disponible",
+        "oracion sustancial"
+      ],
+      "is_noise": false,
+      "noise_reason": null,
+      "context": "cuenta con el Sello Avícola de Sostenibilidad, algo que se viene convirtiendo en una garantía La más reciente estimación del DANE indica de confianza, no sólo para el mercado inter- que el valor de la producción del sector avícola nacional, sino también en el sector financiero ya supera los $40,8 billones, con un consu- nacional. De hecho, desde hace dos años se de- mo intermedio de $32,8 billones en donde se sarrolló la línea verde de financiación con la ban- incluyen materias primas y genética",
+      "simple_reference": null
+    },
+    {
+      "citation_text": "Huevo, la Federación Nacional\nde Avicultores de Colombia, Fenavi, se unió con la chef de\ntalla internacional Leonor Espinosa y varios cocineros del país,\npara lanzar la serie documental “Detrás del Cascarón”, un ho-\nmenaje cultural y gastronómico que rescata los platos tradicionales\ncolombianos en los que el huevo es protagonista.",
+      "source": "Fenavi_comnsumo_producion",
+      "filename": "Fenavi_comnsumo_producion.txt",
+      "topic": "Mercado de huevo/avícola",
+      "classification": "afirmacion_general",
+      "quality_score": 7,
+      "quality_level": "alta",
+      "reasons": [
+        "contexto: afirmacion_general",
+        "cita muy extensa (>250 chars)",
+        "oracion completa",
+        "contexto rico disponible",
+        "oracion sustancial"
+      ],
+      "is_noise": false,
+      "noise_reason": null,
+      "context": "Este logro marcó un hito para el desarrollo económico y social de Colom- bia, resultado del esfuerzo conjunto entre el sector privado y las instituciones del Estado, que durante años han trabajado para abrir nuevos mercados internacionales para los productos avícolas nacionales. La exportación se consolidó como fruto de la estrategia liderada por Fenavi, con el acom- pañamiento técnico y sanitario de entidades como el Instituto Colombiano Agropecuario (ICA) y el INVIMA, y representa un respaldo ",
+      "simple_reference": null
+    },
+    {
+      "citation_text": "Huevo, fue ‘Mejó-\nralo con huevo’ una propuesta pensada para redescubrir este ingre-\ndiente esencial y llevarlo a otro nivel en la cocina diaria.",
+      "source": "Fenavi_comnsumo_producion",
+      "filename": "Fenavi_comnsumo_producion.txt",
+      "topic": "Mercado de huevo/avícola",
+      "classification": "afirmacion_general",
+      "quality_score": 6,
+      "quality_level": "alta",
+      "reasons": [
+        "contexto: afirmacion_general",
+        "cita completa (120-250 chars)",
+        "oracion completa",
+        "contexto rico disponible",
+        "oracion sustancial"
+      ],
+      "is_noise": false,
+      "noise_reason": null,
+      "context": "La exportación se consolidó como fruto de la estrategia liderada por Fenavi, con el acom- pañamiento técnico y sanitario de entidades como el Instituto Colombiano Agropecuario (ICA) y el INVIMA, y representa un respaldo a las prácticas de producción del sector avíco- la colombiano, reconocidas por su calidad, trazabilidad y altos estándares sanitarios. Avicultores 329 9 --- PÁGINA 10 --- Las 20: Fenavi 4 Detrás de la cultura gastronómica En el marco del Día Mundial del Huevo, la Federación Nacio",
+      "simple_reference": null
+    },
+    {
+      "citation_text": "Huevo: Alimento\nque deja huella” Fenavi celebró la\nhistoria de cada colombiano que\ndeja huella cada día.",
+      "source": "Fenavi_comnsumo_producion",
+      "filename": "Fenavi_comnsumo_producion.txt",
+      "topic": "Mercado de huevo/avícola",
+      "classification": "afirmacion_general",
+      "quality_score": 5,
+      "quality_level": "alta",
+      "reasons": [
+        "contexto: afirmacion_general",
+        "oracion completa",
+        "contexto rico disponible",
+        "oracion sustancial"
+      ],
+      "is_noise": false,
+      "noise_reason": null,
+      "context": "Avicultores 329 9 --- PÁGINA 10 --- Las 20: Fenavi 4 Detrás de la cultura gastronómica En el marco del Día Mundial del Huevo, la Federación Nacional de Avicultores de Colombia, Fenavi, se unió con la chef de talla internacional Leonor Espinosa y varios cocineros del país, para lanzar la serie documental “Detrás del Cascarón”, un ho- menaje cultural y gastronómico que rescata los platos tradicionales colombianos en los que el huevo es protagonista. Otra de las campañas lanzadas por el Programa Hu",
+      "simple_reference": null
+    },
+    {
+      "citation_text": "Huevo de Fenavi, consolida a Colombia como un jugador relevante en\nel Caribe.",
+      "source": "Fenavi_comnsumo_producion",
+      "filename": "Fenavi_comnsumo_producion.txt",
+      "topic": "Mercado de huevo/avícola",
+      "classification": "afirmacion_general",
+      "quality_score": 4,
+      "quality_level": "media",
+      "reasons": [
+        "contexto: afirmacion_general",
+        "oracion completa",
+        "contexto rico disponible"
+      ],
+      "is_noise": false,
+      "noise_reason": null,
+      "context": "Entre el 3 y el 7 de mayo, Fenavi continuó su recorrido en Aruba, donde el foco fue impulsar el cierre del proceso de admisibilidad sanitaria para el huevo colombiano y avanzar en los requisitos para la futura exportación de carne de pollo a la isla. Se llevaron a cabo reuniones con cámaras de comercio, distribuidores y autoridades regulatorias que permitieron destacar la calidad, bioseguridad y trazabilidad de los productos avícolas colombianos. Mientras se desarrollaban estas misiones, se conf",
+      "simple_reference": null
+    },
+    {
+      "citation_text": "Avicultura Sostenible\nLa producción agropecuaria y su sostenimiento.",
+      "source": "Fenavi_comnsumo_producion",
+      "filename": "Fenavi_comnsumo_producion.txt",
+      "topic": "Mercado de huevo/avícola",
+      "classification": "datos_tabla",
+      "quality_score": 2,
+      "quality_level": "media",
+      "reasons": [
+        "oracion completa",
+        "contexto rico disponible"
+      ],
+      "is_noise": false,
+      "noise_reason": null,
+      "context": "co 36 Avicultores 329 --- PÁGINA 37 --- MINISTERIO DE AGRICULTURA Y DESARROLLO RURAL Sección #GobiernoDeLaGente Para más información visite www.ica.gov.co Avicultores 329 37 ================================================================================ TABLAS ENCONTRADAS: ================================================================================ --- TABLA 1 (Página 1) --- | --- TABLA 2 (Página 1) --- --- TABLA 1 (Página 5) --- | --- TABLA 1 (Página 17) --- | | | Código Destino de Crédito",
+      "simple_reference": null
+    },
+    {
+      "citation_text": "Competencias Laborales\nSector Avícola en alianza con el SENA\ninstitucional y productivo, con impactos posi-\ntivos en la competitividad del sector nacional.",
+      "source": "Fenavi_comnsumo_producion",
+      "filename": "Fenavi_comnsumo_producion.txt",
+      "topic": "Competencia",
+      "classification": "fragmento",
+      "quality_score": 1,
+      "quality_level": "baja",
+      "reasons": [
+        "cita completa (120-250 chars)",
+        "fragmento incompleto",
+        "contexto rico disponible",
+        "oracion sustancial"
+      ],
+      "is_noise": false,
+      "noise_reason": null,
+      "context": "Esta participación reviste una del sector y otras necesidades de formación importancia estratégica para el sector, en la complementaria y titulada de las empresas a medida en que la Mesa Sectorial Avícola se nivel nacional. consolida como un escenario clave de diá- logo, concertación y toma de decisiones en Desde este escenario, se abren oportunida- materia de la formulación y/o actualización de des relevantes para fortalecer la internacio- programas formativos y normas de compe- nalización del ",
+      "simple_reference": null
+    },
+    {
+      "citation_text": "Competencias Laborales, orientado a certifi-\nPrograma Económico vuelve a hacer car a 3.",
+      "source": "Fenavi_comnsumo_producion",
+      "filename": "Fenavi_comnsumo_producion.txt",
+      "topic": "Competencia",
+      "classification": "fragmento",
+      "quality_score": 0,
+      "quality_level": "baja",
+      "reasons": [
+        "fragmento incompleto",
+        "contiene datos numericos relevantes",
+        "contexto rico disponible"
+      ],
+      "is_noise": false,
+      "noise_reason": null,
+      "context": "Avicultores 329 31 --- PÁGINA 32 --- Las 20: Fenavi 20 Cali es Cali El año año cerró con la inscripción antici- pada al XXII Congreso Fenavi, que con- vertirá a Cali en un epicentro de innova- ción, sostenibilidad y discusión técnica del sector, y reunirá a más de 40 conferencis- tas, 4.000 asistentes y 250 expositores. Y usted, ¿ya se inscribió al Congreso? El 2025 consolidó a la avicultura colombia- na como un sector líder en productividad, bioseguridad, sostenibilidad y expansión internaciona",
       "simple_reference": null
     },
     {
@@ -6229,8 +6418,8 @@
       "total_accepted": 6,
       "high_quality_count": 3,
       "main_topics": [
-        "Mercado de huevo/avícola",
-        "Economías de escala"
+        "Economías de escala",
+        "Mercado de huevo/avícola"
       ],
       "quality_summary": "3 alta, 3 media, 0 baja"
     },
@@ -6251,9 +6440,9 @@
       "high_quality_count": 0,
       "main_topics": [
         "Oligopolio",
+        "Economías de escala",
         "Mercado de huevo/avícola",
-        "Poder de mercado",
-        "Economías de escala"
+        "Poder de mercado"
       ],
       "quality_summary": "0 alta, 2 media, 3 baja"
     },
@@ -6294,11 +6483,11 @@
       "total_accepted": 19,
       "high_quality_count": 5,
       "main_topics": [
+        "Concentración de mercado",
+        "Oligopolio",
         "Mercado de huevo/avícola",
         "Poder de mercado",
-        "General",
-        "Oligopolio",
-        "Concentración de mercado"
+        "General"
       ],
       "quality_summary": "5 alta, 8 media, 6 baja"
     },
@@ -6309,9 +6498,9 @@
       "high_quality_count": 9,
       "main_topics": [
         "Concentración de mercado",
-        "Competencia",
         "General",
-        "Mercado de huevo/avícola"
+        "Mercado de huevo/avícola",
+        "Competencia"
       ],
       "quality_summary": "9 alta, 4 media, 0 baja"
     },
@@ -6321,11 +6510,11 @@
       "total_accepted": 19,
       "high_quality_count": 5,
       "main_topics": [
+        "Concentración de mercado",
+        "Oligopolio",
         "Mercado de huevo/avícola",
         "Poder de mercado",
-        "General",
-        "Oligopolio",
-        "Concentración de mercado"
+        "General"
       ],
       "quality_summary": "5 alta, 8 media, 6 baja"
     },
@@ -6346,8 +6535,8 @@
       "total_accepted": 7,
       "high_quality_count": 0,
       "main_topics": [
-        "Mercado de huevo/avícola",
-        "Concentración de mercado"
+        "Concentración de mercado",
+        "Mercado de huevo/avícola"
       ],
       "quality_summary": "0 alta, 4 media, 3 baja"
     },
@@ -6365,14 +6554,35 @@
       "total_accepted": 47,
       "high_quality_count": 30,
       "main_topics": [
+        "Concentración de mercado",
         "Mercado de huevo/avícola",
         "Poder de mercado",
         "General",
-        "Concentración de mercado",
-        "Competencia",
-        "Economías de escala"
+        "Economías de escala",
+        "Competencia"
       ],
       "quality_summary": "30 alta, 13 media, 4 baja"
+    },
+    "Fenaviquin_ed3892023.txt": {
+      "filename": "Fenaviquin_ed3892023.txt",
+      "title": "FECHA EXTRACCIÓN: 2026-07-22T23:09:09.870134",
+      "total_accepted": 2,
+      "high_quality_count": 0,
+      "main_topics": [
+        "Mercado de huevo/avícola"
+      ],
+      "quality_summary": "0 alta, 1 media, 1 baja"
+    },
+    "Fenavi_comnsumo_producion.txt": {
+      "filename": "Fenavi_comnsumo_producion.txt",
+      "title": "FECHA EXTRACCIÓN: 2026-07-22T23:09:33.329067",
+      "total_accepted": 8,
+      "high_quality_count": 4,
+      "main_topics": [
+        "Mercado de huevo/avícola",
+        "Competencia"
+      ],
+      "quality_summary": "4 alta, 2 media, 2 baja"
     },
     "FinalThesis_AwolZeberga.txt": {
       "filename": "FinalThesis_AwolZeberga.txt",
@@ -6380,10 +6590,10 @@
       "total_accepted": 14,
       "high_quality_count": 7,
       "main_topics": [
-        "Mercado de huevo/avícola",
+        "Concentración de mercado",
         "Barreras de entrada",
-        "Competencia",
-        "Concentración de mercado"
+        "Mercado de huevo/avícola",
+        "Competencia"
       ],
       "quality_summary": "7 alta, 5 media, 2 baja"
     },
@@ -6393,10 +6603,10 @@
       "total_accepted": 19,
       "high_quality_count": 10,
       "main_topics": [
+        "Concentración de mercado",
         "Mercado de huevo/avícola",
         "Poder de mercado",
         "General",
-        "Concentración de mercado",
         "Competencia"
       ],
       "quality_summary": "10 alta, 5 media, 4 baja"
@@ -6407,10 +6617,10 @@
       "total_accepted": 12,
       "high_quality_count": 6,
       "main_topics": [
-        "Oligopolio",
         "Concentración de mercado",
-        "Competencia",
-        "Mercado de huevo/avícola"
+        "Oligopolio",
+        "Mercado de huevo/avícola",
+        "Competencia"
       ],
       "quality_summary": "6 alta, 6 media, 0 baja"
     },
@@ -6420,10 +6630,10 @@
       "total_accepted": 31,
       "high_quality_count": 10,
       "main_topics": [
-        "Oligopolio",
         "Concentración de mercado",
-        "Competencia",
-        "Mercado de huevo/avícola"
+        "Oligopolio",
+        "Mercado de huevo/avícola",
+        "Competencia"
       ],
       "quality_summary": "10 alta, 12 media, 9 baja"
     },
@@ -6434,9 +6644,9 @@
       "high_quality_count": 2,
       "main_topics": [
         "Oligopolio",
+        "Diferenciación de producto",
         "Poder de mercado",
-        "Competencia",
-        "Diferenciación de producto"
+        "Competencia"
       ],
       "quality_summary": "2 alta, 5 media, 4 baja"
     },
@@ -6487,10 +6697,10 @@
       "total_accepted": 52,
       "high_quality_count": 14,
       "main_topics": [
+        "Concentración de mercado",
+        "Oligopolio",
         "Mercado de huevo/avícola",
         "Poder de mercado",
-        "Oligopolio",
-        "Concentración de mercado",
         "Competencia"
       ],
       "quality_summary": "14 alta, 18 media, 20 baja"
@@ -6501,8 +6711,8 @@
       "total_accepted": 12,
       "high_quality_count": 4,
       "main_topics": [
-        "Oligopolio",
         "Barreras de entrada",
+        "Oligopolio",
         "Poder de mercado"
       ],
       "quality_summary": "4 alta, 3 media, 5 baja"

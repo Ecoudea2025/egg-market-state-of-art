@@ -7,9 +7,9 @@
 
 | Metrica | Valor |
 |---------|-------|
-| Documentos analizados | 27 |
-| Citas de alta calidad | 121 |
-| Citas de media calidad | 148 |
+| Documentos analizados | 29 |
+| Citas de alta calidad | 125 |
+| Citas de media calidad | 154 |
 
 ---
 
@@ -40,7 +40,7 @@
 ### FECHA EXTRACCIÓN: 2026-07-19T01:13:13.754288
 **Archivo:** 588_agris-on-line-3-2023-khoiriyah-forgenie-iriany.txt
 **Calidad:** 3 alta, 3 media, 0 baja
-**Temas:** Mercado de huevo/avícola, Economías de escala
+**Temas:** Economías de escala, Mercado de huevo/avícola
 
 #### Hallazgos de Alta Calidad:
 
@@ -80,7 +80,7 @@ eggs, local chicken eggs, and duck eggs), chicken income variable and the q..."
 ### FECHA EXTRACCIÓN: 2026-07-19T01:13:22.808863
 **Archivo:** American J Agri Economics - 2021 -  - Issue Information.txt
 **Calidad:** 0 alta, 2 media, 3 baja
-**Temas:** Oligopolio, Mercado de huevo/avícola, Poder de mercado, Economías de escala
+**Temas:** Oligopolio, Economías de escala, Mercado de huevo/avícola, Poder de mercado
 
 ---
 
@@ -124,7 +124,7 @@ Decades and What Can Be Done to Address Them?” Animal 15: 100282...."
 ### FECHA EXTRACCIÓN: 2026-07-19T01:13:51.221433
 **Archivo:** Art_XX_Concentración+y+poder+de+mercado.txt
 **Calidad:** 5 alta, 8 media, 6 baja
-**Temas:** Mercado de huevo/avícola, Poder de mercado, General, Oligopolio, Concentración de mercado
+**Temas:** Concentración de mercado, Oligopolio, Mercado de huevo/avícola, Poder de mercado, General
 
 #### Hallazgos de Alta Calidad:
 
@@ -156,7 +156,7 @@ macrorregión Sur...."
 ### FECHA EXTRACCIÓN: 2026-07-19T01:14:06.769180
 **Archivo:** CalleCamilo_2018_CompetitividadAvicolaColombia.txt
 **Calidad:** 9 alta, 4 media, 0 baja
-**Temas:** Concentración de mercado, Competencia, General, Mercado de huevo/avícola
+**Temas:** Concentración de mercado, General, Mercado de huevo/avícola, Competencia
 
 #### Hallazgos de Alta Calidad:
 
@@ -188,7 +188,7 @@ Huila, (Dep7), Atlántico (Dep2), y Antioquia (Dep1)...."
 ### FECHA EXTRACCIÓN: 2026-07-19T01:14:13.834095
 **Archivo:** concentracion y poder de mercado.txt
 **Calidad:** 5 alta, 8 media, 6 baja
-**Temas:** Mercado de huevo/avícola, Poder de mercado, General, Oligopolio, Concentración de mercado
+**Temas:** Concentración de mercado, Oligopolio, Mercado de huevo/avícola, Poder de mercado, General
 
 #### Hallazgos de Alta Calidad:
 
@@ -251,7 +251,7 @@ siones globales para un marco de acción...."
 ### FECHA EXTRACCIÓN: 2026-07-19T01:14:32.900675
 **Archivo:** economies-12-00245-v2.txt
 **Calidad:** 0 alta, 4 media, 3 baja
-**Temas:** Mercado de huevo/avícola, Concentración de mercado
+**Temas:** Concentración de mercado, Mercado de huevo/avícola
 
 ---
 
@@ -265,7 +265,7 @@ siones globales para un marco de acción...."
 ### FECHA EXTRACCIÓN: 2026-07-19T01:15:32.139512
 **Archivo:** Estudio_Huevos_CarnePollo_2022.txt
 **Calidad:** 30 alta, 13 media, 4 baja
-**Temas:** Mercado de huevo/avícola, Poder de mercado, General, Concentración de mercado, Competencia
+**Temas:** Concentración de mercado, Mercado de huevo/avícola, Poder de mercado, General, Economías de escala
 
 #### Hallazgos de Alta Calidad:
 
@@ -295,10 +295,48 @@ una baja o moderada concentración...."
 
 ---
 
+### FECHA EXTRACCIÓN: 2026-07-22T23:09:09.870134
+**Archivo:** Fenaviquin_ed3892023.txt
+**Calidad:** 0 alta, 1 media, 1 baja
+**Temas:** Mercado de huevo/avícola
+
+---
+
+### FECHA EXTRACCIÓN: 2026-07-22T23:09:33.329067
+**Archivo:** Fenavi_comnsumo_producion.txt
+**Calidad:** 4 alta, 2 media, 2 baja
+**Temas:** Mercado de huevo/avícola, Competencia
+
+#### Hallazgos de Alta Calidad:
+
+- "Avicultura Sostenible,
+según ingresos respecto de los sectores econó- en operación desde el segundo semestre del
+micos formales contribuyentes del impuesto de presente año, con resultados a destacar e..."
+  - Tema: Mercado de huevo/avícola | Contexto: hallazgo_autor
+
+- "Huevo, la Federación Nacional
+de Avicultores de Colombia, Fenavi, se unió con la chef de
+talla internacional Leonor Espinosa y varios cocineros del país,
+para lanzar la serie documental “Detrás del Ca..."
+  - Tema: Mercado de huevo/avícola | Contexto: afirmacion_general
+
+- "Huevo, fue ‘Mejó-
+ralo con huevo’ una propuesta pensada para redescubrir este ingre-
+diente esencial y llevarlo a otro nivel en la cocina diaria...."
+  - Tema: Mercado de huevo/avícola | Contexto: afirmacion_general
+
+- "Huevo: Alimento
+que deja huella” Fenavi celebró la
+historia de cada colombiano que
+deja huella cada día...."
+  - Tema: Mercado de huevo/avícola | Contexto: afirmacion_general
+
+---
+
 ### FECHA EXTRACCIÓN: 2026-07-19T01:15:52.329588
 **Archivo:** FinalThesis_AwolZeberga.txt
 **Calidad:** 7 alta, 5 media, 2 baja
-**Temas:** Mercado de huevo/avícola, Barreras de entrada, Competencia, Concentración de mercado
+**Temas:** Concentración de mercado, Barreras de entrada, Mercado de huevo/avícola, Competencia
 
 #### Hallazgos de Alta Calidad:
 
@@ -330,7 +368,7 @@ affect the farmers participa..."
 ### FECHA EXTRACCIÓN: 2026-07-19T01:15:58.145909
 **Archivo:** Impulso – Análisis de la estructura de mercado de productos pecuarios.txt
 **Calidad:** 10 alta, 5 media, 4 baja
-**Temas:** Mercado de huevo/avícola, Poder de mercado, General, Concentración de mercado, Competencia
+**Temas:** Concentración de mercado, Mercado de huevo/avícola, Poder de mercado, General, Competencia
 
 #### Hallazgos de Alta Calidad:
 
@@ -367,7 +405,7 @@ entre productos...."
 ### FECHA EXTRACCIÓN: 2026-07-19T01:16:04.578504
 **Archivo:** Market Composition and Performance of Firms in Broiler, Chicken Egg, and Swine Production- Implications to the Philippine Competition Act.txt
 **Calidad:** 6 alta, 6 media, 0 baja
-**Temas:** Oligopolio, Concentración de mercado, Competencia, Mercado de huevo/avícola
+**Temas:** Concentración de mercado, Oligopolio, Mercado de huevo/avícola, Competencia
 
 #### Hallazgos de Alta Calidad:
 
@@ -402,7 +440,7 @@ San Miguel Foods, Inc...."
 ### FECHA EXTRACCIÓN: 2026-07-19T01:16:13.240272
 **Archivo:** Market_Structure_and_Price_Transmission.txt
 **Calidad:** 10 alta, 12 media, 9 baja
-**Temas:** Oligopolio, Concentración de mercado, Competencia, Mercado de huevo/avícola
+**Temas:** Concentración de mercado, Oligopolio, Mercado de huevo/avícola, Competencia
 
 #### Hallazgos de Alta Calidad:
 
@@ -440,7 +478,7 @@ ten breeders, a..."
 ### FECHA EXTRACCIÓN: 2026-07-19T01:16:20.850816
 **Archivo:** Presidential Address.txt
 **Calidad:** 2 alta, 5 media, 4 baja
-**Temas:** Oligopolio, Poder de mercado, Competencia, Diferenciación de producto
+**Temas:** Oligopolio, Diferenciación de producto, Poder de mercado, Competencia
 
 #### Hallazgos de Alta Calidad:
 
@@ -525,7 +563,7 @@ equality),themoreinequalitywillbeencountered...."
 ### FECHA EXTRACCIÓN: 2026-07-19T01:17:14.414994
 **Archivo:** The_role_of_market_concentration_in_the.txt
 **Calidad:** 14 alta, 18 media, 20 baja
-**Temas:** Mercado de huevo/avícola, Poder de mercado, Oligopolio, Concentración de mercado, Competencia
+**Temas:** Concentración de mercado, Oligopolio, Mercado de huevo/avícola, Poder de mercado, Competencia
 
 #### Hallazgos de Alta Calidad:
 
@@ -560,7 +598,7 @@ to environmental sustainability, productivity, and resilience...."
 ### FECHA EXTRACCIÓN: 2026-07-19T01:17:15.272660
 **Archivo:** understanding-oligopoly-structure-behavior-and-implications.txt
 **Calidad:** 4 alta, 3 media, 5 baja
-**Temas:** Oligopolio, Barreras de entrada, Poder de mercado
+**Temas:** Barreras de entrada, Oligopolio, Poder de mercado
 
 #### Hallazgos de Alta Calidad:
 

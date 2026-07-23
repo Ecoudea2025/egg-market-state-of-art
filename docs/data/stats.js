@@ -1,24 +1,24 @@
 window.STATS_DATA = {
-  "total_documents": 25,
-  "total_citations": 323,
+  "total_documents": 27,
+  "total_citations": 333,
   "total_topics": 9,
   "quality": {
-    "alta": 121,
-    "media": 112,
-    "baja": 90
+    "alta": 125,
+    "media": 115,
+    "baja": 93
   },
   "topics": [
+    {
+      "name": "Mercado de huevo/avícola",
+      "count": 104
+    },
     {
       "name": "Concentración de mercado",
       "count": 103
     },
     {
-      "name": "Mercado de huevo/avícola",
-      "count": 96
-    },
-    {
       "name": "Competencia",
-      "count": 55
+      "count": 57
     },
     {
       "name": "Poder de mercado",

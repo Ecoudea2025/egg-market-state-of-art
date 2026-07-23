@@ -19,7 +19,7 @@
       "id": "topic_1",
       "label": "Competencia",
       "type": "topic",
-      "count": 55,
+      "count": 57,
       "size": 68,
       "color": "#64748b"
     },
@@ -59,7 +59,7 @@
       "id": "topic_6",
       "label": "Mercado de huevo/avícola",
       "type": "topic",
-      "count": 96,
+      "count": 104,
       "size": 68,
       "color": "#64748b"
     },
@@ -329,6 +329,41 @@
         "Competencia",
         "Mercado de huevo/avícola",
         "Concentración de mercado"
+      ]
+    },
+    {
+      "id": "doc_Fenaviquin_ed3892023_txt",
+      "label": "Fenaviquin ed3892023",
+      "type": "doc",
+      "count": 2,
+      "size": 16,
+      "color": "#eab308",
+      "primary_quality": "media",
+      "quality_dist": {
+        "alta": 0,
+        "media": 1,
+        "baja": 1
+      },
+      "topics": [
+        "Mercado de huevo/avícola"
+      ]
+    },
+    {
+      "id": "doc_Fenavi_comnsumo_producion_txt",
+      "label": "Fenavi comnsumo producion",
+      "type": "doc",
+      "count": 8,
+      "size": 28,
+      "color": "#22c55e",
+      "primary_quality": "alta",
+      "quality_dist": {
+        "alta": 4,
+        "media": 2,
+        "baja": 2
+      },
+      "topics": [
+        "Mercado de huevo/avícola",
+        "Competencia"
       ]
     },
     {
@@ -627,12 +662,6 @@
     },
     {
       "source": "doc_American_J_Agri_Economics___2021______Issue_Information_txt",
-      "target": "topic_8",
-      "sourceType": "doc",
-      "targetType": "topic"
-    },
-    {
-      "source": "doc_American_J_Agri_Economics___2021______Issue_Information_txt",
       "target": "topic_7",
       "sourceType": "doc",
       "targetType": "topic"
@@ -644,7 +673,7 @@
       "targetType": "topic"
     },
     {
-      "source": "doc_American_J_Agri_Economics___2026___Kang___Food_inflation_pas",
+      "source": "doc_American_J_Agri_Economics___2021______Issue_Information_txt",
       "target": "topic_8",
       "sourceType": "doc",
       "targetType": "topic"
@@ -652,6 +681,12 @@
     {
       "source": "doc_American_J_Agri_Economics___2026___Kang___Food_inflation_pas",
       "target": "topic_2",
+      "sourceType": "doc",
+      "targetType": "topic"
+    },
+    {
+      "source": "doc_American_J_Agri_Economics___2026___Kang___Food_inflation_pas",
+      "target": "topic_8",
       "sourceType": "doc",
       "targetType": "topic"
     },
@@ -669,18 +704,6 @@
     },
     {
       "source": "doc_Art_XX_Concentraci_n_y_poder_de_mercado_txt",
-      "target": "topic_7",
-      "sourceType": "doc",
-      "targetType": "topic"
-    },
-    {
-      "source": "doc_Art_XX_Concentraci_n_y_poder_de_mercado_txt",
-      "target": "topic_6",
-      "sourceType": "doc",
-      "targetType": "topic"
-    },
-    {
-      "source": "doc_Art_XX_Concentraci_n_y_poder_de_mercado_txt",
       "target": "topic_8",
       "sourceType": "doc",
       "targetType": "topic"
@@ -698,14 +721,14 @@
       "targetType": "topic"
     },
     {
-      "source": "doc_CalleCamilo_2018_CompetitividadAvicolaColombia_txt",
-      "target": "topic_5",
+      "source": "doc_Art_XX_Concentraci_n_y_poder_de_mercado_txt",
+      "target": "topic_7",
       "sourceType": "doc",
       "targetType": "topic"
     },
     {
-      "source": "doc_CalleCamilo_2018_CompetitividadAvicolaColombia_txt",
-      "target": "topic_2",
+      "source": "doc_Art_XX_Concentraci_n_y_poder_de_mercado_txt",
+      "target": "topic_6",
       "sourceType": "doc",
       "targetType": "topic"
     },
@@ -717,19 +740,19 @@
     },
     {
       "source": "doc_CalleCamilo_2018_CompetitividadAvicolaColombia_txt",
+      "target": "topic_2",
+      "sourceType": "doc",
+      "targetType": "topic"
+    },
+    {
+      "source": "doc_CalleCamilo_2018_CompetitividadAvicolaColombia_txt",
       "target": "topic_6",
       "sourceType": "doc",
       "targetType": "topic"
     },
     {
-      "source": "doc_concentracion_y_poder_de_mercado_txt",
-      "target": "topic_7",
-      "sourceType": "doc",
-      "targetType": "topic"
-    },
-    {
-      "source": "doc_concentracion_y_poder_de_mercado_txt",
-      "target": "topic_6",
+      "source": "doc_CalleCamilo_2018_CompetitividadAvicolaColombia_txt",
+      "target": "topic_5",
       "sourceType": "doc",
       "targetType": "topic"
     },
@@ -752,14 +775,26 @@
       "targetType": "topic"
     },
     {
-      "source": "doc_Condiciones_de_competencia_en_cadenas_txt",
-      "target": "topic_2",
+      "source": "doc_concentracion_y_poder_de_mercado_txt",
+      "target": "topic_7",
+      "sourceType": "doc",
+      "targetType": "topic"
+    },
+    {
+      "source": "doc_concentracion_y_poder_de_mercado_txt",
+      "target": "topic_6",
       "sourceType": "doc",
       "targetType": "topic"
     },
     {
       "source": "doc_Condiciones_de_competencia_en_cadenas_txt",
       "target": "topic_1",
+      "sourceType": "doc",
+      "targetType": "topic"
+    },
+    {
+      "source": "doc_Condiciones_de_competencia_en_cadenas_txt",
+      "target": "topic_2",
       "sourceType": "doc",
       "targetType": "topic"
     },
@@ -772,6 +807,18 @@
     {
       "source": "doc_economies_12_00245_v2_txt",
       "target": "topic_6",
+      "sourceType": "doc",
+      "targetType": "topic"
+    },
+    {
+      "source": "doc_Estudio_Huevos_CarnePollo_2022_txt",
+      "target": "topic_8",
+      "sourceType": "doc",
+      "targetType": "topic"
+    },
+    {
+      "source": "doc_Estudio_Huevos_CarnePollo_2022_txt",
+      "target": "topic_5",
       "sourceType": "doc",
       "targetType": "topic"
     },
@@ -783,19 +830,7 @@
     },
     {
       "source": "doc_Estudio_Huevos_CarnePollo_2022_txt",
-      "target": "topic_6",
-      "sourceType": "doc",
-      "targetType": "topic"
-    },
-    {
-      "source": "doc_Estudio_Huevos_CarnePollo_2022_txt",
-      "target": "topic_8",
-      "sourceType": "doc",
-      "targetType": "topic"
-    },
-    {
-      "source": "doc_Estudio_Huevos_CarnePollo_2022_txt",
-      "target": "topic_5",
+      "target": "topic_1",
       "sourceType": "doc",
       "targetType": "topic"
     },
@@ -807,6 +842,30 @@
     },
     {
       "source": "doc_Estudio_Huevos_CarnePollo_2022_txt",
+      "target": "topic_6",
+      "sourceType": "doc",
+      "targetType": "topic"
+    },
+    {
+      "source": "doc_Fenaviquin_ed3892023_txt",
+      "target": "topic_6",
+      "sourceType": "doc",
+      "targetType": "topic"
+    },
+    {
+      "source": "doc_Fenavi_comnsumo_producion_txt",
+      "target": "topic_1",
+      "sourceType": "doc",
+      "targetType": "topic"
+    },
+    {
+      "source": "doc_Fenavi_comnsumo_producion_txt",
+      "target": "topic_6",
+      "sourceType": "doc",
+      "targetType": "topic"
+    },
+    {
+      "source": "doc_FinalThesis_AwolZeberga_txt",
       "target": "topic_1",
       "sourceType": "doc",
       "targetType": "topic"
@@ -825,18 +884,6 @@
     },
     {
       "source": "doc_FinalThesis_AwolZeberga_txt",
-      "target": "topic_1",
-      "sourceType": "doc",
-      "targetType": "topic"
-    },
-    {
-      "source": "doc_FinalThesis_AwolZeberga_txt",
-      "target": "topic_6",
-      "sourceType": "doc",
-      "targetType": "topic"
-    },
-    {
-      "source": "doc_Impulso___An_lisis_de_la_estructura_de_mercado_de_productos_",
       "target": "topic_6",
       "sourceType": "doc",
       "targetType": "topic"
@@ -855,19 +902,25 @@
     },
     {
       "source": "doc_Impulso___An_lisis_de_la_estructura_de_mercado_de_productos_",
+      "target": "topic_1",
+      "sourceType": "doc",
+      "targetType": "topic"
+    },
+    {
+      "source": "doc_Impulso___An_lisis_de_la_estructura_de_mercado_de_productos_",
       "target": "topic_2",
       "sourceType": "doc",
       "targetType": "topic"
     },
     {
       "source": "doc_Impulso___An_lisis_de_la_estructura_de_mercado_de_productos_",
-      "target": "topic_1",
+      "target": "topic_6",
       "sourceType": "doc",
       "targetType": "topic"
     },
     {
       "source": "doc_Market_Composition_and_Performance_of_Firms_in_Broiler__Chic",
-      "target": "topic_7",
+      "target": "topic_1",
       "sourceType": "doc",
       "targetType": "topic"
     },
@@ -879,7 +932,7 @@
     },
     {
       "source": "doc_Market_Composition_and_Performance_of_Firms_in_Broiler__Chic",
-      "target": "topic_1",
+      "target": "topic_7",
       "sourceType": "doc",
       "targetType": "topic"
     },
@@ -891,7 +944,7 @@
     },
     {
       "source": "doc_Market_Structure_and_Price_Transmission_txt",
-      "target": "topic_7",
+      "target": "topic_1",
       "sourceType": "doc",
       "targetType": "topic"
     },
@@ -903,13 +956,25 @@
     },
     {
       "source": "doc_Market_Structure_and_Price_Transmission_txt",
-      "target": "topic_1",
+      "target": "topic_7",
       "sourceType": "doc",
       "targetType": "topic"
     },
     {
       "source": "doc_Market_Structure_and_Price_Transmission_txt",
       "target": "topic_6",
+      "sourceType": "doc",
+      "targetType": "topic"
+    },
+    {
+      "source": "doc_Presidential_Address_txt",
+      "target": "topic_1",
+      "sourceType": "doc",
+      "targetType": "topic"
+    },
+    {
+      "source": "doc_Presidential_Address_txt",
+      "target": "topic_7",
       "sourceType": "doc",
       "targetType": "topic"
     },
@@ -922,18 +987,6 @@
     {
       "source": "doc_Presidential_Address_txt",
       "target": "topic_8",
-      "sourceType": "doc",
-      "targetType": "topic"
-    },
-    {
-      "source": "doc_Presidential_Address_txt",
-      "target": "topic_7",
-      "sourceType": "doc",
-      "targetType": "topic"
-    },
-    {
-      "source": "doc_Presidential_Address_txt",
-      "target": "topic_1",
       "sourceType": "doc",
       "targetType": "topic"
     },
@@ -969,19 +1022,13 @@
     },
     {
       "source": "doc_The_role_of_market_concentration_in_the_txt",
-      "target": "topic_7",
-      "sourceType": "doc",
-      "targetType": "topic"
-    },
-    {
-      "source": "doc_The_role_of_market_concentration_in_the_txt",
-      "target": "topic_6",
-      "sourceType": "doc",
-      "targetType": "topic"
-    },
-    {
-      "source": "doc_The_role_of_market_concentration_in_the_txt",
       "target": "topic_8",
+      "sourceType": "doc",
+      "targetType": "topic"
+    },
+    {
+      "source": "doc_The_role_of_market_concentration_in_the_txt",
+      "target": "topic_1",
       "sourceType": "doc",
       "targetType": "topic"
     },
@@ -993,7 +1040,13 @@
     },
     {
       "source": "doc_The_role_of_market_concentration_in_the_txt",
-      "target": "topic_1",
+      "target": "topic_7",
+      "sourceType": "doc",
+      "targetType": "topic"
+    },
+    {
+      "source": "doc_The_role_of_market_concentration_in_the_txt",
+      "target": "topic_6",
       "sourceType": "doc",
       "targetType": "topic"
     },
@@ -1005,13 +1058,13 @@
     },
     {
       "source": "doc_understanding_oligopoly_structure_behavior_and_implications_",
-      "target": "topic_8",
+      "target": "topic_0",
       "sourceType": "doc",
       "targetType": "topic"
     },
     {
       "source": "doc_understanding_oligopoly_structure_behavior_and_implications_",
-      "target": "topic_0",
+      "target": "topic_8",
       "sourceType": "doc",
       "targetType": "topic"
     }

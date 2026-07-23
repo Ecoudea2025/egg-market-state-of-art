@@ -5,9 +5,9 @@
 
 ## Resumen
 
-Este documento contiene 233 citas verificadas con contexto.
-- **Alta calidad:** 121 citas
-- **Media calidad:** 112 citas
+Este documento contiene 240 citas verificadas con contexto.
+- **Alta calidad:** 125 citas
+- **Media calidad:** 115 citas
 
 ---
 
@@ -937,6 +937,13 @@ carne de pollo y huevo."
 **Fuente:** Estudio_Huevos_CarnePollo_2022.txt | **Score:** 8 | **Contexto:** hallazgo_autor
 **Contexto:** Las brechas en los márgenes en diferentes locaciones geográficas o acordes con segmentos de consumidores pueden ser indicativos de falta de competencia en regiones particulares o la existencia de distintos tipos de consumidores. Calidad y la innovación. Existen otros indicadores no relacionados dire...
 
+### [ALTA] "Avicultura Sostenible,
+según ingresos respecto de los sectores econó- en operación desde el segundo semestre del
+micos formales contribuyentes del impuesto de presente año, con resultados a destacar en colo-
+renta."
+**Fuente:** Fenavi_comnsumo_producion.txt | **Score:** 8 | **Contexto:** hallazgo_autor
+**Contexto:** cuenta con el Sello Avícola de Sostenibilidad, algo que se viene convirtiendo en una garantía La más reciente estimación del DANE indica de confianza, no sólo para el mercado inter- que el valor de la producción del sector avícola nacional, sino también en el sector financiero ya supera los $40,8 bi...
+
 ### [ALTA] "Eggs were found to be least responsive to price
 food grants which would help improve household
 changes, supported by price inelastic demand."
@@ -956,6 +963,15 @@ Decades and What Can Be Done to Address Them?” Animal 15: 100282."
 Santa Clara y El Granjero."
 **Fuente:** Estudio_Huevos_CarnePollo_2022.txt | **Score:** 7 | **Contexto:** hallazgo_autor
 **Contexto:** 111 Se considera 2019 por ser la última estimación disponible. Las ventas no distinguen el tamaño del huevo ya que la información reportada por el MAG no clasifica a la producción de huevos según su tamaño. 86 --- PÁGINA 98 --- Granja Catalana es el agente económico con mayor participación en el 201...
+
+### [ALTA] "Huevo, la Federación Nacional
+de Avicultores de Colombia, Fenavi, se unió con la chef de
+talla internacional Leonor Espinosa y varios cocineros del país,
+para lanzar la serie documental “Detrás del Cascarón”, un ho-
+menaje cultural y gastronómico que rescata los platos tradicionales
+colombianos en los que el huevo es protagonista."
+**Fuente:** Fenavi_comnsumo_producion.txt | **Score:** 7 | **Contexto:** afirmacion_general
+**Contexto:** Este logro marcó un hito para el desarrollo económico y social de Colom- bia, resultado del esfuerzo conjunto entre el sector privado y las instituciones del Estado, que durante años han trabajado para abrir nuevos mercados internacionales para los productos avícolas nacionales. La exportación se co...
 
 ### [ALTA] "Eggs Commodity
 number of samples is proportionally transportation; (4) it is associated with the
@@ -991,6 +1007,12 @@ de la distribución de su producción, sino una segmentación en su modelo de ne
 **Fuente:** Estudio_Huevos_CarnePollo_2022.txt | **Score:** 6 | **Contexto:** afirmacion_general
 **Contexto:** Para ello, se analizaron las posibilidades de sustituir el servicio de distribución del 94 Informacion proporcionada en entrevistas con representantes de agentes económicos productores/distribuidores de carne de pollo. 95 Cifras al último día del mes de septiembre del 2021, fecha en que se realizó e...
 
+### [ALTA] "Huevo, fue ‘Mejó-
+ralo con huevo’ una propuesta pensada para redescubrir este ingre-
+diente esencial y llevarlo a otro nivel en la cocina diaria."
+**Fuente:** Fenavi_comnsumo_producion.txt | **Score:** 6 | **Contexto:** afirmacion_general
+**Contexto:** La exportación se consolidó como fruto de la estrategia liderada por Fenavi, con el acom- pañamiento técnico y sanitario de entidades como el Instituto Colombiano Agropecuario (ICA) y el INVIMA, y representa un respaldo a las prácticas de producción del sector avíco- la colombiano, reconocidas por s...
+
 ### [ALTA] "Poultry production and marketing is not considered as an independent business
 activity by most rural farm families and hence higher farming income is expected to adversely
 affect the farmers participation in poultry marketing and level of supply."
@@ -1024,6 +1046,13 @@ producción de sus vinculadas mediante el modelo de ventas en consignación a tr
 moderno y tradicional."
 **Fuente:** Estudio_Huevos_CarnePollo_2022.txt | **Score:** 5 | **Contexto:** afirmacion_general
 **Contexto:** Cuenta con experiencia en el desarrollo de aves de postura y en la 26 Se refiere al tipo de alimento que se suministra, así como a sus dosis, horarios, fórmulas, contenido nutricional, etc. 27 Con base en información proporcionada por La Nueva Avícola, S.A. de C.V. en respuesta a requerimiento de in...
+
+### [ALTA] "Huevo: Alimento
+que deja huella” Fenavi celebró la
+historia de cada colombiano que
+deja huella cada día."
+**Fuente:** Fenavi_comnsumo_producion.txt | **Score:** 5 | **Contexto:** afirmacion_general
+**Contexto:** Avicultores 329 9 --- PÁGINA 10 --- Las 20: Fenavi 4 Detrás de la cultura gastronómica En el marco del Día Mundial del Huevo, la Federación Nacional de Avicultores de Colombia, Fenavi, se unió con la chef de talla internacional Leonor Espinosa y varios cocineros del país, para lanzar la serie docume...
 
 ### [ALTA] "Eggs traders have involved more frequently/regularly
 operate the business than bird traders."
@@ -1112,6 +1141,11 @@ cuotas; les siguen en su orden Granja Catalana (Huevos Catalana) y la marca blan
 cadena homónima, con cuotas muy similares."
 **Fuente:** Estudio_Huevos_CarnePollo_2022.txt | **Score:** 4 | **Contexto:** datos_tabla
 **Contexto:** El IHH no incluye la participación de los pequeños productores, por ser una gran cantidad, si se incluyen el IHH sería aún más bajo. Fuente: Elaboración propia con base en información de productores/distribuidores de huevos. 87 --- PÁGINA 99 --- F. Distribución minorista de huevos en el canal modern...
+
+### [MEDIA] "Huevo de Fenavi, consolida a Colombia como un jugador relevante en
+el Caribe."
+**Fuente:** Fenavi_comnsumo_producion.txt | **Score:** 4 | **Contexto:** afirmacion_general
+**Contexto:** Entre el 3 y el 7 de mayo, Fenavi continuó su recorrido en Aruba, donde el foco fue impulsar el cierre del proceso de admisibilidad sanitaria para el huevo colombiano y avanzar en los requisitos para la futura exportación de carne de pollo a la isla. Se llevaron a cabo reuniones con cámaras de comer...
 
 ### [MEDIA] "Avicultura (APA), APROLAC y bases de datos comerciales, las cuales
 proporcionaron información sobre producción, precios, participación de mercado y composición empresarial
@@ -1249,6 +1283,15 @@ en Colombia: instituciones, organizaciones y tecnología."
 ### [MEDIA] "EGG en respuesta a requerimiento de información."
 **Fuente:** Estudio_Huevos_CarnePollo_2022.txt | **Score:** 2 | **Contexto:** afirmacion_general
 **Contexto:** En el canal moderno distribuye a Walmart y PriceSmart, con un volumen de ventas que lo ubica como el tercer competidor más importante del mercado. 30 Distribuye la marca “Avícola San Benito”, durante el período 2015-2019 su participación de mercado de Avícola San Benito se ha mantenido estable, por ...
+
+### [MEDIA] "Huevo (Dane) desploma independientemente del costo de producción."
+**Fuente:** Fenaviquin_ed3892023.txt | **Score:** 2 | **Contexto:** hallazgo_autor
+**Contexto:** Y esto puede ocurrir por dos razones: 1) que, en efecto, la demanda esté en crecimiento, como en Afectación vías nacionales - sector el caso particular del huevo, en el que por un efecto inflación en la canasta avícola de alimentos, se ha propiciado una sustitución a este producto; 2) por una reducc...
+
+### [MEDIA] "Avicultura Sostenible
+La producción agropecuaria y su sostenimiento."
+**Fuente:** Fenavi_comnsumo_producion.txt | **Score:** 2 | **Contexto:** datos_tabla
+**Contexto:** co 36 Avicultores 329 --- PÁGINA 37 --- MINISTERIO DE AGRICULTURA Y DESARROLLO RURAL Sección #GobiernoDeLaGente Para más información visite www.ica.gov.co Avicultores 329 37 ================================================================================ TABLAS ENCONTRADAS: =========================...
 
 ### [MEDIA] "Egg
 operating this business for 5-15 years and the Sales

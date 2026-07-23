@@ -330,6 +330,16 @@ window.CITATIONS_DATA = [
     "reference": null
   },
   {
+    "text": "Avicultura Sostenible, según ingresos respecto de los sectores econó- en operación desde el segundo semestre del micos formales contribuyentes del impuesto de presente año, con resultados a destacar en colo- renta.",
+    "quality": "alta",
+    "score": 8,
+    "topic": "Mercado de huevo/avícola",
+    "document": "Fenavi comnsumo producion",
+    "filename": "Fenavi_comnsumo_producion.txt",
+    "context": "cuenta con el Sello Avícola de Sostenibilidad, algo que se viene convirtiendo en una garantía La más reciente estimación del DANE indica de confianza, no sólo para el mercado inter- que el valor de la producción del sector avícola nacional, sino también en el sector financiero ya supera los $40,8 billones, con un consu- nacional. De hecho, desde hace dos años se de- mo intermedio de $32,8 billones en donde se sarrolló la línea verde de financiación con la ban- incluyen materias primas y genética",
+    "reference": null
+  },
+  {
     "text": "Concentration ratio is one of the commonly used measures of market power, which in other words, refers to the number and relative size of distribution of buyers or sellers in a market.",
     "quality": "alta",
     "score": 8,
@@ -497,6 +507,16 @@ window.CITATIONS_DATA = [
     "document": "Estudio Fenavi/SC - Huevos y Carne de Pollo (2022)",
     "filename": "Estudio_Huevos_CarnePollo_2022.txt",
     "context": "111 Se considera 2019 por ser la última estimación disponible. Las ventas no distinguen el tamaño del huevo ya que la información reportada por el MAG no clasifica a la producción de huevos según su tamaño. 86 --- PÁGINA 98 --- Granja Catalana es el agente económico con mayor participación en el 2019, seguido por El Granjero; en conjunto, estos agentes económicos abarcan un poco menos de la mitad del mercado. El resto se encuentra distribuido entre más de 350 productores. En el estudio previo (S",
+    "reference": null
+  },
+  {
+    "text": "Huevo, la Federación Nacional de Avicultores de Colombia, Fenavi, se unió con la chef de talla internacional Leonor Espinosa y varios cocineros del país, para lanzar la serie documental “Detrás del Cascarón”, un ho- menaje cultural y gastronómico que rescata los platos tradicionales colombianos en los que el huevo es protagonista.",
+    "quality": "alta",
+    "score": 7,
+    "topic": "Mercado de huevo/avícola",
+    "document": "Fenavi comnsumo producion",
+    "filename": "Fenavi_comnsumo_producion.txt",
+    "context": "Este logro marcó un hito para el desarrollo económico y social de Colom- bia, resultado del esfuerzo conjunto entre el sector privado y las instituciones del Estado, que durante años han trabajado para abrir nuevos mercados internacionales para los productos avícolas nacionales. La exportación se consolidó como fruto de la estrategia liderada por Fenavi, con el acom- pañamiento técnico y sanitario de entidades como el Instituto Colombiano Agropecuario (ICA) y el INVIMA, y representa un respaldo",
     "reference": null
   },
   {
@@ -810,6 +830,16 @@ window.CITATIONS_DATA = [
     "reference": null
   },
   {
+    "text": "Huevo, fue ‘Mejó- ralo con huevo’ una propuesta pensada para redescubrir este ingre- diente esencial y llevarlo a otro nivel en la cocina diaria.",
+    "quality": "alta",
+    "score": 6,
+    "topic": "Mercado de huevo/avícola",
+    "document": "Fenavi comnsumo producion",
+    "filename": "Fenavi_comnsumo_producion.txt",
+    "context": "La exportación se consolidó como fruto de la estrategia liderada por Fenavi, con el acom- pañamiento técnico y sanitario de entidades como el Instituto Colombiano Agropecuario (ICA) y el INVIMA, y representa un respaldo a las prácticas de producción del sector avíco- la colombiano, reconocidas por su calidad, trazabilidad y altos estándares sanitarios. Avicultores 329 9 --- PÁGINA 10 --- Las 20: Fenavi 4 Detrás de la cultura gastronómica En el marco del Día Mundial del Huevo, la Federación Nacio",
+    "reference": null
+  },
+  {
     "text": "Concentration ratio (CR) Concentration ratio measures the market share of each supplier involved in the market.",
     "quality": "alta",
     "score": 6,
@@ -1047,6 +1077,16 @@ window.CITATIONS_DATA = [
     "document": "Estudio Fenavi/SC - Huevos y Carne de Pollo (2022)",
     "filename": "Estudio_Huevos_CarnePollo_2022.txt",
     "context": "Cuenta con experiencia en el desarrollo de aves de postura y en la 26 Se refiere al tipo de alimento que se suministra, así como a sus dosis, horarios, fórmulas, contenido nutricional, etc. 27 Con base en información proporcionada por La Nueva Avícola, S.A. de C.V. en respuesta a requerimiento de información. 28 Con base en información provista por El Granjero en respuesta en requerimiento de información y datos de producción del MAG. 23 --- PÁGINA 35 --- producción de huevo comercial, realiza v",
+    "reference": null
+  },
+  {
+    "text": "Huevo: Alimento que deja huella” Fenavi celebró la historia de cada colombiano que deja huella cada día.",
+    "quality": "alta",
+    "score": 5,
+    "topic": "Mercado de huevo/avícola",
+    "document": "Fenavi comnsumo producion",
+    "filename": "Fenavi_comnsumo_producion.txt",
+    "context": "Avicultores 329 9 --- PÁGINA 10 --- Las 20: Fenavi 4 Detrás de la cultura gastronómica En el marco del Día Mundial del Huevo, la Federación Nacional de Avicultores de Colombia, Fenavi, se unió con la chef de talla internacional Leonor Espinosa y varios cocineros del país, para lanzar la serie documental “Detrás del Cascarón”, un ho- menaje cultural y gastronómico que rescata los platos tradicionales colombianos en los que el huevo es protagonista. Otra de las campañas lanzadas por el Programa Hu",
     "reference": null
   },
   {
@@ -1367,6 +1407,16 @@ window.CITATIONS_DATA = [
     "document": "Estudio Fenavi/SC - Huevos y Carne de Pollo (2022)",
     "filename": "Estudio_Huevos_CarnePollo_2022.txt",
     "context": "El IHH no incluye la participación de los pequeños productores, por ser una gran cantidad, si se incluyen el IHH sería aún más bajo. Fuente: Elaboración propia con base en información de productores/distribuidores de huevos. 87 --- PÁGINA 99 --- F. Distribución minorista de huevos en el canal moderno Las sociedades propietarias de las tres cadenas de supermercados remitieron sus volúmenes de venta a fin de calcular las cuotas de mercado de los principales proveedores. En este canal la presencia",
+    "reference": null
+  },
+  {
+    "text": "Huevo de Fenavi, consolida a Colombia como un jugador relevante en el Caribe.",
+    "quality": "media",
+    "score": 4,
+    "topic": "Mercado de huevo/avícola",
+    "document": "Fenavi comnsumo producion",
+    "filename": "Fenavi_comnsumo_producion.txt",
+    "context": "Entre el 3 y el 7 de mayo, Fenavi continuó su recorrido en Aruba, donde el foco fue impulsar el cierre del proceso de admisibilidad sanitaria para el huevo colombiano y avanzar en los requisitos para la futura exportación de carne de pollo a la isla. Se llevaron a cabo reuniones con cámaras de comercio, distribuidores y autoridades regulatorias que permitieron destacar la calidad, bioseguridad y trazabilidad de los productos avícolas colombianos. Mientras se desarrollaban estas misiones, se conf",
     "reference": null
   },
   {
@@ -2040,6 +2090,26 @@ window.CITATIONS_DATA = [
     "reference": null
   },
   {
+    "text": "Huevo (Dane) desploma independientemente del costo de producción.",
+    "quality": "media",
+    "score": 2,
+    "topic": "Mercado de huevo/avícola",
+    "document": "Fenaviquin ed3892023",
+    "filename": "Fenaviquin_ed3892023.txt",
+    "context": "Y esto puede ocurrir por dos razones: 1) que, en efecto, la demanda esté en crecimiento, como en Afectación vías nacionales - sector el caso particular del huevo, en el que por un efecto inflación en la canasta avícola de alimentos, se ha propiciado una sustitución a este producto; 2) por una reducción de la oferta, por estar en un ciclo de contracción o bien por un ESTADÍSTICAS efecto neto que la reduzca (eventos sanitarios). Pero, quiere decir que el costo no tiene efecto alguno en el precio.",
+    "reference": null
+  },
+  {
+    "text": "Avicultura Sostenible La producción agropecuaria y su sostenimiento.",
+    "quality": "media",
+    "score": 2,
+    "topic": "Mercado de huevo/avícola",
+    "document": "Fenavi comnsumo producion",
+    "filename": "Fenavi_comnsumo_producion.txt",
+    "context": "co 36 Avicultores 329 --- PÁGINA 37 --- MINISTERIO DE AGRICULTURA Y DESARROLLO RURAL Sección #GobiernoDeLaGente Para más información visite www.ica.gov.co Avicultores 329 37 ================================================================================ TABLAS ENCONTRADAS: ================================================================================ --- TABLA 1 (Página 1) --- | --- TABLA 2 (Página 1) --- --- TABLA 1 (Página 5) --- | --- TABLA 1 (Página 17) --- | | | Código Destino de Crédito",
+    "reference": null
+  },
+  {
     "text": "Concentration refers to the proportion of industry sales made by its largest firms.",
     "quality": "media",
     "score": 2,
@@ -2517,6 +2587,16 @@ window.CITATIONS_DATA = [
     "document": "Estudio Fenavi/SC - Huevos y Carne de Pollo (2022)",
     "filename": "Estudio_Huevos_CarnePollo_2022.txt",
     "context": "El estudio concluyó dos aspectos fundamentales de índole estructural: a) una alta concentración en diferentes eslabones de las cadenas de valor de los mercados analizados, b) un fuerte nivel de integración vertical, principalmente en los mercados de carne de pollo. Sin embargo, se identificó que el desempeño de estas actividades económicas en términos de precios y producción era consistente con una dinámica competitiva. En seguimiento al referido estudio, en junio de 2018 se finalizó el Informe",
+    "reference": null
+  },
+  {
+    "text": "Competencias Laborales Sector Avícola en alianza con el SENA institucional y productivo, con impactos posi- tivos en la competitividad del sector nacional.",
+    "quality": "baja",
+    "score": 1,
+    "topic": "Competencia",
+    "document": "Fenavi comnsumo producion",
+    "filename": "Fenavi_comnsumo_producion.txt",
+    "context": "Esta participación reviste una del sector y otras necesidades de formación importancia estratégica para el sector, en la complementaria y titulada de las empresas a medida en que la Mesa Sectorial Avícola se nivel nacional. consolida como un escenario clave de diá- logo, concertación y toma de decisiones en Desde este escenario, se abren oportunida- materia de la formulación y/o actualización de des relevantes para fortalecer la internacio- programas formativos y normas de compe- nalización del",
     "reference": null
   },
   {
@@ -3167,6 +3247,26 @@ window.CITATIONS_DATA = [
     "document": "Estudio Fenavi/SC - Huevos y Carne de Pollo (2022)",
     "filename": "Estudio_Huevos_CarnePollo_2022.txt",
     "context": "La teoría económica señala que en un mercado cuyo IHH se encuentra por debajo de los 1,500 puntos se considera no concentrado; este es el caso de la producción y distribución de huevos a nivel mayorista. No obstante, resulta importante señalar la diferencia de estos resultados si se compara con el mercado segmentado a nivel minorista, lo cual se presenta a continuación. Gráfica 28. Índices de concentración en producción/distribución mayorista de huevos (2010- 2019) A. HHI (puntos) B. Indicador K",
+    "reference": null
+  },
+  {
+    "text": "HUEVO Costo de producción ($/ huevo) sin amortización ave ESTRUCTURA VARIABLE/INSUMOS PROMEDIO DE COSTOS 22-oga 22-pes 22-tco 22-von 22-cid 32-ene 32-bef 32-oga 32-pes 32-tco 32-von 32-cid 42-ene 42-bef ESTRUCTURA PROMEDIO DE COSTOS Alimento Balanceado 68,2% 3.",
+    "quality": "baja",
+    "score": 0,
+    "topic": "Mercado de huevo/avícola",
+    "document": "Fenaviquin ed3892023",
+    "filename": "Fenaviquin_ed3892023.txt",
+    "context": "441 2.480 Torta de soya 2.316 2.233 2.663 2.885 2.828 2.700 3.263 2.894 2.904 2.378 2.348 2.517 2.435 2.225 2.438 2.381 Costo fórmula básica alimento pollo 1.684 1.608 1.923 1.796 1.867 1.998 1.981 1.948 1.957 1.552 1.549 1.465 1.425 1.365 1.402 1.401 Variación mensual % -4,5%19,6%-6,6% 4,0% 7,0%-0,9% -1,7% -20,7%-0,2%-5,4%-2,7%-4,2% 2,8%-0,1% Variación anual (%) 16,2%-3,5%-19,5%-18,4%-23,7%-31,7%-29,2%-28,1% Costo fórmula básica alimento huevo 1.502 1.428 1.727 1.613 1.666 1.802 1.872 1.760 1.7",
+    "reference": null
+  },
+  {
+    "text": "Competencias Laborales, orientado a certifi- Programa Económico vuelve a hacer car a 3.",
+    "quality": "baja",
+    "score": 0,
+    "topic": "Competencia",
+    "document": "Fenavi comnsumo producion",
+    "filename": "Fenavi_comnsumo_producion.txt",
+    "context": "Avicultores 329 31 --- PÁGINA 32 --- Las 20: Fenavi 20 Cali es Cali El año año cerró con la inscripción antici- pada al XXII Congreso Fenavi, que con- vertirá a Cali en un epicentro de innova- ción, sostenibilidad y discusión técnica del sector, y reunirá a más de 40 conferencis- tas, 4.000 asistentes y 250 expositores. Y usted, ¿ya se inscribió al Congreso? El 2025 consolidó a la avicultura colombia- na como un sector líder en productividad, bioseguridad, sostenibilidad y expansión internaciona",
     "reference": null
   },
   {
