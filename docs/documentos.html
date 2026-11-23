@@ -3,8 +3,11 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Documentos Analizados — Observatorio Huevo UdeA</title>
+  <title>Documentos Académicos — Observatorio Huevo UdeA</title>
   <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css">
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.js"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/contrib/auto-render.min.js" onload="renderMathInElement(document.body);"></script>
   <script src="data/documents.js"></script>
 </head>
 <body>
@@ -13,18 +16,18 @@
   <main class="container">
     <div class="page-header">
       <h1>Repositorio de Documentos Académicos</h1>
-      <p>27 artículos, tesis y reportes sectoriales procesados con extracción automática de citas y clasificación de calidad.</p>
+      <p>27 artículos científicos, tesis de posgrado e informes sectoriales procesados con extracción semántica de citas, indexación temática y evaluación de calidad metodológica.</p>
     </div>
 
     <div class="control-panel animate-in">
-      <input type="text" class="search-input" id="search" placeholder="Buscar documento por título o tema...">
+      <input type="text" class="search-input" id="search" placeholder="Buscar documento por título, autor o temática...">
       <select class="filter-select" id="filter-quality">
         <option value="all">Todas las calidades</option>
-        <option value="alta">Alta</option>
-        <option value="media">Media</option>
-        <option value="baja">Baja</option>
+        <option value="alta">Calidad Alta</option>
+        <option value="media">Calidad Media</option>
+        <option value="baja">Calidad Baja</option>
       </select>
-      <span class="text-muted" style="font-size:0.82rem;" id="filter-result"></span>
+      <span class="text-muted" style="font-size:0.84rem;" id="filter-result"></span>
     </div>
 
     <div class="grid-2 animate-in delay-1" id="docs-list"></div>
@@ -56,18 +59,18 @@
       listEl.innerHTML = filtered.map(function (d) {
         var total = d.total_citations || 0;
         var dist = d.quality_dist || {};
-        return '<div class="card" style="display:flex;flex-direction:column;justify-content:space-between;gap:12px;">' +
+        return '<div class="card" style="display:flex;flex-direction:column;justify-content:space-between;gap:14px;">' +
           '<div>' +
-          '<div style="display:flex;justify-content:space-between;align-items:flex-start;gap:8px;margin-bottom:8px;">' +
-          '<h3 style="font-size:1rem;line-height:1.35;">' + SHARED.esc(d.name) + '</h3>' +
+          '<div style="display:flex;justify-content:space-between;align-items:flex-start;gap:10px;margin-bottom:8px;">' +
+          '<h3 style="font-size:1.02rem;line-height:1.4;font-family:var(--font-display);">' + SHARED.esc(d.name) + '</h3>' +
           SHARED.qualityBadge(d.main_quality || 'media') +
           '</div>' +
           '<div class="mb-2">' + SHARED.topicTags(d.topics || []) + '</div>' +
           '<div class="mt-2">' + SHARED.qualityBar(dist, total) + '</div>' +
           '</div>' +
-          '<div style="display:flex;justify-content:space-between;align-items:center;border-top:1px solid var(--border);padding-top:10px;">' +
-          '<span class="text-muted" style="font-size:0.8rem;"><strong>' + total + '</strong> citas extraídas</span>' +
-          '<a href="citas.html?doc=' + encodeURIComponent(d.name) + '" class="btn btn-secondary btn-sm">Ver Citas &rarr;</a>' +
+          '<div style="display:flex;justify-content:space-between;align-items:center;border-top:1px solid var(--border);padding-top:12px;">' +
+          '<span class="text-muted" style="font-size:0.82rem;"><strong>' + total + '</strong> citas extraídas</span>' +
+          '<a href="citas.html?doc=' + encodeURIComponent(d.name) + '" class="btn btn-secondary btn-sm">Ver Citas del Documento &rarr;</a>' +
           '</div>' +
           '</div>';
       }).join('');

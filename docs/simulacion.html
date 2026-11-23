@@ -5,6 +5,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Simulación Cournot — Observatorio Huevo UdeA</title>
   <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css">
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.js"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/contrib/auto-render.min.js" onload="renderMathInElement(document.body);"></script>
   <script src="https://cdn.plot.ly/plotly-2.32.0.min.js"></script>
   <script src="data/cournot_data.js"></script>
 </head>
@@ -14,51 +17,84 @@
   <main class="container">
     <div class="page-header">
       <h1>Simulación Microeconómica: Duopolio Asimétrico de Cournot</h1>
-      <p>Comparación entre el equilibrio teórico de Cournot (Incubadora Santander / Huevos Kikes vs. Resto del Mercado) y los datos empíricos observados (2018–2024).</p>
+      <p>Contrastación empírica y teórica del equilibrio de Nash-Cournot entre la firma líder (Incubadora Santander / Huevos Kikes) y el conjunto competitivo de empresas del sector avícola (2018–2024).</p>
+    </div>
+
+    <!-- Fórmulas Cournot en LaTeX -->
+    <div class="formula-box mb-4 animate-in">
+      <div class="formula-title">Estructura Formal del Modelo de Cournot Asimétrico</div>
+      <div class="grid-2">
+        <div class="formula-katex">$$P(Q) = a - b(q_1 + q_2)$$</div>
+        <div class="formula-katex">$$q_1^* = \frac{a - 2c_1 + c_2}{3b}, \quad q_2^* = \frac{a - 2c_2 + c_1}{3b}$$</div>
+      </div>
+      <div class="text-secondary" style="font-size:0.82rem;margin-top:8px;">
+        Donde $q_1$ representa la producción de Incubadora Santander con costo marginal $c_1$ y $q_2$ la producción agregada del resto con costo marginal $c_2$. El precio de equilibrio resultante es $P^* = \frac{a + c_1 + c_2}{3}$.
+      </div>
     </div>
 
     <!-- Selector de Año y KPIs -->
-    <div class="control-panel animate-in">
-      <label for="select-sim-year" style="font-weight:600;font-size:0.88rem;">Año de Análisis:</label>
+    <div class="control-panel animate-in delay-1">
+      <label for="select-sim-year" style="font-weight:700;font-size:0.88rem;">Año de Calibración Histórica:</label>
       <select id="select-sim-year" class="filter-select"></select>
-      <span class="text-muted" style="font-size:0.82rem;">Modelo: P(Q) = a &minus; bQ con costos marginales asimétricos</span>
+      <span class="text-muted" style="font-size:0.82rem;">Parámetros calibrados con la elasticidad empírica ($\epsilon = -0.13$)</span>
     </div>
 
-    <div class="metrics-grid animate-in delay-1" id="sim-kpis"></div>
+    <div class="metrics-grid animate-in delay-2" id="sim-kpis"></div>
 
     <!-- Gráficos Históricos Cournot vs Real -->
-    <div class="grid-2 animate-in delay-2">
+    <div class="grid-2 animate-in delay-3">
       <div class="chart-container">
-        <div class="section-title">Cuotas de Mercado: Equilibrio Cournot vs Realidad</div>
-        <div id="chart-cournot-shares" style="height:340px;"></div>
+        <div class="section-title">Cuotas de Mercado: Realidad Observada vs. Equilibrio Cournot</div>
+        <div id="chart-cournot-shares" style="height:350px;"></div>
       </div>
       <div class="chart-container">
-        <div class="section-title">Evolución de Brecha de Cantidad Total (%)</div>
-        <div id="chart-cournot-gap" style="height:340px;"></div>
+        <div class="section-title">Brecha Histórica en la Cuota del Líder (%)</div>
+        <div id="chart-cournot-gap" style="height:350px;"></div>
       </div>
     </div>
 
-    <!-- Simulador Interactivo en Vivo -->
-    <div class="card animate-in delay-3">
-      <div class="section-title">Laboratorio Interactivo de Cournot (2 Firmas Asimétricas)</div>
-      <p class="text-secondary" style="font-size:0.85rem;margin-bottom:16px;">
-        Ajusta la demanda inversa normalizada (<code>a</code>) y los costos marginales (<code>c1</code> líder, <code>c2</code> seguidor) para observar el equilibrio de Nash-Cournot en tiempo real: <code>q<sub>i</sub>* = (a &minus; 2c<sub>i</sub> + c<sub>j</sub>) / 3b</code>.
+    <!-- Simulador Interactivo en Vivo con Curvas de Reacción -->
+    <div class="card animate-in delay-4">
+      <div class="section-title">Laboratorio Interactivo de Curvas de Reacción de Nash-Cournot</div>
+      <p class="text-secondary" style="font-size:0.86rem;margin-bottom:18px;">
+        Modifica el tamaño de la demanda inversa ($a$) y las estructuras de costos marginales asimétricos ($c_1$ líder vs. $c_2$ competidores). El gráfico recalcula en vivo las funciones de mejor respuesta $R_1(q_2)$ y $R_2(q_1)$, ubicando el punto exacto de equilibrio $(q_1^*, q_2^*)$.
       </p>
+
       <div class="grid-3 mb-4">
-        <div>
-          <div style="display:flex;justify-content:space-between;font-size:0.84rem;"><span>Intercepto Demanda (a)</span><strong id="lbl-a">10.0</strong></div>
-          <input type="range" id="sl-a" min="5" max="20" step="0.5" value="10">
+        <div class="slider-group">
+          <div class="slider-header">
+            <span>Intercepto Demanda ($a$)</span>
+            <span id="lbl-a" class="slider-value-badge">12.0</span>
+          </div>
+          <input type="range" id="sl-a" min="6" max="24" step="0.5" value="12">
         </div>
-        <div>
-          <div style="display:flex;justify-content:space-between;font-size:0.84rem;"><span>Costo Marginal Líder (c1)</span><strong id="lbl-c1">1.5</strong></div>
-          <input type="range" id="sl-c1" min="0.5" max="4" step="0.1" value="1.5">
+        <div class="slider-group">
+          <div class="slider-header">
+            <span>Costo Marg. Líder ($c_1$)</span>
+            <span id="lbl-c1" class="slider-value-badge" style="color:var(--udea-green-375);">1.5</span>
+          </div>
+          <input type="range" id="sl-c1" min="0.5" max="5" step="0.1" value="1.5">
         </div>
-        <div>
-          <div style="display:flex;justify-content:space-between;font-size:0.84rem;"><span>Costo Marginal Resto (c2)</span><strong id="lbl-c2">2.2</strong></div>
-          <input type="range" id="sl-c2" min="0.5" max="4" step="0.1" value="2.2">
+        <div class="slider-group">
+          <div class="slider-header">
+            <span>Costo Marg. Resto ($c_2$)</span>
+            <span id="lbl-c2" class="slider-value-badge" style="color:var(--udea-coral);background:rgba(239,67,77,0.18);border-color:rgba(239,67,77,0.3);">2.5</span>
+          </div>
+          <input type="range" id="sl-c2" min="0.5" max="5" step="0.1" value="2.5">
         </div>
       </div>
-      <div class="metrics-grid" id="live-cournot-out" style="margin-bottom:0;"></div>
+
+      <div class="grid-2">
+        <div id="chart-reactions" style="height:380px;"></div>
+        <div style="display:flex;flex-direction:column;justify-content:space-between;gap:12px;">
+          <div class="metrics-grid" id="live-cournot-out" style="grid-template-columns:repeat(2,1fr);margin-bottom:0;"></div>
+          <div class="formula-box">
+            <div class="formula-title">Funciones de Reacción Dinámicas</div>
+            <div class="formula-katex" id="katex-r1">$$R_1(q_2) = \frac{a - c_1 - q_2}{2}$$</div>
+            <div class="formula-katex" id="katex-r2">$$R_2(q_1) = \frac{a - c_2 - q_1}{2}$$</div>
+          </div>
+        </div>
+      </div>
     </div>
   </main>
 
@@ -83,28 +119,28 @@
       var comp = item.comparacion;
 
       var kpis = [
-        { label: 'Cuota Incubadora (Real vs Cournot)', value: SHARED.formatPct(real.share_inc * 100, 1) + ' vs ' + SHARED.formatPct(eq.share_inc * 100, 1), sub: 'Participación de mercado', cls: 'blue' },
-        { label: 'Brecha Cantidad Total', value: SHARED.formatPct(comp.dif_cantidad_total_pct, 1), sub: 'Cournot predice menor volumen', cls: 'yellow' },
-        { label: 'Margen Bruto Incubadora', value: SHARED.formatPct(real.margen_inc * 100, 1), sub: 'Resto: ' + SHARED.formatPct(real.margen_resto * 100, 1), cls: 'green' },
-        { label: 'Elasticidad Calibrada', value: item.parametros.elasticidad, sub: 'Demanda inelástica', cls: 'purple' }
+        { label: 'Cuota Líder (Real vs Cournot)', value: SHARED.formatPct(real.share_inc * 100, 1) + ' vs ' + SHARED.formatPct(eq.share_inc * 100, 1), sub: 'Participación en volumen de ventas', cls: 'green' },
+        { label: 'Brecha de Producción Total', value: SHARED.formatPct(comp.dif_cantidad_total_pct, 1), sub: 'Cournot predice menor volumen de mercado', cls: 'yellow' },
+        { label: 'Margen Líder (Incubadora)', value: SHARED.formatPct(real.margen_inc * 100, 1), sub: 'Resto del sector: ' + SHARED.formatPct(real.margen_resto * 100, 1), cls: 'blue' },
+        { label: 'Elasticidad Calibrada', value: item.parametros.elasticidad, sub: 'Demanda inelástica observada', cls: 'purple' }
       ];
       document.getElementById('sim-kpis').innerHTML = kpis.map(function (k) {
-        return '<div class="metric-card ' + k.cls + '"><div class="metric-label">' + k.label + '</div><div class="metric-value" style="font-size:1.45rem;">' + k.value + '</div><div class="metric-sub">' + k.sub + '</div></div>';
+        return '<div class="metric-card ' + k.cls + '"><div class="metric-label">' + k.label + '</div><div class="metric-value" style="font-size:1.55rem;">' + k.value + '</div><div class="metric-sub">' + k.sub + '</div></div>';
       }).join('');
 
       Plotly.newPlot('chart-cournot-shares', [
-        { x: ['Incubadora Santander', 'Resto del Mercado'], y: [+(real.share_inc * 100).toFixed(1), +(real.share_resto * 100).toFixed(1)], name: 'Realidad Observada (%)', type: 'bar', marker: { color: '#3b82f6' } },
-        { x: ['Incubadora Santander', 'Resto del Mercado'], y: [+(eq.share_inc * 100).toFixed(1), +(eq.share_resto * 100).toFixed(1)], name: 'Equilibrio Cournot (%)', type: 'bar', marker: { color: '#8b5cf6' } }
-      ], SHARED.plotlyLayout({ barmode: 'group', yaxis: { title: 'Cuota (%)' } }), { responsive: true, displayModeBar: false });
+        { x: ['Incubadora Santander', 'Resto del Mercado'], y: [+(real.share_inc * 100).toFixed(1), +(real.share_resto * 100).toFixed(1)], name: 'Realidad Empírica (%)', type: 'bar', marker: { color: '#35944B' } },
+        { x: ['Incubadora Santander', 'Resto del Mercado'], y: [+(eq.share_inc * 100).toFixed(1), +(eq.share_resto * 100).toFixed(1)], name: 'Equilibrio Cournot (%)', type: 'bar', marker: { color: '#137598' } }
+      ], SHARED.plotlyLayout({ barmode: 'group', yaxis: { title: 'Cuota de Mercado (%)' } }), { responsive: true, displayModeBar: false });
 
       Plotly.newPlot('chart-cournot-gap', [{
         x: data.map(function (d) { return d.anio; }),
         y: data.map(function (d) { return +(d.datos_reales.share_inc * 100).toFixed(1); }),
-        name: 'Cuota Real Incubadora (%)', mode: 'lines+markers', line: { color: '#10b981', width: 3 }
+        name: 'Cuota Real Líder (%)', mode: 'lines+markers', line: { color: '#35944B', width: 3.2 }
       }, {
         x: data.map(function (d) { return d.anio; }),
         y: data.map(function (d) { return +(d.equilibrio_cournot.share_inc * 100).toFixed(1); }),
-        name: 'Cuota Cournot Incubadora (%)', mode: 'lines+markers', line: { color: '#f59e0b', width: 2.5, dash: 'dash' }
+        name: 'Cuota Teórica Cournot (%)', mode: 'lines+markers', line: { color: '#F9A12C', width: 2.6, dash: 'dash' }
       }], SHARED.plotlyLayout({ xaxis: { dtick: 1 }, yaxis: { title: 'Cuota (%)' } }), { responsive: true, displayModeBar: false });
     }
 
@@ -125,10 +161,28 @@
       var pi2 = (P - c2) * q2;
 
       document.getElementById('live-cournot-out').innerHTML =
-        '<div class="metric-card blue"><div class="metric-label">Precio Equilibrio (P*)</div><div class="metric-value">' + P.toFixed(2) + '</div><div class="metric-sub">Q* = ' + Q.toFixed(2) + '</div></div>' +
-        '<div class="metric-card green"><div class="metric-label">Producción Líder (q1*)</div><div class="metric-value">' + q1.toFixed(2) + '</div><div class="metric-sub">Cuota: ' + (Q > 0 ? (q1 / Q * 100).toFixed(1) : 0) + '%</div></div>' +
-        '<div class="metric-card yellow"><div class="metric-label">Producción Resto (q2*)</div><div class="metric-value">' + q2.toFixed(2) + '</div><div class="metric-sub">Cuota: ' + (Q > 0 ? (q2 / Q * 100).toFixed(1) : 0) + '%</div></div>' +
-        '<div class="metric-card purple"><div class="metric-label">Beneficios (&pi;1 / &pi;2)</div><div class="metric-value" style="font-size:1.35rem;">' + pi1.toFixed(1) + ' / ' + pi2.toFixed(1) + '</div><div class="metric-sub">Ventaja por menor costo</div></div>';
+        '<div class="metric-card green"><div class="metric-label">Precio Equilibrio (P*)</div><div class="metric-value" style="font-size:1.6rem;">$' + P.toFixed(2) + '</div><div class="metric-sub">Q* Total = ' + Q.toFixed(2) + '</div></div>' +
+        '<div class="metric-card blue"><div class="metric-label">Producción Líder (q1*)</div><div class="metric-value" style="font-size:1.6rem;">' + q1.toFixed(2) + '</div><div class="metric-sub">Cuota: ' + (Q > 0 ? (q1 / Q * 100).toFixed(1) : 0) + '%</div></div>' +
+        '<div class="metric-card yellow"><div class="metric-label">Producción Resto (q2*)</div><div class="metric-value" style="font-size:1.6rem;">' + q2.toFixed(2) + '</div><div class="metric-sub">Cuota: ' + (Q > 0 ? (q2 / Q * 100).toFixed(1) : 0) + '%</div></div>' +
+        '<div class="metric-card purple"><div class="metric-label">Beneficios (&pi;1 / &pi;2)</div><div class="metric-value" style="font-size:1.35rem;">' + pi1.toFixed(1) + ' / ' + pi2.toFixed(1) + '</div><div class="metric-sub">Ventaja de costos</div></div>';
+
+      // Curvas de Reacción en Plotly
+      var maxQ = Math.max(a, 12);
+      var q2_vals = [0, (a - c1) / b];
+      var q1_from_r1 = [(a - c1) / (2 * b), 0];
+
+      var q1_vals = [0, (a - c2) / b];
+      var q2_from_r2 = [(a - c2) / (2 * b), 0];
+
+      Plotly.newPlot('chart-reactions', [
+        { x: q1_from_r1, y: q2_vals, mode: 'lines', name: 'R1(q2): Respuesta Líder', line: { color: '#35944B', width: 3 } },
+        { x: q1_vals, y: q2_from_r2, mode: 'lines', name: 'R2(q1): Respuesta Resto', line: { color: '#137598', width: 3 } },
+        { x: [q1], y: [q2], mode: 'markers', name: 'Equilibrio Nash-Cournot', marker: { size: 14, color: '#8DC63F', line: { color: '#ffffff', width: 2 } } }
+      ], SHARED.plotlyLayout({
+        title: 'Espacio de Cantidades: Curvas de Reacción R1 y R2',
+        xaxis: { title: 'Cantidad Líder q1', range: [0, maxQ / 1.5] },
+        yaxis: { title: 'Cantidad Resto q2', range: [0, maxQ / 1.5] }
+      }), { responsive: true, displayModeBar: false });
     }
 
     yearSel.addEventListener('change', renderYear);

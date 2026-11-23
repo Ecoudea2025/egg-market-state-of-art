@@ -5,6 +5,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Estado del Arte Completo — Observatorio Huevo UdeA</title>
   <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css">
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.js"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/contrib/auto-render.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
 </head>
 <body>
@@ -13,16 +16,16 @@
   <main class="container">
     <div class="page-header">
       <h1>Síntesis del Estado del Arte: Mercado del Huevo</h1>
-      <p>Documento académico completo generado a partir de 333 citas verificadas de 27 fuentes.</p>
+      <p>Documento de revisión académica y síntesis teórica generado a partir de 333 citas textuales verificadas de 27 investigaciones especializadas.</p>
       <div class="mt-2">
-        <a href="data/estado_del_arte.md" download class="btn btn-primary btn-sm">&#11015; Descargar Markdown (.md)</a>
+        <a href="data/estado_del_arte.md" download class="btn btn-primary btn-sm">&#11015; Descargar Texto Completo (.md)</a>
       </div>
     </div>
 
-    <div id="toc-layout" style="display:grid;grid-template-columns:260px 1fr;gap:24px;align-items:start;">
-      <aside class="card" style="position:sticky;top:80px;max-height:80vh;overflow-y:auto;">
-        <h3 style="font-size:0.85rem;text-transform:uppercase;letter-spacing:0.05em;color:var(--text-secondary);margin-bottom:12px;">Tabla de Contenidos</h3>
-        <div id="toc-list" style="display:flex;flex-direction:column;gap:6px;font-size:0.82rem;"></div>
+    <div id="toc-layout" style="display:grid;grid-template-columns:280px 1fr;gap:26px;align-items:start;">
+      <aside class="card" style="position:sticky;top:84px;max-height:82vh;overflow-y:auto;">
+        <h3 style="font-size:0.86rem;text-transform:uppercase;letter-spacing:0.06em;color:var(--text-secondary);margin-bottom:14px;">Tabla de Contenidos</h3>
+        <div id="toc-list" style="display:flex;flex-direction:column;gap:8px;font-size:0.84rem;"></div>
       </aside>
 
       <div class="card">
@@ -42,6 +45,17 @@
       .then(function (md) {
         var contentEl = document.getElementById('md-content');
         contentEl.innerHTML = marked.parse(md);
+
+        // Renderizar fórmulas de LaTeX si las hay
+        if (typeof renderMathInElement !== 'undefined') {
+          renderMathInElement(contentEl, {
+            delimiters: [
+              { left: '$$', right: '$$', display: true },
+              { left: '$', right: '$', display: false }
+            ]
+          });
+        }
+
         var headings = contentEl.querySelectorAll('h1, h2');
         var toc = document.getElementById('toc-list');
         headings.forEach(function (h, i) {
@@ -51,8 +65,8 @@
           a.href = '#' + id;
           a.textContent = h.textContent;
           a.style.color = h.tagName === 'H1' ? 'var(--text-primary)' : 'var(--text-secondary)';
-          a.style.fontWeight = h.tagName === 'H1' ? '600' : '400';
-          a.style.paddingLeft = h.tagName === 'H2' ? '10px' : '0';
+          a.style.fontWeight = h.tagName === 'H1' ? '700' : '400';
+          a.style.paddingLeft = h.tagName === 'H2' ? '12px' : '0';
           toc.appendChild(a);
         });
       })

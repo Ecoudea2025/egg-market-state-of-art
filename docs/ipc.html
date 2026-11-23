@@ -5,6 +5,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>IPC DANE &amp; Macroeconomía — Observatorio Huevo UdeA</title>
   <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css">
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.js"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/contrib/auto-render.min.js" onload="renderMathInElement(document.body);"></script>
   <script src="https://cdn.plot.ly/plotly-2.32.0.min.js"></script>
   <script src="data/ipc_macro_data.js"></script>
 </head>
@@ -14,7 +17,7 @@
   <main class="container">
     <div class="page-header">
       <h1>Dinámica Macroeconómica, IPC DANE &amp; Elasticidades</h1>
-      <p>Análisis de inflación nacional y por divisiones de gasto (DANE 2015–2025), transmisión de precios desde insumos (maíz) y sustitutos (cerdo), y laboratorio interactivo de elasticidades de la demanda.</p>
+      <p>Análisis de inflación nacional y divisiones de gasto (DANE 2015–2025, serie continua 132 meses), transmisión de precios desde insumos nutricionales (maíz) y sustitutos proteicos (cerdo), y simulador interactivo de shocks de demanda.</p>
     </div>
 
     <!-- KPIs -->
@@ -23,93 +26,118 @@
     <!-- IPC DANE Explorer -->
     <div class="chart-container animate-in delay-1">
       <div class="section-title" style="justify-content:space-between;flex-wrap:wrap;gap:10px;">
-        <span>Explorador IPC DANE Colombia (2015–2025 &middot; 132 Meses)</span>
+        <span>Explorador de Inflación IPC DANE Colombia (2015–2025 &middot; 132 Meses Continuos)</span>
         <div class="pill-tabs" id="ipc-tabs" style="margin-bottom:0;">
-          <button class="pill-tab active" data-ipc="var_anual">Variación Anual (%)</button>
+          <button class="pill-tab active" data-ipc="var_anual">Variación Anual Continua (%)</button>
           <button class="pill-tab" data-ipc="var_mensual">Variación Mensual (%)</button>
-          <button class="pill-tab" data-ipc="indice">Índice Base 2018=100</button>
+          <button class="pill-tab" data-ipc="indice">Índice IPC (Base 2018 = 100)</button>
           <button class="pill-tab" data-ipc="divisiones">Alimentos vs Total Nacional</button>
         </div>
       </div>
-      <div id="chart-ipc" style="height:390px;"></div>
+      <div id="chart-ipc" style="height:400px;"></div>
     </div>
 
     <!-- Precios Huevo Mensual y Producción/Consumo -->
     <div class="grid-2 animate-in delay-2">
       <div class="chart-container">
         <div class="section-title">Precio Mensual del Huevo en Colombia (2017–2025)</div>
-        <div id="chart-egg-price" style="height:350px;"></div>
+        <div id="chart-egg-price" style="height:360px;"></div>
       </div>
       <div class="chart-container">
         <div class="section-title">Producción Nacional (Millones) vs Consumo Per Cápita</div>
-        <div id="chart-prod-cons" style="height:350px;"></div>
+        <div id="chart-prod-cons" style="height:360px;"></div>
       </div>
     </div>
 
     <!-- Transmisión de Precios e Insumos -->
     <div class="chart-container animate-in delay-3">
-      <div class="section-title" style="justify-content:space-between;flex-wrap:wrap;">
+      <div class="section-title" style="justify-content:space-between;flex-wrap:wrap;gap:10px;">
         <span>Transmisión de Precios: Huevo, Maíz (Insumo) y Cerdo (Sustituto) — Base Real 2018</span>
         <select id="select-real-nom" class="filter-select">
           <option value="real">Precios Reales (Deflactados IPC Base 2018)</option>
           <option value="nom">Precios Nominales (COP Corrientes)</option>
         </select>
       </div>
-      <div id="chart-transmission" style="height:380px;"></div>
+      <div id="chart-transmission" style="height:390px;"></div>
     </div>
 
-    <!-- Laboratorio de Elasticidades -->
-    <div class="grid-2 animate-in delay-4">
-      <div class="card">
-        <div class="section-title">Simulador Didáctico de Elasticidades de Demanda</div>
-        <p class="text-secondary" style="font-size:0.84rem;margin-bottom:16px;">
-          Simula el impacto porcentual estimado sobre la cantidad demandada de huevo (&Delta;%Q) ante shocks de precios reales o ingreso usando las elasticidades empíricas del estudio:
-          <strong>&epsilon; = -0.13</strong> (precio), <strong>&psi; = -1.15</strong> (cruzada cerdo), <strong>&eta; = +0.56</strong> (ingreso).
-        </p>
-        <div style="display:flex;flex-direction:column;gap:16px;">
-          <div>
-            <div style="display:flex;justify-content:space-between;font-size:0.84rem;margin-bottom:4px;">
-              <span>&Delta;% Precio Real del Huevo (&epsilon; = -0.13)</span>
-              <strong id="val-sh-huevo" class="num-cell">0%</strong>
-            </div>
-            <input type="range" id="sl-huevo" min="-30" max="30" step="1" value="0">
-          </div>
-          <div>
-            <div style="display:flex;justify-content:space-between;font-size:0.84rem;margin-bottom:4px;">
-              <span>&Delta;% Precio Real Carne de Cerdo (&psi; = -1.15)</span>
-              <strong id="val-sh-cerdo" class="num-cell">0%</strong>
-            </div>
-            <input type="range" id="sl-cerdo" min="-30" max="30" step="1" value="0">
-          </div>
-          <div>
-            <div style="display:flex;justify-content:space-between;font-size:0.84rem;margin-bottom:4px;">
-              <span>&Delta;% Salario Mínimo Real (&eta; = +0.56)</span>
-              <strong id="val-sh-ing" class="num-cell">0%</strong>
-            </div>
-            <input type="range" id="sl-ing" min="-15" max="15" step="1" value="0">
-          </div>
-        </div>
-        <div class="formula-box mt-4" id="sim-result-box" style="text-align:center;">
-          <div class="text-secondary" style="font-size:0.75rem;">VARIACIÓN ESTIMADA EN DEMANDA (&Delta;% Q)</div>
-          <div id="sim-q-out" style="font-size:1.8rem;font-weight:800;margin-top:4px;color:var(--accent-blue-light);">0.00%</div>
+    <!-- Laboratorio Interactivo de Elasticidades con Desglose y Visualizador de Afección -->
+    <div class="section animate-in delay-4">
+      <div class="section-title">Laboratorio Interactivo de Elasticidades y Simulación de Afección en Demanda</div>
+
+      <div class="formula-box mb-4">
+        <div class="formula-title">Modelo Econométrico de Demanda del Huevo en Colombia</div>
+        <div class="formula-katex">$$\Delta\% Q_d = \epsilon_p \cdot \Delta\% P_{\text{huevo}} + \psi \cdot \Delta\% P_{\text{cerdo}} + \eta \cdot \Delta\% Y_{\text{real}}$$</div>
+        <div class="text-secondary" style="font-size:0.82rem;margin-top:8px;">
+          Donde las elasticidades promedio estimadas son:
+          <strong>$\epsilon_p = -0.13$</strong> (elasticidad precio inelástica de bien esencial),
+          <strong>$\psi = -1.15$</strong> (elasticidad cruzada frente a carne de cerdo) y
+          <strong>$\eta = +0.56$</strong> (elasticidad ingreso / salario mínimo real).
         </div>
       </div>
 
-      <div class="card">
-        <div class="section-title">Elasticidades Estimadas por Año (2019–2024)</div>
-        <div class="table-wrapper">
-          <table class="compact-table">
-            <thead>
-              <tr>
-                <th>Año</th>
-                <th class="num-cell">&Delta;Q Huevo</th>
-                <th class="num-cell">Elast. Precio (&epsilon;)</th>
-                <th class="num-cell">Elast. Cruzada (&psi;)</th>
-                <th class="num-cell">Elast. Ingreso (&eta;)</th>
-              </tr>
-            </thead>
-            <tbody id="elast-tbody"></tbody>
-          </table>
+      <div class="grid-2">
+        <!-- Controles Deslizantes Modernos -->
+        <div class="card" style="display:flex;flex-direction:column;gap:16px;">
+          <h3 style="font-size:0.98rem;margin-bottom:4px;">Parámetros del Shock Macroeconómico</h3>
+
+          <div class="slider-group">
+            <div class="slider-header">
+              <span>$\Delta\%$ Precio Real del Huevo ($\epsilon_p = -0.13$)</span>
+              <span id="val-sh-huevo" class="slider-value-badge">0%</span>
+            </div>
+            <input type="range" id="sl-huevo" min="-40" max="40" step="1" value="0">
+            <div class="text-muted" style="font-size:0.73rem;margin-top:6px;">Impacta inversamente: alzas de precio contraen la cantidad consumida.</div>
+          </div>
+
+          <div class="slider-group">
+            <div class="slider-header">
+              <span>$\Delta\%$ Precio Real Cerdo ($\psi = -1.15$)</span>
+              <span id="val-sh-cerdo" class="slider-value-badge" style="color:var(--udea-coral);background:rgba(239,67,77,0.18);border-color:rgba(239,67,77,0.3);">0%</span>
+            </div>
+            <input type="range" id="sl-cerdo" min="-40" max="40" step="1" value="0">
+            <div class="text-muted" style="font-size:0.73rem;margin-top:6px;">Sustituto proteico en la canasta familiar de los hogares.</div>
+          </div>
+
+          <div class="slider-group">
+            <div class="slider-header">
+              <span>$\Delta\%$ Salario Mínimo Real ($\eta = +0.56$)</span>
+              <span id="val-sh-ing" class="slider-value-badge" style="color:var(--udea-turquoise);background:rgba(62,189,172,0.18);border-color:rgba(62,189,172,0.3);">0%</span>
+            </div>
+            <input type="range" id="sl-ing" min="-25" max="25" step="1" value="0">
+            <div class="text-muted" style="font-size:0.73rem;margin-top:6px;">Efecto poder adquisitivo de los hogares colombianos.</div>
+          </div>
+
+          <!-- Impact Card Resumen -->
+          <div style="background:rgba(2,105,55,0.15);border:1px solid rgba(67,182,73,0.35);border-radius:var(--radius);padding:18px;text-align:center;">
+            <div class="text-secondary" style="font-size:0.78rem;text-transform:uppercase;letter-spacing:0.05em;">VARIACIÓN NETA ESTIMADA EN CANTIDAD DEMANDADA ($\Delta\% Q$)</div>
+            <div id="sim-q-out" style="font-size:2.3rem;font-weight:800;margin:6px 0;color:var(--udea-green-375);">0.00%</div>
+            <div id="sim-impact-text" class="text-secondary" style="font-size:0.84rem;">
+              Consumo estimado: <strong>365</strong> huevos/habitante/año (sin alteración).
+            </div>
+          </div>
+        </div>
+
+        <!-- Gráfico de Afección y Desglose de Efectos -->
+        <div class="card" style="display:flex;flex-direction:column;gap:14px;">
+          <h3 style="font-size:0.98rem;">Desglose de Efectos del Shock ($\Delta\%$)</h3>
+          <div id="chart-shock-breakdown" style="height:260px;"></div>
+
+          <h3 style="font-size:0.95rem;margin-top:8px;">Serie Histórica de Elasticidades (2019–2024)</h3>
+          <div class="table-wrapper">
+            <table class="compact-table">
+              <thead>
+                <tr>
+                  <th>Año</th>
+                  <th class="num-cell">$\Delta Q$ Huevo</th>
+                  <th class="num-cell">$\epsilon_p$</th>
+                  <th class="num-cell">$\psi$ (Cerdo)</th>
+                  <th class="num-cell">$\eta$ (Salario)</th>
+                </tr>
+              </thead>
+              <tbody id="elast-tbody"></tbody>
+            </table>
+          </div>
         </div>
       </div>
     </div>
@@ -131,16 +159,15 @@
 
     var lastIpc = ipc[ipc.length - 1] || {};
     var lastProd = prodCons[prodCons.length - 1] || {};
-    var lastEgg = eggM[eggM.length - 1] || {};
 
     var ipcMode = 'var_anual';
 
     // 1. KPIs
     var kpis = [
-      { label: 'IPC Anual (' + (lastIpc.fecha || '').slice(0, 7) + ')', value: SHARED.formatPct(lastIpc.var_anual, 2), sub: 'Índice Base 2018: ' + SHARED.formatNumber(lastIpc.indice, 2), cls: 'cyan' },
-      { label: 'Consumo Per Cápita (2025)', value: (lastProd.consumo_per_capita || 365) + ' uds', sub: 'Huevos por habitante/año', cls: 'green' },
+      { label: 'IPC Anual (' + (lastIpc.fecha || '').slice(0, 7) + ')', value: SHARED.formatPct(lastIpc.var_anual, 2), sub: 'Índice Base 2018: ' + SHARED.formatNumber(lastIpc.indice, 2), cls: 'green' },
+      { label: 'Consumo Per Cápita (2025)', value: (lastProd.consumo_per_capita || 365) + ' uds', sub: 'Huevos anuales por habitante', cls: 'yellow' },
       { label: 'Producción Nacional (2025)', value: SHARED.formatNumber(lastProd.produccion_millones || 19403) + ' M', sub: 'Millones de unidades anuales', cls: 'blue' },
-      { label: 'Elasticidad Precio (Prom.)', value: (elast.promedios ? elast.promedios.precio : -0.13), sub: 'Demanda altamente inelástica', cls: 'yellow' }
+      { label: 'Elasticidad Precio (Prom.)', value: '-0.13', sub: 'Rigidez de demanda demostrada', cls: 'purple' }
     ];
     document.getElementById('macro-kpis').innerHTML = kpis.map(function (k) {
       return '<div class="metric-card ' + k.cls + '">' +
@@ -150,7 +177,7 @@
         '</div>';
     }).join('');
 
-    // 2. IPC Chart
+    // 2. IPC Chart (Totalmente continuo y estilizado con paleta UdeA)
     function renderIpcChart() {
       var traces = [];
       var yTitle = 'Variación (%)';
@@ -159,22 +186,25 @@
           {
             x: divs.map(function (r) { return r.fecha; }),
             y: divs.map(function (r) { return r['Alimentos'] !== undefined ? r['Alimentos'] : null; }),
-            name: 'Alimentos (Var. Mensual %)', mode: 'lines', line: { color: '#f43f5e', width: 2.2 }
+            name: 'División Alimentos (Var. Mensual %)', mode: 'lines', line: { color: '#EF434D', width: 2.3 },
+            connectgaps: true
           },
           {
             x: divs.map(function (r) { return r.fecha; }),
             y: divs.map(function (r) { return r['Total Nacional'] !== undefined ? r['Total Nacional'] : null; }),
-            name: 'Total Nacional (Var. Mensual %)', mode: 'lines', line: { color: '#3b82f6', width: 2.2 }
+            name: 'Total Nacional (Var. Mensual %)', mode: 'lines', line: { color: '#35944B', width: 2.3 },
+            connectgaps: true
           },
           {
             x: divs.map(function (r) { return r.fecha; }),
             y: divs.map(function (r) { return r['Restaurantes y Hoteles'] !== undefined ? r['Restaurantes y Hoteles'] : null; }),
-            name: 'Restaurantes y Hoteles', mode: 'lines', line: { color: '#f59e0b', width: 1.5, dash: 'dot' }
+            name: 'Restaurantes y Hoteles', mode: 'lines', line: { color: '#F9A12C', width: 1.6, dash: 'dot' },
+            connectgaps: true
           }
         ];
         yTitle = 'Variación Mensual (%)';
       } else {
-        var labelMap = { var_anual: 'Variación Anual (%)', var_mensual: 'Variación Mensual (%)', indice: 'Índice (Base 2018 = 100)' };
+        var labelMap = { var_anual: 'Variación Anual Continua (%)', var_mensual: 'Variación Mensual (%)', indice: 'Índice IPC (Base 2018 = 100)' };
         yTitle = labelMap[ipcMode];
         traces = [{
           x: ipc.map(function (r) { return r.fecha; }),
@@ -183,12 +213,13 @@
           type: 'scatter',
           mode: 'lines',
           fill: 'tozeroy',
-          fillcolor: 'rgba(6, 182, 212, 0.12)',
-          line: { color: '#06b6d4', width: 2.5 }
+          fillcolor: 'rgba(53, 148, 75, 0.14)',
+          line: { color: '#35944B', width: 2.8 },
+          connectgaps: true
         }];
       }
       Plotly.newPlot('chart-ipc', traces, SHARED.plotlyLayout({
-        xaxis: { title: 'Fecha' },
+        xaxis: { title: 'Fecha (Mes a Mes)' },
         yaxis: { title: yTitle }
       }), { responsive: true, displayModeBar: false });
     }
@@ -209,10 +240,11 @@
         y: eggM.map(function (r) { return r.precio_cop; }),
         name: 'Precio Huevo (COP/unidad)',
         mode: 'lines+markers',
-        line: { color: '#f59e0b', width: 2.5 },
-        marker: { size: 4 }
+        line: { color: '#F9A12C', width: 2.6 },
+        marker: { size: 4, color: '#35944B' },
+        connectgaps: true
       }], SHARED.plotlyLayout({
-        yaxis: { title: 'COP por unidad' },
+        yaxis: { title: 'Pesos COP por unidad' },
         showlegend: false
       }), { responsive: true, displayModeBar: false });
     }
@@ -223,18 +255,18 @@
         {
           x: prodCons.map(function (r) { return r.anio; }),
           y: prodCons.map(function (r) { return r.produccion_millones; }),
-          name: 'Producción (Millones)', type: 'bar', marker: { color: 'rgba(59, 130, 246, 0.75)' }
+          name: 'Producción (Millones de Huevos)', type: 'bar', marker: { color: 'rgba(2, 105, 55, 0.75)' }
         },
         {
           x: prodCons.map(function (r) { return r.anio; }),
           y: prodCons.map(function (r) { return r.consumo_per_capita; }),
-          name: 'Consumo Per Cápita (Uds)', yaxis: 'y2', mode: 'lines+markers',
-          line: { color: '#10b981', width: 3 }, marker: { size: 7 }
+          name: 'Consumo Per Cápita (Uds/hab)', yaxis: 'y2', mode: 'lines+markers',
+          line: { color: '#8DC63F', width: 3.2 }, marker: { size: 7 }
         }
       ], SHARED.plotlyLayout({
         xaxis: { dtick: 1 },
         yaxis: { title: 'Millones de Unidades' },
-        yaxis2: { title: 'Huevos / Hab', overlaying: 'y', side: 'right', showgrid: false }
+        yaxis2: { title: 'Huevos / Habitante / Año', overlaying: 'y', side: 'right', showgrid: false }
       }), { responsive: true, displayModeBar: false });
     }
 
@@ -247,9 +279,9 @@
       var yCerdo = macro.map(function (r) { return mode === 'real' ? r.p_cerdo_real : r.p_cerdo_nom; });
 
       Plotly.newPlot('chart-transmission', [
-        { x: x, y: yHuevo, name: 'Huevo (COP/ud)', mode: 'lines+markers', line: { color: '#f59e0b', width: 3 } },
-        { x: x, y: yMaiz, name: 'Maíz (COP/Kg)', yaxis: 'y2', mode: 'lines+markers', line: { color: '#10b981', width: 2.5, dash: 'dash' } },
-        { x: x, y: yCerdo, name: 'Cerdo (COP/Kg)', yaxis: 'y2', mode: 'lines+markers', line: { color: '#f43f5e', width: 2.5 } }
+        { x: x, y: yHuevo, name: 'Huevo (COP/ud)', mode: 'lines+markers', line: { color: '#F9A12C', width: 3.2 } },
+        { x: x, y: yMaiz, name: 'Maíz Amarillo (COP/Kg)', yaxis: 'y2', mode: 'lines+markers', line: { color: '#35944B', width: 2.6, dash: 'dash' } },
+        { x: x, y: yCerdo, name: 'Carne de Cerdo (COP/Kg)', yaxis: 'y2', mode: 'lines+markers', line: { color: '#EF434D', width: 2.6 } }
       ], SHARED.plotlyLayout({
         xaxis: { dtick: 1 },
         yaxis: { title: 'Precio Huevo (COP/ud)' },
@@ -258,22 +290,57 @@
     }
     document.getElementById('select-real-nom').addEventListener('change', renderTransmissionChart);
 
-    // 6. Elasticity Simulator & Table
-    function updateSim() {
+    // 6. Interactive Shock Breakdown & Affection Visualizer
+    function updateShockSim() {
       var dh = parseFloat(document.getElementById('sl-huevo').value);
       var dc = parseFloat(document.getElementById('sl-cerdo').value);
       var di = parseFloat(document.getElementById('sl-ing').value);
+
       document.getElementById('val-sh-huevo').textContent = (dh > 0 ? '+' : '') + dh + '%';
       document.getElementById('val-sh-cerdo').textContent = (dc > 0 ? '+' : '') + dc + '%';
       document.getElementById('val-sh-ing').textContent = (di > 0 ? '+' : '') + di + '%';
 
-      var dq = (-0.13 * dh) + (-1.15 * dc) + (0.56 * di);
-      var out = document.getElementById('sim-q-out');
-      out.textContent = (dq > 0 ? '+' : '') + dq.toFixed(2) + '%';
-      out.style.color = dq >= 0 ? 'var(--accent-green)' : 'var(--accent-red)';
+      var effHuevo = -0.13 * dh;
+      var effCerdo = -1.15 * dc;
+      var effSalario = 0.56 * di;
+      var dq = effHuevo + effCerdo + effSalario;
+
+      var qOut = document.getElementById('sim-q-out');
+      qOut.textContent = (dq > 0 ? '+' : '') + dq.toFixed(2) + '%';
+      qOut.style.color = dq >= 0 ? 'var(--udea-green-375)' : 'var(--udea-coral)';
+
+      var baseConsumo = 365;
+      var nuevoConsumo = Math.round(baseConsumo * (1 + dq / 100));
+      var diffHuevos = nuevoConsumo - baseConsumo;
+      var diffTxt = diffHuevos > 0 ? ('+' + diffHuevos + ' uds') : (diffHuevos + ' uds');
+
+      document.getElementById('sim-impact-text').innerHTML =
+        'Consumo proyectado: <strong>' + nuevoConsumo + '</strong> huevos/hab/año (' +
+        '<span style="color:' + (diffHuevos >= 0 ? 'var(--udea-green-361)' : 'var(--udea-coral)') + ';font-weight:700;">' + diffTxt + '</span> respecto a 2025).';
+
+      Plotly.newPlot('chart-shock-breakdown', [{
+        type: 'bar',
+        x: ['Precio Huevo', 'Precio Cerdo', 'Salario Real', 'Impacto Neto'],
+        y: [effHuevo, effCerdo, effSalario, dq],
+        marker: {
+          color: [
+            effHuevo >= 0 ? '#35944B' : '#EF434D',
+            effCerdo >= 0 ? '#35944B' : '#EF434D',
+            effSalario >= 0 ? '#35944B' : '#EF434D',
+            dq >= 0 ? '#8DC63F' : '#70205B'
+          ]
+        },
+        text: [effHuevo.toFixed(2) + '%', effCerdo.toFixed(2) + '%', effSalario.toFixed(2) + '%', dq.toFixed(2) + '%'],
+        textposition: 'outside'
+      }], SHARED.plotlyLayout({
+        margin: { t: 20, r: 20, b: 35, l: 45 },
+        yaxis: { title: 'Contribución a \\Delta\\% Q' },
+        showlegend: false
+      }), { responsive: true, displayModeBar: false });
     }
+
     ['sl-huevo', 'sl-cerdo', 'sl-ing'].forEach(function (id) {
-      document.getElementById(id).addEventListener('input', updateSim);
+      document.getElementById(id).addEventListener('input', updateShockSim);
     });
 
     var eRows = (elast.anuales || []);
@@ -286,7 +353,7 @@
         '<td class="num-cell">' + (r.elast_ingreso !== null ? r.elast_ingreso.toFixed(2) : '—') + '</td>' +
         '</tr>';
     }).join('') +
-    '<tr style="background:rgba(59,130,246,0.1);font-weight:700;">' +
+    '<tr style="background:rgba(2,105,55,0.18);font-weight:700;">' +
     '<td>Promedio</td><td class="num-cell">—</td>' +
     '<td class="num-cell">-0.13</td><td class="num-cell">-1.15</td><td class="num-cell">+0.56</td></tr>';
 
@@ -295,6 +362,7 @@
       renderEggPriceChart();
       renderProdConsChart();
       renderTransmissionChart();
+      updateShockSim();
     }
     renderAll();
     window.addEventListener('themeChanged', renderAll);

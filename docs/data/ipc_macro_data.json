@@ -487,7 +487,7 @@
       "indice": 100.46,
       "var_mensual": 0.46,
       "var_acumulado": 0.46,
-      "var_anual": null,
+      "var_anual": 3.55,
       "base": 2018
     },
     {
@@ -497,7 +497,7 @@
       "indice": 101.1,
       "var_mensual": 0.63,
       "var_acumulado": 1.1,
-      "var_anual": null,
+      "var_anual": 3.25,
       "base": 2018
     },
     {
@@ -507,7 +507,7 @@
       "indice": 101.44,
       "var_mensual": 0.34,
       "var_acumulado": 1.44,
-      "var_anual": null,
+      "var_anual": 3.31,
       "base": 2018
     },
     {
@@ -517,7 +517,7 @@
       "indice": 101.84,
       "var_mensual": 0.39,
       "var_acumulado": 1.84,
-      "var_anual": null,
+      "var_anual": 3.33,
       "base": 2018
     },
     {
@@ -527,7 +527,7 @@
       "indice": 102.1,
       "var_mensual": 0.25,
       "var_acumulado": 2.1,
-      "var_anual": null,
+      "var_anual": 3.25,
       "base": 2018
     },
     {
@@ -537,7 +537,7 @@
       "indice": 102.27,
       "var_mensual": 0.16,
       "var_acumulado": 2.27,
-      "var_anual": null,
+      "var_anual": 3.2,
       "base": 2018
     },
     {
@@ -547,7 +547,7 @@
       "indice": 102.41,
       "var_mensual": 0.14,
       "var_acumulado": 2.41,
-      "var_anual": null,
+      "var_anual": 3.29,
       "base": 2018
     },
     {
@@ -557,7 +557,7 @@
       "indice": 102.54,
       "var_mensual": 0.12,
       "var_acumulado": 2.54,
-      "var_anual": null,
+      "var_anual": 3.27,
       "base": 2018
     },
     {
@@ -567,7 +567,7 @@
       "indice": 102.73,
       "var_mensual": 0.19,
       "var_acumulado": 2.73,
-      "var_anual": null,
+      "var_anual": 3.34,
       "base": 2018
     },
     {
@@ -577,7 +577,7 @@
       "indice": 102.87,
       "var_mensual": 0.14,
       "var_acumulado": 2.87,
-      "var_anual": null,
+      "var_anual": 3.28,
       "base": 2018
     },
     {
@@ -587,7 +587,7 @@
       "indice": 103.09,
       "var_mensual": 0.21,
       "var_acumulado": 3.09,
-      "var_anual": null,
+      "var_anual": 3.35,
       "base": 2018
     },
     {

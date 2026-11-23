@@ -5,6 +5,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Banco de Citas — Observatorio Huevo UdeA</title>
   <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css">
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.js"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/contrib/auto-render.min.js" onload="renderMathInElement(document.body);"></script>
   <script src="data/citations.js"></script>
 </head>
 <body>
@@ -13,35 +16,35 @@
   <main class="container">
     <div class="page-header">
       <h1>Banco de Citas Académicas Verificadas</h1>
-      <p>333 citas extraídas de 27 documentos académicos sobre concentración de mercado, oligopolio, transmisión de precios y sector avícola.</p>
+      <p>333 citas textuales extraídas de 27 investigaciones académicas del estado del arte sobre concentración de mercado, competencia, oligopolio y el sector avícola en Colombia y el mundo.</p>
     </div>
 
     <div class="metrics-grid animate-in" id="citas-kpis"></div>
 
     <div class="control-panel animate-in delay-1">
-      <input type="text" class="search-input" id="search" placeholder="Buscar en cita, documento o contexto...">
+      <input type="text" class="search-input" id="search" placeholder="Buscar por término clave en cita, documento o contexto...">
       <select class="filter-select" id="filter-quality">
         <option value="all">Todas las calidades</option>
-        <option value="alta">Alta</option>
-        <option value="media">Media</option>
-        <option value="baja">Baja</option>
+        <option value="alta">Calidad Alta (125)</option>
+        <option value="media">Calidad Media (115)</option>
+        <option value="baja">Calidad Baja (93)</option>
       </select>
       <select class="filter-select" id="filter-topic">
-        <option value="all">Todos los temas</option>
+        <option value="all">Todos los tópicos teóricos</option>
       </select>
-      <span class="text-muted" style="font-size:0.82rem;" id="result-count"></span>
-      <button class="btn btn-primary btn-sm" id="btn-export-citas">Exportar CSV</button>
+      <span class="text-muted" style="font-size:0.84rem;" id="result-count"></span>
+      <button class="btn btn-primary btn-sm" id="btn-export-citas">Descargar Selección CSV</button>
     </div>
 
     <div class="table-wrapper animate-in delay-2">
       <table class="data-table" id="citations-table">
         <thead>
           <tr>
-            <th style="width:70px;">Score</th>
-            <th style="width:90px;">Calidad</th>
-            <th>Cita</th>
-            <th style="width:200px;">Documento</th>
-            <th style="width:150px;">Tema</th>
+            <th style="width:75px;">Score</th>
+            <th style="width:95px;">Calidad</th>
+            <th>Cita Académica Textual</th>
+            <th style="width:220px;">Documento Fuente</th>
+            <th style="width:160px;">Tópico</th>
           </tr>
         </thead>
         <tbody id="citas-tbody"></tbody>
@@ -49,19 +52,19 @@
     </div>
   </main>
 
-  <!-- Modal Detalle -->
+  <!-- Modal Detalle Ficha -->
   <div class="modal-backdrop" id="cita-modal">
     <div class="modal-content">
       <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:14px;">
         <span id="modal-badge"></span>
         <button class="btn btn-secondary btn-sm" onclick="document.getElementById('cita-modal').classList.remove('open')">Cerrar &times;</button>
       </div>
-      <h3 id="modal-doc" style="font-size:1.05rem;margin-bottom:8px;"></h3>
-      <p id="modal-topic" class="text-muted" style="font-size:0.82rem;margin-bottom:14px;"></p>
-      <blockquote id="modal-text" style="border-left:3px solid var(--accent-blue);padding:12px 16px;background:rgba(59,130,246,0.08);border-radius:0 8px 8px 0;margin-bottom:16px;font-style:italic;"></blockquote>
-      <div class="text-secondary" style="font-size:0.84rem;">
-        <strong>Contexto del documento:</strong>
-        <p id="modal-context" class="mt-2"></p>
+      <h3 id="modal-doc" style="font-size:1.1rem;margin-bottom:8px;line-height:1.35;"></h3>
+      <p id="modal-topic" class="text-muted" style="font-size:0.84rem;margin-bottom:16px;"></p>
+      <blockquote id="modal-text" style="border-left:4px solid var(--udea-green-361);padding:14px 18px;background:rgba(53,148,75,0.08);border-radius:0 8px 8px 0;margin-bottom:18px;font-style:italic;line-height:1.65;"></blockquote>
+      <div class="text-secondary" style="font-size:0.86rem;">
+        <strong style="color:var(--text-primary);">Contexto metodológico en la fuente:</strong>
+        <p id="modal-context" class="mt-2" style="line-height:1.7;"></p>
       </div>
     </div>
   </div>
@@ -79,9 +82,9 @@
     var baja = cits.filter(function (c) { return c.quality === 'baja'; }).length;
 
     document.getElementById('citas-kpis').innerHTML =
-      '<div class="metric-card blue"><div class="metric-label">Total Citas</div><div class="metric-value">' + cits.length + '</div><div class="metric-sub">Extraídas y validadas</div></div>' +
-      '<div class="metric-card green"><div class="metric-label">Calidad Alta</div><div class="metric-value">' + alta + '</div><div class="metric-sub">Rigor metodológico alto</div></div>' +
-      '<div class="metric-card yellow"><div class="metric-label">Calidad Media</div><div class="metric-value">' + media + '</div><div class="metric-sub">Contexto relevante</div></div>' +
+      '<div class="metric-card blue"><div class="metric-label">Total Citas</div><div class="metric-value">' + cits.length + '</div><div class="metric-sub">Extraídas y catalogadas</div></div>' +
+      '<div class="metric-card green"><div class="metric-label">Calidad Alta</div><div class="metric-value">' + alta + '</div><div class="metric-sub">Rigor metodológico certificado</div></div>' +
+      '<div class="metric-card yellow"><div class="metric-label">Calidad Media</div><div class="metric-value">' + media + '</div><div class="metric-sub">Contexto sectorial relevante</div></div>' +
       '<div class="metric-card rose"><div class="metric-label">Calidad Baja</div><div class="metric-value">' + baja + '</div><div class="metric-sub">Referencias complementarias</div></div>';
 
     var topics = Array.from(new Set(cits.map(function (c) { return c.topic; }).filter(Boolean))).sort();
@@ -108,14 +111,14 @@
 
     function render() {
       var rows = getFiltered();
-      document.getElementById('result-count').textContent = rows.length + ' resultados';
+      document.getElementById('result-count').textContent = rows.length + ' citas encontradas';
       var tbody = document.getElementById('citas-tbody');
       tbody.innerHTML = rows.slice(0, 150).map(function (c, idx) {
         return '<tr style="cursor:pointer;" data-idx="' + idx + '">' +
           '<td class="num-cell"><strong>' + (c.score || 0) + '</strong></td>' +
           '<td>' + SHARED.qualityBadge(c.quality) + '</td>' +
           '<td>' + SHARED.esc(SHARED.truncate(c.text, 180)) + '</td>' +
-          '<td><span style="font-size:0.8rem;">' + SHARED.esc(SHARED.truncate(c.document, 45)) + '</span></td>' +
+          '<td><span style="font-size:0.8rem;font-weight:600;">' + SHARED.esc(SHARED.truncate(c.document, 45)) + '</span></td>' +
           '<td><span class="badge badge-gray">' + SHARED.esc(c.topic || 'General') + '</span></td>' +
           '</tr>';
       }).join('');
@@ -125,9 +128,9 @@
           var c = rows[parseInt(this.dataset.idx, 10)];
           document.getElementById('modal-badge').innerHTML = SHARED.qualityBadge(c.quality) + ' <span class="badge badge-blue">Score: ' + (c.score || 0) + '</span>';
           document.getElementById('modal-doc').textContent = c.document || 'Documento';
-          document.getElementById('modal-topic').textContent = 'Tema: ' + (c.topic || 'General');
+          document.getElementById('modal-topic').textContent = 'Tópico: ' + (c.topic || 'General');
           document.getElementById('modal-text').textContent = c.text || '';
-          document.getElementById('modal-context').textContent = c.context || 'Sin contexto adicional.';
+          document.getElementById('modal-context').textContent = c.context || 'Sin contexto adicional disponible.';
           document.getElementById('cita-modal').classList.add('open');
         });
       });
@@ -139,7 +142,7 @@
 
     document.getElementById('btn-export-citas').addEventListener('click', function () {
       var rows = getFiltered();
-      SHARED.downloadCSV('citas_filtradas.csv', ['Score', 'Calidad', 'Documento', 'Tema', 'Cita', 'Contexto'],
+      SHARED.downloadCSV('citas_literatura_filtradas.csv', ['Score', 'Calidad', 'Documento', 'Tema', 'Cita', 'Contexto'],
         rows.map(function (c) { return [c.score, c.quality, c.document, c.topic, c.text, c.context]; }));
     });
 

@@ -57,7 +57,7 @@ window.SHARED = (function () {
 
   function qualityBar(dist, total) {
     if (!total || total === 0) return '';
-    var colors = { alta: '#10b981', media: '#f59e0b', baja: '#f97316' };
+    var colors = { alta: '#43B649', media: '#F9A12C', baja: '#EF434D' };
     var html = '';
     ['alta', 'media', 'baja'].forEach(function (q) {
       var count = dist[q] || 0;
@@ -84,19 +84,25 @@ window.SHARED = (function () {
     return page;
   }
 
-  // --- Theme Management ---
   function getTheme() {
     return localStorage.getItem('udea_egg_theme') || 'dark';
   }
 
   function applyTheme(theme) {
-    if (theme === 'light') {
+    var isLight = theme === 'light';
+    if (isLight) {
       document.documentElement.setAttribute('data-theme', 'light');
     } else {
       document.documentElement.removeAttribute('data-theme');
     }
     var btn = document.getElementById('theme-toggle-btn');
-    if (btn) btn.innerHTML = theme === 'light' ? '&#9790;' : '&#9728;';
+    if (btn) btn.innerHTML = isLight ? '&#9790;' : '&#9728;';
+
+    // Actualizar logo según el tema
+    var logo = document.getElementById('navbar-logo-img');
+    if (logo) {
+      logo.src = isLight ? 'assets/logo-udea-simplificado.svg' : 'assets/logo-udea-simplificado-blanco.svg';
+    }
   }
 
   function toggleTheme() {
@@ -106,11 +112,10 @@ window.SHARED = (function () {
     window.dispatchEvent(new CustomEvent('themeChanged', { detail: { theme: next } }));
   }
 
-  // --- Plotly Theme Helper ---
   function plotlyLayout(custom) {
     var isLight = getTheme() === 'light';
-    var textColor = isLight ? '#334155' : '#cbd5e1';
-    var gridColor = isLight ? 'rgba(15, 23, 42, 0.08)' : 'rgba(148, 163, 184, 0.12)';
+    var textColor = isLight ? '#284435' : '#a3c4b2';
+    var gridColor = isLight ? 'rgba(2, 105, 55, 0.08)' : 'rgba(67, 182, 73, 0.12)';
     var base = {
       paper_bgcolor: 'rgba(0,0,0,0)',
       plot_bgcolor: 'rgba(0,0,0,0)',
@@ -118,17 +123,16 @@ window.SHARED = (function () {
       margin: { t: 36, r: 24, b: 48, l: 58 },
       xaxis: { gridcolor: gridColor, zerolinecolor: gridColor },
       yaxis: { gridcolor: gridColor, zerolinecolor: gridColor },
-      legend: { orientation: 'h', y: -0.2, font: { color: textColor } },
+      legend: { orientation: 'h', y: -0.22, font: { color: textColor } },
       hoverlabel: {
-        bgcolor: isLight ? '#ffffff' : '#0f172a',
-        bordercolor: isLight ? '#cbd5e1' : '#334155',
-        font: { color: isLight ? '#0f172a' : '#f8fafc', family: 'Inter, sans-serif' }
+        bgcolor: isLight ? '#ffffff' : '#0d1a13',
+        bordercolor: isLight ? '#b0d4bf' : '#35944B',
+        font: { color: isLight ? '#0a1c12' : '#f4fbf7', family: 'Inter, sans-serif' }
       }
     };
     return Object.assign({}, base, custom || {});
   }
 
-  // --- Generic CSV Download ---
   function downloadCSV(filename, headers, rows) {
     var lines = [headers.join(',')];
     rows.forEach(function (r) {
@@ -152,12 +156,19 @@ window.SHARED = (function () {
   function renderNav() {
     var nav = document.getElementById('navbar');
     if (!nav) return;
-    nav.className = 'navbar';
+
+    var isLight = getTheme() === 'light';
+    var logoSrc = isLight ? 'assets/logo-udea-simplificado.svg' : 'assets/logo-udea-simplificado-blanco.svg';
     var page = currentPage();
+
     var html =
+      '<div class="brand-top-bar" style="position:absolute;top:0;left:0;right:0;"></div>' +
       '<a href="index.html" class="navbar-brand">' +
-      '<span class="brand-dot"></span>' +
-      '<span>Observatorio Huevo UdeA</span>' +
+      '<img id="navbar-logo-img" class="navbar-logo-img" src="' + logoSrc + '" alt="Universidad de Antioquia Logo">' +
+      '<div class="navbar-brand-texts">' +
+      '<span class="navbar-brand-title">Observatorio Huevo UdeA</span>' +
+      '<span class="navbar-brand-sub">Microeconomía II &middot; Ciencias Económicas</span>' +
+      '</div>' +
       '</a>';
 
     html += '<ul class="navbar-links">';
@@ -211,9 +222,17 @@ window.SHARED = (function () {
     var footer = document.getElementById('footer');
     if (!footer) return;
     footer.innerHTML =
-      '<p><strong>Observatorio Económico del Mercado del Huevo en Colombia</strong> &mdash; Feria de Microeconomía II, Universidad de Antioquia</p>' +
-      '<p class="mt-2">Fuentes: SuperSociedades (15 empresas, 2015-2025) &middot; DANE (IPC 2015-2025) &middot; FENAVI &middot; 27 Documentos Académicos. ' +
-      '<a href="https://github.com/Ecoudea2025/egg-market-state-of-art" target="_blank">Repositorio en GitHub</a></p>';
+      '<div style="max-width:1200px;margin:0 auto;display:flex;flex-direction:column;align-items:center;gap:12px;">' +
+      '<div style="display:flex;align-items:center;gap:12px;">' +
+      '<img src="assets/logo-udea-simplificado-blanco.svg" alt="UdeA" style="height:32px;opacity:0.9;">' +
+      '<div style="text-align:left;">' +
+      '<div style="font-weight:700;color:var(--text-primary);letter-spacing:-0.01em;">Universidad de Antioquia &middot; Facultad de Ciencias Económicas</div>' +
+      '<div style="font-size:0.75rem;color:var(--text-muted);">Investigación de Mercados y Estructuras Oligopólicas en Colombia</div>' +
+      '</div>' +
+      '</div>' +
+      '<p class="mt-2">Fuentes: SuperSociedades (15 empresas, 2015–2025) &middot; DANE (IPC 2015–2025) &middot; FENAVI &middot; 27 Documentos Académicos &middot; 333 Citas. ' +
+      '<a href="https://github.com/Ecoudea2025/egg-market-state-of-art" target="_blank">Ver en GitHub</a></p>' +
+      '</div>';
   }
 
   function init() {

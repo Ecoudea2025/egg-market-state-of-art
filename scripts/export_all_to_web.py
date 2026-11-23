@@ -203,6 +203,14 @@ def process_ipc_and_macro():
                 "base": parse_int(row.get("base"), 2018),
             })
 
+    # Calcular variación anual si falta (p. ej. transición Base 2018 durante 2019)
+    by_ym = {(r["anio"], r["mes"]): r for r in ipc_mensual}
+    for r in ipc_mensual:
+        if r.get("var_anual") is None:
+            prev = by_ym.get((r["anio"] - 1, r["mes"]))
+            if prev and prev.get("indice") and r.get("indice"):
+                r["var_anual"] = round(((r["indice"] / prev["indice"]) - 1.0) * 100.0, 2)
+
     # 2. IPC Divisiones (fusionando columnas duplicadas por capitalización)
     DIV_MAP = {
         "alimentos": "Alimentos",
