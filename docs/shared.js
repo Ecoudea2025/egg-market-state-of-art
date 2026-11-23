@@ -2,13 +2,13 @@
 
 window.SHARED = (function () {
   var navLinks = [
-    { href: 'index.html', label: 'Observatorio' },
-    { href: 'datos.html', label: 'Concentración & Empresas' },
-    { href: 'ipc.html', label: 'IPC & Macroeconomía' },
-    { href: 'simulacion.html', label: 'Simulación Cournot' },
-    { href: 'citas.html', label: 'Banco de Citas' },
-    { href: 'documentos.html', label: 'Documentos' },
-    { href: 'estado-del-arte.html', label: 'Estado del Arte' }
+    { href: 'index.html', label: 'Observatorio', icon: '&#127968;' },
+    { href: 'datos.html', label: 'Concentración & Empresas', icon: '&#128202;' },
+    { href: 'ipc.html', label: 'IPC & Macroeconomía', icon: '&#128200;' },
+    { href: 'simulacion.html', label: 'Simulación Cournot', icon: '&#9881;' },
+    { href: 'citas.html', label: 'Banco de Citas (333)', icon: '&#128221;' },
+    { href: 'documentos.html', label: 'Documentos (27)', icon: '&#128214;' },
+    { href: 'estado-del-arte.html', label: 'Estado del Arte', icon: '&#128216;' }
   ];
 
   function esc(str) {
@@ -51,13 +51,13 @@ window.SHARED = (function () {
 
   function qualityBadge(level) {
     var l = (level || 'media').toLowerCase();
-    var cls = l === 'alta' ? 'badge-green' : l === 'media' ? 'badge-yellow' : 'badge-orange';
+    var cls = l === 'alta' ? 'badge-green' : l === 'media' ? 'badge-yellow' : 'badge-red';
     return '<span class="badge ' + cls + '">' + l.toUpperCase() + '</span>';
   }
 
   function qualityBar(dist, total) {
     if (!total || total === 0) return '';
-    var colors = { alta: '#43B649', media: '#F9A12C', baja: '#EF434D' };
+    var colors = { alta: '#10B981', media: '#F59E0B', baja: '#EF4444' };
     var html = '';
     ['alta', 'media', 'baja'].forEach(function (q) {
       var count = dist[q] || 0;
@@ -97,12 +97,6 @@ window.SHARED = (function () {
     }
     var btn = document.getElementById('theme-toggle-btn');
     if (btn) btn.innerHTML = isLight ? '&#9790;' : '&#9728;';
-
-    // Actualizar logo según el tema
-    var logo = document.getElementById('navbar-logo-img');
-    if (logo) {
-      logo.src = isLight ? 'assets/logo-udea-simplificado.svg' : 'assets/logo-udea-simplificado-blanco.svg';
-    }
   }
 
   function toggleTheme() {
@@ -156,33 +150,54 @@ window.SHARED = (function () {
   function renderNav() {
     var nav = document.getElementById('navbar');
     if (!nav) return;
-
-    var isLight = getTheme() === 'light';
-    var logoSrc = isLight ? 'assets/logo-udea-simplificado.svg' : 'assets/logo-udea-simplificado-blanco.svg';
     var page = currentPage();
 
     var html =
-      '<div class="brand-top-bar" style="position:absolute;top:0;left:0;right:0;"></div>' +
-      '<a href="index.html" class="navbar-brand">' +
-      '<img id="navbar-logo-img" class="navbar-logo-img" src="' + logoSrc + '" alt="Universidad de Antioquia Logo">' +
-      '<div class="navbar-brand-texts">' +
-      '<span class="navbar-brand-title">Observatorio Huevo UdeA</span>' +
-      '<span class="navbar-brand-sub">Microeconomía II &middot; Ciencias Económicas</span>' +
-      '</div>' +
-      '</a>';
+      '<!-- Franja Superior Tricolor Oficial UdeA -->' +
+      '<div class="brand-top-bar"></div>' +
 
-    html += '<ul class="navbar-links">';
+      '<!-- Masthead Institucional Superior -->' +
+      '<div class="masthead-main">' +
+      '  <div class="masthead-container">' +
+      '    <a href="index.html" class="masthead-brand-link">' +
+      '      <img src="assets/logo_universidad_de_antioquia.svg" class="masthead-shield-img" alt="Escudo Universidad de Antioquia (1803)">' +
+      '      <div class="masthead-identity">' +
+      '        <div class="masthead-inst-name">UNIVERSIDAD DE ANTIOQUIA</div>' +
+      '        <div class="masthead-fac-name">FACULTAD DE CIENCIAS ECONÓMICAS &middot; FERIA DE MICROECONOMÍA II</div>' +
+      '        <div class="masthead-site-title">Observatorio Económico: Mercado del Huevo en Colombia</div>' +
+      '      </div>' +
+      '    </a>' +
+      '    <div class="masthead-right">' +
+      '      <div class="masthead-badges-row">' +
+      '        <span class="badge badge-green">&#10003; SuperSociedades 2015–2025</span>' +
+      '        <span class="badge badge-blue">IPC DANE &middot; FENAVI</span>' +
+      '      </div>' +
+      '      <div class="masthead-btn-row">' +
+      '        <button id="theme-toggle-btn" class="theme-toggle" onclick="SHARED.toggleTheme()" title="Cambiar tema (Oscuro / Claro)" aria-label="Cambiar tema"></button>' +
+      '        <a href="https://github.com/Ecoudea2025/egg-market-state-of-art" target="_blank" class="btn btn-secondary btn-sm nav-gh-btn" title="Ver repositorio en GitHub">' +
+      '          <svg height="15" width="15" viewBox="0 0 16 16" fill="currentColor"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"></path></svg>' +
+      '          <span>GitHub</span>' +
+      '        </a>' +
+      '        <button class="hamburger" onclick="SHARED.toggleMobileMenu()" aria-label="Menú">&#9776;</button>' +
+      '      </div>' +
+      '    </div>' +
+      '  </div>' +
+      '</div>' +
+
+      '<!-- Barra de Navegación Amplia y Centrada -->' +
+      '<nav class="masthead-nav">' +
+      '  <div class="masthead-nav-container">' +
+      '    <ul class="masthead-nav-links">';
+
     navLinks.forEach(function (link) {
       var active = page === link.href ? ' class="active"' : '';
-      html += '<li><a href="' + link.href + '"' + active + '>' + link.label + '</a></li>';
+      html += '<li><a href="' + link.href + '"' + active + '>' + link.icon + ' ' + link.label + '</a></li>';
     });
-    html += '</ul>';
 
     html +=
-      '<div class="nav-actions">' +
-      '<button id="theme-toggle-btn" class="theme-toggle" onclick="SHARED.toggleTheme()" title="Cambiar tema" aria-label="Cambiar tema"></button>' +
-      '<button class="hamburger" onclick="SHARED.toggleMobileMenu()" aria-label="Menú">&#9776;</button>' +
-      '</div>';
+      '    </ul>' +
+      '  </div>' +
+      '</nav>';
 
     nav.innerHTML = html;
     applyTheme(getTheme());
@@ -204,7 +219,7 @@ window.SHARED = (function () {
     var html = '<button class="close-btn" onclick="SHARED.toggleMobileMenu()" aria-label="Cerrar">&times;</button>';
     navLinks.forEach(function (link) {
       var active = page === link.href ? ' class="active"' : '';
-      html += '<a href="' + link.href + '"' + active + '>' + link.label + '</a>';
+      html += '<a href="' + link.href + '"' + active + '>' + link.icon + ' ' + link.label + '</a>';
     });
     menu.innerHTML = html;
     body.appendChild(menu);
@@ -222,16 +237,18 @@ window.SHARED = (function () {
     var footer = document.getElementById('footer');
     if (!footer) return;
     footer.innerHTML =
-      '<div style="max-width:1200px;margin:0 auto;display:flex;flex-direction:column;align-items:center;gap:12px;">' +
-      '<div style="display:flex;align-items:center;gap:12px;">' +
-      '<img src="assets/logo-udea-simplificado-blanco.svg" alt="UdeA" style="height:32px;opacity:0.9;">' +
+      '<div style="max-width:1200px;margin:0 auto;display:flex;flex-direction:column;align-items:center;gap:14px;">' +
+      '<div style="display:flex;align-items:center;gap:16px;">' +
+      '<img src="assets/logo_universidad_de_antioquia.svg" alt="UdeA" style="height:48px;">' +
       '<div style="text-align:left;">' +
-      '<div style="font-weight:700;color:var(--text-primary);letter-spacing:-0.01em;">Universidad de Antioquia &middot; Facultad de Ciencias Económicas</div>' +
-      '<div style="font-size:0.75rem;color:var(--text-muted);">Investigación de Mercados y Estructuras Oligopólicas en Colombia</div>' +
+      '<div style="font-family:\'Times New Roman\',serif;font-size:1.05rem;font-weight:700;letter-spacing:0.06em;color:var(--text-primary);">UNIVERSIDAD DE ANTIOQUIA &middot; 1803</div>' +
+      '<div style="font-size:0.8rem;color:var(--udea-green-375);font-weight:600;">Facultad de Ciencias Económicas &middot; Microeconomía II</div>' +
       '</div>' +
       '</div>' +
-      '<p class="mt-2">Fuentes: SuperSociedades (15 empresas, 2015–2025) &middot; DANE (IPC 2015–2025) &middot; FENAVI &middot; 27 Documentos Académicos &middot; 333 Citas. ' +
-      '<a href="https://github.com/Ecoudea2025/egg-market-state-of-art" target="_blank">Ver en GitHub</a></p>' +
+      '<p class="mt-2" style="font-size:0.82rem;color:var(--text-muted);">' +
+      'Observatorio de Investigación del Mercado del Huevo en Colombia &mdash; 15 Empresas (SuperSociedades) &middot; IPC DANE (2015–2025) &middot; FENAVI &middot; 27 Documentos &middot; 333 Citas. ' +
+      '<a href="https://github.com/Ecoudea2025/egg-market-state-of-art" target="_blank" style="color:var(--udea-green-361);font-weight:600;">Ver en GitHub</a>' +
+      '</p>' +
       '</div>';
   }
 

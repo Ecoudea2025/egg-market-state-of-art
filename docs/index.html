@@ -21,9 +21,9 @@
     <!-- Hero Ejecutivo UdeA -->
     <section class="hero-banner">
       <div class="hero-badges">
-        <span class="badge badge-green">Universidad de Antioquia &middot; Feria Microeconomía II</span>
-        <span class="badge badge-blue">SuperSociedades 2015–2025</span>
-        <span class="badge badge-yellow">DANE IPC &amp; FENAVI</span>
+        <span class="badge badge-green">Universidad de Antioquia &middot; 1803</span>
+        <span class="badge badge-blue">Feria de Microeconomía II</span>
+        <span class="badge badge-yellow">SuperSociedades &middot; DANE &middot; FENAVI</span>
         <span class="badge badge-gray">27 Documentos &middot; 333 Citas</span>
       </div>
       <h1>
@@ -55,47 +55,54 @@
       </div>
     </div>
 
-    <!-- Mapa Mental D3.js con Inspector de Nodos y Colores Oficiales -->
+    <!-- Mapa Mental D3.js con Filtros Rápidos y Escala Cromática Completa -->
     <div class="chart-container animate-in delay-3" style="position:relative;">
-      <div class="section-title" style="justify-content:space-between;flex-wrap:wrap;gap:10px;">
-        <span>Mapa Mental Interactivo de Literatura y Conexiones</span>
-        <div style="display:flex;gap:8px;">
+      <div class="section-title" style="justify-content:space-between;flex-wrap:wrap;gap:12px;">
+        <span>Mapa Mental Interactivo de Literatura y Conexiones Semánticas</span>
+        <div style="display:flex;gap:8px;flex-wrap:wrap;">
+          <div class="pill-tabs" id="graph-filters" style="margin-bottom:0;">
+            <button class="pill-tab active" data-filter="all">Todos (37)</button>
+            <button class="pill-tab" data-filter="alta" style="color:#10B981;">&#9679; Alta (11)</button>
+            <button class="pill-tab" data-filter="media" style="color:#F59E0B;">&#9679; Media (8)</button>
+            <button class="pill-tab" data-filter="baja" style="color:#EF4444;">&#9679; Baja (8)</button>
+            <button class="pill-tab" data-filter="topic" style="color:#137598;">&#9679; Tópicos (9)</button>
+          </div>
           <button class="btn btn-secondary btn-sm" id="btn-reset-zoom">&#8635; Centrar Vista</button>
         </div>
       </div>
-      <p class="text-muted" style="font-size:0.82rem;margin-bottom:12px;">
-        Arrastra los nodos para reorganizar el grafo. Haz clic o pasa el cursor sobre cualquier nodo para desplegar su ficha bibliográfica y calidad metodológica.
+      <p class="text-muted" style="font-size:0.84rem;margin-bottom:14px;">
+        Filtra por calidad o haz clic en cualquier nodo para explorar su ficha bibliográfica y calidad metodológica. Scroll para zoom, arrastre para mover nodos.
       </p>
 
-      <div style="display:grid;grid-template-columns:1fr 340px;gap:18px;" id="mindmap-layout">
-        <div id="mindmap" style="width:100%;height:540px;border-radius:var(--radius);overflow:hidden;border:1px solid var(--border);background:rgba(9,18,13,0.6);"></div>
+      <div style="display:grid;grid-template-columns:1fr 340px;gap:20px;" id="mindmap-layout">
+        <div id="mindmap" style="width:100%;height:580px;border-radius:var(--radius);overflow:hidden;border:1px solid var(--border);background:rgba(8,15,11,0.7);"></div>
 
         <!-- Inspector de Nodo Seleccionado -->
         <div class="card" id="node-inspector" style="margin-bottom:0;display:flex;flex-direction:column;justify-content:space-between;">
           <div>
-            <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:8px;">
+            <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:10px;">
               <span id="inspect-badge" class="badge badge-green">NODO CENTRAL</span>
               <span id="inspect-type" class="text-muted" style="font-size:0.75rem;">Central</span>
             </div>
-            <h3 id="inspect-title" style="font-size:1.05rem;line-height:1.35;margin-bottom:10px;">Estado del Arte: Mercado del Huevo</h3>
+            <h3 id="inspect-title" style="font-size:1.05rem;line-height:1.4;margin-bottom:10px;font-family:var(--font-display);">Estado del Arte: Mercado del Huevo</h3>
             <div id="inspect-topics" class="mb-2"></div>
-            <div id="inspect-desc" class="text-secondary" style="font-size:0.84rem;margin-bottom:12px;">
-              Nodo raíz del grafo semántico que articula 27 investigaciones y 9 tópicos teóricos de microeconomía.
+            <div id="inspect-desc" class="text-secondary" style="font-size:0.84rem;margin-bottom:12px;line-height:1.65;">
+              Nodo raíz del grafo semántico que articula 27 investigaciones y 9 tópicos teóricos de microeconomía aplicada.
             </div>
-            <div id="inspect-quality-bar" style="margin-top:10px;"></div>
+            <div id="inspect-quality-bar" style="margin-top:12px;"></div>
           </div>
-          <div id="inspect-footer" style="border-top:1px solid var(--border);padding-top:12px;margin-top:12px;">
-            <a href="citas.html" class="btn btn-primary btn-sm" id="inspect-btn" style="width:100%;justify-content:center;">Explorar Todas las Citas &rarr;</a>
+          <div id="inspect-footer" style="border-top:1px solid var(--border);padding-top:14px;margin-top:14px;">
+            <a href="citas.html" class="btn btn-primary btn-sm" id="inspect-btn" style="width:100%;justify-content:center;">Explorar Todas las Citas (333) &rarr;</a>
           </div>
         </div>
       </div>
 
-      <div class="legend">
-        <span><span style="color:#026937;font-size:1.1rem;">&#9679;</span> <strong>Central:</strong> Mercado del Huevo</span>
-        <span><span style="color:#137598;font-size:1.1rem;">&#9679;</span> <strong>Tópico Teórico:</strong> (9 Categorías)</span>
-        <span><span style="color:#43B649;font-size:1.1rem;">&#9679;</span> <strong>Calidad Alta:</strong> (125 citas verificadas)</span>
-        <span><span style="color:#F9A12C;font-size:1.1rem;">&#9679;</span> <strong>Calidad Media:</strong> (115 citas)</span>
-        <span><span style="color:#EF434D;font-size:1.1rem;">&#9679;</span> <strong>Calidad Baja:</strong> (93 citas)</span>
+      <div class="legend" style="border-top:1px solid var(--border);padding-top:14px;margin-top:16px;">
+        <span><span style="color:#026937;font-size:1.2rem;">&#9679;</span> <strong>Central:</strong> Mercado del Huevo</span>
+        <span><span style="color:#137598;font-size:1.2rem;">&#9679;</span> <strong>Tópico Teórico:</strong> (9 Categorías)</span>
+        <span><span style="color:#10B981;font-size:1.2rem;">&#9679;</span> <strong>Calidad Alta:</strong> (11 Documentos)</span>
+        <span><span style="color:#F59E0B;font-size:1.2rem;">&#9679;</span> <strong>Calidad Media:</strong> (8 Documentos)</span>
+        <span><span style="color:#EF4444;font-size:1.2rem;">&#9679;</span> <strong>Calidad Baja:</strong> (8 Documentos)</span>
       </div>
     </div>
   </main>
@@ -113,7 +120,7 @@
     var cards = [
       { label: 'Ingresos Sector (' + (latestM.anio || 2025) + ')', value: SHARED.formatCOP(latestM.ingreso_total || 2387303772, true), sub: '15 empresas SuperSociedades', cls: 'green' },
       { label: 'Índice IHH (' + (latestM.anio || 2025) + ')', value: SHARED.formatNumber(latestM.ihh_pts || 1874, 0) + ' pts', sub: 'CR4: ' + SHARED.formatPct(latestM.cr4 || 68, 1) + ' (Moderado)', cls: 'blue' },
-      { label: 'Elasticidad Precio (\\epsilon)', value: '-0.13', sub: 'Demanda inelástica de bien básico', cls: 'yellow' },
+      { label: 'Elasticidad Precio (\\epsilon_p)', value: '-0.13', sub: 'Demanda inelástica de bien básico', cls: 'yellow' },
       { label: 'Base de Conocimiento', value: (stats ? stats.total_documents : 27) + ' Docs', sub: (stats ? stats.total_citations : 333) + ' citas extraídas y validadas', cls: 'purple' }
     ];
     document.getElementById('metrics-grid').innerHTML = cards.map(function (c) {
@@ -166,16 +173,18 @@
       }
     }
 
-    // D3 Mindmap con Escala Cromática Oficial UdeA
+    // D3 Mindmap con Escala Cromática Completa Garantizada
     if (graph && typeof d3 !== 'undefined') {
       var container = document.getElementById('mindmap');
       var width = container.clientWidth || 800;
-      var height = 540;
+      var height = 580;
 
       var svg = d3.select('#mindmap').append('svg')
         .attr('width', '100%')
         .attr('height', height)
         .attr('viewBox', [0, 0, width, height]);
+
+      var defs = svg.append('defs');
 
       var g = svg.append('g');
       var zoom = d3.zoom().scaleExtent([0.35, 3.5]).on('zoom', function (e) {
@@ -186,14 +195,20 @@
         svg.transition().duration(500).call(zoom.transform, d3.zoomIdentity);
       });
 
-      function getNodeColor(d) {
-        if (d.type === 'central') return '#026937'; // UdeA Verde Bosque
-        if (d.type === 'topic') return '#137598';   // UdeA Azul Cerúleo
+      function getNodeFill(d) {
+        if (d.type === 'central') return '#026937';
+        if (d.type === 'topic') return '#137598';
         var q = (d.primary_quality || d.quality || '').toLowerCase();
-        if (q === 'alta') return '#43B649';         // UdeA Verde Pradera Radiante
-        if (q === 'media') return '#F9A12C';        // UdeA Ámbar Cálido
-        if (q === 'baja') return '#EF434D';         // UdeA Coral
-        return '#35944B';
+        if (q === 'alta') return '#10B981';
+        if (q === 'media') return '#F59E0B';
+        if (q === 'baja') return '#EF4444';
+        return d.color || '#10B981';
+      }
+
+      function getNodeRadius(d) {
+        if (d.type === 'central') return 26;
+        if (d.type === 'topic') return 16;
+        return 8 + Math.sqrt(d.count || 1) * 2.2;
       }
 
       function inspectNode(d) {
@@ -226,7 +241,7 @@
           btn.href = 'citas.html';
           btn.textContent = 'Ver Citas de este Tópico';
         } else {
-          var q = (d.primary_quality || 'media').toUpperCase();
+          var q = (d.primary_quality || d.quality || 'media').toUpperCase();
           badge.className = 'badge ' + (q === 'ALTA' ? 'badge-green' : q === 'MEDIA' ? 'badge-yellow' : 'badge-red');
           badge.textContent = 'CALIDAD ' + q;
           type.textContent = 'Documento Científico';
@@ -239,22 +254,30 @@
       }
 
       var simulation = d3.forceSimulation(graph.nodes)
-        .force('link', d3.forceLink(graph.links).id(function (d) { return d.id; }).distance(85))
-        .force('charge', d3.forceManyBody().strength(-200))
+        .force('link', d3.forceLink(graph.links).id(function (d) { return d.id; }).distance(function (l) {
+          return l.source.type === 'central' || l.target.type === 'central' ? 140 : 85;
+        }))
+        .force('charge', d3.forceManyBody().strength(function (d) {
+          return d.type === 'central' ? -550 : d.type === 'topic' ? -220 : -85;
+        }))
+        .force('collide', d3.forceCollide().radius(function (d) {
+          return getNodeRadius(d) + 12;
+        }))
         .force('center', d3.forceCenter(width / 2, height / 2));
 
-      var link = g.append('g').attr('stroke', 'rgba(67, 182, 73, 0.22)').selectAll('line')
+      var link = g.append('g').attr('stroke', 'rgba(67, 182, 73, 0.25)').selectAll('line')
         .data(graph.links).join('line').attr('stroke-width', 1.3);
 
       var node = g.append('g').selectAll('circle')
         .data(graph.nodes).join('circle')
-        .attr('r', function (d) { return d.type === 'central' ? 20 : d.type === 'topic' ? 13 : 8; })
-        .attr('fill', getNodeColor)
-        .attr('stroke', '#0d1a13').attr('stroke-width', 2)
+        .attr('r', getNodeRadius)
+        .attr('fill', getNodeFill)
+        .attr('stroke', '#0c1811')
+        .attr('stroke-width', 2.2)
         .style('cursor', 'pointer')
         .on('click', function (e, d) {
-          node.attr('stroke', '#0d1a13').attr('stroke-width', 2);
-          d3.select(this).attr('stroke', '#8DC63F').attr('stroke-width', 4);
+          node.attr('stroke', '#0c1811').attr('stroke-width', 2.2);
+          d3.select(this).attr('stroke', '#ffffff').attr('stroke-width', 4.5);
           inspectNode(d);
         })
         .call(d3.drag()
@@ -274,14 +297,47 @@
         .text(function (d) { return d.label || d.id; })
         .attr('font-size', 11)
         .attr('font-family', 'Inter, sans-serif')
-        .attr('fill', '#f4fbf7')
-        .attr('dx', 14).attr('dy', 4);
+        .attr('font-weight', 700)
+        .attr('fill', '#ffffff')
+        .attr('stroke', '#070e0a')
+        .attr('stroke-width', 3)
+        .attr('paint-order', 'stroke fill')
+        .attr('dx', 16).attr('dy', 4);
 
       simulation.on('tick', function () {
         link.attr('x1', function (d) { return d.source.x; }).attr('y1', function (d) { return d.source.y; })
             .attr('x2', function (d) { return d.target.x; }).attr('y2', function (d) { return d.target.y; });
         node.attr('cx', function (d) { return d.x; }).attr('cy', function (d) { return d.y; });
         label.attr('x', function (d) { return d.x; }).attr('y', function (d) { return d.y; });
+      });
+
+      // Filtros rápidos del Grafo
+      document.querySelectorAll('#graph-filters .pill-tab').forEach(function (btn) {
+        btn.addEventListener('click', function () {
+          document.querySelectorAll('#graph-filters .pill-tab').forEach(function (b) { b.classList.remove('active'); });
+          this.classList.add('active');
+          var filter = this.dataset.filter;
+
+          node.transition().duration(300)
+            .style('opacity', function (d) {
+              if (filter === 'all') return 1;
+              if (filter === 'topic') return d.type === 'topic' || d.type === 'central' ? 1 : 0.15;
+              if (d.type === 'central') return 1;
+              var q = (d.primary_quality || d.quality || '').toLowerCase();
+              return q === filter ? 1 : 0.15;
+            })
+            .attr('stroke', function (d) {
+              var q = (d.primary_quality || d.quality || '').toLowerCase();
+              return q === filter ? '#ffffff' : '#0c1811';
+            })
+            .attr('stroke-width', function (d) {
+              var q = (d.primary_quality || d.quality || '').toLowerCase();
+              return q === filter ? 4 : 2.2;
+            });
+
+          link.transition().duration(300)
+            .style('opacity', filter === 'all' ? 1 : 0.2);
+        });
       });
     }
 
