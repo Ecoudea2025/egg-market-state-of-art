@@ -252,12 +252,46 @@ window.SHARED = (function () {
       '</div>';
   }
 
+  function renderMath(target) {
+    var el = target || document.body;
+    function doRender() {
+      if (typeof renderMathInElement === 'function') {
+        try {
+          renderMathInElement(el, {
+            delimiters: [
+              { left: '$$', right: '$$', display: true },
+              { left: '$', right: '$', display: false },
+              { left: '\\[', right: '\\]', display: true },
+              { left: '\\(', right: '\\)', display: false }
+            ],
+            ignoredTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code'],
+            throwOnError: false
+          });
+        } catch (err) {
+          console.warn('KaTeX render warning:', err);
+        }
+      }
+    }
+    if (typeof renderMathInElement === 'function') {
+      doRender();
+    } else {
+      window.addEventListener('load', doRender);
+      setTimeout(doRender, 150);
+      setTimeout(doRender, 600);
+      setTimeout(doRender, 1500);
+    }
+  }
+
   function init() {
     applyTheme(getTheme());
     document.addEventListener('DOMContentLoaded', function () {
       renderNav();
       renderMobileMenu();
       renderFooter();
+      renderMath();
+    });
+    window.addEventListener('load', function () {
+      renderMath();
     });
   }
 
@@ -278,7 +312,8 @@ window.SHARED = (function () {
     toggleTheme: toggleTheme,
     getTheme: getTheme,
     plotlyLayout: plotlyLayout,
-    downloadCSV: downloadCSV
+    downloadCSV: downloadCSV,
+    renderMath: renderMath
   };
 })();
 
