@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Concentración y Empresas — Observatorio Huevo UdeA</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://cdn.plot.ly/plotly-2.32.0.min.js"></script>
+  <script src="data/market_data.js"></script>
+</head>
+<body>
+  <header id="navbar"></header>
+
+  <main class="container">
+    <div class="page-header">
+      <h1>Concentración de Mercado (IHH / CR) &amp; Banco Financiero</h1>
+      <p>Análisis estructural de 15 empresas avícolas colombianas (Superintendencia de Sociedades, 2015–2025): cuotas de mercado, índices de concentración, poder de mercado (Lerner) y descarga directa de datasets.</p>
+    </div>
+
+    <!-- KPIs -->
+    <div class="metrics-grid animate-in" id="kpi-grid"></div>
+
+    <!-- Fórmulas y Metodología -->
+    <div class="grid-3 mb-4 animate-in delay-1">
+      <div class="formula-box">
+        <div class="text-secondary" style="font-size:0.75rem;margin-bottom:4px;">ÍNDICE HERFINDAHL-HIRSCHMAN (IHH)</div>
+        <div>IHH = &Sigma;<sub>i=1..N</sub> (s<sub>i</sub> &times; 100)<sup>2</sup></div>
+        <div class="text-muted" style="font-size:0.74rem;margin-top:4px;">&lt;1.500: Competitivo &middot; 1.500–2.500: Moderado &middot; &gt;2.500: Alto</div>
+      </div>
+      <div class="formula-box" style="border-left-color: var(--accent-green);">
+        <div class="text-secondary" style="font-size:0.75rem;margin-bottom:4px;">RATIOS DE CONCENTRACIÓN (CR<sub>k</sub>)</div>
+        <div>CR<sub>k</sub> = &Sigma;<sub>i=1..k</sub> s<sub>(i)</sub> (%)</div>
+        <div class="text-muted" style="font-size:0.74rem;margin-top:4px;">Suma de participación de las k mayores empresas (CR3, CR4, CR8)</div>
+      </div>
+      <div class="formula-box" style="border-left-color: var(--accent-yellow);">
+        <div class="text-secondary" style="font-size:0.75rem;margin-bottom:4px;">ÍNDICE DE LERNER PONDERADO</div>
+        <div>L = &Sigma;<sub>i</sub> s<sub>i</sub> &middot; (Margen Bruto<sub>i</sub>)</div>
+        <div class="text-muted" style="font-size:0.74rem;margin-top:4px;">Proxy de poder de mercado sobre costo marginal</div>
+      </div>
+    </div>
+
+    <!-- Gráficos de Concentración -->
+    <div class="grid-2 animate-in delay-2">
+      <div class="chart-container">
+        <div class="section-title">Evolución Histórica: IHH (puntos) y Ratios CR</div>
+        <div class="pill-tabs" id="conc-tabs">
+          <button class="pill-tab active" data-mode="ihh">IHH (Escala 0–10.000)</button>
+          <button class="pill-tab" data-mode="cr">Ratios CR1 / CR3 / CR4 / CR8 (%)</button>
+          <button class="pill-tab" data-mode="lerner">Lerner &amp; Margen Op.</button>
+        </div>
+        <div id="chart-conc" style="height:360px;"></div>
+      </div>
+
+      <div class="chart-container">
+        <div class="section-title" style="justify-content:space-between;">
+          <span>Cuotas de Mercado por Empresa</span>
+          <select id="select-year-shares" class="filter-select" style="padding:5px 10px;font-size:0.8rem;"></select>
+        </div>
+        <div id="chart-shares" style="height:400px;"></div>
+      </div>
+    </div>
+
+    <!-- Explorador Multi-Empresa -->
+    <div class="chart-container animate-in delay-3">
+      <div class="section-title" style="justify-content:space-between;flex-wrap:wrap;gap:10px;">
+        <span>Comparador Financiero Multi-Empresa (2015–2025)</span>
+        <div style="display:flex;gap:8px;flex-wrap:wrap;">
+          <select id="select-indicator" class="filter-select">
+            <option value="ingresos_actividades_ordinarias">Ingresos Operacionales (COP)</option>
+            <option value="ganancia_bruta">Ganancia Bruta (COP)</option>
+            <option value="ganancia_operacion">Ganancia Operacional / EBITDA (COP)</option>
+            <option value="ganancia_neta">Ganancia Neta (COP)</option>
+            <option value="margen_bruto">Margen Bruto (%)</option>
+            <option value="margen_operacional">Margen Operacional (%)</option>
+            <option value="margen_neto">Margen Neto (%)</option>
+            <option value="cuota_mercado">Cuota de Mercado (%)</option>
+          </select>
+          <select id="select-top-n" class="filter-select">
+            <option value="5">Top 5 Empresas</option>
+            <option value="10">Top 10 Empresas</option>
+            <option value="15">Todas (15 Empresas)</option>
+          </select>
+        </div>
+      </div>
+      <div id="chart-firms" style="height:400px;"></div>
+    </div>
+
+    <!-- Tabla Maestra Interactiva -->
+    <div class="section animate-in delay-4">
+      <div class="section-title">Tabla Maestra de Estados Financieros (SuperSociedades)</div>
+      <div class="control-panel">
+        <input type="text" id="search-table" class="search-input" placeholder="Buscar empresa o NIT...">
+        <select id="filter-table-year" class="filter-select">
+          <option value="all">Todos los años</option>
+        </select>
+        <span id="table-count" class="text-muted" style="font-size:0.82rem;"></span>
+        <button class="btn btn-primary btn-sm" onclick="exportFilteredTable()">Exportar Vista CSV</button>
+      </div>
+      <div class="table-wrapper" style="max-height:480px;overflow-y:auto;">
+        <table class="data-table" id="firms-table">
+          <thead>
+            <tr>
+              <th data-sort="anio_fiscal">Año</th>
+              <th data-sort="empresa">Empresa</th>
+              <th data-sort="cuota_mercado" class="num-cell">Cuota (%)</th>
+              <th data-sort="ingresos_actividades_ordinarias" class="num-cell">Ingresos (M COP)</th>
+              <th data-sort="ganancia_bruta" class="num-cell">Ganancia Bruta (M)</th>
+              <th data-sort="ganancia_operacion" class="num-cell">EBITDA Proxy (M)</th>
+              <th data-sort="margen_bruto" class="num-cell">Margen Bruto</th>
+              <th data-sort="margen_operacional" class="num-cell">Margen Op.</th>
+            </tr>
+          </thead>
+          <tbody id="firms-tbody"></tbody>
+        </table>
+      </div>
+    </div>
+
+    <!-- Banco de Descargas CSV -->
+    <div class="section">
+      <div class="section-title">Banco de Datos Abiertos (Descarga Directa CSV)</div>
+      <div class="grid-3" id="csv-hub"></div>
+    </div>
+  </main>
+
+  <footer id="footer"></footer>
+  <script src="shared.js"></script>
+  <script>
+  (function () {
+    var data = window.MARKET_DATA;
+    if (!data) return;
+
+    var yearly = data.yearly_metrics || [];
+    var firmsData = data.firms_data || [];
+    var firmsList = data.firms_list || [];
+
+    var latest = yearly[yearly.length - 1] || {};
+    var concMode = 'ihh';
+    var sortCol = 'ingresos_actividades_ordinarias';
+    var sortAsc = false;
+
+    // 1. KPIs
+    var kpiGrid = document.getElementById('kpi-grid');
+    var kpis = [
+      { label: 'Ingresos Sector (' + latest.anio + ')', value: SHARED.formatCOP(latest.ingreso_total, true), sub: latest.num_empresas + ' empresas reportantes', cls: 'blue' },
+      { label: 'Índice IHH (' + latest.anio + ')', value: SHARED.formatNumber(latest.ihh_pts, 0) + ' pts', sub: 'Norm: ' + latest.ihh_norm + ' (Concentración Moderada)', cls: 'purple' },
+      { label: 'Ratio CR4 (' + latest.anio + ')', value: SHARED.formatPct(latest.cr4, 1), sub: 'CR3: ' + SHARED.formatPct(latest.cr3, 1) + ' | CR1: ' + SHARED.formatPct(latest.cr1, 1), cls: 'green' },
+      { label: 'Lerner Ponderado (' + latest.anio + ')', value: SHARED.formatPct((latest.lerner_ponderado || 0) * 100, 2), sub: 'Margen Op. Pond: ' + SHARED.formatPct((latest.margen_op_ponderado || 0) * 100, 2), cls: 'yellow' }
+    ];
+    kpiGrid.innerHTML = kpis.map(function (k) {
+      return '<div class="metric-card ' + k.cls + '">' +
+        '<div class="metric-label">' + k.label + '</div>' +
+        '<div class="metric-value">' + k.value + '</div>' +
+        '<div class="metric-sub">' + k.sub + '</div>' +
+        '</div>';
+    }).join('');
+
+    // 2. Year selectors
+    var yearSel = document.getElementById('select-year-shares');
+    var tableYearSel = document.getElementById('filter-table-year');
+    yearly.slice().reverse().forEach(function (y) {
+      yearSel.innerHTML += '<option value="' + y.anio + '">' + y.anio + '</option>';
+      tableYearSel.innerHTML += '<option value="' + y.anio + '">' + y.anio + '</option>';
+    });
+
+    // 3. Chart Concentracion
+    function renderConcChart() {
+      var x = yearly.map(function (y) { return y.anio; });
+      var traces = [];
+      var layoutCustom = { xaxis: { title: 'Año Fiscal', dtick: 1 } };
+
+      if (concMode === 'ihh') {
+        traces = [
+          {
+            x: x, y: yearly.map(function (y) { return y.ihh_pts; }),
+            name: 'IHH (puntos)', type: 'scatter', mode: 'lines+markers',
+            line: { color: '#6366f1', width: 3 }, marker: { size: 8 }
+          },
+          {
+            x: [x[0], x[x.length - 1]], y: [1500, 1500],
+            name: 'Umbral Moderado (1.500)', mode: 'lines',
+            line: { color: '#10b981', width: 1.5, dash: 'dash' }
+          },
+          {
+            x: [x[0], x[x.length - 1]], y: [2500, 2500],
+            name: 'Umbral Alto (2.500)', mode: 'lines',
+            line: { color: '#f43f5e', width: 1.5, dash: 'dash' }
+          }
+        ];
+        layoutCustom.yaxis = { title: 'IHH (0 - 10.000)' };
+      } else if (concMode === 'cr') {
+        traces = [
+          { x: x, y: yearly.map(function (y) { return y.cr1; }), name: 'CR1 (%)', mode: 'lines+markers', line: { color: '#3b82f6', width: 2.5 } },
+          { x: x, y: yearly.map(function (y) { return y.cr3; }), name: 'CR3 (%)', mode: 'lines+markers', line: { color: '#10b981', width: 2.5 } },
+          { x: x, y: yearly.map(function (y) { return y.cr4; }), name: 'CR4 (%)', mode: 'lines+markers', line: { color: '#f59e0b', width: 2.5 } },
+          { x: x, y: yearly.map(function (y) { return y.cr8; }), name: 'CR8 (%)', mode: 'lines+markers', line: { color: '#8b5cf6', width: 2.5 } }
+        ];
+        layoutCustom.yaxis = { title: 'Participación Acumulada (%)' };
+      } else {
+        traces = [
+          { x: x, y: yearly.map(function (y) { return +(y.lerner_ponderado * 100).toFixed(2); }), name: 'Índice Lerner (%)', mode: 'lines+markers', line: { color: '#f59e0b', width: 3 } },
+          { x: x, y: yearly.map(function (y) { return +(y.margen_op_ponderado * 100).toFixed(2); }), name: 'Margen Operacional (%)', mode: 'lines+markers', line: { color: '#06b6d4', width: 3 } }
+        ];
+        layoutCustom.yaxis = { title: 'Porcentaje (%)' };
+      }
+
+      Plotly.newPlot('chart-conc', traces, SHARED.plotlyLayout(layoutCustom), { responsive: true, displayModeBar: false });
+    }
+
+    document.querySelectorAll('#conc-tabs .pill-tab').forEach(function (btn) {
+      btn.addEventListener('click', function () {
+        document.querySelectorAll('#conc-tabs .pill-tab').forEach(function (b) { b.classList.remove('active'); });
+        this.classList.add('active');
+        concMode = this.dataset.mode;
+        renderConcChart();
+      });
+    });
+
+    // 4. Chart Shares by Year
+    function renderSharesChart() {
+      var yr = parseInt(yearSel.value, 10);
+      var m = yearly.find(function (y) { return y.anio === yr; });
+      if (!m) return;
+      var top = m.top_empresas.slice().reverse();
+      Plotly.newPlot('chart-shares', [{
+        type: 'bar',
+        orientation: 'h',
+        y: top.map(function (e) { return SHARED.truncate(e.empresa, 24); }),
+        x: top.map(function (e) { return e.cuota_pct; }),
+        text: top.map(function (e) { return e.cuota_pct + '%'; }),
+        textposition: 'outside',
+        marker: {
+          color: top.map(function (e, idx) { return idx >= top.length - 4 ? '#3b82f6' : '#64748b'; })
+        }
+      }], SHARED.plotlyLayout({
+        margin: { t: 16, r: 45, b: 40, l: 170 },
+        xaxis: { title: 'Cuota de Mercado (%)' },
+        showlegend: false
+      }), { responsive: true, displayModeBar: false });
+    }
+    yearSel.addEventListener('change', renderSharesChart);
+
+    // 5. Multi-Firm Explorer
+    function renderFirmsChart() {
+      var ind = document.getElementById('select-indicator').value;
+      var topN = parseInt(document.getElementById('select-top-n').value, 10);
+      var isPct = ind.indexOf('margen') >= 0 || ind === 'cuota_mercado';
+      var selectedNames = firmsList.slice(0, topN).map(function (f) { return f.empresa; });
+
+      var traces = selectedNames.map(function (name) {
+        var rows = firmsData.filter(function (r) { return r.empresa === name; }).sort(function (a, b) { return a.anio_fiscal - b.anio_fiscal; });
+        return {
+          x: rows.map(function (r) { return r.anio_fiscal; }),
+          y: rows.map(function (r) {
+            var v = r[ind];
+            if (v === null || v === undefined) return null;
+            return isPct ? +(v * 100).toFixed(2) : +(v / 1e6).toFixed(2);
+          }),
+          name: SHARED.truncate(name, 20),
+          mode: 'lines+markers',
+          line: { width: 2 }
+        };
+      });
+
+      Plotly.newPlot('chart-firms', traces, SHARED.plotlyLayout({
+        xaxis: { title: 'Año Fiscal', dtick: 1 },
+        yaxis: { title: isPct ? 'Porcentaje (%)' : 'Millones COP' }
+      }), { responsive: true, displayModeBar: false });
+    }
+    document.getElementById('select-indicator').addEventListener('change', renderFirmsChart);
+    document.getElementById('select-top-n').addEventListener('change', renderFirmsChart);
+
+    // 6. Master Table
+    function getFilteredRows() {
+      var q = document.getElementById('search-table').value.toLowerCase().trim();
+      var yr = tableYearSel.value;
+      var rows = firmsData.filter(function (r) {
+        if (yr !== 'all' && String(r.anio_fiscal) !== yr) return false;
+        if (q && r.empresa.toLowerCase().indexOf(q) === -1 && r.nit.indexOf(q) === -1) return false;
+        return true;
+      });
+      rows.sort(function (a, b) {
+        var va = a[sortCol] || 0;
+        var vb = b[sortCol] || 0;
+        if (typeof va === 'string') return sortAsc ? va.localeCompare(vb) : vb.localeCompare(va);
+        return sortAsc ? va - vb : vb - va;
+      });
+      return rows;
+    }
+
+    function renderTable() {
+      var rows = getFilteredRows();
+      document.getElementById('table-count').textContent = rows.length + ' registros';
+      var tbody = document.getElementById('firms-tbody');
+      tbody.innerHTML = rows.map(function (r) {
+        return '<tr>' +
+          '<td><strong>' + r.anio_fiscal + '</strong></td>' +
+          '<td>' + SHARED.esc(r.empresa) + '<br><span class="text-muted" style="font-size:0.72rem;">NIT: ' + r.nit + '</span></td>' +
+          '<td class="num-cell">' + SHARED.formatPct(r.cuota_mercado * 100, 2) + '</td>' +
+          '<td class="num-cell">' + SHARED.formatNumber(r.ingresos_actividades_ordinarias / 1e6, 1) + '</td>' +
+          '<td class="num-cell">' + SHARED.formatNumber((r.ganancia_bruta || 0) / 1e6, 1) + '</td>' +
+          '<td class="num-cell">' + SHARED.formatNumber((r.ganancia_operacion || 0) / 1e6, 1) + '</td>' +
+          '<td class="num-cell">' + (r.margen_bruto !== null ? SHARED.formatPct(r.margen_bruto * 100, 1) : '—') + '</td>' +
+          '<td class="num-cell">' + (r.margen_operacional !== null ? SHARED.formatPct(r.margen_operacional * 100, 1) : '—') + '</td>' +
+          '</tr>';
+      }).join('');
+    }
+
+    document.querySelectorAll('#firms-table th[data-sort]').forEach(function (th) {
+      th.addEventListener('click', function () {
+        var col = this.dataset.sort;
+        if (sortCol === col) sortAsc = !sortAsc;
+        else { sortCol = col; sortAsc = false; }
+        renderTable();
+      });
+    });
+    document.getElementById('search-table').addEventListener('input', renderTable);
+    tableYearSel.addEventListener('change', renderTable);
+
+    window.exportFilteredTable = function () {
+      var rows = getFilteredRows();
+      var headers = ['Anio', 'Empresa', 'NIT', 'Cuota_Pct', 'Ingresos_COP', 'Ganancia_Bruta_COP', 'EBITDA_Proxy_COP', 'Margen_Bruto_Pct', 'Margen_Op_Pct'];
+      var csvRows = rows.map(function (r) {
+        return [r.anio_fiscal, r.empresa, r.nit, (r.cuota_mercado * 100).toFixed(2), r.ingresos_actividades_ordinarias, r.ganancia_bruta, r.ganancia_operacion, r.margen_bruto !== null ? (r.margen_bruto * 100).toFixed(2) : '', r.margen_operacional !== null ? (r.margen_operacional * 100).toFixed(2) : ''];
+      });
+      SHARED.downloadCSV('empresas_avicolas_filtrado.csv', headers, csvRows);
+    };
+
+    // 7. CSV Hub
+    var csvFiles = [
+      { file: 'metricas_concentracion_ihh_cr_2015_2025.csv', title: 'Métricas de Concentración (IHH, CR3, CR4, CR8, Lerner)', desc: 'Serie anual 2015-2025 lista para análisis de estructura de mercado.', tag: 'SuperSociedades' },
+      { file: 'consolidado_15_empresas_2015_2025.csv', title: 'Consolidado Financiero 15 Empresas Avícolas', desc: '22 indicadores financieros y ratios por empresa y año fiscal.', tag: 'SuperSociedades' },
+      { file: 'ipc_nacional_mensual_2015_2025.csv', title: 'IPC Nacional Mensual Colombia (2015–2025)', desc: 'Índice base 2018, variación mensual, acumulada y anual (132 meses).', tag: 'DANE' },
+      { file: 'ipc_divisiones_gasto_2015_2025.csv', title: 'IPC por Divisiones de Gasto (Alimentos, Vivienda, etc.)', desc: 'Variaciones mensuales desagregadas por división COICOP.', tag: 'DANE' },
+      { file: 'precios_mensuales_huevo_2017_2025.csv', title: 'Precios Mensuales del Huevo (COP/unidad)', desc: 'Serie mensual histórica 2017–2025 de precios al consumidor/mayorista.', tag: 'FENAVI / DANE' },
+      { file: 'macro_insumos_elasticidades_2018_2024.csv', title: 'Macroeconomía, Insumos (Maíz/Cerdo) y Salario Real', desc: 'Variables deflactadas para estimación de elasticidades.', tag: 'Investigación UdeA' },
+      { file: 'citas_literatura_verificadas.csv', title: 'Banco de Citas Académicas (333 citas)', desc: 'Citas extraídas con score de calidad, tema y contexto.', tag: 'Estado del Arte' }
+    ];
+
+    document.getElementById('csv-hub').innerHTML = csvFiles.map(function (c) {
+      return '<div class="dataset-download-card">' +
+        '<div>' +
+        '<span class="badge badge-blue mb-2">' + c.tag + '</span>' +
+        '<h3 style="font-size:0.95rem;margin:6px 0;">' + c.title + '</h3>' +
+        '<p class="text-secondary" style="font-size:0.8rem;">' + c.desc + '</p>' +
+        '</div>' +
+        '<a href="csv/' + c.file + '" download class="btn btn-secondary btn-sm" style="justify-content:center;">&#11015; Descargar CSV</a>' +
+        '</div>';
+    }).join('');
+
+    function renderAll() {
+      renderConcChart();
+      renderSharesChart();
+      renderFirmsChart();
+    }
+
+    renderAll();
+    renderTable();
+    window.addEventListener('themeChanged', renderAll);
+  })();
+  </script>
+</body>
+</html>

@@ -1,198 +1,150 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Citas - Estado del Arte</title>
-<link rel="stylesheet" href="styles.css">
-<script src="data/citations.js"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Banco de Citas — Observatorio Huevo UdeA</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="data/citations.js"></script>
 </head>
 <body>
+  <header id="navbar"></header>
 
-<header id="navbar"></header>
+  <main class="container">
+    <div class="page-header">
+      <h1>Banco de Citas Académicas Verificadas</h1>
+      <p>333 citas extraídas de 27 documentos académicos sobre concentración de mercado, oligopolio, transmisión de precios y sector avícola.</p>
+    </div>
 
-<main class="container">
-  <div class="page-header">
-    <h1>&#128221; Citas Verificadas</h1>
-    <p>323 citas extraidas de 27 documentos academicos, filtradas con validacion semantica.</p>
+    <div class="metrics-grid animate-in" id="citas-kpis"></div>
+
+    <div class="control-panel animate-in delay-1">
+      <input type="text" class="search-input" id="search" placeholder="Buscar en cita, documento o contexto...">
+      <select class="filter-select" id="filter-quality">
+        <option value="all">Todas las calidades</option>
+        <option value="alta">Alta</option>
+        <option value="media">Media</option>
+        <option value="baja">Baja</option>
+      </select>
+      <select class="filter-select" id="filter-topic">
+        <option value="all">Todos los temas</option>
+      </select>
+      <span class="text-muted" style="font-size:0.82rem;" id="result-count"></span>
+      <button class="btn btn-primary btn-sm" id="btn-export-citas">Exportar CSV</button>
+    </div>
+
+    <div class="table-wrapper animate-in delay-2">
+      <table class="data-table" id="citations-table">
+        <thead>
+          <tr>
+            <th style="width:70px;">Score</th>
+            <th style="width:90px;">Calidad</th>
+            <th>Cita</th>
+            <th style="width:200px;">Documento</th>
+            <th style="width:150px;">Tema</th>
+          </tr>
+        </thead>
+        <tbody id="citas-tbody"></tbody>
+      </table>
+    </div>
+  </main>
+
+  <!-- Modal Detalle -->
+  <div class="modal-backdrop" id="cita-modal">
+    <div class="modal-content">
+      <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:14px;">
+        <span id="modal-badge"></span>
+        <button class="btn btn-secondary btn-sm" onclick="document.getElementById('cita-modal').classList.remove('open')">Cerrar &times;</button>
+      </div>
+      <h3 id="modal-doc" style="font-size:1.05rem;margin-bottom:8px;"></h3>
+      <p id="modal-topic" class="text-muted" style="font-size:0.82rem;margin-bottom:14px;"></p>
+      <blockquote id="modal-text" style="border-left:3px solid var(--accent-blue);padding:12px 16px;background:rgba(59,130,246,0.08);border-radius:0 8px 8px 0;margin-bottom:16px;font-style:italic;"></blockquote>
+      <div class="text-secondary" style="font-size:0.84rem;">
+        <strong>Contexto del documento:</strong>
+        <p id="modal-context" class="mt-2"></p>
+      </div>
+    </div>
   </div>
 
-  <!-- Metrics -->
-  <div class="metrics-grid" id="metrics-grid"></div>
+  <footer id="footer"></footer>
+  <script src="shared.js"></script>
+  <script>
+  (function () {
+    var cits = window.CITATIONS_DATA || [];
+    var urlParams = new URLSearchParams(window.location.search);
+    var initDoc = urlParams.get('doc') || '';
 
-  <!-- Filters -->
-  <div class="filter-bar">
-    <input type="text" class="search-input" id="search" placeholder="Buscar en citas, documentos, o contexto..." />
-    <select class="filter-select" id="filter-quality">
-      <option value="all">Todas las calidades</option>
-      <option value="alta">Alta</option>
-      <option value="media">Media</option>
-      <option value="baja">Baja</option>
-    </select>
-    <select class="filter-select" id="filter-topic">
-      <option value="all">Todos los temas</option>
-    </select>
-    <span class="text-muted" style="font-size:0.8rem;" id="result-count">323 resultados</span>
-    <button class="btn btn-primary" onclick="exportCSV()" style="margin-left:auto;">Exportar CSV</button>
-  </div>
+    var alta = cits.filter(function (c) { return c.quality === 'alta'; }).length;
+    var media = cits.filter(function (c) { return c.quality === 'media'; }).length;
+    var baja = cits.filter(function (c) { return c.quality === 'baja'; }).length;
 
-  <!-- Table -->
-  <div style="overflow-x:auto;margin-top:16px;">
-    <table class="data-table" id="citations-table">
-      <thead>
-        <tr>
-          <th data-sort="score" style="width:50px;">Score</th>
-          <th data-sort="quality" style="width:60px;">Calidad</th>
-          <th data-sort="text">Cita</th>
-          <th data-sort="document" style="width:160px;">Documento</th>
-          <th data-sort="topic" style="width:120px;">Tema</th>
-          <th data-sort="context" style="width:240px;">Contexto</th>
-        </tr>
-      </thead>
-      <tbody id="table-body"></tbody>
-    </table>
-  </div>
-</main>
+    document.getElementById('citas-kpis').innerHTML =
+      '<div class="metric-card blue"><div class="metric-label">Total Citas</div><div class="metric-value">' + cits.length + '</div><div class="metric-sub">Extraídas y validadas</div></div>' +
+      '<div class="metric-card green"><div class="metric-label">Calidad Alta</div><div class="metric-value">' + alta + '</div><div class="metric-sub">Rigor metodológico alto</div></div>' +
+      '<div class="metric-card yellow"><div class="metric-label">Calidad Media</div><div class="metric-value">' + media + '</div><div class="metric-sub">Contexto relevante</div></div>' +
+      '<div class="metric-card rose"><div class="metric-label">Calidad Baja</div><div class="metric-value">' + baja + '</div><div class="metric-sub">Referencias complementarias</div></div>';
 
-<footer id="footer"></footer>
+    var topics = Array.from(new Set(cits.map(function (c) { return c.topic; }).filter(Boolean))).sort();
+    var topicSel = document.getElementById('filter-topic');
+    topics.forEach(function (t) { topicSel.innerHTML += '<option value="' + SHARED.esc(t) + '">' + SHARED.esc(t) + '</option>'; });
 
-<script src="shared.js"></script>
-<script>
-(function() {
-  var allCitations = window.CITATIONS_DATA || [];
+    var searchEl = document.getElementById('search');
+    if (initDoc) searchEl.value = initDoc;
 
-  // --- Metrics ---
-  function updateMetrics(filtered) {
-    var total = filtered.length;
-    var alta = filtered.filter(function(c) { return c.quality === 'alta'; }).length;
-    var media = filtered.filter(function(c) { return c.quality === 'media'; }).length;
-    var baja = filtered.filter(function(c) { return c.quality === 'baja'; }).length;
-    var grid = document.getElementById('metrics-grid');
-    grid.innerHTML = [
-      { label: 'Total', value: total, sub: 'citas filtradas', cls: 'blue' },
-      { label: 'Alta Calidad', value: alta, sub: Math.round(alta/total*100) + '% del total', cls: 'green' },
-      { label: 'Media Calidad', value: media, sub: Math.round(media/total*100) + '% del total', cls: 'yellow' },
-      { label: 'Baja Calidad', value: baja, sub: Math.round(baja/total*100) + '% del total', cls: 'orange' },
-    ].map(function(c) {
-      return '<div class="metric-card ' + c.cls + '">' +
-        '<div class="metric-label">' + c.label + '</div>' +
-        '<div class="metric-value">' + c.value + '</div>' +
-        '<div class="metric-sub">' + c.sub + '</div>' +
-        '</div>';
-    }).join('');
-    document.getElementById('result-count').textContent = total + ' resultados';
-  }
-
-  // --- Populate topic filter ---
-  var topics = {};
-  allCitations.forEach(function(c) {
-    if (c.topic) topics[c.topic] = (topics[c.topic] || 0) + 1;
-  });
-  var topicOpts = Object.keys(topics).sort();
-  var topicSelect = document.getElementById('filter-topic');
-  topicOpts.forEach(function(t) {
-    var opt = document.createElement('option');
-    opt.value = t; opt.textContent = t + ' (' + topics[t] + ')';
-    topicSelect.appendChild(opt);
-  });
-
-  // --- Render table ---
-  var sortCol = 'score';
-  var sortDir = 'desc';
-
-  function renderTable(filtered) {
-    var tbody = document.getElementById('table-body');
-    var html = '';
-    filtered.forEach(function(c) {
-      html += '<tr>' +
-        '<td style="font-family:var(--font-mono);color:var(--text-muted);">' + (c.score || 0) + '</td>' +
-        '<td>' + SHARED.qualityBadge(c.quality) + '</td>' +
-        '<td><div class="cit-text">' + SHARED.esc(c.text) + '</div></td>' +
-        '<td><div style="font-size:0.78rem;">' + SHARED.esc(SHARED.truncate(c.document, 40)) + '</div></td>' +
-        '<td><span class="badge badge-gray" style="font-size:0.65rem;">' + SHARED.esc(c.topic) + '</span></td>' +
-        '<td><div class="cit-context">' + SHARED.esc(c.context || '') + '</div></td>' +
-        '</tr>';
-    });
-    tbody.innerHTML = html || '<tr><td colspan="6" class="text-center text-muted">Sin resultados</td></tr>';
-  }
-
-  // --- Filter ---
-  function filter() {
-    var search = document.getElementById('search').value.toLowerCase();
-    var quality = document.getElementById('filter-quality').value;
-    var topic = document.getElementById('filter-topic').value;
-
-    var filtered = allCitations.filter(function(c) {
-      if (quality !== 'all' && c.quality !== quality) return false;
-      if (topic !== 'all' && c.topic !== topic) return false;
-      if (search) {
-        var haystack = (c.text + ' ' + c.document + ' ' + c.context + ' ' + c.topic).toLowerCase();
-        if (haystack.indexOf(search) === -1) return false;
-      }
-      return true;
-    });
-
-    // Sort
-    filtered.sort(function(a, b) {
-      var va = a[sortCol] || '';
-      var vb = b[sortCol] || '';
-      if (typeof va === 'string') va = va.toLowerCase();
-      if (typeof vb === 'string') vb = vb.toLowerCase();
-      if (va < vb) return sortDir === 'asc' ? -1 : 1;
-      if (va > vb) return sortDir === 'asc' ? 1 : -1;
-      return 0;
-    });
-
-    updateMetrics(filtered);
-    renderTable(filtered);
-    return filtered;
-  }
-
-  document.getElementById('search').addEventListener('input', filter);
-  document.getElementById('filter-quality').addEventListener('change', filter);
-  document.getElementById('filter-topic').addEventListener('change', filter);
-
-  // --- Sort ---
-  document.querySelectorAll('.data-table th[data-sort]').forEach(function(th) {
-    th.addEventListener('click', function() {
-      var col = this.dataset.sort;
-      if (sortCol === col) {
-        sortDir = sortDir === 'asc' ? 'desc' : 'asc';
-      } else {
-        sortCol = col;
-        sortDir = 'desc';
-      }
-      document.querySelectorAll('.data-table th').forEach(function(t) {
-        t.classList.remove('sorted', 'sorted-desc');
+    function getFiltered() {
+      var q = searchEl.value.toLowerCase().trim();
+      var qual = document.getElementById('filter-quality').value;
+      var top = topicSel.value;
+      return cits.filter(function (c) {
+        if (qual !== 'all' && c.quality !== qual) return false;
+        if (top !== 'all' && c.topic !== top) return false;
+        if (q) {
+          var hay = ((c.text || '') + ' ' + (c.document || '') + ' ' + (c.context || '')).toLowerCase();
+          if (hay.indexOf(q) === -1) return false;
+        }
+        return true;
       });
-      if (sortDir === 'desc') this.classList.add('sorted-desc');
-      else this.classList.add('sorted');
-      filter();
+    }
+
+    function render() {
+      var rows = getFiltered();
+      document.getElementById('result-count').textContent = rows.length + ' resultados';
+      var tbody = document.getElementById('citas-tbody');
+      tbody.innerHTML = rows.slice(0, 150).map(function (c, idx) {
+        return '<tr style="cursor:pointer;" data-idx="' + idx + '">' +
+          '<td class="num-cell"><strong>' + (c.score || 0) + '</strong></td>' +
+          '<td>' + SHARED.qualityBadge(c.quality) + '</td>' +
+          '<td>' + SHARED.esc(SHARED.truncate(c.text, 180)) + '</td>' +
+          '<td><span style="font-size:0.8rem;">' + SHARED.esc(SHARED.truncate(c.document, 45)) + '</span></td>' +
+          '<td><span class="badge badge-gray">' + SHARED.esc(c.topic || 'General') + '</span></td>' +
+          '</tr>';
+      }).join('');
+
+      tbody.querySelectorAll('tr').forEach(function (tr) {
+        tr.addEventListener('click', function () {
+          var c = rows[parseInt(this.dataset.idx, 10)];
+          document.getElementById('modal-badge').innerHTML = SHARED.qualityBadge(c.quality) + ' <span class="badge badge-blue">Score: ' + (c.score || 0) + '</span>';
+          document.getElementById('modal-doc').textContent = c.document || 'Documento';
+          document.getElementById('modal-topic').textContent = 'Tema: ' + (c.topic || 'General');
+          document.getElementById('modal-text').textContent = c.text || '';
+          document.getElementById('modal-context').textContent = c.context || 'Sin contexto adicional.';
+          document.getElementById('cita-modal').classList.add('open');
+        });
+      });
+    }
+
+    searchEl.addEventListener('input', render);
+    document.getElementById('filter-quality').addEventListener('change', render);
+    topicSel.addEventListener('change', render);
+
+    document.getElementById('btn-export-citas').addEventListener('click', function () {
+      var rows = getFiltered();
+      SHARED.downloadCSV('citas_filtradas.csv', ['Score', 'Calidad', 'Documento', 'Tema', 'Cita', 'Contexto'],
+        rows.map(function (c) { return [c.score, c.quality, c.document, c.topic, c.text, c.context]; }));
     });
-  });
 
-  // --- Export CSV ---
-  window.exportCSV = function() {
-    var filtered = filter();
-    var headers = ['Score', 'Calidad', 'Cita', 'Documento', 'Tema', 'Contexto'];
-    var rows = filtered.map(function(c) {
-      return [c.score, c.quality, '"' + (c.text || '').replace(/"/g, '""') + '"',
-              '"' + (c.document || '').replace(/"/g, '""') + '"',
-              c.topic, '"' + (c.context || '').replace(/"/g, '""') + '"'];
-    });
-    var csv = [headers.join(',')].concat(rows.map(function(r) { return r.join(','); })).join('\n');
-    var blob = new Blob(['\uFEFF' + csv], { type: 'text/csv;charset=utf-8' });
-    var url = URL.createObjectURL(blob);
-    var a = document.createElement('a');
-    a.href = url; a.download = 'citas_estado_del_arte.csv'; a.click();
-    URL.revokeObjectURL(url);
-  };
-
-  // Initial sort (by score desc)
-  document.querySelector('.data-table th[data-sort]').classList.add('sorted-desc');
-  filter();
-
-})();
-</script>
+    render();
+  })();
+  </script>
 </body>
 </html>

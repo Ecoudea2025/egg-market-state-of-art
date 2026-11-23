@@ -1,376 +1,145 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Simulación Cournot - Estado del Arte</title>
-<link rel="stylesheet" href="styles.css">
-<script src="https://cdn.plot.ly/plotly-2.32.0.min.js"></script>
-<script src="data/cournot_data.js"></script>
-<style>
-.sim-metrics {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-  gap: 16px;
-  margin: 20px 0;
-}
-.sim-metric {
-  background: var(--bg-card);
-  border: 1px solid var(--border);
-  border-radius: 8px;
-  padding: 16px;
-  border-left: 3px solid var(--accent-blue);
-}
-.sim-metric .label { color: var(--text-secondary); font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.5px; }
-.sim-metric .value { color: var(--text-primary); font-size: 1.5rem; font-weight: 700; margin: 4px 0; }
-.sim-metric .pct { font-size: 0.85rem; }
-
-.chart-container {
-  background: var(--bg-card);
-  border: 1px solid var(--border);
-  border-radius: 8px;
-  padding: 20px;
-  margin: 20px 0;
-}
-.compact-table {
-  width: 100%;
-  border-collapse: collapse;
-  font-size: 0.9rem;
-}
-.compact-table th {
-  background: var(--bg-secondary);
-  color: var(--text-secondary);
-  text-align: left;
-  padding: 8px 12px;
-  border-bottom: 1px solid var(--border);
-  font-weight: 600;
-}
-.compact-table td {
-  padding: 8px 12px;
-  border-bottom: 1px solid var(--border);
-  color: var(--text-primary);
-}
-.compact-table tr:hover { background: rgba(59,130,246,0.05); }
-.compact-table .cournot-col { color: var(--accent-blue); font-weight: 600; }
-.compact-table .real-col { color: var(--accent-orange); }
-.year-picker {
-  display: flex;
-  gap: 8px;
-  flex-wrap: wrap;
-  margin: 16px 0;
-}
-.year-btn {
-  padding: 8px 16px;
-  border: 1px solid var(--border);
-  border-radius: 6px;
-  background: var(--bg-card);
-  color: var(--text-primary);
-  cursor: pointer;
-  font-size: 0.9rem;
-  transition: all 0.2s;
-}
-.year-btn:hover { border-color: var(--accent-blue); }
-.year-btn.active { background: var(--accent-blue); color: white; border-color: var(--accent-blue); }
-
-.diff-positive { color: var(--accent-green); }
-.diff-negative { color: #ef4444; }
-.info-box {
-  background: rgba(59,130,246,0.1);
-  border: 1px solid rgba(59,130,246,0.3);
-  border-radius: 8px;
-  padding: 16px;
-  margin: 20px 0;
-}
-.info-box h4 { color: var(--accent-blue); margin-top: 0; }
-.info-box p { color: var(--text-secondary); font-size: 0.9rem; line-height: 1.6; }
-
-@media (max-width: 768px) {
-  .sim-metrics { grid-template-columns: 1fr 1fr; }
-}
-@media (max-width: 480px) {
-  .sim-metrics { grid-template-columns: 1fr; }
-}
-</style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Simulación Cournot — Observatorio Huevo UdeA</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://cdn.plot.ly/plotly-2.32.0.min.js"></script>
+  <script src="data/cournot_data.js"></script>
 </head>
 <body>
-<header id="navbar"></header>
+  <header id="navbar"></header>
 
-<main class="container">
-  <div class="page-header">
-    <h1>Simulación Cournot</h1>
-    <p>Incubadora Santander vs Resto del Mercado Agregado — Modelo calibrado con datos reales de la Superintendencia de Sociedades</p>
-  </div>
-
-  <div class="year-picker" id="yearPicker"></div>
-
-  <div class="sim-metrics" id="metrics"></div>
-
-  <div class="chart-container" style="min-height: 450px;">
-    <div id="chartScenarios" style="width:100%; min-height:400px;"></div>
-  </div>
-
-  <div class="chart-container" style="min-height: 450px;">
-    <div id="chartDistribution" style="width:100%; min-height:400px;"></div>
-  </div>
-
-  <div class="card" style="margin: 20px 0;">
-    <h3 class="section-title">Detalle del Equilibrio</h3>
-    <div style="overflow-x:auto;">
-      <table class="compact-table" id="detailTable"></table>
+  <main class="container">
+    <div class="page-header">
+      <h1>Simulación Microeconómica: Duopolio Asimétrico de Cournot</h1>
+      <p>Comparación entre el equilibrio teórico de Cournot (Incubadora Santander / Huevos Kikes vs. Resto del Mercado) y los datos empíricos observados (2018–2024).</p>
     </div>
-  </div>
 
-  <div class="info-box">
-    <h4>Interpretación del Modelo</h4>
-    <p>
-      Este modelo calibra un <strong>duopolio de Cournot</strong> con datos reales de 15 empresas del sector avícola colombiano (2018-2024).
-      La demanda se estima con elasticidad precio ε = -0.13, y los costos marginales se calculan desde los estados financieros reportados a la Superintendencia de Sociedades.
-    </p>
-    <p>
-      <strong>Incubadora Santander</strong> (33-37% del mercado) compite contra el <strong>resto del mercado</strong> (14 empresas agregadas, 63-67%).
-      El modelo muestra que, si el mercado operara como un duopolio de Cournot, la producción sería ~31% menor y los precios ~241% más altos.
-      La realidad es más competitiva — con 15 firmas compitiendo, la producción es mayor y los precios menores que lo que predice Cournot.
-    </p>
-  </div>
+    <!-- Selector de Año y KPIs -->
+    <div class="control-panel animate-in">
+      <label for="select-sim-year" style="font-weight:600;font-size:0.88rem;">Año de Análisis:</label>
+      <select id="select-sim-year" class="filter-select"></select>
+      <span class="text-muted" style="font-size:0.82rem;">Modelo: P(Q) = a &minus; bQ con costos marginales asimétricos</span>
+    </div>
 
-  <div class="card" style="margin: 20px 0;">
-    <h3 class="section-title">Datos Calibrados</h3>
-    <div id="calibrationInfo" style="color: var(--text-secondary); font-size: 0.9rem; line-height: 1.8;"></div>
-  </div>
-</main>
+    <div class="metrics-grid animate-in delay-1" id="sim-kpis"></div>
 
-<footer id="footer"></footer>
-<script src="shared.js"></script>
-<script>
-(function() {
-  var data = window.COURNOT_DATA || [];
-  if (!data.length) {
-    document.getElementById('metrics').innerHTML = '<p style="color: var(--accent-orange)">No se pudieron cargar los datos del modelo Cournot.</p>';
-    return;
-  }
+    <!-- Gráficos Históricos Cournot vs Real -->
+    <div class="grid-2 animate-in delay-2">
+      <div class="chart-container">
+        <div class="section-title">Cuotas de Mercado: Equilibrio Cournot vs Realidad</div>
+        <div id="chart-cournot-shares" style="height:340px;"></div>
+      </div>
+      <div class="chart-container">
+        <div class="section-title">Evolución de Brecha de Cantidad Total (%)</div>
+        <div id="chart-cournot-gap" style="height:340px;"></div>
+      </div>
+    </div>
 
-  var currentYear = data[data.length - 1].anio;
+    <!-- Simulador Interactivo en Vivo -->
+    <div class="card animate-in delay-3">
+      <div class="section-title">Laboratorio Interactivo de Cournot (2 Firmas Asimétricas)</div>
+      <p class="text-secondary" style="font-size:0.85rem;margin-bottom:16px;">
+        Ajusta la demanda inversa normalizada (<code>a</code>) y los costos marginales (<code>c1</code> líder, <code>c2</code> seguidor) para observar el equilibrio de Nash-Cournot en tiempo real: <code>q<sub>i</sub>* = (a &minus; 2c<sub>i</sub> + c<sub>j</sub>) / 3b</code>.
+      </p>
+      <div class="grid-3 mb-4">
+        <div>
+          <div style="display:flex;justify-content:space-between;font-size:0.84rem;"><span>Intercepto Demanda (a)</span><strong id="lbl-a">10.0</strong></div>
+          <input type="range" id="sl-a" min="5" max="20" step="0.5" value="10">
+        </div>
+        <div>
+          <div style="display:flex;justify-content:space-between;font-size:0.84rem;"><span>Costo Marginal Líder (c1)</span><strong id="lbl-c1">1.5</strong></div>
+          <input type="range" id="sl-c1" min="0.5" max="4" step="0.1" value="1.5">
+        </div>
+        <div>
+          <div style="display:flex;justify-content:space-between;font-size:0.84rem;"><span>Costo Marginal Resto (c2)</span><strong id="lbl-c2">2.2</strong></div>
+          <input type="range" id="sl-c2" min="0.5" max="4" step="0.1" value="2.2">
+        </div>
+      </div>
+      <div class="metrics-grid" id="live-cournot-out" style="margin-bottom:0;"></div>
+    </div>
+  </main>
 
-  function fn(value, decimals) {
-    decimals = decimals || 2;
-    if (value >= 1e9) return (value / 1e9).toFixed(decimals) + 'B';
-    if (value >= 1e6) return (value / 1e6).toFixed(decimals) + 'M';
-    if (value >= 1e3) return (value / 1e3).toFixed(1) + 'K';
-    return value.toFixed(decimals);
-  }
-
-  function renderYearPicker() {
-    var picker = document.getElementById('yearPicker');
-    var html = '';
-    data.forEach(function(d) {
-      var cls = d.anio === currentYear ? 'active' : '';
-      html += '<button class="year-btn ' + cls + '" onclick="switchYear(' + d.anio + ')">' + d.anio + '</button>';
+  <footer id="footer"></footer>
+  <script src="shared.js"></script>
+  <script>
+  (function () {
+    var data = window.COURNOT_DATA || [];
+    var yearSel = document.getElementById('select-sim-year');
+    data.forEach(function (d) {
+      yearSel.innerHTML += '<option value="' + d.anio + '">' + d.anio + '</option>';
     });
-    picker.innerHTML = html;
-  }
+    if (data.length) yearSel.value = data[data.length - 1].anio;
 
-  function renderMetrics(d) {
-    var eq = d.equilibrio_cournot;
-    var real = d.datos_reales;
-    var dif = d.comparacion;
+    function renderYear() {
+      var yr = parseInt(yearSel.value, 10);
+      var item = data.find(function (d) { return d.anio === yr; }) || data[0];
+      if (!item) return;
 
-    var difClass = function(v) { return v > 0 ? 'diff-positive' : 'diff-negative'; };
+      var eq = item.equilibrio_cournot;
+      var real = item.datos_reales;
+      var comp = item.comparacion;
 
-    var metricsHtml = [
-      { label: 'Precio Cournot', value: eq.precio.toFixed(2) + 'x', pct: '<span class="' + difClass(dif.dif_precio_pct) + '">' + dif.dif_precio_pct.toFixed(1) + '% vs real</span>' },
-      { label: 'Cantidad Total Cournot', value: fn(eq.cantidad_total), pct: '<span class="' + difClass(-dif.dif_cantidad_total_pct) + '">' + dif.dif_cantidad_total_pct.toFixed(1) + '% vs real</span>' },
-      { label: 'Ganancia Total Cournot', value: '$' + fn(eq.ganancia_total), pct: 'Real: $' + fn(real.ganancia_total) },
-      { label: 'Share Incubadora (Cournot)', value: (eq.share_inc * 100).toFixed(1) + '%', pct: 'Real: ' + (real.share_inc * 100).toFixed(1) + '%' },
-      { label: 'Margen Incubadora', value: (real.margen_inc * 100).toFixed(1) + '%', pct: 'CMg: ' + (d.parametros.costo_inc * 100).toFixed(1) + '% del ingreso' },
-      { label: 'Margen Resto Mercado', value: (real.margen_resto * 100).toFixed(1) + '%', pct: 'CMg: ' + (d.parametros.costo_resto * 100).toFixed(1) + '% del ingreso' },
-    ].map(function(m) {
-      return '<div class="sim-metric"><span class="label">' + m.label + '</span><div class="value">' + m.value + '</div><div class="pct">' + m.pct + '</div></div>';
-    }).join('');
+      var kpis = [
+        { label: 'Cuota Incubadora (Real vs Cournot)', value: SHARED.formatPct(real.share_inc * 100, 1) + ' vs ' + SHARED.formatPct(eq.share_inc * 100, 1), sub: 'Participación de mercado', cls: 'blue' },
+        { label: 'Brecha Cantidad Total', value: SHARED.formatPct(comp.dif_cantidad_total_pct, 1), sub: 'Cournot predice menor volumen', cls: 'yellow' },
+        { label: 'Margen Bruto Incubadora', value: SHARED.formatPct(real.margen_inc * 100, 1), sub: 'Resto: ' + SHARED.formatPct(real.margen_resto * 100, 1), cls: 'green' },
+        { label: 'Elasticidad Calibrada', value: item.parametros.elasticidad, sub: 'Demanda inelástica', cls: 'purple' }
+      ];
+      document.getElementById('sim-kpis').innerHTML = kpis.map(function (k) {
+        return '<div class="metric-card ' + k.cls + '"><div class="metric-label">' + k.label + '</div><div class="metric-value" style="font-size:1.45rem;">' + k.value + '</div><div class="metric-sub">' + k.sub + '</div></div>';
+      }).join('');
 
-    document.getElementById('metrics').innerHTML = metricsHtml;
-  }
+      Plotly.newPlot('chart-cournot-shares', [
+        { x: ['Incubadora Santander', 'Resto del Mercado'], y: [+(real.share_inc * 100).toFixed(1), +(real.share_resto * 100).toFixed(1)], name: 'Realidad Observada (%)', type: 'bar', marker: { color: '#3b82f6' } },
+        { x: ['Incubadora Santander', 'Resto del Mercado'], y: [+(eq.share_inc * 100).toFixed(1), +(eq.share_resto * 100).toFixed(1)], name: 'Equilibrio Cournot (%)', type: 'bar', marker: { color: '#8b5cf6' } }
+      ], SHARED.plotlyLayout({ barmode: 'group', yaxis: { title: 'Cuota (%)' } }), { responsive: true, displayModeBar: false });
 
-  function renderScenariosChart(d) {
-    var esc = d.escenarios;
-    var escenarios = ['Cournot', 'Real', 'Monopolio', 'Comp_Perfecta'];
+      Plotly.newPlot('chart-cournot-gap', [{
+        x: data.map(function (d) { return d.anio; }),
+        y: data.map(function (d) { return +(d.datos_reales.share_inc * 100).toFixed(1); }),
+        name: 'Cuota Real Incubadora (%)', mode: 'lines+markers', line: { color: '#10b981', width: 3 }
+      }, {
+        x: data.map(function (d) { return d.anio; }),
+        y: data.map(function (d) { return +(d.equilibrio_cournot.share_inc * 100).toFixed(1); }),
+        name: 'Cuota Cournot Incubadora (%)', mode: 'lines+markers', line: { color: '#f59e0b', width: 2.5, dash: 'dash' }
+      }], SHARED.plotlyLayout({ xaxis: { dtick: 1 }, yaxis: { title: 'Cuota (%)' } }), { responsive: true, displayModeBar: false });
+    }
 
-    var trace1 = {
-      type: 'bar',
-      name: 'Cantidad',
-      x: escenarios,
-      y: escenarios.map(function(e) { return esc[e].cantidad; }),
-      marker: { color: '#3b82f6', opacity: 0.8 },
-      yaxis: 'y',
-      text: escenarios.map(function(e) { return fn(esc[e].cantidad); }),
-      textposition: 'outside',
-    };
-    var trace2 = {
-      type: 'scatter',
-      name: 'Precio (índice)',
-      x: escenarios,
-      y: escenarios.map(function(e) { return esc[e].precio; }),
-      mode: 'lines+markers',
-      marker: { size: 12, color: '#22c55e' },
-      line: { color: '#22c55e', width: 3 },
-      yaxis: 'y2',
-      text: escenarios.map(function(e) { return 'P=' + esc[e].precio.toFixed(2); }),
-      textposition: 'top center',
-    };
+    function updateLiveCournot() {
+      var a = parseFloat(document.getElementById('sl-a').value);
+      var c1 = parseFloat(document.getElementById('sl-c1').value);
+      var c2 = parseFloat(document.getElementById('sl-c2').value);
+      document.getElementById('lbl-a').textContent = a.toFixed(1);
+      document.getElementById('lbl-c1').textContent = c1.toFixed(1);
+      document.getElementById('lbl-c2').textContent = c2.toFixed(1);
 
-    var layout = {
-      title: 'Comparación de Escenarios — ' + d.anio,
-      template: 'plotly_dark',
-      paper_bgcolor: '#1e293b',
-      plot_bgcolor: '#1e293b',
-      font: { color: '#f1f5f9' },
-      height: 400,
-      margin: { t: 50, r: 60, l: 60, b: 60 },
-      xaxis: { title: '', gridcolor: '#334155' },
-      yaxis: { title: 'Cantidad (COP)', gridcolor: '#334155', tickformat: ',.2s' },
-      yaxis2: { title: 'Precio (índice, P=1 real)', overlaying: 'y', side: 'right', gridcolor: 'transparent' },
-      hovermode: 'x unified',
-      legend: { x: 0, y: 1.1, orientation: 'h' },
-    };
+      var b = 1;
+      var q1 = Math.max(0, (a - 2 * c1 + c2) / (3 * b));
+      var q2 = Math.max(0, (a - 2 * c2 + c1) / (3 * b));
+      var Q = q1 + q2;
+      var P = Math.max(0, a - b * Q);
+      var pi1 = (P - c1) * q1;
+      var pi2 = (P - c2) * q2;
 
-    Plotly.newPlot('chartScenarios', [trace1, trace2], layout, { responsive: true });
-  }
+      document.getElementById('live-cournot-out').innerHTML =
+        '<div class="metric-card blue"><div class="metric-label">Precio Equilibrio (P*)</div><div class="metric-value">' + P.toFixed(2) + '</div><div class="metric-sub">Q* = ' + Q.toFixed(2) + '</div></div>' +
+        '<div class="metric-card green"><div class="metric-label">Producción Líder (q1*)</div><div class="metric-value">' + q1.toFixed(2) + '</div><div class="metric-sub">Cuota: ' + (Q > 0 ? (q1 / Q * 100).toFixed(1) : 0) + '%</div></div>' +
+        '<div class="metric-card yellow"><div class="metric-label">Producción Resto (q2*)</div><div class="metric-value">' + q2.toFixed(2) + '</div><div class="metric-sub">Cuota: ' + (Q > 0 ? (q2 / Q * 100).toFixed(1) : 0) + '%</div></div>' +
+        '<div class="metric-card purple"><div class="metric-label">Beneficios (&pi;1 / &pi;2)</div><div class="metric-value" style="font-size:1.35rem;">' + pi1.toFixed(1) + ' / ' + pi2.toFixed(1) + '</div><div class="metric-sub">Ventaja por menor costo</div></div>';
+    }
 
-  function renderDistributionChart(d) {
-    var eq = d.equilibrio_cournot;
-    var real = d.datos_reales;
-
-    var trace1 = {
-      type: 'bar',
-      name: 'Cournot',
-      x: ['Incubadora Santander', 'Resto del Mercado'],
-      y: [eq.cantidad_inc, eq.cantidad_resto],
-      marker: { color: '#3b82f6', opacity: 0.8 },
-      text: [fn(eq.cantidad_inc), fn(eq.cantidad_resto)],
-      textposition: 'auto',
-    };
-    var trace2 = {
-      type: 'bar',
-      name: 'Real',
-      x: ['Incubadora Santander', 'Resto del Mercado'],
-      y: [real.cantidad_inc, real.cantidad_resto],
-      marker: { color: '#f97316', opacity: 0.6 },
-      text: [fn(real.cantidad_inc), fn(real.cantidad_resto)],
-      textposition: 'auto',
-    };
-
-    var layout = {
-      title: 'Distribución del Mercado — ' + d.anio,
-      template: 'plotly_dark',
-      paper_bgcolor: '#1e293b',
-      plot_bgcolor: '#1e293b',
-      font: { color: '#f1f5f9' },
-      barmode: 'group',
-      height: 400,
-      margin: { t: 50, r: 20, l: 60, b: 60 },
-      xaxis: { gridcolor: '#334155' },
-      yaxis: { title: 'Cantidad (COP)', gridcolor: '#334155', tickformat: ',.2s' },
-      legend: { x: 0, y: 1.1, orientation: 'h' },
-    };
-
-    Plotly.newPlot('chartDistribution', [trace1, trace2], layout, { responsive: true });
-  }
-
-  function renderDetailTable(d) {
-    var eq = d.equilibrio_cournot;
-    var real = d.datos_reales;
-    var dif = d.comparacion;
-
-    var rows = [
-      ['<strong>Variables de Equilibrio</strong>', '', '', ''],
-      ['Cantidad Total', fn(real.cantidad_total), '<span class="cournot-col">' + fn(eq.cantidad_total) + '</span>', dif.dif_cantidad_total_pct.toFixed(1) + '%'],
-      ['Precio (índice)', '1.00', '<span class="cournot-col">' + eq.precio.toFixed(2) + '</span>', dif.dif_precio_pct.toFixed(1) + '%'],
-      ['', '', '', ''],
-      ['<strong>Incubadora Santander</strong>', '', '', ''],
-      ['Cantidad', fn(real.cantidad_inc), '<span class="cournot-col">' + fn(eq.cantidad_inc) + '</span>', dif.dif_cantidad_inc_pct.toFixed(1) + '%'],
-      ['Ganancia', '$' + fn(real.ganancia_inc), '<span class="cournot-col">$' + fn(eq.ganancia_inc) + '</span>', ''],
-      ['Participación', (real.share_inc * 100).toFixed(1) + '%', '<span class="cournot-col">' + (eq.share_inc * 100).toFixed(1) + '%</span>', ''],
-      ['Margen Bruto', (real.margen_inc * 100).toFixed(1) + '%', '', ''],
-      ['CMg (% ingreso)', (d.parametros.costo_inc * 100).toFixed(1) + '%', '', ''],
-      ['', '', '', ''],
-      ['<strong>Resto del Mercado</strong>', '', '', ''],
-      ['Cantidad', fn(real.cantidad_resto), '<span class="cournot-col">' + fn(eq.cantidad_resto) + '</span>', dif.dif_cantidad_resto_pct.toFixed(1) + '%'],
-      ['Ganancia', '$' + fn(real.ganancia_resto), '<span class="cournot-col">$' + fn(eq.ganancia_resto) + '</span>', ''],
-      ['Participación', (real.share_resto * 100).toFixed(1) + '%', '<span class="cournot-col">' + (eq.share_resto * 100).toFixed(1) + '%</span>', ''],
-      ['Margen Bruto', (real.margen_resto * 100).toFixed(1) + '%', '', ''],
-      ['CMg (% ingreso)', (d.parametros.costo_resto * 100).toFixed(1) + '%', '', ''],
-    ];
-
-    var html = '<table class="compact-table"><thead><tr><th>Métrica</th><th style="color: var(--accent-orange)">Real</th><th style="color: var(--accent-blue)">Cournot</th><th>Δ %</th></tr></thead><tbody>';
-    rows.forEach(function(row) {
-      var isTitle = row[0].startsWith('<strong>');
-      if (isTitle && !row[1]) {
-        html += '<tr><td colspan="4" style="background: var(--bg-secondary); color: var(--accent-yellow); padding: 10px 12px;">' + row[0] + '</td></tr>';
-      } else if (isTitle && row[1]) {
-        html += '<tr><td colspan="4" style="background: var(--bg-secondary); color: var(--accent-blue); padding: 10px 12px;">' + row[0] + '</td></tr>';
-      } else if (!row[1] && !row[2] && !row[3]) {
-        html += '<tr><td colspan="4" style="padding:4px;"></td></tr>';
-      } else {
-        html += '<tr><td>' + row[0] + '</td><td class="real-col">' + (row[1] || '') + '</td><td class="cournot-col">' + (row[2] || '') + '</td><td>' + (row[3] || '') + '</td></tr>';
-      }
-    });
-    html += '</tbody></table>';
-    document.getElementById('detailTable').innerHTML = html;
-  }
-
-  function renderCalibration(d) {
-    var p = d.parametros;
-    var html = [
-      '<strong>Función de demanda:</strong> P = ' + p.demanda_a.toFixed(4) + ' − ' + p.demanda_b.toExponential(4) + '·Q',
-      '',
-      '<strong>Parámetros:</strong>',
-      '• Elasticidad precio (ε): ' + p.elasticidad.toFixed(2),
-      '• Costo marginal Incubadora: ' + (p.costo_inc * 100).toFixed(1) + '% del ingreso',
-      '• Costo marginal Resto: ' + (p.costo_resto * 100).toFixed(1) + '% del ingreso',
-      '• CMg medio: ' + ((p.costo_inc + p.costo_resto) / 2 * 100).toFixed(1) + '% del ingreso',
-      '',
-      '<strong>Equilibrio Nash-Cournot (duopolio asimétrico):</strong>',
-      '• q₁* = (a − 2c₁ + c₂) / (3b)',
-      '• q₂* = (a − 2c₂ + c₁) / (3b)',
-      '• P* = a − b(q₁* + q₂*)',
-    ].join('<br>');
-    document.getElementById('calibrationInfo').innerHTML = html;
-  }
-
-  function updateAll() {
-    var d = data.find(function(x) { return x.anio === currentYear; });
-    if (!d) return;
-
-    // Plotly.purge for each container to avoid resize errors
-    var containers = ['chartScenarios', 'chartDistribution'];
-    containers.forEach(function(id) {
-      var el = document.getElementById(id);
-      if (el) {
-        Plotly.purge(el);
-      }
+    yearSel.addEventListener('change', renderYear);
+    ['sl-a', 'sl-c1', 'sl-c2'].forEach(function (id) {
+      document.getElementById(id).addEventListener('input', updateLiveCournot);
     });
 
-    renderMetrics(d);
-    renderScenariosChart(d);
-    renderDistributionChart(d);
-    renderDetailTable(d);
-    renderCalibration(d);
-
-    // Update year button active state
-    document.querySelectorAll('.year-btn').forEach(function(btn) {
-      btn.classList.toggle('active', parseInt(btn.textContent) === currentYear);
-    });
-  }
-
-  // Expose for onclick
-  window.switchYear = function(yr) {
-    currentYear = yr;
-    updateAll();
-  };
-
-  // Initial render
-  renderYearPicker();
-  updateAll();
-})();
-</script>
+    renderYear();
+    updateLiveCournot();
+    window.addEventListener('themeChanged', renderYear);
+  })();
+  </script>
 </body>
 </html>
